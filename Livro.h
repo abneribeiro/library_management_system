@@ -8,11 +8,11 @@
 
 typedef struct
 {
-    char TITULO, AUTOR, AREA , ISBN;
+    char *TITULO, *AUTOR, *AREA , *ISBN;
     int ANO;
 }LIVRO;
 
-LIVRO *CriarLivro(int _id, char *_nome, char *_area);
+LIVRO *CriarLivro(char *_titulo, char  *_area, char *_autor, char *_isbn, int _ano);
 void MostrarLivro(LIVRO *P);
 void DestruirLivro(LIVRO *P);
 

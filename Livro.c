@@ -1,7 +1,7 @@
 
 #include "Livro.h"
 
-LIVRO *CriarLivro(char _titulo, char  _area, char _autor, char _isbn, int _ano)
+LIVRO *CriarLivro(char *_titulo, char  *_area, char *_autor, char *_isbn, int _ano)
 {
     LIVRO *L = (LIVRO *)malloc(sizeof(LIVRO));
     L->TITULO = (char *)malloc((strlen(_titulo) + 1)*sizeof(char));
@@ -21,8 +21,9 @@ LIVRO *CriarLivro(char _titulo, char  _area, char _autor, char _isbn, int _ano)
 
 void MostrarLivro(LIVRO *L)
 {
-    printf("\tTITULO: %d | AUTOR: [%s] | AREA: [%s] | ISBN: [%s], ANO: [%d] \n", L->TITULO, L->AUTOR, L->AREA, L->ISBN, L->ANO);
+    printf("\tTITULO: %s | AUTOR: [%s] | AREA: [%s] | ISBN: [%s], ANO: [%d] \n", L->TITULO, L->AUTOR, L->AREA, L->ISBN, L->ANO);
 }
+
 void DestruirLivro(LIVRO *L)
 {
     free (L->TITULO);
