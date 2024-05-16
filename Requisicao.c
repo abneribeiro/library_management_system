@@ -1,5 +1,3 @@
-
-
 #include "Requisicao.h"
 
 
@@ -19,7 +17,7 @@ void MostrarRequisicao(REQUISICAO *R)
 }
 void DestruirRequisicao(REQUISICAO *R)
 {
-    //free (R->Ptr_Livro); //OH Pá se tirares o comentario vais ter problemas!!!!
-    //free (R->Ptr_Req); //OH Pá se tirares o comentario vais ter problemas!!!!
+    //free (R->Ptr_Livro); //OH Pï¿½ se tirares o comentario vais ter problemas!!!!
+    //free (R->Ptr_Req); //OH Pï¿½ se tirares o comentario vais ter problemas!!!!
     free (R);
 }
