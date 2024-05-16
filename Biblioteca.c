@@ -20,7 +20,7 @@ BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs)
     strcpy(Bib->FICHEIRO_LOGS, _logs);
     Bib->HLivros = CriarHashing();
     //Bib->LRequisicoes = CriarListaRequisicoes();
-    //Bib->LRequisitantes = CriarListaPessoas();
+    //Bib->LRequisitantes = CriarListaLIVROs();
     return Bib;
 }
 
@@ -55,6 +55,7 @@ void DestruirBiblioteca(BIBLIOTECA *B)
 
     fclose(F_Logs);
 }
+
 int LoadFicheiroBiblioteca(BIBLIOTECA *B)
 {
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
@@ -62,18 +63,18 @@ int LoadFicheiroBiblioteca(BIBLIOTECA *B)
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
     // Vosso Codigo.....
-    LerRequisitantes(B, "Requisitantes.txt");
+   // LerRequisitantes(B, "Requisitantes.txt");
     
     /*
-    PESSOA *X = CriarPessoa(1234, "Jose", "CAT-A");
+    LIVRO *X = CriarLIVRO(1234, "Jose", "CAT-A");
     AddHashing(B->HLivros, X);
-    X = CriarPessoa(567, "Pedro", "CAT-A");
+    X = CriarLIVRO(567, "Pedro", "CAT-A");
     AddHashing(B->HLivros, X);
-    X = CriarPessoa(456, "Luis", "CAT-A");
+    X = CriarLIVRO(456, "Luis", "CAT-A");
     AddHashing(B->HLivros, X);
-    X = CriarPessoa(56, "Miguel", "CAT-B");
+    X = CriarLIVRO(56, "Miguel", "CAT-B");
     AddHashing(B->HLivros, X);
-    X = CriarPessoa(5690, "James Bond", "CAT-Z");
+    X = CriarLIVRO(5690, "James Bond", "CAT-Z");
     AddHashing(B->HLivros, X);
 */
     fclose(F_Logs);
@@ -134,7 +135,7 @@ char *AreaMaisComum(BIBLIOTECA *B)
     fclose(F_Logs);
     return NULL;
 }
-int AddRequisitante(BIBLIOTECA *B, PESSOA *X)
+int AddRequisitante(BIBLIOTECA *B, LIVRO *X)
 {
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
     time_t now = time(NULL) ;
@@ -145,7 +146,7 @@ int AddRequisitante(BIBLIOTECA *B, PESSOA *X)
     fclose(F_Logs);
     return EXIT_SUCCESS;
 }
-PESSOA *PesquisarRequisitante(BIBLIOTECA *B, int cod)
+LIVRO *PesquisarRequisitante(BIBLIOTECA *B, int cod)
 {
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
     time_t now = time(NULL) ;
