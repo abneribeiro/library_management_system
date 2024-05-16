@@ -35,7 +35,7 @@ void ShowLista(LISTA *L)
     NO *P = L->Inicio;
     while (P != NULL)
     {
-        MostrarPessoa(P->Info);
+        MostrarLivro(P->Info);
         P = P->Prox;
     }
 }
@@ -50,7 +50,7 @@ void DestruirLista(LISTA *L)
     while (atual)
     {
         prox = atual->Prox;
-        DestruirPessoa(atual->Info);
+        DestruirLivro(atual->Info);
         free (atual);
         atual = prox;
     }
