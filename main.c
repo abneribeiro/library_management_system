@@ -3,6 +3,7 @@
 
 #include "Lista.h"
 #include "Hashing.h"
+#include "Livro.h"
 #include "Biblioteca.h"
 
 extern int LerInteiro(char *txt);
@@ -201,16 +202,16 @@ int menu()
 void Exemplo_Hashing()
 {
     HASHING *Has = CriarHashing();
-    PESSOA *X = CriarPessoa(1234, "Jose", "CAT-A");
-    AddHashing(Has, X);
-    X = CriarPessoa(567, "Pedro", "CAT-A");
-    AddHashing(Has, X);
-    X = CriarPessoa(456, "Luis", "CAT-A");
-    AddHashing(Has, X);
-    X = CriarPessoa(56, "Miguel", "CAT-B");
-    AddHashing(Has, X);
-    X = CriarPessoa(5690, "James Bond", "CAT-Z");
-    AddHashing(Has, X);
+    LIVRO *L = CriarLivro("Jonas", "CAT-A", "Joao", "1234", 2020);
+    AddHashing(Has, L);
+    L = CriarLivro("James Bond", "CAT-A", "Joao", "1234", 2020);
+    AddHashing(Has, L);
+    L = CriarLivro("Abner", "CAT-B", "Joao", "1234", 2020);
+    AddHashing(Has, L);
+    L = CriarLivro("Jonas", "CAT-C", "Joao", "1234", 2020);
+    AddHashing(Has, L);
+    L = CriarLivro("Jonas", "CAT-C", "Joao", "1234", 2020);
+    AddHashing(Has, L);
     ShowHashing(Has);
     //
     DestruirHashing(Has);
