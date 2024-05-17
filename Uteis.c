@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <time.h>//necessário p/ função time()
+#include <time.h>//necessï¿½rio p/ funï¿½ï¿½o time()
+#include <ctype.h>
+
 
 int Aleatorio(int min, int max)
 {
@@ -21,4 +23,13 @@ int LerInteiro(char *txt)
     printf("%s : ", txt);
     scanf("%d", &x);
     return x;
+}
+
+char *str_to_upper(char *str) {
+    char *ptr = str;
+    while (*ptr) {
+        *ptr = toupper((unsigned char)*ptr);
+        ptr++;
+    }
+    return str;
 }
