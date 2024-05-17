@@ -1,5 +1,6 @@
 
 #include "Lista.h"
+#include "Livro.h"
 
 //--------------------------------------------------
 /** \brief Permite alocar mem�ria para uma lista

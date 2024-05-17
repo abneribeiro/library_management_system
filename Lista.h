@@ -17,22 +17,19 @@ typedef struct
     NO *Inicio;
 }LISTA;
 
-//--------------------------------------------------
+
 LISTA *CriarLista();
-//--------------------------------------------------
 void AddInicio(LISTA *L, LIVRO *X);
-//--------------------------------------------------
 void ShowLista(LISTA *L);
-//--------------------------------------------------
 void DestruirLista(LISTA *L);
-//--------------------------------------------------
-LIVRO *PesquisarLista(LISTA *L, char *_nome);
-//--------------------------------------------------
+LIVRO *PesquisarLista(LISTA *L, char *_titulo);
 int SizeLista(LISTA *L);
-//--------------------------------------------------
-//--------------------------------------------------
-//--------------------------------------------------
-//--------------------------------------------------
-//--------------------------------------------------
+
+LISTA *CriarLista();
+void AddInicio(LISTA *L, LIVRO *X);
+void ShowLista(LISTA *L);
+void DestruirLista(LISTA *L);
+int SizeLista(LISTA *L);
+
 
 #endif // LISTA_H_INCLUDED
