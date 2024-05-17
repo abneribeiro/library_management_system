@@ -2,7 +2,7 @@
 #define LISTA_H_INCLUDED
 #include <stdio.h>
 #include <stdlib.h>
-//#include "Pessoa.h"
+
 #include "Livro.h"
 
 typedef struct no

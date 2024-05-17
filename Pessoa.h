@@ -11,7 +11,7 @@ typedef struct
     char *NOME;
     int ID;
     char *DATA_NASCIMENTO;
-    char FRAGUESIA;
+    char IDFRAGUESIA;
 }PESSOA;
 
 PESSOA *CriarPessoa(int _id, char *_nome, char *_categoria);
