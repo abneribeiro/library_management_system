@@ -8,7 +8,7 @@
 
 extern int LerInteiro(char *txt);
 
-void manageBooksMenu()
+void manageBooksMenu(BIBLIOTECA *Bib)
 {
     int option;
 
@@ -20,7 +20,7 @@ void manageBooksMenu()
     printf("\n | (5) Encontrar os livros mais recentes                       |");
     printf("\n | (6) Encontrar o livro mais requisitado                      |");
     printf("\n | (7) Determinar a area mais requisitada                      |");
-    printf("\n | (8) Salvar informacoes do livro                             |");
+
     printf("\n | (0) SAIR                                                    |");
     printf("\n #-------------------------------------------------------------#");
 
@@ -29,40 +29,42 @@ void manageBooksMenu()
     do
     {
         printf("\nQual a sua opcao: ");
-        fflush(stdin);
+
         scanf(" %d", &option);
     } while (option < 0 || option > 7); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
 
-    do
+    switch (option)
     {
-        switch (option)
-        {
-        case 1:
-            // addBook();
-            break;
-        case 2:
-            // listBooks();
-            break;
-        case 3:
-            // areaWithMostBooks();
-            break;
-        case 4:
-            // searchBook(); se existir deve mostrar os seus dados
-            break;
-        case 5:
-            // mostRecentBooks(); o que tiver o ano mais recente!
-            break;
-        case 6:
-            // mostRequestedBook(); Se existir mais  do que um, deve devolver o primeiro encontrado)
-            break;
-        case 7:
-            // mostRequestedArea(); Se existir mais    tdo que uma, deve devolver a primeira encontrada)
-            break;
-        case 8:
-            // saveBooks();
-            break;
-        }
-    } while (option != 0);
+    case 1:
+        LIVRO *L = CriarLivro();
+        AddLivroBiblioteca(Bib, L);
+        break;
+    case 2:
+        ShowBiblioteca(Bib);
+        break;
+    case 3:
+        printf("Area com mais livros: %s\n", AreaWithMostBooks(Bib));
+        break;
+    case 4:
+        printf("Digite o ISBN do livro: ");
+        char isbn[100];
+        scanf("%s", isbn);
+        VerificarEImprimirLivroPorISBN(Bib, isbn);
+        
+        break;
+    case 5:
+        printf("Livro mais recente: %s - %d\n", FindMostRecentBook(Bib)->TITULO, FindMostRecentBook(Bib)->ANO);
+        break;
+    case 6:
+        // mostRequestedBook(); Se existir mais  do que um, deve devolver o primeiro encontrado)
+        break;
+    case 7:
+        // mostRequestedArea(); Se existir mais    tdo que uma, deve devolver a primeira encontrada)
+        break;
+    case 8:
+        // saveBooks();
+        break;
+    }
 }
 void manageRequisitantsMenu()
 {
@@ -88,54 +90,51 @@ void manageRequisitantsMenu()
     do
     {
         printf("\nQual a sua opcao: ");
-        fflush(stdin);
         scanf(" %d", &option);
-    } while (option < 0 || option > 22); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
-    do
+    } while (option < 0 || option > 13); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
+
+    switch (option)
     {
-        switch (option)
-        {
-        case 1: // ADICIONAR A LISTA DE REQUISITANTES
-            // addNodePos(requesters ,addRequester(), checkRequester);
-            break;
-        case 2:
-            // searchRequisitant();
-            break;
-        case 3:
-            // listRequisitants(); por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo)
-            break;
-        case 4:
-            // maxAge();
-            break;
-        case 5:
-            // averageAge();
-            break;
-        case 6:
-            // countAge();  (introduzido pelo teclado)
-            break;
-        case 7:
-            // mostAge();
-            break;
-        case 8:
-            // showRequisitions();
-            break;
-        case 9:
-            // neverRequested();
-            break;
-        case 10:
-            // requisitantsWithBooks();
-            break;
-        case 11:
-            // mostUsedSurname();
-            break;
-        case 12:
-            // countPeopleFromDistrict();  Distrito (ou Concelho)
-            break;
-        case 13:
-            // saveRequisitions();
-            break;
-        }
-    } while (option != 0);
+    case 1: // ADICIONAR A LISTA DE REQUISITANTES
+        // addNodePos(requesters ,addRequester(), checkRequester);
+        break;
+    case 2:
+        // searchRequisitant();
+        break;
+    case 3:
+        // listRequisitants(); por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo)
+        break;
+    case 4:
+        // maxAge();
+        break;
+    case 5:
+        // averageAge();
+        break;
+    case 6:
+        // countAge();  (introduzido pelo teclado)
+        break;
+    case 7:
+        // mostAge();
+        break;
+    case 8:
+        // showRequisitions();
+        break;
+    case 9:
+        // neverRequested();
+        break;
+    case 10:
+        // requisitantsWithBooks();
+        break;
+    case 11:
+        // mostUsedSurname();
+        break;
+    case 12:
+        // countPeopleFromDistrict();  Distrito (ou Concelho)
+        break;
+    case 13:
+        // saveRequisitions();
+        break;
+    }
 }
 void manageRequisitionsMenu()
 {
@@ -154,28 +153,24 @@ void manageRequisitionsMenu()
     do
     {
         printf("\nQual a sua opcao: ");
-        fflush(stdin);
         scanf(" %d", &option);
-    } while (option < 0 || option > 22); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
+    } while (option < 0 || option > 4); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
 
-    do
+    switch (option)
     {
-        switch (option)
-        {
-        case 1:
-            // bornOnSunday();
-            break;
-        case 2:
-            // returnBook();
-            break;
-        case 3:
-            // listRequisitions();
-            break;
-        case 4:
-            // saveRequisitions();
-            break;
-        }
-    } while (option != 0);
+    case 1:
+        // bornOnSunday();
+        break;
+    case 2:
+        // returnBook();
+        break;
+    case 3:
+        // listRequisitions();
+        break;
+    case 4:
+        // saveRequisitions();
+        break;
+    }
 }
 
 int menu()
@@ -192,13 +187,10 @@ int menu()
     do
     {
         printf("\nQual a sua opcao: ");
-        fflush(stdin);
         scanf(" %d", &option);
-    } while (option < 0 || option > 22); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
+    } while (option < 0 || option > 3); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
     return option;
 }
-
-
 
 /*
 int Menu()
@@ -215,26 +207,10 @@ int Menu()
 int main()
 {
     int option, sub_option;
-    printf("Biblioteca-ESTGV!\n");
-    // Exemplo_Hashing();
+    printf("\t\tBiblioteca-ESTGV!\n");
     BIBLIOTECA *Bib;
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
     LoadFicheiroBiblioteca(Bib);
-    ShowBiblioteca(Bib);
-    /*int OP;
-    do
-    {
-        OP = Menu();
-        switch(OP)
-        {
-            case 1: ; break;
-            case 2: ShowBiblioteca(Bib); break;
-            default:
-                printf("Opcao nao implementada\n"); break;
-        }
-
-    }while (OP != 0);*/
-
     do
     {
         option = menu();
@@ -242,7 +218,7 @@ int main()
         switch (option)
         {
         case 1:
-            manageBooksMenu();
+            manageBooksMenu(Bib);
             break;
         case 2:
             manageRequisitantsMenu();
@@ -258,6 +234,9 @@ int main()
             break;
         }
     } while (option != 0);
+
+    SaveFicheiroBiblioteca(Bib);
+
 
     DestruirBiblioteca(Bib);
     return EXIT_SUCCESS; // ou EXIT_FAILURE

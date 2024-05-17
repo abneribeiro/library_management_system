@@ -12,7 +12,7 @@ typedef struct
     int ANO;
 }LIVRO;
 
-LIVRO *CriarLivro(char *_titulo, char  *_area, char *_autor, char *_isbn, int _ano);
+LIVRO *CriarLivro();
 LIVRO *CriarLivroDaLinha(char *linha);
 void MostrarLivro(LIVRO *L);
 void DestruirLivro(LIVRO *L);

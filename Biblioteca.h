@@ -26,12 +26,17 @@ void DestruirBiblioteca(BIBLIOTECA *B);
 int LoadFicheiroBiblioteca(BIBLIOTECA *B);
 void AddLivroBiblioteca(BIBLIOTECA *B, LIVRO *L);
 void LerLivros(BIBLIOTECA *B, char *nomeLivros);
+void SaveLivros(BIBLIOTECA *B, char *filename);
+void SaveFicheiroBiblioteca(BIBLIOTECA *B);
+LIVRO *VerificarLivroPorISBN(BIBLIOTECA *B, char *isbn);
+void VerificarEImprimirLivroPorISBN(BIBLIOTECA *B, char *isbn);
+LIVRO *FindMostRecentBook(BIBLIOTECA *B);
+char *AreaWithMostBooks(BIBLIOTECA *B);
 
-// int AddLivroBiblioteca(BIBLIOTECA *B, LIVRO *L);
+
 // int RemoverLivroBiblioteca(BIBLIOTECA *B, int isbn);
 // LIVRO *LivroMaisRequisitadoBiblioteca(BIBLIOTECA *B);
 // char *ApelidoMaisComum(BIBLIOTECA *B);
-// char *AreaMaisComum(BIBLIOTECA *B);
 // int AddRequisitante(BIBLIOTECA *B, LIVRO *X);
 // LIVRO *PesquisarRequisitante(BIBLIOTECA *B, int cod);
 #endif // BIBLIOTECA_H_INCLUDED

@@ -1,4 +1,5 @@
 
+#include "Uteis.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -33,3 +34,15 @@ char *str_to_upper(char *str) {
     }
     return str;
 }
+
+int is_blank(char *str) {
+    while (*str) {
+        if (!isspace((unsigned char)*str))
+            return 0; // false
+        str++;
+    }
+    return 1; // true
+}
+
+
+#define CLEAR_BUFFER while ((ch = getchar()) != '\n' && ch != EOF)

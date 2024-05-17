@@ -34,5 +34,6 @@ void AddHashing(HASHING *H, LIVRO *L);
 void ShowHashing(HASHING *H);
 //--------------------------------------------------------
 NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *L);
+NO_CHAVE *FuncaoHashingISBN(HASHING *H, char *isbn);
 
 #endif // HASHING_H_INCLUDED

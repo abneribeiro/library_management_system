@@ -86,3 +86,24 @@ NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *L)
     }
     return NULL;
 }
+
+NO_CHAVE *FuncaoHashingISBN(HASHING *H, char *isbn)
+{
+    if (!H) return NULL;
+    if (!H->LChaves) return NULL;
+
+    NO_CHAVE *P = H->LChaves->Inicio;
+    while (P)
+    {
+        NO *no = P->DADOS->Inicio;
+        while (no)
+        {
+            if (strcmp(no->Info->ISBN, isbn) == 0)
+                return P;
+            no = no->Prox;
+        }
+        P = P->Prox;
+    }
+    return NULL;
+}
+
