@@ -1,5 +1,6 @@
-
 #include "Hashing.h"
+#include "Livro.h"
+#include "Lista.h"
 
 LISTA_CHAVES *CriarListaCHAVES()
 {
@@ -71,7 +72,7 @@ void ShowHashing(HASHING *H)
     }
 }
 
-NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *X)
+NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *L)
 {
     if (!H) return NULL;
     if (!H->LChaves) return NULL;
@@ -79,7 +80,7 @@ NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *X)
     NO_CHAVE *P = H->LChaves->Inicio;
     while (P)
     {
-        if (stricmp(P->KEY, X->AREA) == 0)
+        if (stricmp(P->KEY, L->AREA) == 0)
             return P;
         P = P->Prox;
     }

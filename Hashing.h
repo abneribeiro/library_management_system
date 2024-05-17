@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Lista.h"
+#include "Livro.h"
 
 typedef struct no_chave
 {
@@ -32,6 +33,6 @@ void AddHashing(HASHING *H, LIVRO *L);
 //--------------------------------------------------------
 void ShowHashing(HASHING *H);
 //--------------------------------------------------------
-NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *X);
+NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *L);
 
 #endif // HASHING_H_INCLUDED
