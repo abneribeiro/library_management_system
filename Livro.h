@@ -13,8 +13,9 @@ typedef struct
 }LIVRO;
 
 LIVRO *CriarLivro(char *_titulo, char  *_area, char *_autor, char *_isbn, int _ano);
-void MostrarLivro(LIVRO *P);
-void DestruirLivro(LIVRO *P);
+LIVRO *CriarLivroDaLinha(char *linha);
+void MostrarLivro(LIVRO *L);
+void DestruirLivro(LIVRO *L);
 
 
 #endif // LIVRO_H_INCLUDED
