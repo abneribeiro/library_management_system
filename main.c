@@ -198,24 +198,7 @@ int menu()
     return option;
 }
 
-//-----------------------------------------
-void Exemplo_Hashing()
-{
-    HASHING *Has = CriarHashing();
-    LIVRO *L = CriarLivro("Jonas", "CAT-A", "Joao", "1234", 2020);
-    AddHashing(Has, L);
-    L = CriarLivro("James Bond", "CAT-A", "Joao", "1234", 2020);
-    AddHashing(Has, L);
-    L = CriarLivro("Abner", "CAT-B", "Joao", "1234", 2020);
-    AddHashing(Has, L);
-    L = CriarLivro("Jonas", "CAT-C", "Joao", "1234", 2020);
-    AddHashing(Has, L);
-    L = CriarLivro("Jonas", "CAT-C", "Joao", "1234", 2020);
-    AddHashing(Has, L);
-    ShowHashing(Has);
-    //
-    DestruirHashing(Has);
-}
+
 
 /*
 int Menu()
@@ -236,13 +219,15 @@ int main()
     // Exemplo_Hashing();
     BIBLIOTECA *Bib;
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
+    LoadFicheiroBiblioteca(Bib);
+    ShowBiblioteca(Bib);
     /*int OP;
     do
     {
         OP = Menu();
         switch(OP)
         {
-            case 1: LoadFicheiroBiblioteca(Bib); break;
+            case 1: ; break;
             case 2: ShowBiblioteca(Bib); break;
             default:
                 printf("Opcao nao implementada\n"); break;
