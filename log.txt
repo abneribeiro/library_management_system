@@ -682,3 +682,371 @@ Entrei em SaveFicheiroBiblioteca na data Fri May 17 21:34:10 2024
 
 Entrei em DestruirBiblioteca na data Fri May 17 21:34:10 2024
 
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em LoadFicheiroBiblioteca na data Fri May 17 23:02:56 2024
+
+Entrei em ShowBiblioteca na data Fri May 17 23:03:20 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:08:59 2024
+
+Entrei em LoadFicheiroBiblioteca na data Fri May 17 23:08:59 2024
+
+Entrei em ShowBiblioteca na data Fri May 17 23:09:06 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em LoadFicheiroBiblioteca na data Fri May 17 23:11:08 2024
+
+Entrei em ShowBiblioteca na data Fri May 17 23:11:11 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 18:20:33 2024
+
+Entrei em ShowBiblioteca na data Sat May 18 18:21:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 22:58:07 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 22:59:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:02:48 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:09:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:13:24 2024
+
+Entrei em SaveFicheiroBiblioteca na data Sat May 18 23:13:32 2024
+
+Entrei em DestruirBiblioteca na data Sat May 18 23:13:32 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:13:35 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:23:43 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:35:17 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:39:27 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:42:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:48:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:53:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em AddLivroBiblioteca na data Sat May 18 23:56:09 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat May 18 23:56:09 2024
+

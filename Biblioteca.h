@@ -7,6 +7,7 @@
 
 #include "Lista.h"
 #include "Hashing.h"
+#include "RHashing.h"
 #include "Livro.h"
 
 
@@ -16,7 +17,8 @@ typedef struct
     char FICHEIRO_LOGS[50];
 
     HASHING *HLivros;
-    //LISTA *LRequisitantes;
+    RHASHING *HRequisitantes;
+    
     // LISTA_Requisicoes *LRequisicoes;
 } BIBLIOTECA;
 
@@ -25,6 +27,7 @@ void ShowBiblioteca(BIBLIOTECA *B);
 void DestruirBiblioteca(BIBLIOTECA *B);
 int LoadFicheiroBiblioteca(BIBLIOTECA *B);
 void AddLivroBiblioteca(BIBLIOTECA *B, LIVRO *L);
+void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P);
 void LerLivros(BIBLIOTECA *B, char *nomeLivros);
 void SaveLivros(BIBLIOTECA *B, char *filename);
 void SaveFicheiroBiblioteca(BIBLIOTECA *B);

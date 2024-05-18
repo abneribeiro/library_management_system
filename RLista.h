@@ -17,8 +17,10 @@ typedef struct
     RNO *Inicio;
 }RLISTA;
 
-
-
-
+RLISTA *CriarRLista();
+void AddRInicio(RLISTA *L, PESSOA *P);
+void ShowRLista(RLISTA *L);
+void DestruirRLista(RLISTA *L);
+int SizeRLista(RLISTA *L);
 
 #endif // RLISTA_H_INCLUDED

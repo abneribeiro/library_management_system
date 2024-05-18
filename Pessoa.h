@@ -5,16 +5,16 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 typedef struct
 {
     char *NOME;
     int ID;
     char *DATA_NASCIMENTO;
-    char IDFRAGUESIA;
-}PESSOA;
+    char *IDFRAGUESIA;
+} PESSOA;
 
-PESSOA *CriarPessoa(int _id, char *_nome, char *_categoria);
+PESSOA *CriarPessoa();
+PESSOA *CriarRequisitanteDaLinha(char *linha);
 void MostrarPessoa(PESSOA *P);
 void DestruirPessoa(PESSOA *P);
 

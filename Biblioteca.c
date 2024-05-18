@@ -3,6 +3,9 @@
 #include "Biblioteca.h"
 #include "Lista.h"
 #include "Livro.h"
+#include "Pessoa.h"
+#include "RLista.h"
+#include "RHashing.h"
 
 /** \brief Aloca Memoria para uma Biblioteca
  *
@@ -21,17 +24,18 @@ BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs)
     strcpy(Bib->NOME, _nome);
     strcpy(Bib->FICHEIRO_LOGS, _logs);
     Bib->HLivros = CriarHashing();
-    // Bib->LRequisicoes = CriarListaRequisicoes();
+    Bib->HRequisitantes = CriarRHashing();
     // Bib->LRequisitantes = CriarListaLIVROs();
     return Bib;
 }
 
-/** \brief Funcao para Mostrar toda a Biblioteca
+/** \brief Mostra a Biblioteca
  *
- * \param B BIBLIOTECA* : Pnteiro para a Biblioteca
+ * \param B BIBLIOTECA* : Ponteiro para a Biblioteca
  * \return void
- * \author : Docentes e Alunos
- * \date   : 11/04/2024
+ * \author Docentes & Alunos
+ * \date   11/04/2024
+ *
  */
 void ShowBiblioteca(BIBLIOTECA *B)
 {
@@ -81,6 +85,28 @@ void LerLivros(BIBLIOTECA *B, char *filename)
     fclose(file);
 }
 
+void LerRequisitantes(BIBLIOTECA *B, char *filename)
+{
+    FILE *file = fopen(filename, "r");
+    if (file == NULL)
+    {
+        printf("Could not open file %s\n", filename);
+        return;
+    }
+
+    char linha[256];
+    while (fgets(linha, sizeof(linha), file))
+    {
+        PESSOA *R = CriarRequisitanteDaLinha(linha);
+        if (R != NULL)
+        {
+            AddRequisitanteBiblioteca(B, R);
+        }
+    }
+
+    fclose(file);
+}
+
 int LoadFicheiroBiblioteca(BIBLIOTECA *B)
 {
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
@@ -88,7 +114,7 @@ int LoadFicheiroBiblioteca(BIBLIOTECA *B)
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
     LerLivros(B, "import/livros.txt");
-    // LerRequisitantes(B, "Requisitantes.txt");
+    LerRequisitantes(B, "import/requisitantes.txt");
 
     fclose(F_Logs);
     return EXIT_SUCCESS;
@@ -130,6 +156,39 @@ void AddLivroBiblioteca(BIBLIOTECA *B, LIVRO *L)
         atual->Prox = B->HLivros->LChaves->Inicio;
         B->HLivros->LChaves->Inicio = atual;
         B->HLivros->LChaves->NEL++;
+    }
+
+    aux->Prox = atual->DADOS->Inicio;
+    atual->DADOS->Inicio = aux;
+    atual->DADOS->NEL++;
+
+    fclose(F_Logs);
+}
+
+void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P)
+{
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+
+    // criar um novo no para o livro
+    RNO *aux = (RNO *)malloc(sizeof(RNO));
+    aux->Info = P;
+    aux->Prox = NULL;
+
+    // cria um novo no chave se nao existir
+    RNO_CHAVE *atual = FuncaoRHashing(B->HRequisitantes, P);
+
+    if (atual == NULL)
+    {
+        atual = (RNO_CHAVE *)malloc(sizeof(RNO_CHAVE));
+        atual->KEY = strdup(P->DATA_NASCIMENTO);
+        atual->DADOS = (RLISTA *)malloc(sizeof(RLISTA));
+        atual->DADOS->NEL = 0;
+        atual->DADOS->Inicio = NULL;
+        atual->Prox = B->HRequisitantes->RLChaves->Inicio;
+        B->HRequisitantes->RLChaves->Inicio = atual;
+        B->HRequisitantes->RLChaves->NEL++;
     }
 
     aux->Prox = atual->DADOS->Inicio;
@@ -245,9 +304,6 @@ char *AreaWithMostBooks(BIBLIOTECA *B)
 
     return maxArea;
 }
-
-
-
 
 // int RemoverLivroBiblioteca(BIBLIOTECA *B, int isbn)
 // {

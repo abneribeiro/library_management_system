@@ -5,6 +5,10 @@
 #include "Hashing.h"
 #include "Livro.h"
 #include "Biblioteca.h"
+#include "RHashing.h"
+#include "Pessoa.h"
+#include "RLista.h"
+
 
 extern int LerInteiro(char *txt);
 
@@ -40,7 +44,7 @@ void manageBooksMenu(BIBLIOTECA *Bib)
         AddLivroBiblioteca(Bib, L);
         break;
     case 2:
-        ShowBiblioteca(Bib);
+        ShowHashing(Bib->HLivros);
         break;
     case 3:
         printf("Area com mais livros: %s\n", AreaWithMostBooks(Bib));
@@ -66,7 +70,7 @@ void manageBooksMenu(BIBLIOTECA *Bib)
         break;
     }
 }
-void manageRequisitantsMenu()
+void manageRequisitantsMenu(BIBLIOTECA *Bib)
 {
     int option;
 
@@ -102,7 +106,7 @@ void manageRequisitantsMenu()
         // searchRequisitant();
         break;
     case 3:
-        // listRequisitants(); por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo)
+        ShowRHashing(Bib->HRequisitantes); // por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo)
         break;
     case 4:
         // maxAge();
@@ -192,17 +196,6 @@ int menu()
     return option;
 }
 
-/*
-int Menu()
-{
-    printf("1- Load\n");
-    printf("2- Show\n");
-    printf("3- Nome mais Comum\n");
-    printf("0-Sair\n");
-    int op;
-    op = LerInteiro("Qual a o opcao? ");
-    return op;
-}*/
 
 int main()
 {
@@ -211,6 +204,10 @@ int main()
     BIBLIOTECA *Bib;
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
     LoadFicheiroBiblioteca(Bib);
+
+    
+    
+
     do
     {
         option = menu();
@@ -221,7 +218,7 @@ int main()
             manageBooksMenu(Bib);
             break;
         case 2:
-            manageRequisitantsMenu();
+            manageRequisitantsMenu(Bib);
             break;
         case 3:
             manageRequisitionsMenu();
@@ -236,6 +233,7 @@ int main()
     } while (option != 0);
 
     SaveFicheiroBiblioteca(Bib);
+    
 
 
     DestruirBiblioteca(Bib);

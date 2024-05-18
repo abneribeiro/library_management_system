@@ -10,7 +10,7 @@ typedef struct rno_chave
 {
     char *KEY; 
     RLISTA *DADOS;
-    struct no_chave *Prox;
+    struct rno_chave *Prox;
 }RNO_CHAVE;
 
 typedef struct
@@ -24,6 +24,12 @@ typedef struct
     RLISTA_CHAVES *RLChaves;
 }RHASHING;
 
-
+RLISTA_CHAVES *CriarRListaCHAVES();
+RNO_CHAVE *RAddCHAVE(RLISTA_CHAVES *L, char *key);
+RHASHING *CriarRHashing();
+void DestruirRHashing(RHASHING *H);
+void AddRHashing(RHASHING *H, PESSOA *P);
+void ShowRHashing(RHASHING *H);
+RNO_CHAVE *FuncaoRHashing(RHASHING *H, PESSOA *X);
 
 #endif // 

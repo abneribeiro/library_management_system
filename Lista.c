@@ -17,7 +17,6 @@ LISTA *CriarLista()
     return L;
 }
 
-//--------------------------------------------------
 void AddInicio(LISTA *L, LIVRO *X)
 {
     if (!L) return;
@@ -32,7 +31,6 @@ void AddInicio(LISTA *L, LIVRO *X)
 void ShowLista(LISTA *L)
 {
     if (!L) return;
-    //printf("NEL = %d\n", L->NEL);
     NO *P = L->Inicio;
     while (P != NULL)
     {

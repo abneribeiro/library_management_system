@@ -1,7 +1,7 @@
 #include "Livro.h"
 #include "Biblioteca.h"
 #include "Hashing.h"
-#include "Uteis.c"
+#include "Uteis.h"
 
 LIVRO *CriarLivro()
 {

@@ -26,14 +26,14 @@ typedef struct
 
 
 HASHING *CriarHashing();
-//--------------------------------------------------------
 void DestruirHashing(HASHING *H);
-//--------------------------------------------------------
 void AddHashing(HASHING *H, LIVRO *L);
-//--------------------------------------------------------
 void ShowHashing(HASHING *H);
-//--------------------------------------------------------
 NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *L);
 NO_CHAVE *FuncaoHashingISBN(HASHING *H, char *isbn);
+
+LISTA_CHAVES *CriarListaCHAVES();
+NO_CHAVE *AddCHAVE(LISTA_CHAVES *L, char *key);
+
 
 #endif // HASHING_H_INCLUDED

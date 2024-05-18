@@ -9,7 +9,7 @@ RLISTA *CriarRLista()
     return L;
 }
 
-void AddInicio(RLISTA *L, PESSOA *P)
+void AddRInicio(RLISTA *L, PESSOA *P)
 {
     if (!L) return;
     RNO *aux = (RNO *)malloc(sizeof(RNO));
@@ -28,4 +28,26 @@ void ShowRLista(RLISTA *L)
         MostrarPessoa(P->Info);
         P = P->Prox;
     }
+}
+
+void DestruirRLista(RLISTA *L)
+{
+    //printf("Implementar <%s>\n", __FUNCTION__);
+    if (!L) return;
+    RNO *prox;
+    RNO *atual = L->Inicio;
+    while (atual)
+    {
+        prox = atual->Prox;
+        DestruirPessoa(atual->Info);
+        free (atual);
+        atual = prox;
+    }
+    free(L);
+}
+
+int SizeRLista(RLISTA *L)
+{
+    if (!L) return 0;
+    return L->NEL;
 }
