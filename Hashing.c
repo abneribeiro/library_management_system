@@ -13,6 +13,7 @@ LISTA_CHAVES *CriarListaCHAVES()
 //--------------------------------------------------
 NO_CHAVE *AddCHAVE(LISTA_CHAVES *L, char *key)
 {
+    
     if (!L) return NULL;
     NO_CHAVE *aux = (NO_CHAVE *)malloc(sizeof(NO_CHAVE));
     aux->KEY = (char *)malloc((strlen(key) + 1) * sizeof(char));
@@ -49,8 +50,8 @@ void DestruirHashing(HASHING *H)
 
 void AddHashing(HASHING *H, LIVRO *L)
 {
-    if (!H) return;
-    if (!H->LChaves) return;
+    if (!H || !H->LChaves) return;
+  
     NO_CHAVE *Key_colocar = FuncaoHashing(H, L);
     if (!Key_colocar)
     {
@@ -61,8 +62,8 @@ void AddHashing(HASHING *H, LIVRO *L)
 
 void ShowHashing(HASHING *H)
 {
-    if (!H) return;
-    if (!H->LChaves) return;
+    if (!H || !H->LChaves) return;
+
     NO_CHAVE *P = H->LChaves->Inicio;
     while (P)
     {
@@ -74,8 +75,7 @@ void ShowHashing(HASHING *H)
 
 NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *L)
 {
-    if (!H) return NULL;
-    if (!H->LChaves) return NULL;
+    if (!H || !H->LChaves) return NULL;
 
     NO_CHAVE *P = H->LChaves->Inicio;
     while (P)
@@ -89,8 +89,7 @@ NO_CHAVE *FuncaoHashing(HASHING *H, LIVRO *L)
 
 NO_CHAVE *FuncaoHashingISBN(HASHING *H, char *isbn)
 {
-    if (!H) return NULL;
-    if (!H->LChaves) return NULL;
+    if (!H ||!H->LChaves) return NULL;
 
     NO_CHAVE *P = H->LChaves->Inicio;
     while (P)

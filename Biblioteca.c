@@ -1,5 +1,3 @@
-
-
 #include "Biblioteca.h"
 #include "Lista.h"
 #include "Livro.h"
@@ -29,42 +27,13 @@ BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs)
     return Bib;
 }
 
-/** \brief Mostra a Biblioteca
- *
- * \param B BIBLIOTECA* : Ponteiro para a Biblioteca
- * \return void
- * \author Docentes & Alunos
- * \date   11/04/2024
- *
- */
-void ShowBiblioteca(BIBLIOTECA *B)
-{
-    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
-    time_t now = time(NULL);
-    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-    printf("NOME BIBLIOTECA = [%s]\n", B->NOME);
-    // Vosso Codigo.....
-    ShowHashing(B->HLivros);
-
-    fclose(F_Logs);
-}
-
-void DestruirBiblioteca(BIBLIOTECA *B)
-{
-    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
-    time_t now = time(NULL);
-    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-
-    // Vosso Codigo.....
-    free(B->NOME);
-    //------
-    free(B);
-
-    fclose(F_Logs);
-}
 
 void LerLivros(BIBLIOTECA *B, char *filename)
 {
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+
     FILE *file = fopen(filename, "r");
     if (file == NULL)
     {
@@ -87,17 +56,23 @@ void LerLivros(BIBLIOTECA *B, char *filename)
 
 void LerRequisitantes(BIBLIOTECA *B, char *filename)
 {
+
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+
     FILE *file = fopen(filename, "r");
+
     if (file == NULL)
     {
         printf("Could not open file %s\n", filename);
         return;
     }
 
-    char linha[256];
-    while (fgets(linha, sizeof(linha), file))
+    char linhar[256];
+    while (fgets(linhar, sizeof(linhar), file))
     {
-        PESSOA *R = CriarRequisitanteDaLinha(linha);
+        PESSOA *R = CriarRequisitanteDaLinha(linhar);
         if (R != NULL)
         {
             AddRequisitanteBiblioteca(B, R);
@@ -177,12 +152,16 @@ void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P)
     aux->Prox = NULL;
 
     // cria um novo no chave se nao existir
-    RNO_CHAVE *atual = FuncaoRHashing(B->HRequisitantes, P);
+    RNO_CHAVE *atual = FuncaoRHashing(B->HRequisitantes, P->NOME);
 
     if (atual == NULL)
     {
         atual = (RNO_CHAVE *)malloc(sizeof(RNO_CHAVE));
-        atual->KEY = strdup(P->DATA_NASCIMENTO);
+
+        char *key = (char *)malloc(2 * sizeof(char));
+        key[0] = P->NOME[0];
+        key[1] = '\0';
+        atual->KEY = key;
         atual->DADOS = (RLISTA *)malloc(sizeof(RLISTA));
         atual->DADOS->NEL = 0;
         atual->DADOS->Inicio = NULL;
@@ -303,6 +282,34 @@ char *AreaWithMostBooks(BIBLIOTECA *B)
     }
 
     return maxArea;
+}
+
+void ShowBiblioteca(BIBLIOTECA *B)
+{
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+    printf("NOME BIBLIOTECA = [%s]\n", B->NOME);
+    // Vosso Codigo.....
+    ShowHashing(B->HLivros);
+
+    fclose(F_Logs);
+}
+
+void DestruirBiblioteca(BIBLIOTECA *B)
+{
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+
+    // Vosso Codigo.....
+    free(B->NOME);
+    DestruirHashing(B->HLivros);
+    DestruirRHashing(B->HRequisitantes);
+    
+    free(B);
+
+    fclose(F_Logs);
 }
 
 // int RemoverLivroBiblioteca(BIBLIOTECA *B, int isbn)

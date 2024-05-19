@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "RLista.h"
-
+#include "Pessoa.h"
 
 typedef struct rno_chave
 {
@@ -30,6 +30,7 @@ RHASHING *CriarRHashing();
 void DestruirRHashing(RHASHING *H);
 void AddRHashing(RHASHING *H, PESSOA *P);
 void ShowRHashing(RHASHING *H);
-RNO_CHAVE *FuncaoRHashing(RHASHING *H, PESSOA *X);
+RNO_CHAVE *FuncaoRHashing(RHASHING *H, char *key);
+
 
 #endif // 

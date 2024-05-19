@@ -4,6 +4,7 @@
 RLISTA *CriarRLista()
 {
     RLISTA *L = (RLISTA *)malloc(sizeof(RLISTA));
+    if (!L) return NULL;
     L->NEL = 0;
     L->Inicio = NULL;
     return L;
@@ -13,6 +14,7 @@ void AddRInicio(RLISTA *L, PESSOA *P)
 {
     if (!L) return;
     RNO *aux = (RNO *)malloc(sizeof(RNO));
+    if (!aux) return;
     aux->Info = P;
     aux->Prox = L->Inicio;
     L->Inicio = aux;

@@ -28,13 +28,14 @@ void DestruirBiblioteca(BIBLIOTECA *B);
 int LoadFicheiroBiblioteca(BIBLIOTECA *B);
 void AddLivroBiblioteca(BIBLIOTECA *B, LIVRO *L);
 void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P);
-void LerLivros(BIBLIOTECA *B, char *nomeLivros);
+void LerLivros(BIBLIOTECA *B, char *filename);
 void SaveLivros(BIBLIOTECA *B, char *filename);
 void SaveFicheiroBiblioteca(BIBLIOTECA *B);
 LIVRO *VerificarLivroPorISBN(BIBLIOTECA *B, char *isbn);
 void VerificarEImprimirLivroPorISBN(BIBLIOTECA *B, char *isbn);
 LIVRO *FindMostRecentBook(BIBLIOTECA *B);
 char *AreaWithMostBooks(BIBLIOTECA *B);
+void LerRequisitantes(BIBLIOTECA *B, char *filename);
 
 
 // int RemoverLivroBiblioteca(BIBLIOTECA *B, int isbn);

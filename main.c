@@ -4,13 +4,11 @@
 #include "Lista.h"
 #include "Hashing.h"
 #include "Livro.h"
-#include "Biblioteca.h"
 #include "RHashing.h"
 #include "Pessoa.h"
 #include "RLista.h"
+#include "Biblioteca.h"
 
-
-extern int LerInteiro(char *txt);
 
 void manageBooksMenu(BIBLIOTECA *Bib)
 {
@@ -54,7 +52,7 @@ void manageBooksMenu(BIBLIOTECA *Bib)
         char isbn[100];
         scanf("%s", isbn);
         VerificarEImprimirLivroPorISBN(Bib, isbn);
-        
+
         break;
     case 5:
         printf("Livro mais recente: %s - %d\n", FindMostRecentBook(Bib)->TITULO, FindMostRecentBook(Bib)->ANO);
@@ -70,6 +68,7 @@ void manageBooksMenu(BIBLIOTECA *Bib)
         break;
     }
 }
+
 void manageRequisitantsMenu(BIBLIOTECA *Bib)
 {
     int option;
@@ -100,7 +99,8 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
     switch (option)
     {
     case 1: // ADICIONAR A LISTA DE REQUISITANTES
-        // addNodePos(requesters ,addRequester(), checkRequester);
+        PESSOA *P = CriarPessoa();
+        AddRequisitanteBiblioteca(Bib, P);
         break;
     case 2:
         // searchRequisitant();
@@ -140,6 +140,7 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         break;
     }
 }
+
 void manageRequisitionsMenu()
 {
     int option;
@@ -196,7 +197,6 @@ int menu()
     return option;
 }
 
-
 int main()
 {
     int option, sub_option;
@@ -204,37 +204,34 @@ int main()
     BIBLIOTECA *Bib;
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
     LoadFicheiroBiblioteca(Bib);
+    ShowHashing(Bib->HLivros);
+    ShowRHashing(Bib->HRequisitantes);
 
-    
-    
+    // do
+    // {
+    //     option = menu();
+    //     system("cls");
+    //     switch (option)
+    //     {
+    //     case 1:
+    //         manageBooksMenu(Bib);
+    //         break;
+    //     case 2:
+    //         manageRequisitantsMenu(Bib);
+    //         break;
+    //     case 3:
+    //         manageRequisitionsMenu();
 
-    do
-    {
-        option = menu();
-        system("cls");
-        switch (option)
-        {
-        case 1:
-            manageBooksMenu(Bib);
-            break;
-        case 2:
-            manageRequisitantsMenu(Bib);
-            break;
-        case 3:
-            manageRequisitionsMenu();
-
-            break;
-        case 0: // sair
-            // Salvar dados antes de terminar o programa
-            printf("\n\n ***** Salvando os dados *****\n");
-            printf(" ***** Saindo do programa *****\n");
-            break;
-        }
-    } while (option != 0);
+    //         break;
+    //     case 0: // sair
+    //         // Salvar dados antes de terminar o programa
+    //         printf("\n\n ***** Salvando os dados *****\n");
+    //         printf(" ***** Saindo do programa *****\n");
+    //         break;
+    //     }
+    // } while (option != 0);
 
     SaveFicheiroBiblioteca(Bib);
-    
-
 
     DestruirBiblioteca(Bib);
     return EXIT_SUCCESS; // ou EXIT_FAILURE

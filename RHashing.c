@@ -4,10 +4,10 @@
 
 RLISTA_CHAVES *CriarRListaCHAVES()
 {
-    RLISTA_CHAVES *L = (RLISTA_CHAVES *)malloc(sizeof(RLISTA_CHAVES));
-    L->NEL = 0;
-    L->Inicio = NULL;
-    return L;
+    RLISTA_CHAVES *R = (RLISTA_CHAVES *)malloc(sizeof(RLISTA_CHAVES));
+    R->NEL = 0;
+    R->Inicio = NULL;
+    return R;
 }
 
 RNO_CHAVE *RAddCHAVE(RLISTA_CHAVES *L, char *key)
@@ -33,8 +33,7 @@ RHASHING *CriarRHashing()
 
 void DestruirRHashing(RHASHING *H)
 {
-    if (!H)
-        return;
+    if (!H) return;
     RNO_CHAVE *Seguinte;
     RNO_CHAVE *P = H->RLChaves->Inicio;
     while (P)
@@ -50,11 +49,12 @@ void DestruirRHashing(RHASHING *H)
 
 void AddRHashing(RHASHING *H, PESSOA *P)
 {
-    if (!H)
+    if (!H || !H->RLChaves)
         return;
-    if (!H->RLChaves)
-        return;
-    RNO_CHAVE *Key_colocar = FuncaoRHashing(H, P);
+
+    char key[2] = {P->NOME[0], '\0'};
+
+    RNO_CHAVE *Key_colocar = FuncaoRHashing(H, key);
     if (!Key_colocar)
     {
         Key_colocar = RAddCHAVE(H->RLChaves, P->NOME);
@@ -64,10 +64,12 @@ void AddRHashing(RHASHING *H, PESSOA *P)
 
 void ShowRHashing(RHASHING *H)
 {
-    if (!H)
+    if (!H || !H->RLChaves)
         return;
+
     RNO_CHAVE *P = H->RLChaves->Inicio;
-    while (P != NULL)
+    printf("KEY = %s\n", P->KEY);
+    while (P)
     {
         printf("KEY = %s\n", P->KEY);
         ShowRLista(P->DADOS);
@@ -75,16 +77,15 @@ void ShowRHashing(RHASHING *H)
     }
 }
 
-RNO_CHAVE *FuncaoRHashing(RHASHING *H, PESSOA *X)
+RNO_CHAVE *FuncaoRHashing(RHASHING *H, char *key)
 {
-    if (!H)
+    if (!H || !H->RLChaves)
         return NULL;
-    if (!H->RLChaves)
-        return NULL;
+
     RNO_CHAVE *P = H->RLChaves->Inicio;
     while (P)
     {
-        if (strcmp(P->KEY, X->NOME) == 0)
+        if (stricmp(P->KEY, key) == 0)
             return P;
         P = P->Prox;
     }
