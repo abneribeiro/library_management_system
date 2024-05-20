@@ -106,7 +106,7 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         // searchRequisitant();
         break;
     case 3:
-        ShowRHashing(Bib->HRequisitantes); // por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo)
+        ShowRHashing(Bib->HRequisitantes, 100); // por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo)
         break;
     case 4:
         // maxAge();
@@ -204,32 +204,32 @@ int main()
     BIBLIOTECA *Bib;
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
     LoadFicheiroBiblioteca(Bib);
-    ShowHashing(Bib->HLivros);
-    ShowRHashing(Bib->HRequisitantes);
+    //ShowHashing(Bib->HLivros);
+    //ShowRHashing(Bib->HRequisitantes);
 
-    // do
-    // {
-    //     option = menu();
-    //     system("cls");
-    //     switch (option)
-    //     {
-    //     case 1:
-    //         manageBooksMenu(Bib);
-    //         break;
-    //     case 2:
-    //         manageRequisitantsMenu(Bib);
-    //         break;
-    //     case 3:
-    //         manageRequisitionsMenu();
+    do
+    {
+        option = menu();
+        system("cls");
+        switch (option)
+        {
+        case 1:
+            manageBooksMenu(Bib);
+            break;
+        case 2:
+            manageRequisitantsMenu(Bib);
+            break;
+        case 3:
+            manageRequisitionsMenu();
 
-    //         break;
-    //     case 0: // sair
-    //         // Salvar dados antes de terminar o programa
-    //         printf("\n\n ***** Salvando os dados *****\n");
-    //         printf(" ***** Saindo do programa *****\n");
-    //         break;
-    //     }
-    // } while (option != 0);
+            break;
+        case 0: // sair
+            // Salvar dados antes de terminar o programa
+            printf("\n\n ***** Salvando os dados *****\n");
+            printf(" ***** Saindo do programa *****\n");
+            break;
+        }
+    } while (option != 0);
 
     SaveFicheiroBiblioteca(Bib);
 

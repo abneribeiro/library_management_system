@@ -40,52 +40,33 @@ PESSOA *CriarPessoa()
 
 PESSOA *CriarRequisitanteDaLinha(char *linha)
 {
-    char *token;
     PESSOA *R = (PESSOA *)malloc(sizeof(PESSOA));
 
-    // Validar e atribuir o ID
-    token = strtok(linha, "\t");
-    // if (token == NULL || !ValidarID(token))
-    // {
-    //     free(R);
-    //     return NULL;
-    // }
+    if(R == NULL)
+    {
+        printf("Erro ao alocar memoria para a pessoa\n");
+        return NULL;
+    }
+    // ID;NOME;DATA_NASCIMENTO;IDFRAGUESIA
+    char *token = strtok(linha, "\t");
     R->ID = atoi(token);
 
-    // Validar e atribuir o nome
     token = strtok(NULL, "\t");
-    // if (token == NULL || !ValidarNome(token))
-    // {
-    //     free(R);
-    //     return NULL;
-    // }
     R->NOME = strdup(token);
 
-    // Validar e atribuir a data de nascimento
     token = strtok(NULL, "\t");
-    // if (token == NULL || !ValidarDataNascimento(token))
-    // {
-    //     free(R);
-    //     return NULL;
-    // }
     R->DATA_NASCIMENTO = strdup(token);
 
-    // Validar e atribuir o número de telefone
     token = strtok(NULL, "\t");
-    // if (token == NULL || !ValidarIDFreguesia(token))
-    // {
-    //     free(R);
-    //     return NULL;
-    // }
     R->IDFRAGUESIA = strdup(token);
-    
+   
     return R;
 }
 
 
 void MostrarPessoa(PESSOA *P)
 {
-    printf("\tPESSOA: ID: %s [%s] [%s] [%s]\n", P->ID, P->NOME, P->DATA_NASCIMENTO, P->IDFRAGUESIA);
+    printf("PESSOA: ID: %d [%s] [%s] [%s]\n", P->ID, P->NOME, P->DATA_NASCIMENTO, P->IDFRAGUESIA);
 }
 
 

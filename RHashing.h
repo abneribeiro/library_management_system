@@ -29,8 +29,11 @@ RNO_CHAVE *RAddCHAVE(RLISTA_CHAVES *L, char *key);
 RHASHING *CriarRHashing();
 void DestruirRHashing(RHASHING *H);
 void AddRHashing(RHASHING *H, PESSOA *P);
-void ShowRHashing(RHASHING *H);
+void ShowRHashing(RHASHING *H, int numToShow);
 RNO_CHAVE *FuncaoRHashing(RHASHING *H, char *key);
+void AddROrdenado(RLISTA *L, PESSOA *P);
+int CompararChaves(const void *a, const void *b);
+
 
 
 #endif // 

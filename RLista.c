@@ -21,6 +21,9 @@ void AddRInicio(RLISTA *L, PESSOA *P)
     L->NEL++;
 }
 
+
+
+
 void ShowRLista(RLISTA *L)
 {
     if (!L) return;

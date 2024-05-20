@@ -74,18 +74,18 @@ LIVRO *CriarLivroDaLinha(char *linha)
         return NULL;
     }
     // Assuming the line is in the format: "Title,Author,ISBN"
-    char *token = strtok(linha, ";");
+    char *token = strtok(linha, "\t");
     L->TITULO = strdup(token);
 
-    token = strtok(NULL, ";");
+    token = strtok(NULL, "\t");
     L->AUTOR = strdup(token);
-    token = strtok(NULL, ";");
+    token = strtok(NULL, "\t");
     L->AREA = strdup(token);
 
-    token = strtok(NULL, ";");
+    token = strtok(NULL, "\t");
     L->ISBN = strdup(token);
 
-    token = strtok(NULL, ";");
+    token = strtok(NULL, "\t");
     L->ANO = atoi(token);
 
     return L;

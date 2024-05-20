@@ -23,4 +23,5 @@ void ShowRLista(RLISTA *L);
 void DestruirRLista(RLISTA *L);
 int SizeRLista(RLISTA *L);
 
+
 #endif // RLISTA_H_INCLUDED
