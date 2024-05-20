@@ -11,39 +11,38 @@ RLISTA_CHAVES *CriarRListaCHAVES()
     return R;
 }
 
+
 void AddROrdenado(RLISTA *L, PESSOA *P)
 {
+    if (!L)
+        return;
+
     RNO *novo = (RNO *)malloc(sizeof(RNO));
     novo->Info = P;
     novo->Prox = NULL;
 
-    if (!L->Inicio)
+    if (L->Inicio == NULL || strcmp(L->Inicio->Info->NOME, P->NOME) > 0)
     {
+        // Inserir no início da lista
+        novo->Prox = L->Inicio;
         L->Inicio = novo;
     }
     else
     {
-        RNO *anterior = NULL;
-        RNO *atual = L->Inicio;
-
-        while (atual && strcmp(P->NOME, atual->Info->NOME) > 0)
+        // Encontrar o nó anterior ao ponto de inserção
+        RNO *current = L->Inicio;
+        while (current->Prox != NULL && strcmp(current->Prox->Info->NOME, P->NOME) < 0)
         {
-            anterior = atual;
-            atual = atual->Prox;
+            current = current->Prox;
         }
-
-        if (!anterior)
-        {
-            novo->Prox = L->Inicio;
-            L->Inicio = novo;
-        }
-        else
-        {
-            novo->Prox = anterior->Prox;
-            anterior->Prox = novo;
-        }
+        // Inserir após o nó atual
+        novo->Prox = current->Prox;
+        current->Prox = novo;
     }
+
+    L->NEL++;
 }
+
 
 RNO_CHAVE *RAddCHAVE(RLISTA_CHAVES *L, char *key)
 {
@@ -78,6 +77,7 @@ RNO_CHAVE *RAddCHAVE(RLISTA_CHAVES *L, char *key)
     L->NEL++;
     return aux;
 }
+
 
 RHASHING *CriarRHashing()
 {
@@ -138,12 +138,9 @@ void ShowRHashing(RHASHING *H, int numToShow)
         ShowRLista(P->DADOS);
         P = P->Prox;
         count++;
-        if (count >= numToShow)
-        {
+        if ( count >= numToShow){
             printf(".Pressione qualquer tecla para continuar...\n");
-            while (!_kbhit())
-            {
-            }         // Aguarda a pressão de uma tecla
+            while (!_kbhit()) {} // Aguarda a pressão de uma tecla
             _getch(); // Limpa a tecla pressionada do buffer
             count = 0;
         }
