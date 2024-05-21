@@ -1,12 +1,15 @@
 #include <stdbool.h>
 #include <string.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 // Validação do ID
 bool ValidarID(char *id)
 {
-    int len = strlen(id);
+    size_t len = strlen(id);
+    
     if (len != 9)
     {
         return false;
@@ -21,13 +24,79 @@ bool ValidarID(char *id)
     return true;
 }
 
-// Validação do nome
+// // Validação do nome
+// bool ValidarNome(char *nome)
+// {
+//     int len = strlen(nome);
+//     for (int i = 0; i < len; i++)
+//     {
+//         if (!((nome[i] >= 'a' && nome[i] <= 'z') || (nome[i] >= 'A' && nome[i] <= 'Z') || nome[i] == ' '))
+//         {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// // Validação da data de nascimento
+
+
+// bool ValidarDataNascimento(char *data)
+// {
+//     struct tm tm;
+//     if (sscanf(data, "%d-%d-%d", &tm.tm_mday, &tm.tm_mon, &tm.tm_year) != 3)
+//     {
+//         return false;
+//     }
+//     tm.tm_year -= 1900; // tm_year is years since 1900
+//     tm.tm_mon--;        // tm_mon is months since January (0-11)
+//     // Check if the date is logical
+//     if (tm.tm_mday > 31 || tm.tm_mon >= 12)
+//     {
+//         return false;
+//     }
+//     if ((tm.tm_mon == 3 || tm.tm_mon == 5 || tm.tm_mon == 8 || tm.tm_mon == 10) && tm.tm_mday > 30)
+//     {
+//         return false;
+//     }
+//     if (tm.tm_mon == 1 && ((tm.tm_year % 4 == 0 && tm.tm_year % 100 != 0) || tm.tm_year % 400 == 0) && tm.tm_mday > 29)
+//     {
+//         return false;
+//     }
+//     if (tm.tm_mon == 1 && tm.tm_year % 4 != 0 && tm.tm_mday > 28)
+//     {
+//         return false;
+//     }
+//     return true;
+// }
+
+
+// // Validação do ID da freguesia
+// bool ValidarIDFreguesia(char *idFreguesia)
+// {
+//     int len = strlen(idFreguesia);
+//     if (len != 6)
+//     {
+//         return false;
+//     }
+//     for (int i = 0; i < len; i++)
+//     {
+//         if (idFreguesia[i] < '0' || idFreguesia[i] > '9')
+//         {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+
+// Improved ValidarNome
 bool ValidarNome(char *nome)
 {
     int len = strlen(nome);
     for (int i = 0; i < len; i++)
     {
-        if (!((nome[i] >= 'a' && nome[i] <= 'z') || (nome[i] >= 'A' && nome[i] <= 'Z') || nome[i] == ' '))
+        if (!((nome[i] >= 'a' && nome[i] <= 'z') || (nome[i] >= 'A' && nome[i] <= 'Z') || nome[i] == ' ' || nome[i] == '-' || nome[i] == '\''))
         {
             return false;
         }
@@ -35,7 +104,6 @@ bool ValidarNome(char *nome)
     return true;
 }
 
-// Validação da data de nascimento
 
 
 bool ValidarDataNascimento(char *data)
@@ -45,33 +113,39 @@ bool ValidarDataNascimento(char *data)
     {
         return false;
     }
+    int actualYear = tm.tm_year; // Save the actual year for leap year check
     tm.tm_year -= 1900; // tm_year is years since 1900
     tm.tm_mon--;        // tm_mon is months since January (0-11)
     // Check if the date is logical
-    if (tm.tm_mday > 31 || tm.tm_mon >= 12)
+    if (tm.tm_mday < 1 || tm.tm_mday > 31 || tm.tm_mon < 0 || tm.tm_mon >= 12)
     {
         return false;
     }
+    // Corrected the months to check for 30 days
     if ((tm.tm_mon == 3 || tm.tm_mon == 5 || tm.tm_mon == 8 || tm.tm_mon == 10) && tm.tm_mday > 30)
     {
         return false;
     }
-    if (tm.tm_mon == 1 && ((tm.tm_year % 4 == 0 && tm.tm_year % 100 != 0) || tm.tm_year % 400 == 0) && tm.tm_mday > 29)
+    // Corrected the leap year check for February
+    if (tm.tm_mon == 1)
     {
-        return false;
-    }
-    if (tm.tm_mon == 1 && tm.tm_year % 4 != 0 && tm.tm_mday > 28)
-    {
-        return false;
+        if (((actualYear % 4 == 0 && actualYear % 100 != 0) || actualYear % 400 == 0) && tm.tm_mday > 29)
+        {
+            return false;
+        }
+        if (!(actualYear % 4 == 0 && actualYear % 100 != 0) && !(actualYear % 400 == 0) && tm.tm_mday > 28)
+        {
+            return false;
+        }
     }
     return true;
 }
 
 
-// Validação do ID da freguesia
+// Improved ValidarIDFreguesia
 bool ValidarIDFreguesia(char *idFreguesia)
 {
-    int len = strlen(idFreguesia);
+    size_t len = strlen(idFreguesia);
     if (len != 6)
     {
         return false;

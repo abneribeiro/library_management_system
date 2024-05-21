@@ -8,7 +8,7 @@
 #include "Pessoa.h"
 #include "RLista.h"
 #include "Biblioteca.h"
-
+#include "Uteis.h"
 
 void manageBooksMenu(BIBLIOTECA *Bib)
 {
@@ -103,22 +103,30 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         AddRequisitanteBiblioteca(Bib, P);
         break;
     case 2:
-        // searchRequisitant();
+        printf("Digite o nome do requisitante: ");
+        char nome[100], ch;  
+        CLEAR_BUFFER;
+        fscanf(stdin, "%99[^\n]", nome);
+        VerificarRequisitanteRHASHING(Bib->HRequisitantes, nome);
         break;
     case 3:
         ShowRHashing(Bib->HRequisitantes, 100); // por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo)
         break;
     case 4:
-        // maxAge();
+        printf("Idade maxima dos requisitantes: %d", maxAge(Bib->HRequisitantes));
         break;
     case 5:
-        // averageAge();
+        printf("Media das idades dos requisitantes: %.2f", averageAge(Bib->HRequisitantes));
         break;
     case 6:
-        // countAge();  (introduzido pelo teclado)
+        printf("Digite a idade limite: ");
+        int age_limit;
+        scanf("%d", &age_limit);
+        printf("Numero de pessoas com idade superior a %d: %d", age_limit, countPeopleAboveAge(Bib->HRequisitantes, age_limit));
         break;
     case 7:
-        // mostAge();
+
+        printf("A idade com mais requistantes é %d", mostCommonAge(Bib->HRequisitantes));
         break;
     case 8:
         // showRequisitions();
@@ -204,8 +212,8 @@ int main()
     BIBLIOTECA *Bib;
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
     LoadFicheiroBiblioteca(Bib);
-    //ShowHashing(Bib->HLivros);
-    //ShowRHashing(Bib->HRequisitantes);
+    // ShowHashing(Bib->HLivros);
+    // ShowRHashing(Bib->HRequisitantes);
 
     do
     {

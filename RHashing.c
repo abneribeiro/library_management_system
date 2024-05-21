@@ -2,6 +2,7 @@
 #include "Pessoa.h"
 #include "RLista.h"
 #include <conio.h>
+#include "Uteis.h"
 
 RLISTA_CHAVES *CriarRListaCHAVES()
 {
@@ -10,7 +11,6 @@ RLISTA_CHAVES *CriarRListaCHAVES()
     R->Inicio = NULL;
     return R;
 }
-
 
 void AddROrdenado(RLISTA *L, PESSOA *P)
 {
@@ -42,7 +42,6 @@ void AddROrdenado(RLISTA *L, PESSOA *P)
 
     L->NEL++;
 }
-
 
 RNO_CHAVE *RAddCHAVE(RLISTA_CHAVES *L, char *key)
 {
@@ -77,7 +76,6 @@ RNO_CHAVE *RAddCHAVE(RLISTA_CHAVES *L, char *key)
     L->NEL++;
     return aux;
 }
-
 
 RHASHING *CriarRHashing()
 {
@@ -143,14 +141,17 @@ void ShowRHashing(RHASHING *H, int numToShow)
     qsort(array, numKeys, sizeof(RNO_CHAVE *), CompararChaves);
 
     int count = 0;
-    for(int i = 0; i < numKeys; i++)
+    for (int i = 0; i < numKeys; i++)
     {
         printf("Chave: %s\n", array[i]->KEY);
         ShowRLista(array[i]->DADOS);
         count++;
-        if ( count >= numToShow){
+        if (count >= numToShow)
+        {
             printf(".Pressione qualquer tecla para continuar...\n");
-            while (!_kbhit()) {} // Aguarda a pressão de uma tecla
+            while (!_kbhit())
+            {
+            } // Aguarda a pressão de uma tecla
             _getch(); // Limpa a tecla pressionada do buffer
             count = 0;
         }
@@ -172,3 +173,211 @@ RNO_CHAVE *FuncaoRHashing(RHASHING *H, char *key)
     }
     return NULL;
 }
+
+int mostCommonAge(RHASHING *H)
+{
+    if (H == NULL || H->RLChaves == NULL)
+        return -1;
+
+    int age_counts[170] = {0};
+    int max_age = 0;
+    int max_age_count = 0;
+
+    RNO_CHAVE *P = H->RLChaves->Inicio;
+    while (P)
+    {
+        if (P->DADOS == NULL)
+        {
+            P = P->Prox;
+            continue;
+        }
+
+        RNO *person_node = P->DADOS->Inicio;
+        while (person_node)
+        {
+            if (person_node->Info == NULL)
+            {
+                person_node = person_node->Prox;
+                continue;
+            }
+
+            int age = calculateAge(person_node->Info->DATA_NASCIMENTO);
+            printf("Age: %d\n", age);
+            if (age >= 0 && age < 170)
+            {
+                age_counts[age]++;
+                if (age_counts[age] > max_age_count)
+                {
+                    max_age = age;
+                    max_age_count = age_counts[age];
+                }
+            }
+            person_node = person_node->Prox;
+        }
+
+        P = P->Prox;
+    }
+    return max_age;
+}
+
+int countPeopleAboveAge(RHASHING *H, int age_limit)
+{
+    if (H == NULL || H->RLChaves == NULL)
+        return -1;
+
+    int count = 0;
+
+    RNO_CHAVE *P = H->RLChaves->Inicio;
+    while (P)
+    {
+        if (P->DADOS == NULL)
+        {
+            P = P->Prox;
+            continue;
+        }
+
+        RNO *person_node = P->DADOS->Inicio;
+        while (person_node)
+        {
+            if (person_node->Info == NULL)
+            {
+                person_node = person_node->Prox;
+                continue;
+            }
+
+            int age = calculateAge(person_node->Info->DATA_NASCIMENTO);
+            if (age > age_limit)
+            {
+                count++;
+            }
+            person_node = person_node->Prox;
+        }
+
+        P = P->Prox;
+    }
+    return count;
+}
+
+int maxAge(RHASHING *H)
+{
+    if (H == NULL || H->RLChaves == NULL)
+        return -1;
+
+    int max_age = 0;
+
+    RNO_CHAVE *P = H->RLChaves->Inicio;
+    while (P)
+    {
+        if (P->DADOS == NULL)
+        {
+            P = P->Prox;
+            continue;
+        }
+
+        RNO *person_node = P->DADOS->Inicio;
+        while (person_node)
+        {
+            if (person_node->Info == NULL)
+            {
+                person_node = person_node->Prox;
+                continue;
+            }
+
+            int age = calculateAge(person_node->Info->DATA_NASCIMENTO);
+
+            if (age > 500)
+            {
+                printf("prob na Age (%d) do utilizador [%d]\n", age, person_node->Info->ID);
+                system("pause");
+            }
+
+
+            if (age > max_age)
+            {
+                max_age = age;
+            }
+            person_node = person_node->Prox;
+        }
+
+        P = P->Prox;
+    }
+    return max_age;
+}
+
+double averageAge(RHASHING *H)
+{
+    if (H == NULL || H->RLChaves == NULL)
+        return -1;
+
+    int total_age = 0;
+    int total_people = 0;
+
+    RNO_CHAVE *P = H->RLChaves->Inicio;
+    while (P)
+    {
+        if (P->DADOS == NULL)
+        {
+            P = P->Prox;
+            continue;
+        }
+
+        RNO *person_node = P->DADOS->Inicio;
+        while (person_node)
+        {
+            if (person_node->Info == NULL)
+            {
+                person_node = person_node->Prox;
+                continue;
+            }
+
+            int age = calculateAge(person_node->Info->DATA_NASCIMENTO);
+            total_age += age;
+            total_people++;
+            person_node = person_node->Prox;
+        }
+
+        P = P->Prox;
+    }
+    return total_people == 0 ? -1 : (double)total_age / total_people;
+}
+
+
+PESSOA *ProcurarRequisitanteRHASHING(RHASHING *H, char *nome)
+{
+    if (!H)
+        return NULL;
+
+    RNO_CHAVE *currentKey = H->RLChaves->Inicio;
+    while (currentKey != NULL)
+    {
+        RNO *currentData = currentKey->DADOS->Inicio;
+        while (currentData != NULL)
+        {
+            if (strcasecmp(currentData->Info->NOME, nome) == 0)
+            {
+                // Requisitante encontrado
+                return currentData->Info;
+            }
+            currentData = currentData->Prox;
+        }
+        currentKey = currentKey->Prox;
+    }
+
+    // Requisitante não encontrado
+    return NULL;
+}
+
+void VerificarRequisitanteRHASHING(RHASHING *H, char *nome)
+{
+    PESSOA *requisitante = ProcurarRequisitanteRHASHING(H, nome);
+    if (requisitante != NULL)
+    {
+        printf("Requisitante encontrado: %s\n", requisitante->NOME);
+    }
+    else
+    {
+        printf("Requisitante nao encontrado\n");
+    }
+}
+
+

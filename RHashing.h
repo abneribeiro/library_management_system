@@ -33,6 +33,14 @@ void ShowRHashing(RHASHING *H, int numToShow);
 RNO_CHAVE *FuncaoRHashing(RHASHING *H, char *key);
 void AddROrdenado(RLISTA *L, PESSOA *P);
 int CompararChaves(const void *a, const void *b);
+int mostCommonAge(RHASHING *H);
+int countPeopleAboveAge(RHASHING *H, int age_limit);
+int maxAge(RHASHING *H);
+PESSOA *ProcurarRequisitanteRHASHING(RHASHING *H, char *nome);
+void VerificarRequisitanteRHASHING(RHASHING *H, char *nome);
+double averageAge(RHASHING *H);
+
+
 
 
 

@@ -191,7 +191,7 @@ void SaveLivros(BIBLIOTECA *B, char *filename)
         while (aux != NULL)
         {
             LIVRO *L = aux->Info;
-            fprintf(file, "%s;%s;%s;%s;%d\n", L->TITULO, L->AUTOR, L->AREA, L->ISBN, L->ANO);
+            fprintf(file, "%s\t%s\t%s\t%s\t%d\n", L->TITULO, L->AUTOR, L->AREA, L->ISBN, L->ANO);
             aux = aux->Prox;
         }
         atual = atual->Prox;

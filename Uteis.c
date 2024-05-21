@@ -4,6 +4,7 @@
 #include <math.h>
 #include <time.h>//necess�rio p/ fun��o time()
 #include <ctype.h>
+#include <string.h>
 
 
 int Aleatorio(int min, int max)
@@ -43,3 +44,22 @@ int is_blank(const char *str) {
     return 1; // true
 }
 
+
+
+int calculateAge(char *birth_date) {
+    // Extract the year from the birth_date string
+    char year[5];
+    strncpy(year, &birth_date[6], 4);
+    year[5] = '\0'; // Null terminate the string
+    // Convert the year string to an integer
+    int birth_year = atoi(year);
+
+    // Get the current year
+    time_t t = time(NULL);
+    struct tm *tm = localtime(&t);
+    int current_year = tm->tm_year + 1900;
+
+    // Calculate and return the age
+    int Age = current_year - birth_year;
+    return Age;
+}
