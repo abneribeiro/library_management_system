@@ -130,13 +130,23 @@ void ShowRHashing(RHASHING *H, int numToShow)
     if (!H || !H->RLChaves)
         return;
 
+    int numKeys = H->RLChaves->NEL;
+    RNO_CHAVE **array = (RNO_CHAVE **)malloc(numKeys * sizeof(RNO_CHAVE *));
     RNO_CHAVE *P = H->RLChaves->Inicio;
-    int count = 0;
-    while (P)
+
+    for (int i = 0; i < numKeys; i++)
     {
-        printf("Chave: %s\n", P->KEY);
-        ShowRLista(P->DADOS);
+        array[i] = P;
         P = P->Prox;
+    }
+
+    qsort(array, numKeys, sizeof(RNO_CHAVE *), CompararChaves);
+
+    int count = 0;
+    for(int i = 0; i < numKeys; i++)
+    {
+        printf("Chave: %s\n", array[i]->KEY);
+        ShowRLista(array[i]->DADOS);
         count++;
         if ( count >= numToShow){
             printf(".Pressione qualquer tecla para continuar...\n");
@@ -145,6 +155,7 @@ void ShowRHashing(RHASHING *H, int numToShow)
             count = 0;
         }
     }
+    free(array);
 }
 
 RNO_CHAVE *FuncaoRHashing(RHASHING *H, char *key)

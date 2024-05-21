@@ -63,6 +63,36 @@ PESSOA *CriarRequisitanteDaLinha(char *linha)
     return R;
 }
 
+int calculateAge(char *birth_date){
+    struct tm tm;
+    time_t curr_time;
+    double seconds;
+
+    strptime(birth_date, "%d-%m-%Y", &tm);
+    tm.tm_isdst = -1;
+    time(&curr_time);
+    seconds = difftime(curr_time, mktime(&tm));
+
+    return (int) (seconds / 60*60*24*365.25);
+}
+
+int ageWithMostRequisitantes(PESSOA** people, int num_people){
+    int* age_counts = (int*)calloc(150, sizeof(int));
+    int max_age = 0;
+    int max_age_count = 0;
+
+    for(int i = 0; i < num_people; i++){
+        int age = calculateAge(people[i]->DATA_NASCIMENTO);
+        age_counts[age]++;
+        if(age_counts[age] > max_age_count){
+            max_age = age;
+            max_age_count = age_counts[age];
+        }
+    }
+    free(age_counts);
+    return max_age;
+
+}
 
 void MostrarPessoa(PESSOA *P)
 {

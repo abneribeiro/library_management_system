@@ -146,7 +146,7 @@ void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P)
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
-    // criar um novo no para o livro
+
     RNO *aux = (RNO *)malloc(sizeof(RNO));
     aux->Info = P;
     aux->Prox = NULL;
@@ -170,9 +170,7 @@ void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P)
         B->HRequisitantes->RLChaves->NEL++;
     }
 
-    aux->Prox = atual->DADOS->Inicio;
-    atual->DADOS->Inicio = aux;
-    atual->DADOS->NEL++;
+    AddROrdenado(atual->DADOS, P);
 
     fclose(F_Logs);
 }
