@@ -9,6 +9,7 @@
 #include "Hashing.h"
 #include "RHashing.h"
 #include "Livro.h"
+//#include "Plista.h"
 
 
 typedef struct
@@ -18,8 +19,7 @@ typedef struct
 
     HASHING *HLivros;
     RHASHING *HRequisitantes;
-    
-    // LISTA_Requisicoes *LRequisicoes;
+    //PLISTA *LRequi; //comecar a trabalhar a partir daqui amanha e depois criar as funcoes para ler os dados das fraguesias, concelhos e distritos
 } BIBLIOTECA;
 
 BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs);
