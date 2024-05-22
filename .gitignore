@@ -1,4 +1,3 @@
 *.exe
 .vscode/
-*.md
 log.txt
