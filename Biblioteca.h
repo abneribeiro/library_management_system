@@ -9,7 +9,7 @@
 #include "Hashing.h"
 #include "RHashing.h"
 #include "Livro.h"
-//#include "Plista.h"
+#include "Plista.h"
 
 
 typedef struct
@@ -19,7 +19,7 @@ typedef struct
 
     HASHING *HLivros;
     RHASHING *HRequisitantes;
-    //PLISTA *LRequi; //comecar a trabalhar a partir daqui amanha e depois criar as funcoes para ler os dados das fraguesias, concelhos e distritos
+    PLISTA *LRequi; //comecar a trabalhar a partir daqui amanha e depois criar as funcoes para ler os dados das fraguesias, concelhos e distritos
 } BIBLIOTECA;
 
 BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs);
@@ -36,6 +36,8 @@ void VerificarEImprimirLivroPorISBN(BIBLIOTECA *B, char *isbn);
 LIVRO *FindMostRecentBook(BIBLIOTECA *B);
 char *AreaWithMostBooks(BIBLIOTECA *B);
 void LerRequisitantes(BIBLIOTECA *B, char *filename);
+PESSOA* FindRequesterByID(BIBLIOTECA *B, int id);
+void RequestBook(BIBLIOTECA *B, char *isbn, int requestId, int period);
 
 
 // int RemoverLivroBiblioteca(BIBLIOTECA *B, int isbn);

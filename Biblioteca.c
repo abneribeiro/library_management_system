@@ -4,6 +4,7 @@
 #include "Pessoa.h"
 #include "RLista.h"
 #include "RHashing.h"
+#include "Plista.h"
 
 /** \brief Aloca Memoria para uma Biblioteca
  *
@@ -23,14 +24,25 @@ BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs)
     strcpy(Bib->FICHEIRO_LOGS, _logs);
     Bib->HLivros = CriarHashing();
     Bib->HRequisitantes = CriarRHashing();
-    // Bib->LRequisitantes = CriarListaLIVROs();
+    Bib->LRequi = criarListaReq();
     return Bib;
 }
 
-
 void LerLivros(BIBLIOTECA *B, char *filename)
 {
+    if (B == NULL)
+    {
+        fprintf(stderr, "Biblioteca is NULL\n");
+        return;
+    }
+
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+
+    if (F_Logs == NULL)
+    {
+        fprintf(stderr, "Failed to open log file\n");
+        return;
+    }
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
@@ -56,8 +68,19 @@ void LerLivros(BIBLIOTECA *B, char *filename)
 
 void LerRequisitantes(BIBLIOTECA *B, char *filename)
 {
+    if (B == NULL)
+    {
+        fprintf(stderr, "Biblioteca is NULL\n");
+        return;
+    }
 
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    if (F_Logs == NULL)
+    {
+        fprintf(stderr, "Failed to open log file\n");
+        return;
+    }
+
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
@@ -146,7 +169,6 @@ void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P)
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
-
     RNO *aux = (RNO *)malloc(sizeof(RNO));
     aux->Info = P;
     aux->Prox = NULL;
@@ -219,6 +241,7 @@ LIVRO *VerificarLivroPorISBN(BIBLIOTECA *B, char *isbn)
     }
     return NULL;
 }
+
 void VerificarEImprimirLivroPorISBN(BIBLIOTECA *B, char *isbn)
 {
     LIVRO *L = VerificarLivroPorISBN(B, isbn);
@@ -282,13 +305,77 @@ char *AreaWithMostBooks(BIBLIOTECA *B)
     return maxArea;
 }
 
+
+PESSOA* FindRequesterByID(BIBLIOTECA *B, int id)
+{
+    // Iterate over all keys
+    RNO_CHAVE *atual = B->HRequisitantes->RLChaves->Inicio;
+    while (atual != NULL)
+    {
+        // Iterate over all persons in the current key
+        RNO *currentPerson = atual->DADOS->Inicio;
+        while (currentPerson != NULL)
+        {
+            if (currentPerson->Info->ID == id)
+            {
+                // Found the correct person
+                return currentPerson->Info;
+            }
+            currentPerson = currentPerson->Prox;
+        }
+        atual = atual->Prox;
+    }
+
+    // Requester not found
+    return NULL;
+}
+
+
+// DESElVOLVER AS FUNCOES ABAIXO
+void RequestBook(BIBLIOTECA *B, char *isbn, int requestId, int period)
+{
+    // Check if the book exists
+    LIVRO *book = VerificarLivroPorISBN(B, isbn);
+    if (book == NULL)
+    {
+        printf("Livro com ISBN %s não foi encontrado.\n", isbn);
+        return;
+    }
+
+    // Check if the requester exists
+    PESSOA *requester = FindRequesterByID(B, requestId);
+    if (requester == NULL)
+    {
+        printf("Requisitante com o ID %d não foi encontrado.\n", requestId);
+        return;
+    }
+
+    REQUISICAO *newRequest = CriarRequisicao(requestId, requester, book, period);
+
+    // Add the book to the requester's list of requested books
+    AddInicioReq(B->LRequi, newRequest);
+    printf("O livro com ISBN %s foi requisitado por %s.\n", isbn, requester->NOME);
+}
+
 void ShowBiblioteca(BIBLIOTECA *B)
 {
+    if (B == NULL)
+    {
+        fprintf(stderr, "Biblioteca is NULL\n");
+        return;
+    }
+
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    if (F_Logs == NULL)
+    {
+        fprintf(stderr, "Failed to open log file\n");
+        return;
+    }
+
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
     printf("NOME BIBLIOTECA = [%s]\n", B->NOME);
-    // Vosso Codigo.....
+
     ShowHashing(B->HLivros);
 
     fclose(F_Logs);
@@ -296,83 +383,37 @@ void ShowBiblioteca(BIBLIOTECA *B)
 
 void DestruirBiblioteca(BIBLIOTECA *B)
 {
+    if (B == NULL)
+    {
+        return;
+    }
+
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    if (F_Logs == NULL)
+    {
+        fprintf(stderr, "Failed to open log file\n");
+        return;
+    }
+
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
-    // Vosso Codigo.....
-    free(B->NOME);
-    DestruirHashing(B->HLivros);
-    DestruirRHashing(B->HRequisitantes);
-    
+    if (B->NOME != NULL)
+    {
+        free(B->NOME);
+    }
+
+    if (B->HLivros != NULL)
+    {
+        DestruirHashing(B->HLivros);
+    }
+
+    if (B->HRequisitantes != NULL)
+    {
+        DestruirRHashing(B->HRequisitantes);
+    }
+
     free(B);
 
     fclose(F_Logs);
 }
-
-// int RemoverLivroBiblioteca(BIBLIOTECA *B, int isbn)
-// {
-//     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
-//     time_t now = time(NULL) ;
-//     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-
-//     // Aqui o teu codigo
-
-//     fclose(F_Logs);
-//     return EXIT_SUCCESS;
-// }
-// LIVRO *LivroMaisRequisitadoBiblioteca(BIBLIOTECA *B)
-// {
-//     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
-//     time_t now = time(NULL) ;
-//     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-
-//     // Aqui o teu codigo
-
-//     fclose(F_Logs);
-//     return NULL;
-// }
-// char *ApelidoMaisComum(BIBLIOTECA *B)
-// {
-//     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
-//     time_t now = time(NULL) ;
-//     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-
-//     // Aqui o teu codigo
-
-//     fclose(F_Logs);
-//     return NULL;
-// }
-// char *AreaMaisComum(BIBLIOTECA *B)
-// {
-//     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
-//     time_t now = time(NULL) ;
-//     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-
-//     // Aqui o teu codigo
-
-//     fclose(F_Logs);
-//     return NULL;
-// }
-// int AddRequisitante(BIBLIOTECA *B, LIVRO *X)
-// {
-//     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
-//     time_t now = time(NULL) ;
-//     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-
-//     // Aqui o teu codigo
-
-//     fclose(F_Logs);
-//     return EXIT_SUCCESS;
-// }
-// LIVRO *PesquisarRequisitante(BIBLIOTECA *B, int cod)
-// {
-//     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
-//     time_t now = time(NULL) ;
-//     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-
-//     // Aqui o teu codigo
-
-//     fclose(F_Logs);
-//     return NULL;
-// }
