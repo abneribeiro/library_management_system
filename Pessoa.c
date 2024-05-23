@@ -53,6 +53,8 @@ PESSOA *CriarRequisitanteDaLinha(char *linha)
     if (!ValidarID(token))
     {
         fprintf(F_Logs, "Erro ao validar ID: %s\n", token);
+        printf("Erro ID: %s\n", token);
+
         free(R);
         return NULL;
     }
@@ -63,7 +65,7 @@ PESSOA *CriarRequisitanteDaLinha(char *linha)
     if (!ValidarNome(token))
     {
         fprintf(F_Logs, "Erro ao validar Nome: %s\n", token);
-        printf("Erro id nome: %s\n", token);
+        printf("Erro nome: %s\n", token);
         free(R);
         return NULL;
     }

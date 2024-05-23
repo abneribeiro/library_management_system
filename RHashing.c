@@ -1,8 +1,11 @@
+#include <string.h>
+#include <conio.h>
 #include "RHashing.h"
 #include "Pessoa.h"
 #include "RLista.h"
-#include <conio.h>
 #include "Uteis.h"
+
+
 
 RLISTA_CHAVES *CriarRListaCHAVES()
 {
@@ -378,6 +381,75 @@ void VerificarRequisitanteRHASHING(RHASHING *H, char *nome)
     {
         printf("Requisitante nao encontrado\n");
     }
+}
+
+
+
+char *MostUsedSurnameRHASHING(RHASHING *H)
+{
+    if (!H)
+        return NULL;
+
+    // Initialize the dictionary
+    struct dict {
+        char *key;
+        int value;
+    } dict[1000]; // Assuming there won't be more than 1000 unique surnames
+    int dictSize = 0;
+
+    RNO_CHAVE *currentKey = H->RLChaves->Inicio;
+    while (currentKey != NULL)
+    {
+        RNO *currentData = currentKey->DADOS->Inicio;
+        while (currentData != NULL)
+        {
+            // Split the full name into words
+            char *name = strdup(currentData->Info->NOME);
+            char *surname = NULL;
+            char *word = strtok(name, " ");
+            while (word != NULL)
+            {
+                surname = word;
+                word = strtok(NULL, " ");
+            }
+
+            // Increment the count of the surname or add it to the dictionary
+            int found = 0;
+            for (int i = 0; i < dictSize; i++)
+            {
+                if (strcmp(dict[i].key, surname) == 0)
+                {
+                    dict[i].value++;
+                    found = 1;
+                    break;
+                }
+            }
+            if (!found)
+            {
+                dict[dictSize].key = strdup(surname);
+                dict[dictSize].value = 1;
+                dictSize++;
+            }
+
+            free(name);
+            currentData = currentData->Prox;
+        }
+        currentKey = currentKey->Prox;
+    }
+
+    // Find the most used surname
+    char *mostUsedSurname = NULL;
+    int maxCount = 0;
+    for (int i = 0; i < dictSize; i++)
+    {
+        if (dict[i].value > maxCount)
+        {
+            mostUsedSurname = dict[i].key;
+            maxCount = dict[i].value;
+        }
+    }
+
+    return mostUsedSurname;
 }
 
 

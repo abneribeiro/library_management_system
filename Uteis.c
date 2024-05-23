@@ -5,7 +5,7 @@
 #include <time.h>//necess�rio p/ fun��o time()
 #include <ctype.h>
 #include <string.h>
-
+#include "RHashing.h"
 
 int Aleatorio(int min, int max)
 {
@@ -63,3 +63,22 @@ int calculateAge(char *birth_date) {
     int Age = current_year - birth_year;
     return Age;
 }
+
+// int GerarIDUnico(RHASHING *H) {
+//     int id, soma = 0, digitoControle;
+//     do {
+//         id = rand() % 100000000; // Gera 8 dígitos aleatórios
+//         soma = 0;
+//         int tempID = id;
+//         // Calcula a soma dos 8 dígitos
+//         while (tempID != 0) {
+//             soma += tempID % 10;
+//             tempID /= 10;
+//         }
+//         // Calcula o dígito de controle
+//         digitoControle = (10 - soma % 10) % 10;
+//         // Concatena o dígito de controle ao ID
+//         id = id * 10 + digitoControle;
+//     } while (FuncaoRHashing(H, id) != NULL); // Se o ID já existir, gera outro
+//     return id;
+// }

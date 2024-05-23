@@ -22,7 +22,6 @@ void manageBooksMenu(BIBLIOTECA *Bib)
     printf("\n | (5) Encontrar os livros mais recentes                       |");
     printf("\n | (6) Encontrar o livro mais requisitado                      |");
     printf("\n | (7) Determinar a area mais requisitada                      |");
-
     printf("\n | (0) SAIR                                                    |");
     printf("\n #-------------------------------------------------------------#");
 
@@ -69,6 +68,42 @@ void manageBooksMenu(BIBLIOTECA *Bib)
     }
 }
 
+void ListClients(BIBLIOTECA *Bib)
+{
+    int option;
+
+    printf("\n |--Listar todos os clientes (ordenados a escolha do utilizdor)---|\n");
+    printf("\n | (1) Por ordem alfabetica do nome                               |\n");
+    printf("\n | (2) Por ordem do campo ID Freguesia                            |\n");
+    printf("\n | (3) Por ordem alfabetica do apelido                            |\n");
+    printf("\n | (0) SAIR                                                       |\n");
+    printf("\n #----------------------------------------------------------------#");
+
+    printf("\n ");
+
+    do
+    {
+        printf("\nQual a sua opcao: ");
+
+        scanf(" %d", &option);
+    } while (option < 0 || option > 7);
+
+    switch (option)
+    {
+    case 1:
+        ShowRHashing(Bib->HRequisitantes, 40); // por ordem alfabetica do nome
+        break;
+    case 2:
+        ShowRHashing(Bib->HRequisitantes, 51); // por ordem do campo | id_freguesia
+        break;
+    case 3:
+        ShowRHashing(Bib->HRequisitantes, 62); // por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo)
+        break;
+    case 0:
+        break;
+    }
+}
+
 void manageRequisitantsMenu(BIBLIOTECA *Bib)
 {
     int option;
@@ -104,13 +139,13 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         break;
     case 2:
         printf("Digite o nome do requisitante: ");
-        char nome[100], ch;  
+        char nome[100], ch;
         CLEAR_BUFFER;
         fscanf(stdin, "%99[^\n]", nome);
         VerificarRequisitanteRHASHING(Bib->HRequisitantes, nome);
         break;
     case 3:
-        ShowRHashing(Bib->HRequisitantes, 100); // por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo)
+        ListClients(Bib);
         break;
     case 4:
         printf("Idade maxima dos requisitantes: %d", maxAge(Bib->HRequisitantes));
@@ -126,10 +161,10 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         break;
     case 7:
 
-        printf("A idade com mais requistantes é %d", mostCommonAge(Bib->HRequisitantes));
+        printf("A idade com mais requistantes eh %d", mostCommonAge(Bib->HRequisitantes));
         break;
     case 8:
-        // showRequisitions();
+        ShowListaReq(Bib->LRequi); // por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo
         break;
     case 9:
         // neverRequested();
@@ -138,7 +173,7 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         // requisitantsWithBooks();
         break;
     case 11:
-        // mostUsedSurname();
+        printf("O sobrenome mais comum dos requisitantes eh %s", MostUsedSurnameRHASHING(Bib->HRequisitantes));
         break;
     case 12:
         // countPeopleFromDistrict();  Distrito (ou Concelho)
@@ -149,17 +184,18 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
     }
 }
 
-void manageRequisitionsMenu()
+void manageRequisitionsMenu(BIBLIOTECA *Bib)
 {
     int option;
 
     printf("\n #----------------------------------------------------------------#");
-    printf("\n | (1) Listar requisitantes nascidos em Domingo                   |");
+    printf("\n | (1) Requisicao de um livro por parte de um requisitante        |");
+    printf("\n | (2) Listar requisitantes nascidos em Domingo                   |");
     printf("\n |     (ou cujo aniversario em um ano especifico eh um Domingo)   |");
-    printf("\n | (2) Devolver um livro requisitado anteriormente                |");
-    printf("\n | (3) Listar livros atualmente requisitados                      |");
+    printf("\n | (3) Devolver um livro requisitado anteriormente                |");
+    printf("\n | (4) Listar livros atualmente requisitados                      |");
     printf("\n |     (organizados por area)                                     |");
-    printf("\n | (4) Salvar informacoes dos requisitantes                       |");
+    printf("\n | (5) Salvar informacoes dos requisitantes                       |");
     printf("\n | (0) SAIR                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
@@ -172,7 +208,20 @@ void manageRequisitionsMenu()
     switch (option)
     {
     case 1:
-        // bornOnSunday();
+
+        int Id;
+        char isbn[15], ch;
+        printf("Digite o ID do requisitante: ");
+        CLEAR_BUFFER;
+        scanf("%d", &Id);
+        printf("Digite o ISBN do livro: ");
+        CLEAR_BUFFER;
+        fscanf(stdin, "%14[^\n]", isbn);
+        printf("Digite o periodo de requisicao em dias: ");
+        int period;
+        scanf("%d", &period);
+        RequestBook(Bib, isbn, Id, period);
+
         break;
     case 2:
         // returnBook();
@@ -182,6 +231,11 @@ void manageRequisitionsMenu()
         break;
     case 4:
         // saveRequisitions();
+        break;
+    case 5:
+        // saveRequisitions();
+        break;
+    case 0:
         break;
     }
 }
@@ -212,8 +266,6 @@ int main()
     BIBLIOTECA *Bib;
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
     LoadFicheiroBiblioteca(Bib);
-    // ShowHashing(Bib->HLivros);
-    // ShowRHashing(Bib->HRequisitantes);
 
     do
     {
@@ -228,7 +280,7 @@ int main()
             manageRequisitantsMenu(Bib);
             break;
         case 3:
-            manageRequisitionsMenu();
+            manageRequisitionsMenu(Bib);
 
             break;
         case 0: // sair

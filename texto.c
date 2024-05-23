@@ -5,22 +5,33 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Validação do ID
+
+
 bool ValidarID(char *id)
 {
     size_t len = strlen(id);
-    
+    int sum = 0;
+
     if (len != 9)
     {
         return false;
     }
+
     for (int i = 0; i < len; i++)
     {
         if (id[i] < '0' || id[i] > '9')
         {
             return false;
         }
+        sum += id[i] - '0'; // convert char to int and add to sum
     }
+
+    // Check if sum is a multiple of 10
+    if (sum % 10 != 0)
+    {
+        return false;
+    }
+
     return true;
 }
 

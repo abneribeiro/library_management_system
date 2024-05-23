@@ -20,7 +20,7 @@ PLISTA *criarListaReq();
 void AddInicioReq(PLISTA *L, REQUISICAO *X);
 void ShowListaReq(PLISTA *L);
 void DestruirListaReq(PLISTA *L);
-
 REQUISICAO *PesquisarListaReq(PLISTA *L, int _id);
+
 
 #endif

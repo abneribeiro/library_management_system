@@ -1,14 +1,3 @@
- **REGRAS:**
- - Declaração de funções(quando tem + de 1 palavra, 1ª palavra tudo minusculo e as seguintes com letra maiuscula, ex: funcaoCriarLista(););
- - Declaração de Variáveis(nome da var tudo minusculo e palavras separadas por underscore "_", ex: int contador_de_pessoas;);
- - Usar ponteiros sempre que possível(*)(se houver alguma dúvida coloquem no discord que alguém á de ajudar ou ent questionem um professor), quando ñ for possivel usar arrays([])
- - Funções e Listas Genéricas(usar sempre funções genéricas);
- - Listas Bidirecionas(usarmos listas bidirecionais para termos um código mais fácil de ser manuseado))
- - USAR **myMALLOC(...)** invés de malloc(...)(para ver função ir a useful.h)
-
-(estas regras foram criadas para obtermos os melhores resultados no final da avaliação)
-----
-
 **GOALS**
 
 - [X] Criar Menu
@@ -35,7 +24,7 @@
     - [ ] Mostrar as requisições de um dado requisitante
     - [ ] Devolver uma lista das pessoas que nunca requisitaram nada
     - [X] Listar os requisitantes que no momento têm livros requisitados
-    - [ ] Determinar qual o sobrenome mais usado pelos requisitantes;
+    - [X] Determinar qual o sobrenome mais usado pelos requisitantes;
     - [ ] **Listar requisitantes que nasceram num Domingo (ou cujo aniversário num determinado ano é ao Domingo);**
     - [ ] **Listar requisitantes cujo aniversário, num determinado ano, é na quaresma (entre o Carnaval e a Páscoa), (ou que nasceram na quaresma).**
 - [ ] **Gerir Requesições de Livros**
@@ -52,9 +41,10 @@ Dúvidas:
 
 Executar o projecto
 ```bash
-    gcc main.c Lista.c RLista.c Pessoa.c Hashing.c RHashing.c Biblioteca.c texto.c Uteis.c Livro.c -o main
+    gcc main.c Lista.c RLista.c Pessoa.c Hashing.c RHashing.c Biblioteca.c texto.c Uteis.c Requisicao.c Livro.c Plista.c -o main
 ```
 
 
 
 
+### Ver memoria alocada..

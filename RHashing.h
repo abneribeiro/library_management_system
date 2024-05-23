@@ -38,6 +38,7 @@ int countPeopleAboveAge(RHASHING *H, int age_limit);
 int maxAge(RHASHING *H);
 PESSOA *ProcurarRequisitanteRHASHING(RHASHING *H, char *nome);
 void VerificarRequisitanteRHASHING(RHASHING *H, char *nome);
+char *MostUsedSurnameRHASHING(RHASHING *H);
 double averageAge(RHASHING *H);
 
 

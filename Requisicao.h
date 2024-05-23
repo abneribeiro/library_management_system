@@ -16,9 +16,11 @@ typedef struct
     PESSOA *Ptr_Req;
     LIVRO *Ptr_Livro;
     struct tm Data_Requisicao;
+    struct tm Data_Devolucao;
+    struct tm Data_Vencimento;
 }REQUISICAO;
 
-REQUISICAO *CriarRequisicao(int _id, PESSOA *P, LIVRO *L);
+REQUISICAO *CriarRequisicao(int requestId, PESSOA *requester, LIVRO *book, int requestPeriod);
 void MostrarRequisicao(REQUISICAO *P);
 void DestruirRequisicao(REQUISICAO *P);
 
