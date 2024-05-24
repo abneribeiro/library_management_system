@@ -13,7 +13,6 @@ REQUISICAO *CriarRequisicao(int requestId, PESSOA *requester, LIVRO *book, int r
     return newRequest;
 }
 
-
 void MostrarRequisicao(REQUISICAO *R)
 {
     char data_vencimento[20];
@@ -31,7 +30,7 @@ void MostrarRequisicao(REQUISICAO *R)
 
 void DestruirRequisicao(REQUISICAO *R)
 {
-    // free (R->Ptr_Livro); //OH P� se tirares o comentario vais ter problemas!!!!
-    // free (R->Ptr_Req); //OH P� se tirares o comentario vais ter problemas!!!!
+    free(R->Ptr_Livro);
+    free(R->Ptr_Req);
     free(R);
 }

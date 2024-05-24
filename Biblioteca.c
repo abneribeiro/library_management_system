@@ -5,6 +5,8 @@
 #include "RLista.h"
 #include "RHashing.h"
 #include "Plista.h"
+#include "hash_requisicoes.h"
+#include "Requisicao.h"
 
 /** \brief Aloca Memoria para uma Biblioteca
  *
@@ -24,7 +26,7 @@ BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs)
     strcpy(Bib->FICHEIRO_LOGS, _logs);
     Bib->HLivros = CriarHashing();
     Bib->HRequisitantes = CriarRHashing();
-    Bib->LRequi = criarListaReq();
+    Bib->LRequi = CriarPHashing();
     return Bib;
 }
 
@@ -305,8 +307,7 @@ char *AreaWithMostBooks(BIBLIOTECA *B)
     return maxArea;
 }
 
-
-PESSOA* FindRequesterByID(BIBLIOTECA *B, int id)
+PESSOA *FindRequesterByID(BIBLIOTECA *B, int id)
 {
     // Iterate over all keys
     RNO_CHAVE *atual = B->HRequisitantes->RLChaves->Inicio;
@@ -330,9 +331,8 @@ PESSOA* FindRequesterByID(BIBLIOTECA *B, int id)
     return NULL;
 }
 
-
 // DESElVOLVER AS FUNCOES ABAIXO
-void RequestBook(BIBLIOTECA *B, char *isbn, int requestId, int period)
+void RequestBook(BIBLIOTECA *B, PHASHING *H, char *isbn, int requestId, int period)
 {
     // Check if the book exists
     LIVRO *book = VerificarLivroPorISBN(B, isbn);
@@ -353,8 +353,8 @@ void RequestBook(BIBLIOTECA *B, char *isbn, int requestId, int period)
     REQUISICAO *newRequest = CriarRequisicao(requestId, requester, book, period);
 
     // Add the book to the requester's list of requested books
-    AddInicioReq(B->LRequi, newRequest);
-    printf("O livro com ISBN %s foi requisitado por %s.\n", isbn, requester->NOME);
+    AddPHashing(H, newRequest);
+    printf("O livro com ISBN %s foi .\n", isbn);
 }
 
 void ShowBiblioteca(BIBLIOTECA *B)
@@ -416,4 +416,121 @@ void DestruirBiblioteca(BIBLIOTECA *B)
     free(B);
 
     fclose(F_Logs);
+}
+
+//--------------------------------------------------------
+
+// Function to calculate memory used by a book
+size_t MemoryUsageLivro(LIVRO *L)
+{
+    if (L == NULL)
+        return 0;
+    return sizeof(LIVRO) + strlen(L->TITULO) + 1 + strlen(L->AUTOR) + 1 + strlen(L->AREA) + 1 + strlen(L->ISBN) + 1;
+}
+
+// Function to calculate memory used by a requester
+size_t MemoryUsagePessoa(PESSOA *P)
+{
+    if (P == NULL)
+        return 0;
+    return sizeof(PESSOA) + strlen(P->NOME) + 1;
+}
+
+// Function to calculate memory used by a book list node
+size_t MemoryUsageNoLivro(NO *node)
+{
+    if (node == NULL)
+        return 0;
+    return sizeof(NO) + MemoryUsageLivro(node->Info);
+}
+
+// Function to calculate memory used by a requester list node
+size_t MemoryUsageNoPessoa(RNO *node)
+{
+    if (node == NULL)
+        return 0;
+    return sizeof(RNO) + MemoryUsagePessoa(node->Info);
+}
+
+// Function to calculate memory used by a book hash table node
+size_t MemoryUsageNoChaveLivro(NO_CHAVE *node)
+{
+    if (node == NULL)
+        return 0;
+    size_t size = sizeof(NO_CHAVE) + strlen(node->KEY) + 1;
+    NO *current = node->DADOS->Inicio;
+    while (current != NULL)
+    {
+        size += MemoryUsageNoLivro(current);
+        current = current->Prox;
+    }
+    return size;
+}
+
+// Function to calculate memory used by a requester hash table node
+size_t MemoryUsageNoChavePessoa(RNO_CHAVE *node)
+{
+    if (node == NULL)
+        return 0;
+    size_t size = sizeof(RNO_CHAVE) + strlen(node->KEY) + 1;
+    RNO *current = node->DADOS->Inicio;
+    while (current != NULL)
+    {
+        size += MemoryUsageNoPessoa(current);
+        current = current->Prox;
+    }
+    return size;
+}
+
+// Function to calculate memory used by the entire book hash table
+size_t MemoryUsageHashing(HASHING *H)
+{
+    if (H == NULL)
+        return 0;
+    size_t size = sizeof(HASHING);
+    NO_CHAVE *current = H->LChaves->Inicio;
+    while (current != NULL)
+    {
+        size += MemoryUsageNoChaveLivro(current);
+        current = current->Prox;
+    }
+    return size;
+}
+
+// Function to calculate memory used by the entire requester hash table
+size_t MemoryUsageRHashing(RHASHING *H)
+{
+    if (H == NULL)
+        return 0;
+    size_t size = sizeof(RHASHING);
+    RNO_CHAVE *current = H->RLChaves->Inicio;
+    while (current != NULL)
+    {
+        size += MemoryUsageNoChavePessoa(current);
+        current = current->Prox;
+    }
+    return size;
+}
+
+// Function to calculate memory used by the entire requests hash table
+size_t MemoryUsagePHashing(PHASHING *H)
+{
+    if (H == NULL)
+        return 0;
+    size_t size = sizeof(PHASHING);
+    // Add the size of individual request elements and any additional structures here
+    return size;
+}
+
+// Function to calculate the total memory used by the biblioteca
+size_t MemoryUsageBiblioteca(BIBLIOTECA *B)
+{
+    if (B == NULL)
+        return 0;
+    size_t size = sizeof(BIBLIOTECA);
+    size += strlen(B->NOME) + 1;
+    size += MemoryUsageHashing(B->HLivros);
+    size += MemoryUsageRHashing(B->HRequisitantes);
+    size += MemoryUsagePHashing(B->LRequi);
+    return size;
 }

@@ -5,6 +5,7 @@
 #include "Hashing.h"
 #include "Livro.h"
 #include "RHashing.h"
+#include "hash_requisicoes.h"
 #include "Pessoa.h"
 #include "RLista.h"
 #include "Biblioteca.h"
@@ -12,6 +13,7 @@
 
 void manageBooksMenu(BIBLIOTECA *Bib)
 {
+    char input[10];
     int option;
 
     printf("\n #-------------------------------------------------------------#");
@@ -30,9 +32,10 @@ void manageBooksMenu(BIBLIOTECA *Bib)
     do
     {
         printf("\nQual a sua opcao: ");
+        fgets(input, 10, stdin);
+        option = atoi(input);
 
-        scanf(" %d", &option);
-    } while (option < 0 || option > 7); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
+    } while ((option < 0 || option > 7) || (option == 0 && input[0] != '0'));
 
     switch (option)
     {
@@ -71,6 +74,7 @@ void manageBooksMenu(BIBLIOTECA *Bib)
 void ListClients(BIBLIOTECA *Bib)
 {
     int option;
+    char input[10];
 
     printf("\n |--Listar todos os clientes (ordenados a escolha do utilizdor)---|\n");
     printf("\n | (1) Por ordem alfabetica do nome                               |\n");
@@ -84,9 +88,10 @@ void ListClients(BIBLIOTECA *Bib)
     do
     {
         printf("\nQual a sua opcao: ");
+        fgets(input, 10, stdin);
+        option = atoi(input);
 
-        scanf(" %d", &option);
-    } while (option < 0 || option > 7);
+    } while ((option < 0 || option > 3) || (option == 0 && input[0] != '0'));
 
     switch (option)
     {
@@ -107,6 +112,7 @@ void ListClients(BIBLIOTECA *Bib)
 void manageRequisitantsMenu(BIBLIOTECA *Bib)
 {
     int option;
+    char input[10];
 
     printf("\n | ---------------------REQUISICOES-------------------------------|");
     printf("\n | (1) Incluir novos requisitantes                                |");
@@ -128,8 +134,10 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
     do
     {
         printf("\nQual a sua opcao: ");
-        scanf(" %d", &option);
-    } while (option < 0 || option > 13); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
+        fgets(input, 10, stdin);
+        option = atoi(input);
+
+    } while ((option < 0 || option > 13) || (option == 0 && input[0] != '0'));
 
     switch (option)
     {
@@ -164,13 +172,13 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         printf("A idade com mais requistantes eh %d", mostCommonAge(Bib->HRequisitantes));
         break;
     case 8:
-        ShowListaReq(Bib->LRequi); // por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo
+        // ShowListaReq(Bib->LRequi); // por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo
         break;
     case 9:
         // neverRequested();
         break;
     case 10:
-        // requisitantsWithBooks();
+        ShowPHashing(Bib->LRequi);
         break;
     case 11:
         printf("O sobrenome mais comum dos requisitantes eh %s", MostUsedSurnameRHASHING(Bib->HRequisitantes));
@@ -187,6 +195,7 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
 void manageRequisitionsMenu(BIBLIOTECA *Bib)
 {
     int option;
+    char input[10];
 
     printf("\n #----------------------------------------------------------------#");
     printf("\n | (1) Requisicao de um livro por parte de um requisitante        |");
@@ -202,8 +211,10 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
     do
     {
         printf("\nQual a sua opcao: ");
-        scanf(" %d", &option);
-    } while (option < 0 || option > 4); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
+        fgets(input, 10, stdin);
+        option = atoi(input);
+
+    } while ((option < 0 || option > 5) || (option == 0 && input[0] != '0'));
 
     switch (option)
     {
@@ -211,17 +222,19 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
 
         int Id;
         char isbn[15], ch;
+        CLEAR_BUFFER;
         printf("Digite o ID do requisitante: ");
-        CLEAR_BUFFER;
         scanf("%d", &Id);
-        printf("Digite o ISBN do livro: ");
         CLEAR_BUFFER;
+        printf("Digite o ISBN do livro: ");
+
         fscanf(stdin, "%14[^\n]", isbn);
+        CLEAR_BUFFER;
         printf("Digite o periodo de requisicao em dias: ");
+
         int period;
         scanf("%d", &period);
-        RequestBook(Bib, isbn, Id, period);
-
+        RequestBook(Bib, Bib->LRequi, isbn, Id, period);
         break;
     case 2:
         // returnBook();
@@ -242,20 +255,24 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
 
 int menu()
 {
-
+    char input[10];
     int option;
     printf("\n #----------------------------------------------------------------#");
     printf("\n | (1) Gerir os livros                                            |");
     printf("\n | (2) Gerir a lista de requisitantes                             |");
     printf("\n | (3) Gerir as requisicoes de livros                             |");
+    printf("\n | (4) Salvar dados em XML (nome fornecido pelo usuario)          |");
+    printf("\n | (5) Memoria das Estruturas de Dados                            |");
     printf("\n | (0) SAIR                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
     do
     {
         printf("\nQual a sua opcao: ");
-        scanf(" %d", &option);
-    } while (option < 0 || option > 3); // alterar de modo a permitir que seja inserido caracter e n�o terminar a execucao!!
+        fgets(input, 10, stdin);
+        option = atoi(input);
+
+    } while ((option < 0 || option > 5) || (option == 0 && input[0] != '0'));
     return option;
 }
 
@@ -283,6 +300,13 @@ int main()
             manageRequisitionsMenu(Bib);
 
             break;
+        case 4:
+        // saveData();
+        case 5:
+            size_t totalMemory = MemoryUsageBiblioteca(Bib);
+            printf("Total memory used by the biblioteca: %zu bytes\n", totalMemory);
+            break;
+
         case 0: // sair
             // Salvar dados antes de terminar o programa
             printf("\n\n ***** Salvando os dados *****\n");
