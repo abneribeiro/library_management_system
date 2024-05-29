@@ -10,7 +10,7 @@
 #include "RHashing.h"
 #include "Livro.h"
 #include "Plista.h"
-#include "hash_requisicoes.h"
+#include "hashrequisicoes.h"
 
 typedef struct
 {
@@ -19,7 +19,7 @@ typedef struct
 
     HASHING *HLivros;
     RHASHING *HRequisitantes;
-    PHASHING *LRequi; // comecar a trabalhar a partir daqui amanha e depois criar as funcoes para ler os dados das fraguesias, concelhos e distritos
+    PHASHING *LRequi;
 } BIBLIOTECA;
 
 BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs);
@@ -37,7 +37,7 @@ LIVRO *FindMostRecentBook(BIBLIOTECA *B);
 char *AreaWithMostBooks(BIBLIOTECA *B);
 void LerRequisitantes(BIBLIOTECA *B, char *filename);
 PESSOA *FindRequesterByID(BIBLIOTECA *B, int id);
-void RequestBook(BIBLIOTECA *B, PHASHING *H, char *isbn, int requestId, int period);
+void RequestBook(BIBLIOTECA *B, char *isbn, int requestId);
 
 
 

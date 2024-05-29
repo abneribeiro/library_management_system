@@ -1,6 +1,8 @@
 #include "Requisicao.h"
+#define REQUEST_PERIOD 10 // Define the request period as a constant
 
-REQUISICAO *CriarRequisicao(int requestId, PESSOA *requester, LIVRO *book, int requestPeriod)
+
+REQUISICAO *CriarRequisicao(int requestId, PESSOA *requester, LIVRO *book)
 {
     REQUISICAO *newRequest = (REQUISICAO *)malloc(sizeof(REQUISICAO));
     newRequest->ID = requestId;
@@ -9,7 +11,7 @@ REQUISICAO *CriarRequisicao(int requestId, PESSOA *requester, LIVRO *book, int r
     time_t t = time(NULL);
     newRequest->Data_Requisicao = *localtime(&t);
     newRequest->Data_Vencimento = *localtime(&t);
-    newRequest->Data_Vencimento.tm_mday += requestPeriod; // Add the request period to the current date
+    newRequest->Data_Vencimento.tm_mday += REQUEST_PERIOD; // Add the request period to the current date
     return newRequest;
 }
 

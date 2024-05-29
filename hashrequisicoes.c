@@ -1,4 +1,4 @@
-#include "hash_requisicoes.h"
+#include "hashrequisicoes.h"
 #include "Plista.h"
 #include "Requisicao.h"
 
@@ -30,21 +30,6 @@ PNO_CHAVE *AddPCHAVE(PLISTA_CHAVES *L, char *key){
         L->Inicio = aux;
         L->NEL++;
         return aux;
-}
-
-PNO_CHAVE *  nnFuncaoPHashing(PHASHING *H, REQUISICAO *R){
-    if (!H || !H->PLChaves)
-        return NULL;
-
-    PNO_CHAVE *P = H->PLChaves->Inicio;
-    while (P)
-    {
-        if (stricmp(P->KEY, R->Ptr_Livro->AREA) == 0)
-            return P;
-        P = P->Prox;
-    }
-    return NULL;
-
 }
 
 PNO_CHAVE *FuncaoPHashing(PHASHING *H, REQUISICAO *R){

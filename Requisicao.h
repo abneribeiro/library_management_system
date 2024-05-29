@@ -20,7 +20,7 @@ typedef struct
     struct tm Data_Vencimento;
 }REQUISICAO;
 
-REQUISICAO *CriarRequisicao(int requestId, PESSOA *requester, LIVRO *book, int requestPeriod);
+REQUISICAO *CriarRequisicao(int requestId, PESSOA *requester, LIVRO *book);
 void MostrarRequisicao(REQUISICAO *P);
 void DestruirRequisicao(REQUISICAO *P);
 

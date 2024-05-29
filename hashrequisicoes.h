@@ -1,5 +1,5 @@
-#ifndef HASH_REQUISICOES_H_INCLUDED
-#define HASH_REQUISICOES_H_INCLUDED
+#ifndef HASHREQUISICOES_H_INCLUDED
+#define HASHREQUISICOES_H_INCLUDED
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -35,6 +35,7 @@ void DestruirPHashing(PHASHING *H);
 
 PLISTA_CHAVES *CriarPListaCHAVES();
 PNO_CHAVE *AddPCHAVE(PLISTA_CHAVES *L, char *key);
+
 
 
 #endif // PHASHING_H_INCLUDED

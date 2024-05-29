@@ -5,7 +5,7 @@
 #include "Hashing.h"
 #include "Livro.h"
 #include "RHashing.h"
-#include "hash_requisicoes.h"
+#include "hashrequisicoes.h"
 #include "Pessoa.h"
 #include "RLista.h"
 #include "Biblioteca.h"
@@ -230,11 +230,7 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
 
         fscanf(stdin, "%14[^\n]", isbn);
         CLEAR_BUFFER;
-        printf("Digite o periodo de requisicao em dias: ");
-
-        int period;
-        scanf("%d", &period);
-        RequestBook(Bib, Bib->LRequi, isbn, Id, period);
+        RequestBook(Bib, isbn, Id);
         break;
     case 2:
         // returnBook();
@@ -243,7 +239,7 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
         // listRequisitions();
         break;
     case 4:
-        // saveRequisitions();
+        ShowPHashing(Bib->LRequi);
         break;
     case 5:
         // saveRequisitions();

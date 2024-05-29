@@ -5,7 +5,7 @@
 #include "RLista.h"
 #include "RHashing.h"
 #include "Plista.h"
-#include "hash_requisicoes.h"
+#include "hashrequisicoes.h"
 #include "Requisicao.h"
 
 /** \brief Aloca Memoria para uma Biblioteca
@@ -332,17 +332,17 @@ PESSOA *FindRequesterByID(BIBLIOTECA *B, int id)
 }
 
 // DESElVOLVER AS FUNCOES ABAIXO
-void RequestBook(BIBLIOTECA *B, PHASHING *H, char *isbn, int requestId, int period)
+void RequestBook(BIBLIOTECA *B, char *isbn, int requestId)
 {
     // Check if the book exists
-    LIVRO *book = VerificarLivroPorISBN(B, isbn);
+     LIVRO *book = VerificarLivroPorISBN(B, isbn);
     if (book == NULL)
     {
-        printf("Livro com ISBN %s não foi encontrado.\n", isbn);
+        printf("Livro com ISBN %s não encontrado.\n", isbn);
         return;
     }
 
-    // Check if the requester exists
+    // // Check if the requester exists
     PESSOA *requester = FindRequesterByID(B, requestId);
     if (requester == NULL)
     {
@@ -350,11 +350,11 @@ void RequestBook(BIBLIOTECA *B, PHASHING *H, char *isbn, int requestId, int peri
         return;
     }
 
-    REQUISICAO *newRequest = CriarRequisicao(requestId, requester, book, period);
+    REQUISICAO *newRequest = CriarRequisicao(requestId, requester, book);
 
     // Add the book to the requester's list of requested books
-    AddPHashing(H, newRequest);
-    printf("O livro com ISBN %s foi .\n", isbn);
+    AddPHashing(B->LRequi, newRequest);
+    printf("Livro %s foi requisitado com sucesso.\n", book->TITULO);
 }
 
 void ShowBiblioteca(BIBLIOTECA *B)
@@ -380,6 +380,7 @@ void ShowBiblioteca(BIBLIOTECA *B)
 
     fclose(F_Logs);
 }
+
 
 void DestruirBiblioteca(BIBLIOTECA *B)
 {

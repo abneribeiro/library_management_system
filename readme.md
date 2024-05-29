@@ -41,7 +41,7 @@ Dúvidas:
 
 Executar o projecto
 ```bash
-    gcc main.c Lista.c RLista.c Pessoa.c Hashing.c RHashing.c Biblioteca.c texto.c Uteis.c Requisicao.c Livro.c Plista.c hash_requisicoes.c -o main
+    gcc main.c Lista.c RLista.c Pessoa.c Hashing.c RHashing.c Biblioteca.c texto.c Uteis.c Requisicao.c Livro.c Plista.c hashrequisicoes.c -o main
 ```
 
 
