@@ -16,7 +16,6 @@ typedef struct
     PESSOA *Ptr_Req;
     LIVRO *Ptr_Livro;
     struct tm Data_Requisicao;
-    struct tm Data_Devolucao;
     struct tm Data_Vencimento;
 }REQUISICAO;
 

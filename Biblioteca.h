@@ -28,6 +28,7 @@ void DestruirBiblioteca(BIBLIOTECA *B);
 int LoadFicheiroBiblioteca(BIBLIOTECA *B);
 void AddLivroBiblioteca(BIBLIOTECA *B, LIVRO *L);
 void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P);
+REQUISICAO *CriarRequisicaoDaLinha(char *linha, BIBLIOTECA *B);
 void LerLivros(BIBLIOTECA *B, char *filename);
 void SaveLivros(BIBLIOTECA *B, char *filename);
 void SaveFicheiroBiblioteca(BIBLIOTECA *B);
@@ -38,7 +39,13 @@ char *AreaWithMostBooks(BIBLIOTECA *B);
 void LerRequisitantes(BIBLIOTECA *B, char *filename);
 PESSOA *FindRequesterByID(BIBLIOTECA *B, int id);
 void RequestBook(BIBLIOTECA *B, char *isbn, int requestId);
-
+void AddRequisicacoBiblioteca(BIBLIOTECA *B, REQUISICAO *R);
+void LerRequisicoes(BIBLIOTECA *B, char *filename);
+void SaveRequisicoes(BIBLIOTECA *B, char *filename);
+void MostrarPessoasSemRequisicoes(BIBLIOTECA *B);
+void MostrarRequisicoesRequisitante(BIBLIOTECA *B, char *nome);
+LIVRO *LivroMaisRequisitado(BIBLIOTECA *B);
+char *AreaMaisRequisitada(BIBLIOTECA *B);
 
 
 

@@ -31,6 +31,7 @@ PNO_CHAVE *AddPCHAVE(PLISTA_CHAVES *L, char *key);
 PNO_CHAVE *FuncaoPHashing(PHASHING *H, REQUISICAO *R);
 void AddPHashing(PHASHING *H, REQUISICAO *R);
 void ShowPHashing(PHASHING *H);
+void ListarRequisitantesComLivros(PHASHING *H);
 void DestruirPHashing(PHASHING *H);
 
 PLISTA_CHAVES *CriarPListaCHAVES();

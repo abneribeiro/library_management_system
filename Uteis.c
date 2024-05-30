@@ -7,6 +7,7 @@
 #include <string.h>
 #include "RHashing.h"
 
+
 int Aleatorio(int min, int max)
 {
     return min + rand() % (max - min + 1);
@@ -64,21 +65,29 @@ int calculateAge(char *birth_date) {
     return Age;
 }
 
-// int GerarIDUnico(RHASHING *H) {
-//     int id, soma = 0, digitoControle;
-//     do {
-//         id = rand() % 100000000; // Gera 8 dígitos aleatórios
-//         soma = 0;
-//         int tempID = id;
-//         // Calcula a soma dos 8 dígitos
-//         while (tempID != 0) {
-//             soma += tempID % 10;
-//             tempID /= 10;
-//         }
-//         // Calcula o dígito de controle
-//         digitoControle = (10 - soma % 10) % 10;
-//         // Concatena o dígito de controle ao ID
-//         id = id * 10 + digitoControle;
-//     } while (FuncaoRHashing(H, id) != NULL); // Se o ID já existir, gera outro
-//     return id;
-// }
+
+
+struct tm calcularPascoa(int ano) {
+    int a = ano % 19;
+    int b = ano / 100;
+    int c = ano % 100;
+    int d = b / 4;
+    int e = b % 4;
+    int f = (b + 8) / 25;
+    int g = (b - f + 1) / 3;
+    int h = (19 * a + b - d - g + 15) % 30;
+    int i = c / 4;
+    int k = c % 4;
+    int l = (32 + 2 * e + 2 * i - h - k) % 7;
+    int m = (a + 11 * h + 22 * l) / 451;
+    int mes = (h + l - 7 * m + 114) / 31;
+    int dia = ((h + l - 7 * m + 114) % 31) + 1;
+
+    struct tm pascoa = {0};
+    pascoa.tm_year = ano - 1900;
+    pascoa.tm_mon = mes - 1;
+    pascoa.tm_mday = dia;
+    pascoa.tm_isdst = -1;
+
+    return pascoa;
+}

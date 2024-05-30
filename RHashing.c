@@ -1,9 +1,11 @@
+#include <time.h>
 #include <string.h>
 #include <conio.h>
 #include "RHashing.h"
 #include "Pessoa.h"
 #include "RLista.h"
 #include "Uteis.h"
+
 
 
 
@@ -160,6 +162,88 @@ void ShowRHashing(RHASHING *H, int numToShow)
         }
     }
     free(array);
+}
+
+void ListarPessoasNascidasDomingo(RHASHING *H)
+{
+    if (!H || !H->RLChaves)
+        return;
+
+    int numKeys = H->RLChaves->NEL;
+    RNO_CHAVE *P = H->RLChaves->Inicio;
+
+    for (int i = 0; i < numKeys; i++)
+    {
+        if (!P || !P->DADOS)
+            continue;
+
+        RLISTA *lista = P->DADOS;
+        RNO *Pessoa = lista->Inicio;
+        while (Pessoa != NULL)
+        {
+            if (!Pessoa->Info || !Pessoa->Info->DATA_NASCIMENTO)
+                continue;
+
+            int day, month, year;
+            sscanf(Pessoa->Info->DATA_NASCIMENTO, "%d-%d-%d", &day, &month, &year);
+            struct tm birthdate = {0};
+            birthdate.tm_year = year - 1900; // Years since 1900
+            birthdate.tm_mon = month - 1; // Months since January - [0,11]
+            birthdate.tm_mday = day; // Day of the month - [1,31]
+            birthdate.tm_isdst = -1; // Daylight saving time information is not available
+            time_t rawtime = mktime(&birthdate); // Normalize tm struct
+            struct tm *timeinfo = localtime(&rawtime);
+            if (timeinfo && timeinfo->tm_wday == 0) // 0 represents Sunday in struct tm
+            {
+                MostrarPessoa(Pessoa->Info);
+            }
+            Pessoa = Pessoa->Prox;
+        }
+        P = P->Prox;
+    }
+}
+
+void ListarRequisitantesNascidosNaQuaresma(RHASHING *H) {
+    if (!H || !H->RLChaves)
+        return;
+
+    int numKeys = H->RLChaves->NEL;
+    RNO_CHAVE *P = H->RLChaves->Inicio;
+
+    for (int i = 0; i < numKeys; i++) {
+        if (!P || !P->DADOS)
+            continue;
+
+        RLISTA *lista = P->DADOS;
+        RNO *Pessoa = lista->Inicio;
+        while (Pessoa != NULL) {
+            if (!Pessoa->Info || !Pessoa->Info->DATA_NASCIMENTO)
+                continue;
+
+            int day, month, year;
+            sscanf(Pessoa->Info->DATA_NASCIMENTO, "%d-%d-%d", &day, &month, &year);
+
+            struct tm pascoa = calcularPascoa(year);
+            time_t pascoaTime = mktime(&pascoa);
+
+            struct tm carnaval = pascoa;
+            carnaval.tm_mday -= 47;
+            mktime(&carnaval); // normalize date
+
+            struct tm birthdate = {0};
+            birthdate.tm_year = year - 1900;
+            birthdate.tm_mon = month - 1;
+            birthdate.tm_mday = day;
+            birthdate.tm_isdst = -1;
+            time_t birthtime = mktime(&birthdate);
+
+            if (difftime(birthtime, mktime(&carnaval)) >= 0 && difftime(mktime(&pascoa), birthtime) > 0) {
+                MostrarPessoa(Pessoa->Info);
+            }
+            Pessoa = Pessoa->Prox;
+        }
+        P = P->Prox;
+    }
 }
 
 RNO_CHAVE *FuncaoRHashing(RHASHING *H, char *key)

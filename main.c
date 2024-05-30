@@ -21,7 +21,7 @@ void manageBooksMenu(BIBLIOTECA *Bib)
     printf("\n | (2) Listar todos os livros por area                         |");
     printf("\n | (3) Verificar a area com mais livros                        |");
     printf("\n | (4) Verificar se um livro existe pelo ISBN                  |");
-    printf("\n | (5) Encontrar os livros mais recentes                       |");
+    printf("\n | (5) Encontrar o livro mais recente                          |");
     printf("\n | (6) Encontrar o livro mais requisitado                      |");
     printf("\n | (7) Determinar a area mais requisitada                      |");
     printf("\n | (0) SAIR                                                    |");
@@ -60,10 +60,10 @@ void manageBooksMenu(BIBLIOTECA *Bib)
         printf("Livro mais recente: %s - %d\n", FindMostRecentBook(Bib)->TITULO, FindMostRecentBook(Bib)->ANO);
         break;
     case 6:
-        // mostRequestedBook(); Se existir mais  do que um, deve devolver o primeiro encontrado)
+        printf("Livro mais requisitado:  %s\n", LivroMaisRequisitado(Bib)->TITULO);
         break;
     case 7:
-        // mostRequestedArea(); Se existir mais    tdo que uma, deve devolver a primeira encontrada)
+        printf("Area mais requisitada: %s\n", AreaMaisRequisitada(Bib));
         break;
     case 8:
         // saveBooks();
@@ -112,7 +112,7 @@ void ListClients(BIBLIOTECA *Bib)
 void manageRequisitantsMenu(BIBLIOTECA *Bib)
 {
     int option;
-    char input[10];
+    char input[10], reqName[100], name[100];
 
     printf("\n | ---------------------REQUISICOES-------------------------------|");
     printf("\n | (1) Incluir novos requisitantes                                |");
@@ -147,10 +147,10 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         break;
     case 2:
         printf("Digite o nome do requisitante: ");
-        char nome[100], ch;
+        fscanf(stdin, "%99[^\n]", reqName);
         CLEAR_BUFFER;
-        fscanf(stdin, "%99[^\n]", nome);
-        VerificarRequisitanteRHASHING(Bib->HRequisitantes, nome);
+
+        VerificarRequisitanteRHASHING(Bib->HRequisitantes, reqName);
         break;
     case 3:
         ListClients(Bib);
@@ -172,13 +172,17 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         printf("A idade com mais requistantes eh %d", mostCommonAge(Bib->HRequisitantes));
         break;
     case 8:
-        // ShowListaReq(Bib->LRequi); // por ordem alfabetica do nome, por ordem do campo | id_freguesia, por ordem alfabetica do apelido (considera-se apelido a ultima palavra do nome completo
+        printf("Digite o nome do requisitante: ");
+        fscanf(stdin, "%99[^\n]", name);
+        CLEAR_BUFFER;
+
+        MostrarRequisicoesRequisitante(Bib, name);
         break;
     case 9:
-        // neverRequested();
+        MostrarPessoasSemRequisicoes(Bib);
         break;
     case 10:
-        ShowPHashing(Bib->LRequi);
+        ListarRequisitantesComLivros(Bib->LRequi);
         break;
     case 11:
         printf("O sobrenome mais comum dos requisitantes eh %s", MostUsedSurnameRHASHING(Bib->HRequisitantes));
@@ -199,12 +203,14 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
 
     printf("\n #----------------------------------------------------------------#");
     printf("\n | (1) Requisicao de um livro por parte de um requisitante        |");
-    printf("\n | (2) Listar requisitantes nascidos em Domingo                   |");
-    printf("\n |     (ou cujo aniversario em um ano especifico eh um Domingo)   |");
-    printf("\n | (3) Devolver um livro requisitado anteriormente                |");
-    printf("\n | (4) Listar livros atualmente requisitados                      |");
+    printf("\n | (2) Listar livros atualmente requisitados                      |");
     printf("\n |     (organizados por area)                                     |");
-    printf("\n | (5) Salvar informacoes dos requisitantes                       |");
+    printf("\n | (3) Devolver um livro requisitado anteriormente                |");
+    printf("\n | (4) Listar requisitantes nascidos em Domingo                   |");
+    printf("\n |     (ou cujo aniversario em um ano especifico eh um Domingo)   |");
+    printf("\n | (5) Listar requisitantes com aniversario na quaresma           |");
+    printf("\n |     (ou que nasceram na quaresma)                              |");
+    printf("\n | (6) Salvar informacoes dos requisitantes                       |");
     printf("\n | (0) SAIR                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
@@ -233,15 +239,18 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
         RequestBook(Bib, isbn, Id);
         break;
     case 2:
-        // returnBook();
-        break;
-    case 3:
-        // listRequisitions();
-        break;
-    case 4:
         ShowPHashing(Bib->LRequi);
         break;
+    case 3:
+        // DevolverLivro();
+        break;
+    case 4:
+        ListarPessoasNascidasDomingo(Bib->HRequisitantes);
+        break;
     case 5:
+        ListarRequisitantesNascidosNaQuaresma(Bib->HRequisitantes);
+        break;
+    case 6:
         // saveRequisitions();
         break;
     case 0:

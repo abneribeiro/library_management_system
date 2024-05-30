@@ -6,7 +6,7 @@
 LIVRO *CriarLivro()
 {
     char _titulo[100], _area[100], _autor[100], _isbn[100];
-    int _ano, ch;
+    int _ano;
 
     do
     {

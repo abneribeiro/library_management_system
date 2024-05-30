@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "Biblioteca.h"
 #include "Lista.h"
 #include "Livro.h"
@@ -47,6 +48,7 @@ void LerLivros(BIBLIOTECA *B, char *filename)
     }
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+    fclose(F_Logs);
 
     FILE *file = fopen(filename, "r");
     if (file == NULL)
@@ -85,6 +87,7 @@ void LerRequisitantes(BIBLIOTECA *B, char *filename)
 
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+    fclose(F_Logs);
 
     FILE *file = fopen(filename, "r");
 
@@ -107,6 +110,338 @@ void LerRequisitantes(BIBLIOTECA *B, char *filename)
     fclose(file);
 }
 
+// DESElVOLVER AS FUNCOES ABAIXO
+void RequestBook(BIBLIOTECA *B, char *isbn, int requestId)
+{
+    // Check if the book exists
+    LIVRO *book = VerificarLivroPorISBN(B, isbn);
+    if (book == NULL)
+    {
+        printf("Livro com ISBN %s não encontrado.\n", isbn);
+        return;
+    }
+
+    // // Check if the requester exists
+    PESSOA *requester = FindRequesterByID(B, requestId);
+    if (requester == NULL)
+    {
+        printf("Requisitante com o ID %d não foi encontrado.\n", requestId);
+        return;
+    }
+
+    REQUISICAO *newRequest = CriarRequisicao(requestId, requester, book);
+
+    // Add the book to the requester's list of requested books
+    AddPHashing(B->LRequi, newRequest);
+    printf("Livro %s foi requisitado com sucesso.\n", book->TITULO);
+}
+
+REQUISICAO *CriarRequisicaoDaLinha(char *linha, BIBLIOTECA *B)
+{
+
+    REQUISICAO *R = (REQUISICAO *)malloc(sizeof(REQUISICAO));
+    FILE *F_Logs = fopen("logs.txt", "a");
+
+    // ID;IDREQ;IDLIVRO;DATA_VENC;DATA_REQ;DATA_DEV
+    char *token = strtok(linha, "\t");
+
+    if (FindRequesterByID(B, atoi(token)) == NULL)
+    {
+        printf("Erro ID: %s\n", token);
+        free(R);
+        return NULL;
+    }
+
+    R->ID = atoi(token);
+    R->Ptr_Req = FindRequesterByID(B, atoi(token));
+
+    token = strtok(NULL, "\t");
+    if (VerificarLivroPorISBN(B, token) == NULL)
+    {
+        printf("Erro ISBN: %s\n", token);
+        free(R);
+        return NULL;
+    }
+    R->Ptr_Livro = VerificarLivroPorISBN(B, token);
+
+    int day, month, year;
+    token = strtok(NULL, "\t");
+    sscanf(token, "%d-%d-%d", &day, &month, &year);
+    R->Data_Vencimento.tm_mday = day;
+    R->Data_Vencimento.tm_mon = month - 1;
+    R->Data_Vencimento.tm_year = year - 1900;
+
+    token = strtok(NULL, "\t");
+    sscanf(token, "%d-%d-%d", &day, &month, &year);
+    R->Data_Requisicao.tm_mday = day;
+    R->Data_Requisicao.tm_mon = month - 1;
+    R->Data_Requisicao.tm_year = year - 1900;
+
+    fclose(F_Logs);
+    return R;
+}
+
+void AddRequisicacoBiblioteca(BIBLIOTECA *B, REQUISICAO *R)
+{
+    // Open the log file
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+
+    // Create a new request node
+    NO_REQ *newReq = (NO_REQ *)malloc(sizeof(NO_REQ));
+    newReq->Info = R;
+    newReq->Prox = NULL;
+
+    PNO_CHAVE *atual = FuncaoPHashing(B->LRequi, R);
+
+    if (atual == NULL)
+    {
+        atual = (PNO_CHAVE *)malloc(sizeof(PNO_CHAVE));
+        atual->KEY = strdup(R->Ptr_Livro->AREA);
+        atual->DADOS = (PLISTA *)malloc(sizeof(PLISTA));
+        atual->DADOS->NEL = 0;
+        atual->DADOS->Inicio = NULL;
+        atual->Prox = B->LRequi->PLChaves->Inicio;
+        B->LRequi->PLChaves->Inicio = atual;
+        B->LRequi->PLChaves->NEL++;
+    }
+
+    newReq->Prox = atual->DADOS->Inicio;
+    atual->DADOS->Inicio = newReq;
+    atual->DADOS->NEL++;
+
+    // Close the log file
+    fclose(F_Logs);
+}
+
+void LerRequisicoes(BIBLIOTECA *B, char *filename)
+{
+    if (B == NULL)
+    {
+        fprintf(stderr, "Biblioteca is NULL\n");
+        return;
+    }
+
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+    if (F_Logs == NULL)
+    {
+        fprintf(stderr, "Failed to open log file\n");
+        return;
+    }
+
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+
+    fclose(F_Logs);
+
+    FILE *file = fopen(filename, "r");
+
+    if (file == NULL)
+    {
+        printf("Could not open file %s\n", filename);
+        return;
+    }
+
+    char linha[256];
+    while (fgets(linha, sizeof(linha), file))
+    {
+        REQUISICAO *R = CriarRequisicaoDaLinha(linha, B);
+        if (R != NULL)
+        {
+            AddRequisicacoBiblioteca(B, R);
+        }
+    }
+
+    fclose(file);
+}
+
+void MostrarPessoasSemRequisicoes(BIBLIOTECA *B)
+{
+    // Iterate over all keys in the person hash table
+    RNO_CHAVE *atual = B->HRequisitantes->RLChaves->Inicio;
+    while (atual != NULL)
+    {
+        // Iterate over all persons in the current key
+        RNO *currentPerson = atual->DADOS->Inicio;
+        while (currentPerson != NULL)
+        {
+            PESSOA *pessoa = currentPerson->Info;
+
+            int found = 0;
+
+            // Iterate over all keys in the requests hash table
+            PNO_CHAVE *P = B->LRequi->PLChaves->Inicio;
+            while (P)
+            {
+                // Iterate over the requests in the list
+                NO_REQ *noRequisicao = P->DADOS->Inicio;
+                while (noRequisicao)
+                {
+                    REQUISICAO *requisicao = noRequisicao->Info;
+                    // If the request belongs to the person, set found to 1
+                    if (requisicao->Ptr_Req == pessoa)
+                    {
+                        found = 1;
+                        break;
+                    }
+                    noRequisicao = noRequisicao->Prox;
+                }
+                if (found)
+                {
+                    break;
+                }
+                P = P->Prox;
+            }
+
+            // If no request was found for the person, print the person
+            if (!found)
+            {
+                printf("Pessoa %s nunca fez uma requisicao\n", pessoa->NOME);
+            }
+
+            currentPerson = currentPerson->Prox;
+        }
+        atual = atual->Prox;
+    }
+}
+
+LIVRO *LivroMaisRequisitado(BIBLIOTECA *B)
+{
+    // Create a map to store the count of requests for each book
+    int *bookCount = malloc(B->HRequisitantes->RLChaves->NEL * sizeof(int));
+    LIVRO **books = malloc(B->HRequisitantes->RLChaves->NEL * sizeof(LIVRO *));
+    int numBooks = 0;
+
+    for (int i = 0; i < B->HRequisitantes->RLChaves->NEL; i++)
+    {
+        bookCount[i] = 0;
+        books[i] = NULL;
+    }
+
+    // Iterate over all keys in the requests hash table
+    PNO_CHAVE *P = B->LRequi->PLChaves->Inicio;
+    while (P)
+    {
+        // Iterate over the requests in the list
+        NO_REQ *noRequisicao = P->DADOS->Inicio;
+        while (noRequisicao)
+        {
+            REQUISICAO *requisicao = noRequisicao->Info;
+            LIVRO *book = requisicao->Ptr_Livro;
+
+            // Find the book in the books array
+            int i;
+            for (i = 0; i < numBooks; i++)
+            {
+                if (books[i] == book)
+                {
+                    break;
+                }
+            }
+
+            // If the book was not found in the books array, add it
+            if (i == numBooks)
+            {
+                books[numBooks] = book;
+                numBooks++;
+            }
+
+            // Increment the count for the book
+            bookCount[i]++;
+
+            noRequisicao = noRequisicao->Prox;
+        }
+        P = P->Prox;
+    }
+
+    // Find the book with the highest count
+    int maxCount = 0;
+    LIVRO *mostRequestedBook = NULL;
+    for (int i = 0; i < numBooks; i++)
+    {
+        if (bookCount[i] > maxCount)
+        {
+            maxCount = bookCount[i];
+            mostRequestedBook = books[i];
+        }
+    }
+
+    free(bookCount);
+    free(books);
+
+    return mostRequestedBook;
+}
+
+char *AreaMaisRequisitada(BIBLIOTECA *B)
+{
+    // Create a map to store the count of requests for each area
+    int *areaCount = malloc(B->HRequisitantes->RLChaves->NEL * sizeof(int));
+    char **areas = malloc(B->HRequisitantes->RLChaves->NEL * sizeof(char *));
+    int numAreas = 0;
+
+    for (int i = 0; i < B->HRequisitantes->RLChaves->NEL; i++)
+    {
+        areaCount[i] = 0;
+        areas[i] = NULL;
+    }
+
+    // Iterate over all keys in the requests hash table
+    PNO_CHAVE *P = B->LRequi->PLChaves->Inicio;
+    while (P)
+    {
+        // Iterate over the requests in the list
+        NO_REQ *noRequisicao = P->DADOS->Inicio;
+        while (noRequisicao)
+        {
+            REQUISICAO *requisicao = noRequisicao->Info;
+            LIVRO *book = requisicao->Ptr_Livro;
+            char *area = book->AREA; // Assuming each book has an 'area' field
+
+            // Find the area in the areas array
+            int i;
+            for (i = 0; i < numAreas; i++)
+            {
+                if (strcmp(areas[i], area) == 0)
+                {
+                    break;
+                }
+            }
+
+            // If the area was not found in the areas array, add it
+            if (i == numAreas)
+            {
+                areas[numAreas] = area;
+                numAreas++;
+            }
+
+            // Increment the count for the area
+            areaCount[i]++;
+
+            noRequisicao = noRequisicao->Prox;
+        }
+        P = P->Prox;
+    }
+
+    // Find the area with the highest count
+    int maxCount = 0;
+    char *mostRequestedArea = NULL;
+    for (int i = 0; i < numAreas; i++)
+    {
+        if (areaCount[i] > maxCount)
+        {
+            maxCount = areaCount[i];
+            mostRequestedArea = areas[i];
+        }
+    }
+
+    free(areaCount);
+    free(areas);
+
+    return mostRequestedArea;
+}
+
+
 int LoadFicheiroBiblioteca(BIBLIOTECA *B)
 {
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
@@ -115,6 +450,7 @@ int LoadFicheiroBiblioteca(BIBLIOTECA *B)
 
     LerLivros(B, "import/livros.txt");
     LerRequisitantes(B, "import/requisitantes.txt");
+    LerRequisicoes(B, "import/requisicoes.txt");
 
     fclose(F_Logs);
     return EXIT_SUCCESS;
@@ -126,8 +462,9 @@ void SaveFicheiroBiblioteca(BIBLIOTECA *B)
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
-    SaveLivros(B, "import/livros.txt");
-    // SaveRequisitantes(B, "Requisitantes.txt");
+    // SaveLivros(B, "import/livros.txt");
+    //  SaveRequisitantes(B, "Requisitantes.txt");
+    SaveRequisicoes(B, "import/requisicoes.txt");
 
     fclose(F_Logs);
 }
@@ -224,6 +561,40 @@ void SaveLivros(BIBLIOTECA *B, char *filename)
     fclose(file);
 }
 
+void SaveRequisicoes(BIBLIOTECA *B, char *filename)
+{
+    FILE *file = fopen(filename, "w");
+    if (file == NULL)
+    {
+        perror("Could not open file"); // This will print the specific error
+        printf("Could not open file %s\n", filename);
+        return;
+    }
+
+    PNO_CHAVE *atual = B->LRequi->PLChaves->Inicio;
+
+    while (atual != NULL)
+    {
+        NO_REQ *aux = atual->DADOS->Inicio;
+        while (aux != NULL)
+        {
+            REQUISICAO *R = aux->Info;
+
+            char time_str_vencimento[11];
+            strftime(time_str_vencimento, sizeof(time_str_vencimento), "%d-%m-%Y", &R->Data_Vencimento);
+
+            char time_str_requisicao[11];
+            strftime(time_str_requisicao, sizeof(time_str_requisicao), "%d-%m-%Y", &R->Data_Requisicao);
+
+            fprintf(file, "%d\t%s\t%s\t%s\n", R->Ptr_Req->ID, R->Ptr_Livro->ISBN, time_str_vencimento, time_str_requisicao);
+
+            aux = aux->Prox;
+        }
+        atual = atual->Prox;
+    }
+    fclose(file);
+}
+
 LIVRO *VerificarLivroPorISBN(BIBLIOTECA *B, char *isbn)
 {
     NO_CHAVE *atual = B->HLivros->LChaves->Inicio;
@@ -241,6 +612,30 @@ LIVRO *VerificarLivroPorISBN(BIBLIOTECA *B, char *isbn)
         }
         atual = atual->Prox;
     }
+    return NULL;
+}
+
+PESSOA *FindRequesterByID(BIBLIOTECA *B, int id)
+{
+    // Iterate over all keys
+    RNO_CHAVE *atual = B->HRequisitantes->RLChaves->Inicio;
+    while (atual != NULL)
+    {
+        // Iterate over all persons in the current key
+        RNO *currentPerson = atual->DADOS->Inicio;
+        while (currentPerson != NULL)
+        {
+            if (currentPerson->Info->ID == id)
+            {
+                // Found the correct person
+                return currentPerson->Info;
+            }
+            currentPerson = currentPerson->Prox;
+        }
+        atual = atual->Prox;
+    }
+
+    // Requester not found
     return NULL;
 }
 
@@ -307,55 +702,47 @@ char *AreaWithMostBooks(BIBLIOTECA *B)
     return maxArea;
 }
 
-PESSOA *FindRequesterByID(BIBLIOTECA *B, int id)
+
+void MostrarRequisicoesRequisitante(BIBLIOTECA *B, char *nome)
 {
-    // Iterate over all keys
-    RNO_CHAVE *atual = B->HRequisitantes->RLChaves->Inicio;
-    while (atual != NULL)
+    // Find the requester
+    PESSOA *requisitante = ProcurarRequisitanteRHASHING(B->HRequisitantes, nome);
+    if (requisitante == NULL)
     {
-        // Iterate over all persons in the current key
-        RNO *currentPerson = atual->DADOS->Inicio;
-        while (currentPerson != NULL)
+        printf("Requisitante nao encontrado\n");
+        return;
+    }
+
+    int found = 0;
+
+    // Iterate over the keys in the requests hash table
+    PNO_CHAVE *P = B->LRequi->PLChaves->Inicio;
+    while (P)
+    {
+        // Iterate over the requests in the list
+        NO_REQ *noRequisicao = P->DADOS->Inicio;
+        while (noRequisicao)
         {
-            if (currentPerson->Info->ID == id)
+            REQUISICAO *requisicao = noRequisicao->Info;
+            // If the request belongs to the requester, print it
+            if (requisicao->Ptr_Req == requisitante)
             {
-                // Found the correct person
-                return currentPerson->Info;
+                MostrarRequisicao(requisicao);
+                found = 1;
             }
-            currentPerson = currentPerson->Prox;
+            noRequisicao = noRequisicao->Prox;
         }
-        atual = atual->Prox;
+        P = P->Prox;
     }
 
-    // Requester not found
-    return NULL;
+    if (!found)
+    {
+        printf("Requisitante nao tem requisicoes\n");
+    }
 }
 
-// DESElVOLVER AS FUNCOES ABAIXO
-void RequestBook(BIBLIOTECA *B, char *isbn, int requestId)
-{
-    // Check if the book exists
-     LIVRO *book = VerificarLivroPorISBN(B, isbn);
-    if (book == NULL)
-    {
-        printf("Livro com ISBN %s não encontrado.\n", isbn);
-        return;
-    }
 
-    // // Check if the requester exists
-    PESSOA *requester = FindRequesterByID(B, requestId);
-    if (requester == NULL)
-    {
-        printf("Requisitante com o ID %d não foi encontrado.\n", requestId);
-        return;
-    }
 
-    REQUISICAO *newRequest = CriarRequisicao(requestId, requester, book);
-
-    // Add the book to the requester's list of requested books
-    AddPHashing(B->LRequi, newRequest);
-    printf("Livro %s foi requisitado com sucesso.\n", book->TITULO);
-}
 
 void ShowBiblioteca(BIBLIOTECA *B)
 {
@@ -380,7 +767,6 @@ void ShowBiblioteca(BIBLIOTECA *B)
 
     fclose(F_Logs);
 }
-
 
 void DestruirBiblioteca(BIBLIOTECA *B)
 {

@@ -2,15 +2,15 @@
 #include "Plista.h"
 #include "Requisicao.h"
 
-
-
-PHASHING *CriarPHashing(){
+PHASHING *CriarPHashing()
+{
     PHASHING *PHas = (PHASHING *)malloc(sizeof(PHASHING));
     PHas->PLChaves = CriarPListaCHAVES();
     return PHas;
 }
 
-PLISTA_CHAVES *CriarPListaCHAVES(){
+PLISTA_CHAVES *CriarPListaCHAVES()
+{
 
     PLISTA_CHAVES *L = (PLISTA_CHAVES *)malloc(sizeof(PLISTA_CHAVES));
     L->NEL = 0;
@@ -18,21 +18,23 @@ PLISTA_CHAVES *CriarPListaCHAVES(){
     return L;
 }
 
-PNO_CHAVE *AddPCHAVE(PLISTA_CHAVES *L, char *key){
-    
-        if (!L)
-            return NULL;
-        PNO_CHAVE *aux = (PNO_CHAVE *)malloc(sizeof(PNO_CHAVE));
-        aux->KEY = (char *)malloc((strlen(key) + 1) * sizeof(char));
-        strcpy(aux->KEY, key);
-        aux->DADOS = criarListaReq();
-        aux->Prox = L->Inicio;
-        L->Inicio = aux;
-        L->NEL++;
-        return aux;
+PNO_CHAVE *AddPCHAVE(PLISTA_CHAVES *L, char *key)
+{
+
+    if (!L)
+        return NULL;
+    PNO_CHAVE *aux = (PNO_CHAVE *)malloc(sizeof(PNO_CHAVE));
+    aux->KEY = (char *)malloc((strlen(key) + 1) * sizeof(char));
+    strcpy(aux->KEY, key);
+    aux->DADOS = criarListaReq();
+    aux->Prox = L->Inicio;
+    L->Inicio = aux;
+    L->NEL++;
+    return aux;
 }
 
-PNO_CHAVE *FuncaoPHashing(PHASHING *H, REQUISICAO *R){
+PNO_CHAVE *FuncaoPHashing(PHASHING *H, REQUISICAO *R)
+{
     if (!H || !H->PLChaves)
         return NULL;
 
@@ -44,11 +46,10 @@ PNO_CHAVE *FuncaoPHashing(PHASHING *H, REQUISICAO *R){
         P = P->Prox;
     }
     return NULL;
-
 }
 
-
-void AddPHashing(PHASHING *H, REQUISICAO *R){
+void AddPHashing(PHASHING *H, REQUISICAO *R)
+{
     if (!H || !H->PLChaves)
         return;
 
@@ -60,7 +61,8 @@ void AddPHashing(PHASHING *H, REQUISICAO *R){
     AddInicioReq(Key_colocar->DADOS, R);
 }
 
-void ShowPHashing(PHASHING *H){
+void ShowPHashing(PHASHING *H)
+{
     if (!H || !H->PLChaves)
         return;
     PNO_CHAVE *P = H->PLChaves->Inicio;
@@ -70,10 +72,32 @@ void ShowPHashing(PHASHING *H){
         ShowListaReq(P->DADOS);
         P = P->Prox;
     }
-
 }
 
-void DestruirPHashing(PHASHING *H){
+void ListarRequisitantesComLivros(PHASHING *H)
+{
+    if (!H || !H->PLChaves)
+        return;
+
+    PNO_CHAVE *P = H->PLChaves->Inicio;
+    while (P)
+    {
+        PLISTA *listaRequisicoes = P->DADOS;
+        NO_REQ *noRequisicao = listaRequisicoes->Inicio;
+        while (noRequisicao)
+        {
+            REQUISICAO *requisicao = noRequisicao->Info;
+            PESSOA *requisitante = requisicao->Ptr_Req;
+            LIVRO *livro = requisicao->Ptr_Livro;
+            printf("Requisitante: %s, Livro: %s\n", requisitante->NOME, livro->TITULO);
+            noRequisicao = noRequisicao->Prox;
+        }
+        P = P->Prox;
+    }
+}
+
+void DestruirPHashing(PHASHING *H)
+{
     if (!H)
         return;
     PNO_CHAVE *Seguinte;
@@ -87,5 +111,4 @@ void DestruirPHashing(PHASHING *H){
     }
     free(H->PLChaves);
     free(H);
-
 }
