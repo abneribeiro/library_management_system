@@ -301,7 +301,7 @@ int menu()
         fgets(input, 10, stdin);
         option = atoi(input);
 
-    } while ((option < 0 || option > 5) || (option == 0 && input[0] != '0'));
+    } while ((option < 0 || option > 6) || (option == 0 && input[0] != '0'));
     return option;
 }
 
@@ -348,7 +348,7 @@ int main()
             break;
         case 6:
             size_t totalMemory = MemoryUsageBiblioteca(Bib);
-            printf("Total memory used by the biblioteca: %zu bytes\n", totalMemory);
+            printf("\nMemoria total usada pela biblioteca: %zu bytes\n", totalMemory);
             break;
 
         case 0: // sair

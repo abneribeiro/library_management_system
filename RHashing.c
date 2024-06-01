@@ -6,9 +6,6 @@
 #include "RLista.h"
 #include "Uteis.h"
 
-
-
-
 RLISTA_CHAVES *CriarRListaCHAVES()
 {
     RLISTA_CHAVES *R = (RLISTA_CHAVES *)malloc(sizeof(RLISTA_CHAVES));
@@ -153,11 +150,21 @@ void ShowRHashing(RHASHING *H, int numToShow)
         count++;
         if (count >= numToShow)
         {
-            printf(".Pressione qualquer tecla para continuar...\n");
-            while (!_kbhit())
+            printf(".Pressione qualquer tecla para continuar ou 'q' para voltar...\n");
+            char ch;
+            while (1)
             {
-            } // Aguarda a pressão de uma tecla
-            _getch(); // Limpa a tecla pressionada do buffer
+                if (_kbhit())
+                {
+                    ch = _getch();              // Captura a tecla pressionada
+                    if (ch == 'q' || ch == 'Q') // Se a tecla pressionada for 'q' ou 'Q'
+                    {
+                        free(array);
+                        return; // Retorna para a página inicial
+                    }
+                    break; // Quebra o loop de espera por uma tecla
+                }
+            }
             count = 0;
         }
     }
@@ -187,10 +194,10 @@ void ListarPessoasNascidasDomingo(RHASHING *H)
             int day, month, year;
             sscanf(Pessoa->Info->DATA_NASCIMENTO, "%d-%d-%d", &day, &month, &year);
             struct tm birthdate = {0};
-            birthdate.tm_year = year - 1900; // Years since 1900
-            birthdate.tm_mon = month - 1; // Months since January - [0,11]
-            birthdate.tm_mday = day; // Day of the month - [1,31]
-            birthdate.tm_isdst = -1; // Daylight saving time information is not available
+            birthdate.tm_year = year - 1900;     // Years since 1900
+            birthdate.tm_mon = month - 1;        // Months since January - [0,11]
+            birthdate.tm_mday = day;             // Day of the month - [1,31]
+            birthdate.tm_isdst = -1;             // Daylight saving time information is not available
             time_t rawtime = mktime(&birthdate); // Normalize tm struct
             struct tm *timeinfo = localtime(&rawtime);
             if (timeinfo && timeinfo->tm_wday == 0) // 0 represents Sunday in struct tm
@@ -203,20 +210,23 @@ void ListarPessoasNascidasDomingo(RHASHING *H)
     }
 }
 
-void ListarRequisitantesNascidosNaQuaresma(RHASHING *H) {
+void ListarRequisitantesNascidosNaQuaresma(RHASHING *H)
+{
     if (!H || !H->RLChaves)
         return;
 
     int numKeys = H->RLChaves->NEL;
     RNO_CHAVE *P = H->RLChaves->Inicio;
 
-    for (int i = 0; i < numKeys; i++) {
+    for (int i = 0; i < numKeys; i++)
+    {
         if (!P || !P->DADOS)
             continue;
 
         RLISTA *lista = P->DADOS;
         RNO *Pessoa = lista->Inicio;
-        while (Pessoa != NULL) {
+        while (Pessoa != NULL)
+        {
             if (!Pessoa->Info || !Pessoa->Info->DATA_NASCIMENTO)
                 continue;
 
@@ -237,7 +247,8 @@ void ListarRequisitantesNascidosNaQuaresma(RHASHING *H) {
             birthdate.tm_isdst = -1;
             time_t birthtime = mktime(&birthdate);
 
-            if (difftime(birthtime, mktime(&carnaval)) >= 0 && difftime(mktime(&pascoa), birthtime) > 0) {
+            if (difftime(birthtime, mktime(&carnaval)) >= 0 && difftime(mktime(&pascoa), birthtime) > 0)
+            {
                 MostrarPessoa(Pessoa->Info);
             }
             Pessoa = Pessoa->Prox;
@@ -377,7 +388,6 @@ int maxAge(RHASHING *H)
                 system("pause");
             }
 
-
             if (age > max_age)
             {
                 max_age = age;
@@ -427,7 +437,6 @@ double averageAge(RHASHING *H)
     return total_people == 0 ? -1 : (double)total_age / total_people;
 }
 
-
 PESSOA *ProcurarRequisitanteRHASHING(RHASHING *H, char *nome)
 {
     if (!H)
@@ -466,15 +475,14 @@ void VerificarRequisitanteRHASHING(RHASHING *H, char *nome)
     }
 }
 
-
-
 char *MostUsedSurnameRHASHING(RHASHING *H)
 {
     if (!H)
         return NULL;
 
     // Initialize the dictionary
-    struct dict {
+    struct dict
+    {
         char *key;
         int value;
     } dict[1000]; // Assuming there won't be more than 1000 unique surnames
@@ -534,5 +542,3 @@ char *MostUsedSurnameRHASHING(RHASHING *H)
 
     return mostUsedSurname;
 }
-
-
