@@ -31,3 +31,15 @@ void MostrarDistritos(LISTA_DISTRITOS *lista)
         P = P->Prox;
     }
 }
+
+void DestruirListaDistritos(LISTA_DISTRITOS *lista){
+    NO_DISTRITO *aux = lista->Inicio;
+    while (aux)
+    {
+        NO_DISTRITO *temp = aux;
+        aux = aux->Prox;
+        DestruirDistrito(temp->Info);
+        free(temp);
+    }
+    free(lista);
+}

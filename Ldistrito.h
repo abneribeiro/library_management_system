@@ -15,3 +15,5 @@ typedef struct {
 LISTA_DISTRITOS* CriarListaDistritos();
 void AdicionarDistritoLista(LISTA_DISTRITOS *lista, DISTRITO *distrito);
 void MostrarDistritos(LISTA_DISTRITOS *lista);
+
+void DestruirListaDistritos(LISTA_DISTRITOS *lista);

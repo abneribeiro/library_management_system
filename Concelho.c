@@ -22,12 +22,12 @@ CONCELHO *CriarConcelhoDaLinha(char *linha){
     C->id_concelho = strdup(token);
 
     token = strtok(NULL, "\t");
-    if(!ValidarNome(token)){
-        fprintf(F_Logs, "Erro ao validar Nome: %s\n", token);
-        printf("Erro nome: %s\n", token);
-        free(C);
-        return NULL;
-    }
+    // if(!ValidarNome(token)){
+    //     fprintf(F_Logs, "Erro ao validar Nome: %s\n", token);
+    //     printf("Erro nome: %s\n", token);
+    //     free(C);
+    //     return NULL;
+    // }
 
     C->concelho = strdup(token);
 

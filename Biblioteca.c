@@ -576,7 +576,7 @@ int LoadFicheiroBiblioteca(BIBLIOTECA *B)
     LerRequisicoes(B, "import/requisicoes.txt");
     LerFreguesias(B, "import/freguesias.txt");
     LerDistritos(B, "import/distritos.txt");
-    //LerConcelhos(B, "import/concelhos.txt");
+    // LerConcelhos(B, "import/concelhos.txt");
 
     fclose(F_Logs);
     return EXIT_SUCCESS;
@@ -587,9 +587,9 @@ void SaveFicheiroBiblioteca(BIBLIOTECA *B)
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-
-    // SaveLivros(B, "import/livros.txt");
-    //  SaveRequisitantes(B, "Requisitantes.txt");
+    
+    SaveLivros(B, "import/livros.txt");
+    SaveRequisitantes(B, "import/requisitantes.txt");
     SaveRequisicoes(B, "import/requisicoes.txt");
 
     fclose(F_Logs);
@@ -662,13 +662,13 @@ void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P)
     fclose(F_Logs);
 }
 
-void SaveLivros(BIBLIOTECA *B, char *filename)
+int SaveLivros(BIBLIOTECA *B, char *filename)
 {
     FILE *file = fopen(filename, "w");
     if (file == NULL)
     {
         printf("Could not open file %s\n", filename);
-        return;
+        return EXIT_FAILURE;
     }
 
     NO_CHAVE *atual = B->HLivros->LChaves->Inicio;
@@ -685,16 +685,46 @@ void SaveLivros(BIBLIOTECA *B, char *filename)
     }
 
     fclose(file);
+
+    return EXIT_SUCCESS;
 }
 
-void SaveRequisicoes(BIBLIOTECA *B, char *filename)
+int SaveRequisitantes(BIBLIOTECA *B, char *filename)
 {
     FILE *file = fopen(filename, "w");
     if (file == NULL)
     {
         perror("Could not open file"); // This will print the specific error
         printf("Could not open file %s\n", filename);
-        return;
+        return EXIT_FAILURE;
+    }
+
+    RNO_CHAVE *atual = B->HRequisitantes->RLChaves->Inicio;
+
+    while (atual != NULL)
+    {
+        RNO *aux = atual->DADOS->Inicio;
+        while (aux != NULL)
+        {
+            PESSOA *P = aux->Info;
+            fprintf(file, "%d\t%s\t%s\t%s\n", P->ID, P->NOME, P->DATA_NASCIMENTO, P->IDFRAGUESIA);
+            aux = aux->Prox;
+        }
+        atual = atual->Prox;
+    }
+    fclose(file);
+
+    return EXIT_SUCCESS;
+}
+
+int SaveRequisicoes(BIBLIOTECA *B, char *filename)
+{
+    FILE *file = fopen(filename, "w");
+    if (file == NULL)
+    {
+        perror("Could not open file"); // This will print the specific error
+        printf("Could not open file %s\n", filename);
+        return EXIT_FAILURE;
     }
 
     PNO_CHAVE *atual = B->LRequi->PLChaves->Inicio;
@@ -719,6 +749,8 @@ void SaveRequisicoes(BIBLIOTECA *B, char *filename)
         atual = atual->Prox;
     }
     fclose(file);
+
+    return EXIT_SUCCESS;
 }
 
 LIVRO *VerificarLivroPorISBN(BIBLIOTECA *B, char *isbn)
@@ -907,6 +939,8 @@ void DestruirBiblioteca(BIBLIOTECA *B)
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
+    fclose(F_Logs);
+
     if (B->NOME != NULL)
     {
         free(B->NOME);
@@ -922,9 +956,24 @@ void DestruirBiblioteca(BIBLIOTECA *B)
         DestruirRHashing(B->HRequisitantes);
     }
 
-    free(B);
+    if (B->LRequi != NULL)
+    {
+        DestruirPHashing(B->LRequi);
+    }
+    if (B->LFreguesias != NULL)
+    {
+        DestruirListaFreguesias(B->LFreguesias);
+    }
+    if (B->LConcelhos != NULL)
+    {
+        DestruirListaConcelhos(B->LConcelhos);
+    }
+    if (B->LDistritos != NULL)
+    {
+        DestruirListaDistritos(B->LDistritos);
+    }
 
-    fclose(F_Logs);
+    free(B);
 }
 
 //--------------------------------------------------------

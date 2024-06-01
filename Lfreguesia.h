@@ -14,3 +14,5 @@ typedef struct {
 LISTA_FREGUESIAS* CriarListaFreguesias();
 void AdicionarFreguesiaLista(LISTA_FREGUESIAS *lista, FREGUESIA *freguesia);
 void MostrarFreguesias(LISTA_FREGUESIAS *lista);
+
+void DestruirListaFreguesias(LISTA_FREGUESIAS *lista);

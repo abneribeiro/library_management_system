@@ -24,6 +24,7 @@ void manageBooksMenu(BIBLIOTECA *Bib)
     printf("\n | (5) Encontrar o livro mais recente                          |");
     printf("\n | (6) Encontrar o livro mais requisitado                      |");
     printf("\n | (7) Determinar a area mais requisitada                      |");
+    printf("\n | (8) Salvar informacoes dos livros                           |");
     printf("\n | (0) SAIR                                                    |");
     printf("\n #-------------------------------------------------------------#");
 
@@ -66,7 +67,11 @@ void manageBooksMenu(BIBLIOTECA *Bib)
         printf("Area mais requisitada: %s\n", AreaMaisRequisitada(Bib));
         break;
     case 8:
-        // saveBooks();
+        if (SaveLivros(Bib, "import/livros.txt") == 0)
+            printf("Livros salvos com sucesso!\n");
+        else
+            printf("Erro ao salvar os livros!\n");
+
         break;
     }
 }
@@ -75,8 +80,8 @@ void ListClients(BIBLIOTECA *Bib)
 {
     int option;
     char input[10];
-
-    printf("\n |--Listar todos os clientes (ordenados a escolha do utilizdor)---|\n");
+    printf("\n #----------------------------------------------------------------#");
+    printf("\n |Listar todos os clientes (ordenados a escolha do utilizdor)-----|\n");
     printf("\n | (1) Por ordem alfabetica do nome                               |\n");
     printf("\n | (2) Por ordem do campo ID Freguesia                            |\n");
     printf("\n | (3) Por ordem alfabetica do apelido                            |\n");
@@ -114,7 +119,7 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
     int option;
     char input[10], reqName[100], name[100];
 
-    printf("\n | ---------------------REQUISICOES-------------------------------|");
+    printf("\n | ---------------------REQUISITANTES-----------------------------|");
     printf("\n | (1) Incluir novos requisitantes                                |");
     printf("\n | (2) Verificar se um requisitante existe (dando o seu nome)     |");
     printf("\n | (3) Listar todos os clientes (ordenados a escolha do utilizdor)|");
@@ -127,7 +132,7 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
     printf("\n | (10) Listar requisitantes com livros requisitados              |");
     printf("\n | (11) Determinar o sobrenome mais comum dos requisitantes       |");
     printf("\n | (12) Determinar o numero de pessoas de um dado distrito        |");
-    printf("\n | (13) Salvar informacoes das requisicoes                        |");
+    printf("\n | (13) Salvar informacoes dos requisitantes                      |");
     printf("\n | (0) SAIR                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
@@ -191,7 +196,10 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
         // countPeopleFromDistrict();  Distrito (ou Concelho)
         break;
     case 13:
-        // saveRequisitions();
+        if (SaveRequisitantes(Bib, "import/requisitantes.txt") == 0)
+            printf("Requisitantes salvos com sucesso!\n");
+        else
+            printf("Erro ao salvar os requisi!\n");
         break;
     }
 }
@@ -211,7 +219,7 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
     printf("\n |     (ou cujo aniversario em um ano especifico eh um Domingo)   |");
     printf("\n | (6) Listar requisitantes com aniversario na quaresma           |");
     printf("\n |     (ou que nasceram na quaresma)                              |");
-    printf("\n | (7) Salvar informacoes dos requisitantes                       |");
+    printf("\n | (7) Salvar informacoes das requisicoes                         |");
     printf("\n | (0) SAIR                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
@@ -263,7 +271,10 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
 
         break;
     case 7:
-        // saveRequisitions();
+        if (SaveRequisicoes(Bib, "import/requisicoes.txt") == 0)
+            printf("Requisicoes salvas com sucesso!\n");
+        else
+            printf("Erro ao salvar as requisicoes!\n");
         break;
     case 0:
         break;
@@ -300,8 +311,6 @@ int main()
     BIBLIOTECA *Bib;
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
     LoadFicheiroBiblioteca(Bib);
-
-    MostrarDistritos(Bib->LDistritos);
 
 
     do

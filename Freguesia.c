@@ -16,13 +16,13 @@ FREGUESIA *CriarFreguesiaDaLinha(char *linha)
     // ID_FREGUESIA FREGUESIA
     // Verificar os dados  antes de passar
     char *token = strtok(linha, "\t");
-    if (!ValidarIDFreguesia(token)){
-        fprintf(F_Logs, "Erro ao validar ID Freguesia: %s\n", token);
-        printf("Erro ID: %s\n", token);
+    // if (!ValidarIDFreguesia(token)){
+    //     fprintf(F_Logs, "Erro ao validar ID Freguesia: %s\n", token);
+    //     printf("Erro ID: %s\n", token);
 
-        free(L);
-        return NULL;
-    }
+    //     free(L);
+    //     return NULL;
+    // }
 
     L->id_freguesia = strdup(token);
 
