@@ -290,7 +290,8 @@ int menu()
     printf("\n | (2) Gerir a lista de requisitantes                             |");
     printf("\n | (3) Gerir as requisicoes de livros                             |");
     printf("\n | (4) Salvar dados em XML (nome fornecido pelo usuario)          |");
-    printf("\n | (5) Memoria das Estruturas de Dados                            |");
+    printf("\n | (5) Salvar dados em CSV (nome fornecido pelo usuario)          |");
+    printf("\n | (6) Memoria das Estruturas de Dados                            |");
     printf("\n | (0) SAIR                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
@@ -312,7 +313,6 @@ int main()
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
     LoadFicheiroBiblioteca(Bib);
 
-
     do
     {
         option = menu();
@@ -330,8 +330,23 @@ int main()
 
             break;
         case 4:
-        // saveData();
+            char filename[100];
+
+            printf("Digite o nome do arquivo: ");
+            fscanf(stdin, "%99[^\n]", filename);
+            CLEAR_BUFFER;
+            SaveAllToXML(Bib, filename);
+
+            break;
         case 5:
+            
+            printf("Digite o nome do arquivo: ");
+            fscanf(stdin, "%99[^\n]", filename);
+            CLEAR_BUFFER;
+            SaveAllToCSV(Bib, filename);
+
+            break;
+        case 6:
             size_t totalMemory = MemoryUsageBiblioteca(Bib);
             printf("Total memory used by the biblioteca: %zu bytes\n", totalMemory);
             break;

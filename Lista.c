@@ -2,13 +2,7 @@
 #include "Lista.h"
 #include "Livro.h"
 
-//--------------------------------------------------
-/** \brief Permite alocar mem�ria para uma lista
- *
- * \return LISTA* : Retorna a lista alocada
- * \date 10/04/2024
- * \author Docentes de ED
- */
+
 LISTA *CriarLista()
 {
     LISTA *L = (LISTA *)malloc(sizeof(LISTA));

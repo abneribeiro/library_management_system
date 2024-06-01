@@ -12,16 +12,6 @@
 #include "Concelho.h"
 #include "Distrito.h"
 
-/** \brief Aloca Memoria para uma Biblioteca
- *
- * \param _nome char* : Nome da Biblioteca
- * \param _logs char* : Ficheiro dos Logs
- * \return BIBLIOTECA* : Retorna o ponteiro para a biblioteca
- * \author Docentes & Alunos
- * \date   11/04/2024
- *
- */
-
 BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs)
 {
     BIBLIOTECA *Bib = (BIBLIOTECA *)malloc(sizeof(BIBLIOTECA));
@@ -94,7 +84,6 @@ void LerRequisitantes(BIBLIOTECA *B, char *filename)
 
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-    fclose(F_Logs);
 
     FILE *file = fopen(filename, "r");
 
@@ -264,7 +253,7 @@ REQUISICAO *CriarRequisicaoDaLinha(char *linha, BIBLIOTECA *B)
 {
 
     REQUISICAO *R = (REQUISICAO *)malloc(sizeof(REQUISICAO));
-    FILE *F_Logs = fopen("logs.txt", "a");
+    FILE *F_Logs = fopen("log.txt", "a");
 
     // ID;IDREQ;IDLIVRO;DATA_VENC;DATA_REQ;DATA_DEV
     char *token = strtok(linha, "\t");
@@ -587,7 +576,7 @@ void SaveFicheiroBiblioteca(BIBLIOTECA *B)
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
     time_t now = time(NULL);
     fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
-    
+
     SaveLivros(B, "import/livros.txt");
     SaveRequisitantes(B, "import/requisitantes.txt");
     SaveRequisicoes(B, "import/requisicoes.txt");
@@ -630,9 +619,6 @@ void AddLivroBiblioteca(BIBLIOTECA *B, LIVRO *L)
 
 void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P)
 {
-    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
-    time_t now = time(NULL);
-    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
 
     RNO *aux = (RNO *)malloc(sizeof(RNO));
     aux->Info = P;
@@ -658,8 +644,6 @@ void AddRequisitanteBiblioteca(BIBLIOTECA *B, PESSOA *P)
     }
 
     AddROrdenado(atual->DADOS, P);
-
-    fclose(F_Logs);
 }
 
 int SaveLivros(BIBLIOTECA *B, char *filename)
@@ -975,6 +959,177 @@ void DestruirBiblioteca(BIBLIOTECA *B)
 
     free(B);
 }
+
+
+void SaveAllToCSV(BIBLIOTECA *B, char *filename)
+{
+    char fullfilename[128];
+    strcpy(fullfilename, "import/");
+    strcat(fullfilename, filename);
+    strcat(fullfilename, ".csv");
+    FILE *file = fopen(fullfilename, "w");
+    if (file == NULL)
+    {
+        printf("Could not open file %s\n", filename);
+        return;
+    }
+
+    // Save Livros
+    NO_CHAVE *atual = B->HLivros->LChaves->Inicio;
+    while (atual != NULL)
+    {
+        NO *aux = atual->DADOS->Inicio;
+        while (aux != NULL)
+        {
+            LIVRO *L = aux->Info;
+            fprintf(file, "%s,%s,%s,%s,%d\n", L->TITULO, L->AUTOR, L->AREA, L->ISBN, L->ANO);
+            aux = aux->Prox;
+        }
+        atual = atual->Prox;
+    }
+
+    // Save Requisitantes
+    RNO_CHAVE *atualR = B->HRequisitantes->RLChaves->Inicio;
+    while (atualR != NULL)
+    {
+        RNO *aux = atualR->DADOS->Inicio;
+        while (aux != NULL)
+        {
+            PESSOA *P = aux->Info;
+            fprintf(file, "%d,%s,%s,%s\n", P->ID, P->NOME, P->DATA_NASCIMENTO, P->IDFRAGUESIA);
+            aux = aux->Prox;
+        }
+        atualR = atualR->Prox;
+    }
+
+    // Save Requisicoes
+    PNO_CHAVE *atualP = B->LRequi->PLChaves->Inicio;
+    while (atualP != NULL)
+    {
+        NO_REQ *aux = atualP->DADOS->Inicio;
+        while (aux != NULL)
+        {
+            REQUISICAO *R = aux->Info;
+
+            char time_str_vencimento[11];
+            strftime(time_str_vencimento, sizeof(time_str_vencimento), "%d-%m-%Y", &R->Data_Vencimento);
+
+            char time_str_requisicao[11];
+            strftime(time_str_requisicao, sizeof(time_str_requisicao), "%d-%m-%Y", &R->Data_Requisicao);
+
+            fprintf(file, "%d,%s,%s,%s\n", R->Ptr_Req->ID, R->Ptr_Livro->ISBN, time_str_vencimento, time_str_requisicao);
+
+            aux = aux->Prox;
+        }
+        atualP = atualP->Prox;
+    }
+
+    fclose(file);
+}
+
+char *LivroToXML(LIVRO *L)
+{
+    char *xml = malloc(256); // Allocate enough space for the XML string
+    sprintf(xml, "\t<Livro>\n\t\t<Titulo>%s</Titulo>\n\t\t<Autor>%s</Autor>\n\t\t<Area>%s</Area>\n\t\t<ISBN>%s</ISBN>\n\t\t<Ano>%d</Ano>\n\t</Livro>",
+            L->TITULO, L->AUTOR, L->AREA, L->ISBN, L->ANO);
+    return xml;
+}
+
+char *PessoaToXML(PESSOA *P)
+{
+    char *xml = malloc(256); // Allocate enough space for the XML string
+    sprintf(xml, "\t<Pessoa>\n\t\t<ID>%d</ID>\n\t\t<Nome>%s</Nome>\n\t\t<DataNascimento>%s</DataNascimento>\n\t\t<IDFreguesia>%s</IDFreguesia>\n\t</Pessoa>",
+            P->ID, P->NOME, P->DATA_NASCIMENTO, P->IDFRAGUESIA);
+    return xml;
+}
+
+char *RequisicaoToXML(REQUISICAO *R)
+{
+    char *xml = malloc(256); // Allocate enough space for the XML string
+    char time_str_vencimento[11];
+    strftime(time_str_vencimento, sizeof(time_str_vencimento), "%d-%m-%Y", &R->Data_Vencimento);
+    char time_str_requisicao[11];
+    strftime(time_str_requisicao, sizeof(time_str_requisicao), "%d-%m-%Y", &R->Data_Requisicao);
+    sprintf(xml, "\t<Requisicao>\n\t\t<ID>%d</ID>\n\t\t<ISBN>%s</ISBN>\n\t\t<DataVencimento>%s</DataVencimento>\n\t\t<DataRequisicao>%s</DataRequisicao>\n\t</Requisicao>",
+            R->Ptr_Req->ID, R->Ptr_Livro->ISBN, time_str_vencimento, time_str_requisicao);
+    return xml;
+}
+
+void SaveAllToXML(BIBLIOTECA *B, char *filename)
+{
+
+    char fullfilename[128];
+    strcpy(fullfilename, "import/");
+    strcat(fullfilename, filename);
+    strcat(fullfilename, ".xml"); // Change the extension to .xml
+    FILE *file = fopen(fullfilename, "w");
+    if (file == NULL)
+    {
+        printf("Could not open file %s\n", filename);
+        return;
+    }
+
+    fprintf(file, "<Biblioteca>\n");
+
+    fprintf(file, "<Livros>\n");
+    NO_CHAVE *atualLivro = B->HLivros->LChaves->Inicio;
+    while (atualLivro != NULL)
+    {
+        NO *aux = atualLivro->DADOS->Inicio;
+        while (aux != NULL)
+        {
+            LIVRO *L = aux->Info;
+            char *xml = LivroToXML(L);
+            fprintf(file, "%s\n", xml);
+            free(xml);
+            aux = aux->Prox;
+        }
+        atualLivro = atualLivro->Prox;
+    }
+    fprintf(file, "</Livros>\n");
+
+    fprintf(file, "<Pessoas>\n");
+    RNO_CHAVE *atualPessoa = B->HRequisitantes->RLChaves->Inicio;
+    while (atualPessoa != NULL)
+    {
+        RNO *aux = atualPessoa->DADOS->Inicio;
+        while (aux != NULL)
+        {
+            PESSOA *P = aux->Info;
+            char *xml = PessoaToXML(P);
+            fprintf(file, "%s\n", xml);
+            free(xml);
+            aux = aux->Prox;
+        }
+        atualPessoa = atualPessoa->Prox;
+    }
+
+    fprintf(file, "</Pessoas>\n");
+
+    fprintf(file, "<Requisicoes>\n");
+    PNO_CHAVE *atualRequisicao = B->LRequi->PLChaves->Inicio;
+    while (atualRequisicao != NULL)
+    {
+        NO_REQ *aux = atualRequisicao->DADOS->Inicio;
+        while (aux != NULL)
+        {
+            REQUISICAO *R = aux->Info;
+            char *xml = RequisicaoToXML(R);
+            fprintf(file, "%s\n", xml);
+            free(xml);
+            aux = aux->Prox;
+        }
+        atualRequisicao = atualRequisicao->Prox;
+    }
+
+    fprintf(file, "</Requisicoes>\n");
+
+    fprintf(file, "</Biblioteca>\n");
+
+    fclose(file);
+}
+
+
 
 //--------------------------------------------------------
 

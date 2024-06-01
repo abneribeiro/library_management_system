@@ -6,7 +6,7 @@
 FREGUESIA *CriarFreguesiaDaLinha(char *linha)
 {
     FREGUESIA *L = (FREGUESIA *)malloc(sizeof(FREGUESIA));
-    FILE *F_Logs = fopen("logs.txt", "a");
+    FILE *F_Logs = fopen("log.txt", "a");
 
     if (L == NULL)
     {

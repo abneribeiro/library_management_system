@@ -69,10 +69,9 @@ size_t MemoryUsageHashing(HASHING *H);
 size_t MemoryUsageRHashing(RHASHING *H);
 size_t MemoryUsagePHashing(PHASHING *H);
 size_t MemoryUsageBiblioteca(BIBLIOTECA *B);
-
-// int RemoverLivroBiblioteca(BIBLIOTECA *B, int isbn);
-// LIVRO *LivroMaisRequisitadoBiblioteca(BIBLIOTECA *B);
-// char *ApelidoMaisComum(BIBLIOTECA *B);
-// int AddRequisitante(BIBLIOTECA *B, LIVRO *X);
-// LIVRO *PesquisarRequisitante(BIBLIOTECA *B, int cod);
+void SaveAllToCSV(BIBLIOTECA *B, char *filename);
+char* LivroToXML(LIVRO *L);
+char* PessoaToXML(PESSOA *P);
+char* RequisicaoToXML(REQUISICAO *R);
+void SaveAllToXML(BIBLIOTECA *B, char *filename);
 #endif // BIBLIOTECA_H_INCLUDED

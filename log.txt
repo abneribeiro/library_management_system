@@ -1,0 +1,654 @@
+Entrei em LerLivros na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun  1 21:06:24 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 21:06:24 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 21:06:24 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 21:06:24 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 21:06:24 2024
+
+Entrei em LerFreguesias na data Sat Jun  1 21:06:24 2024
+
+Entrei em LerDistritos na data Sat Jun  1 21:06:24 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun  1 21:06:22 2024
+
+Entrei em LerRequisitantes na data Sat Jun  1 21:06:22 2024
+
+101356475
+ Erro ao validar ID Do Requisitante: 101356475
+40362393
+ Erro ao validar ID Do Requisitante: 40362393
+Entrei em LerLivros na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun  1 22:28:16 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:28:16 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:28:16 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:28:16 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:28:16 2024
+
+Entrei em LerFreguesias na data Sat Jun  1 22:28:16 2024
+
+Entrei em LerDistritos na data Sat Jun  1 22:28:17 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun  1 22:28:14 2024
+
+Entrei em LerRequisitantes na data Sat Jun  1 22:28:14 2024
+
+101356475
+ Erro ao validar ID Do Requisitante: 101356475
+40362393
+ Erro ao validar ID Do Requisitante: 40362393
+Entrei em LerLivros na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun  1 22:30:00 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:30:00 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:30:00 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:30:00 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:30:00 2024
+
+Entrei em LerFreguesias na data Sat Jun  1 22:30:00 2024
+
+Entrei em LerDistritos na data Sat Jun  1 22:30:01 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun  1 22:29:58 2024
+
+Entrei em LerRequisitantes na data Sat Jun  1 22:29:58 2024
+
+101356475
+ Erro ao validar ID Do Requisitante: 101356475
+40362393
+ Erro ao validar ID Do Requisitante: 40362393
+Entrei em LerLivros na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun  1 22:41:30 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:41:30 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:41:30 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:41:30 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:41:30 2024
+
+Entrei em LerFreguesias na data Sat Jun  1 22:41:30 2024
+
+Entrei em LerDistritos na data Sat Jun  1 22:41:31 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun  1 22:41:28 2024
+
+Entrei em LerRequisitantes na data Sat Jun  1 22:41:28 2024
+
+101356475
+ Erro ao validar ID Do Requisitante: 101356475
+40362393
+ Erro ao validar ID Do Requisitante: 40362393
+Entrei em LerLivros na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun  1 22:43:41 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:43:41 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:43:41 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:43:41 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:43:41 2024
+
+Entrei em LerFreguesias na data Sat Jun  1 22:43:41 2024
+
+Entrei em LerDistritos na data Sat Jun  1 22:43:41 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun  1 22:43:39 2024
+
+Entrei em LerLivros na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun  1 22:52:28 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:52:28 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:52:28 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:52:28 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:52:28 2024
+
+Entrei em LerFreguesias na data Sat Jun  1 22:52:28 2024
+
+Entrei em LerDistritos na data Sat Jun  1 22:52:28 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun  1 22:52:26 2024
+
+Entrei em LerLivros na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun  1 22:54:58 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:54:58 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:54:58 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:54:58 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:54:58 2024
+
+Entrei em LerFreguesias na data Sat Jun  1 22:54:58 2024
+
+Entrei em LerDistritos na data Sat Jun  1 22:54:59 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun  1 22:54:56 2024
+
+Entrei em LerLivros na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun  1 22:59:12 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:59:12 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:59:12 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:59:12 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 22:59:12 2024
+
+Entrei em LerFreguesias na data Sat Jun  1 22:59:12 2024
+
+Entrei em LerDistritos na data Sat Jun  1 22:59:12 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun  1 22:59:10 2024
+
+Entrei em LerLivros na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun  1 23:04:10 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun  1 23:04:12 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 23:04:12 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 23:04:12 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 23:04:12 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun  1 23:04:12 2024
+
+Entrei em LerFreguesias na data Sat Jun  1 23:04:12 2024
+
+Entrei em LerDistritos na data Sat Jun  1 23:04:13 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun  1 23:04:10 2024
+

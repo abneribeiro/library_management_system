@@ -6,7 +6,7 @@
 
 CONCELHO *CriarConcelhoDaLinha(char *linha){
     CONCELHO *C = (CONCELHO *)malloc(sizeof(CONCELHO));
-    FILE *F_Logs = fopen("Logs.txt", "a");
+    FILE *F_Logs = fopen("log.txt", "a");
 
     if (C == NULL)
     {

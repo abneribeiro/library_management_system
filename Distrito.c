@@ -6,7 +6,7 @@
 DISTRITO *CriarDistritoDaLinha(char *linha)
 {
     DISTRITO *D = (DISTRITO *)malloc(sizeof(DISTRITO));
-    FILE *F_Logs = fopen("Logs.txt", "a");
+    FILE *F_Logs = fopen("log.txt", "a");
 
     if (D == NULL)
     {

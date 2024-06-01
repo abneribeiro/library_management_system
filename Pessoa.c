@@ -3,14 +3,7 @@
 #include "Uteis.h"
 #include "texto.h"
 
-/** \brief Permite Alocar e inicializar uma estrutura Pessoa
- *
- * \param _id int
- * \param _nome char*
- * \param _categoria char*
- * \return PESSOA*
- *
- */
+
 
 PESSOA *CriarPessoa()
 {
@@ -40,20 +33,19 @@ PESSOA *CriarPessoa()
 PESSOA *CriarRequisitanteDaLinha(char *linha)
 {
     PESSOA *R = (PESSOA *)malloc(sizeof(PESSOA));
-    FILE *F_Logs = fopen("logs.txt", "a");
+    FILE *F_Logs = fopen("log.txt", "a");
 
     if (R == NULL)
     {
         printf("Erro ao alocar memoria para a pessoa\n");
         return NULL;
     }
-    // ID;NOME;DATA_NASCIMENTO;IDFRAGUESIA
+    // ID   NOME DATA_NASCIMENTO    IDFRAGUESIA
     // Verificar os dados  antes de passar
     char *token = strtok(linha, "\t");
     if (!ValidarID(token))
     {
-        fprintf(F_Logs, "Erro ao validar ID: %s\n", token);
-        printf("Erro ID Requisitante: %s\n", token);
+        fprintf(F_Logs, "%s\n Erro ao validar ID Do Requisitante: %s\n", linha, token);
 
         free(R);
         return NULL;
@@ -64,8 +56,9 @@ PESSOA *CriarRequisitanteDaLinha(char *linha)
     token = strtok(NULL, "\t");
     if (!ValidarNome(token))
     {
-        fprintf(F_Logs, "Erro ao validar Nome: %s\n", token);
-        printf("Erro nome Requisitante: %s\n", token);
+        fprintf(F_Logs, "%s\nErro ao validar Nome Do Requisitante: %s\n", linha, token);
+
+        fclose(F_Logs);
         free(R);
         return NULL;
     }
@@ -75,9 +68,9 @@ PESSOA *CriarRequisitanteDaLinha(char *linha)
     token = strtok(NULL, "\t");
     if (!ValidarDataNascimento(token))
     {
-        fprintf(F_Logs, "Erro ao validar Data Nascimento: %s\n", token);
-        printf("Erro Data: %s\n", token);
+        fprintf(F_Logs, "%s\nErro ao validar Data Nascimento: %s\n",linha, token);
 
+        fclose(F_Logs);
         free(R);
         return NULL;
     }
@@ -94,16 +87,16 @@ PESSOA *CriarRequisitanteDaLinha(char *linha)
 
     if (!ValidarIDFreguesia(token))
     {
-        fprintf(F_Logs, "Erro ao validar ID Freguesia: %s\n", token);
-        printf("Erro id freguesia: %s\n", token);
+        fprintf(F_Logs, "%s\nErro ao validar ID Freguesia: %s\n", linha, token);
+        fclose(F_Logs);
 
         free(R);
         return NULL;
     }
 
-    fclose(F_Logs);
+    
     R->IDFRAGUESIA = strdup(token);
-
+    fclose(F_Logs);
     return R;
 }
 
