@@ -96,6 +96,90 @@ void ListarRequisitantesComLivros(PHASHING *H)
     }
 }
 
+void ListOverdueBooks(PHASHING *H)
+{
+    if (!H || !H->PLChaves)
+        return;
+
+    int hasOverdueBooks = 0;
+
+    PNO_CHAVE *P = H->PLChaves->Inicio;
+    while (P)
+    {
+        PLISTA *listaRequisicoes = P->DADOS;
+        NO_REQ *noRequisicao = listaRequisicoes->Inicio;
+        while (noRequisicao)
+        {
+            REQUISICAO *requisicao = noRequisicao->Info;
+            PESSOA *requisitante = requisicao->Ptr_Req;
+            LIVRO *livro = requisicao->Ptr_Livro;
+
+            time_t t = time(NULL);
+            struct tm currentTime = *localtime(&t);
+
+            // Compare the due date with the current date
+            if (mktime(&requisicao->Data_Vencimento) < mktime(&currentTime))
+            {
+                printf("Livro: %s esta atrasado. Foi requisitado por: %s. Data de vencimento: %d-%d-%d\n",
+                       livro->TITULO,
+                       requisitante->NOME,
+                       requisicao->Data_Vencimento.tm_mday,
+                       requisicao->Data_Vencimento.tm_mon + 1,
+                       requisicao->Data_Vencimento.tm_year + 1900);
+                hasOverdueBooks = 1;
+            }
+
+            noRequisicao = noRequisicao->Prox;
+        }
+        P = P->Prox;
+    }
+
+    if (!hasOverdueBooks)
+    {
+        printf("Não existem livros com atrasos.\n");
+    }
+}
+
+void ReturnBook(PHASHING *H, int requesterId, char *isbn)
+{
+    if (!H || !H->PLChaves)
+        return;
+
+    PNO_CHAVE *P = H->PLChaves->Inicio;
+    while (P)
+    {
+        PLISTA *listaRequisicoes = P->DADOS;
+        NO_REQ *noRequisicao = listaRequisicoes->Inicio;
+        NO_REQ *prevRequisicao = NULL;
+        while (noRequisicao)
+        {
+            REQUISICAO *requisicao = noRequisicao->Info;
+            if (requisicao->Ptr_Req->ID == requesterId && strcmp(requisicao->Ptr_Livro->ISBN, isbn) == 0)
+            {
+                printf("Livro: %s foi devolvido por: %s\n", requisicao->Ptr_Livro->TITULO, requisicao->Ptr_Req->NOME);
+
+                // Remove the request from the list
+                if (prevRequisicao == NULL) // it's the first node
+                {
+                    listaRequisicoes->Inicio = noRequisicao->Prox;
+                }
+                else
+                {
+                    prevRequisicao->Prox = noRequisicao->Prox;
+                }
+                free(noRequisicao);
+                listaRequisicoes->NEL--;
+                return;
+            }
+            prevRequisicao = noRequisicao;
+            noRequisicao = noRequisicao->Prox;
+        }
+        P = P->Prox;
+    }
+
+    printf("Requisição com ID %d e ISBN %s não encontrada.\n", requesterId, isbn);
+}
+
 void DestruirPHashing(PHASHING *H)
 {
     if (!H)

@@ -4,8 +4,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
-
-
+#include "texto.h"
 
 bool ValidarID(char *id)
 {
@@ -35,22 +34,19 @@ bool ValidarID(char *id)
     return true;
 }
 
-
 // Improved ValidarNome
 bool ValidarNome(char *nome)
 {
     int len = strlen(nome);
     for (int i = 0; i < len; i++)
     {
-        if (!((nome[i] >= 'a' && nome[i] <= 'z') || (nome[i] >= 'A' && nome[i] <= 'Z') || nome[i] == ' ' || nome[i] == '-' || nome[i] == '\''))
+        if (!((nome[i] >= 'a' && nome[i] <= 'z') || (nome[i] >= 'A' && nome[i] <= 'Z') || nome[i] == ' ' || nome[i] == '-'))
         {
             return false;
         }
     }
     return true;
 }
-
-
 
 bool ValidarDataNascimento(char *data)
 {
@@ -60,8 +56,8 @@ bool ValidarDataNascimento(char *data)
         return false;
     }
     int actualYear = tm.tm_year; // Save the actual year for leap year check
-    tm.tm_year -= 1900; // tm_year is years since 1900
-    tm.tm_mon--;        // tm_mon is months since January (0-11)
+    tm.tm_year -= 1900;          // tm_year is years since 1900
+    tm.tm_mon--;                 // tm_mon is months since January (0-11)
     // Check if the date is logical
     if (tm.tm_mday < 1 || tm.tm_mday > 31 || tm.tm_mon < 0 || tm.tm_mon >= 12)
     {
@@ -88,7 +84,6 @@ bool ValidarDataNascimento(char *data)
 }
 
 
-// Improved ValidarIDFreguesia
 bool ValidarIDFreguesia(char *idFreguesia)
 {
     size_t len = strlen(idFreguesia);
@@ -96,9 +91,48 @@ bool ValidarIDFreguesia(char *idFreguesia)
     {
         return false;
     }
-    for (int i = 0; i < len; i++)
+    for (int i = 0; i < 4; i++) // Check first 4 characters for digits
     {
         if (idFreguesia[i] < '0' || idFreguesia[i] > '9')
+        {
+            return false;
+        }
+    }
+    for (int i = 4; i < 6; i++) // Check last 2 characters for digits or letters
+    {
+        if (!((idFreguesia[i] >= '0' && idFreguesia[i] <= '9') || (idFreguesia[i] >= 'A' && idFreguesia[i] <= 'Z') || (idFreguesia[i] >= 'a' && idFreguesia[i] <= 'z')))
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+bool ValidarIDConcelho(char *idConcelho)
+{
+    size_t len = strlen(idConcelho);
+    if (len != 4)
+    {
+        return false;
+    }
+    for (int i = 0; i < len; i++)
+    {
+        if (idConcelho[i] < '0' || idConcelho[i] > '9')
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+
+bool ValidarNomeFreguesia(char *nomeFreguesia)
+{
+    int len = strlen(nomeFreguesia);
+    for (int i = 0; i < len; i++)
+    {
+        char c = nomeFreguesia[i];
+        if (!((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || c == ' ')) // Allow only letters and spaces
         {
             return false;
         }

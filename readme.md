@@ -4,7 +4,7 @@
 - [X] Carregar Dados de Ficheiros
 - [X] Validação de Dados "requisitantes.txt"
 - [X] Registar erros de dados errados em "logs.txt" e descartar os mesmos
-- [ ] Registar info de livros, requesitantes, requesições (no momento ou ao fim do programa)
+- [X] Registar info de livros, requesitantes, requesições (no momento ou ao fim do programa)
 - [X] **Gerir os livros**
     - [X] Adicionar livros
     - [X] Listar livros
@@ -12,7 +12,7 @@
     - [X] Verificar se livro existe(ISBN), se existe -> mostra dados
     - [X] Determinar livro/s mais recente/s(ano)
     - [X] Determinar qual o livro mais requisitado (Se existir mais do que um, deve devolver o primeiro encontrado); 
-    - [ ] Determinar area + requisitada(return a 1ª encontrada)
+    - [X] Determinar area + requisitada(return a 1ª encontrada)
 - [ ] **Gerir lista de requesitantes**
     - [ ] Adicionar requesitantes
     - [X] Check se visitante existe(return nome)
@@ -29,7 +29,7 @@
     - [X] **Listar requisitantes cujo aniversário, num determinado ano, é na quaresma (entre o Carnaval e a Páscoa), (ou que nasceram na quaresma).**
 - [ ] **Gerir Requesições de Livros**
     - [X] Requesitar Livro
-    - [ ] Devolver Livro Requesitado
+    - [X] Devolver Livro Requesitado
     - [X] Listar Livros Requesitados
 - [X] Determinar a memória ocupada por toda a Estrutura de Dados
 - [ ] Gravar toda a informação para um dado ficheiro XML, cujo nome é introduzido pelo utilizador;
@@ -41,9 +41,13 @@ Dúvidas:
 
 Executar o projecto
 ```bash
-    gcc main.c Lista.c RLista.c Pessoa.c Hashing.c RHashing.c Biblioteca.c texto.c Uteis.c Requisicao.c Livro.c Plista.c hashrequisicoes.c -o main
+    gcc main.c Lista.c RLista.c Pessoa.c Hashing.c RHashing.c Biblioteca.c texto.c Uteis.c Requisicao.c Livro.c Plista.c hashrequisicoes.c LFreguesia.c LConcelho.c LDistrito.c Freguesia.c Concelho.c Distrito.c -o main
 ```
 
 
 
+
 ### Ver memoria alocada..
+
+
+

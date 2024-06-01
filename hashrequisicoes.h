@@ -32,6 +32,9 @@ PNO_CHAVE *FuncaoPHashing(PHASHING *H, REQUISICAO *R);
 void AddPHashing(PHASHING *H, REQUISICAO *R);
 void ShowPHashing(PHASHING *H);
 void ListarRequisitantesComLivros(PHASHING *H);
+void ReturnBook(PHASHING *H, int requesterId, char* isbn);
+void ListOverdueBooks(PHASHING *H);
+
 void DestruirPHashing(PHASHING *H);
 
 PLISTA_CHAVES *CriarPListaCHAVES();

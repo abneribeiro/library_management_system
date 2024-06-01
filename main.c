@@ -206,11 +206,12 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
     printf("\n | (2) Listar livros atualmente requisitados                      |");
     printf("\n |     (organizados por area)                                     |");
     printf("\n | (3) Devolver um livro requisitado anteriormente                |");
-    printf("\n | (4) Listar requisitantes nascidos em Domingo                   |");
+    printf("\n | (4) Listar Livros requisitados e atrasados na entrega          |");
+    printf("\n | (5) Listar requisitantes nascidos em Domingo                   |");
     printf("\n |     (ou cujo aniversario em um ano especifico eh um Domingo)   |");
-    printf("\n | (5) Listar requisitantes com aniversario na quaresma           |");
+    printf("\n | (6) Listar requisitantes com aniversario na quaresma           |");
     printf("\n |     (ou que nasceram na quaresma)                              |");
-    printf("\n | (6) Salvar informacoes dos requisitantes                       |");
+    printf("\n | (7) Salvar informacoes dos requisitantes                       |");
     printf("\n | (0) SAIR                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
@@ -242,15 +243,26 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
         ShowPHashing(Bib->LRequi);
         break;
     case 3:
-        // DevolverLivro();
+        CLEAR_BUFFER;
+        printf("Digite o ID do requisitante: ");
+        scanf("%d", &Id);
+        CLEAR_BUFFER;
+        printf("Digite o ISBN do livro: ");
+        fscanf(stdin, "%14[^\n]", isbn);
+        CLEAR_BUFFER;
+        ReturnBook(Bib->LRequi, Id, isbn);
         break;
     case 4:
-        ListarPessoasNascidasDomingo(Bib->HRequisitantes);
+        ListOverdueBooks(Bib->LRequi);
         break;
     case 5:
-        ListarRequisitantesNascidosNaQuaresma(Bib->HRequisitantes);
+        ListarPessoasNascidasDomingo(Bib->HRequisitantes);
         break;
     case 6:
+        ListarRequisitantesNascidosNaQuaresma(Bib->HRequisitantes);
+
+        break;
+    case 7:
         // saveRequisitions();
         break;
     case 0:
@@ -288,6 +300,9 @@ int main()
     BIBLIOTECA *Bib;
     Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
     LoadFicheiroBiblioteca(Bib);
+
+    MostrarDistritos(Bib->LDistritos);
+
 
     do
     {

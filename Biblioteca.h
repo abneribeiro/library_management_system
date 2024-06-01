@@ -11,6 +11,9 @@
 #include "Livro.h"
 #include "Plista.h"
 #include "hashrequisicoes.h"
+#include "LFreguesia.h"
+#include "LConcelho.h"
+#include "LDistrito.h"
 
 typedef struct
 {
@@ -20,6 +23,11 @@ typedef struct
     HASHING *HLivros;
     RHASHING *HRequisitantes;
     PHASHING *LRequi;
+
+    LISTA_FREGUESIAS *LFreguesias;
+    LISTA_CONCELHOS *LConcelhos;
+    LISTA_DISTRITOS *LDistritos;
+
 } BIBLIOTECA;
 
 BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs);
@@ -46,10 +54,9 @@ void MostrarPessoasSemRequisicoes(BIBLIOTECA *B);
 void MostrarRequisicoesRequisitante(BIBLIOTECA *B, char *nome);
 LIVRO *LivroMaisRequisitado(BIBLIOTECA *B);
 char *AreaMaisRequisitada(BIBLIOTECA *B);
-
-
-
-
+void LerConcelhos(BIBLIOTECA *B, char *filename);
+void LerFreguesias(BIBLIOTECA *B, char *filename);
+void LerDistritos(BIBLIOTECA *B, char *filename);
 
 size_t MemoryUsageLivro(LIVRO *L);
 size_t MemoryUsagePessoa(PESSOA *P);

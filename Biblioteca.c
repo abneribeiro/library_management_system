@@ -8,6 +8,9 @@
 #include "Plista.h"
 #include "hashrequisicoes.h"
 #include "Requisicao.h"
+#include "Freguesia.h"
+#include "Concelho.h"
+#include "Distrito.h"
 
 /** \brief Aloca Memoria para uma Biblioteca
  *
@@ -28,6 +31,10 @@ BIBLIOTECA *CriarBiblioteca(char *_nome, char *_logs)
     Bib->HLivros = CriarHashing();
     Bib->HRequisitantes = CriarRHashing();
     Bib->LRequi = CriarPHashing();
+    Bib->LFreguesias = CriarListaFreguesias();
+    Bib->LConcelhos = CriarListaConcelhos();
+    Bib->LDistritos = CriarListaDistritos();
+
     return Bib;
 }
 
@@ -104,6 +111,123 @@ void LerRequisitantes(BIBLIOTECA *B, char *filename)
         if (R != NULL)
         {
             AddRequisitanteBiblioteca(B, R);
+        }
+    }
+
+    fclose(file);
+}
+
+void LerConcelhos(BIBLIOTECA *B, char *filename)
+{
+    if (B == NULL)
+    {
+        fprintf(stderr, "Biblioteca is NULL\n");
+        return;
+    }
+
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+
+    if (F_Logs == NULL)
+    {
+        fprintf(stderr, "Failed to open log file\n");
+        return;
+    }
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+    fclose(F_Logs);
+
+    FILE *file = fopen(filename, "r");
+    if (file == NULL)
+    {
+        printf("Could not open file %s\n", filename);
+        return;
+    }
+
+    char linha[256];
+    while (fgets(linha, sizeof(linha), file))
+    {
+        CONCELHO *C = CriarConcelhoDaLinha(linha);
+        if (C != NULL)
+        {
+            AdicionarConcelhoLista(B->LConcelhos, C);
+        }
+    }
+
+    fclose(file);
+}
+
+void LerDistritos(BIBLIOTECA *B, char *filename)
+{
+    if (B == NULL)
+    {
+        fprintf(stderr, "Biblioteca is NULL\n");
+        return;
+    }
+
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+
+    if (F_Logs == NULL)
+    {
+        fprintf(stderr, "Failed to open log file\n");
+        return;
+    }
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+    fclose(F_Logs);
+
+    FILE *file = fopen(filename, "r");
+    if (file == NULL)
+    {
+        printf("Could not open file %s\n", filename);
+        return;
+    }
+
+    char linha[256];
+    while (fgets(linha, sizeof(linha), file))
+    {
+        DISTRITO *D = CriarDistritoDaLinha(linha);
+        if (D != NULL)
+        {
+            AdicionarDistritoLista(B->LDistritos, D);
+        }
+    }
+
+    fclose(file);
+}
+
+void LerFreguesias(BIBLIOTECA *B, char *filename)
+{
+    if (B == NULL)
+    {
+        fprintf(stderr, "Biblioteca is NULL\n");
+        return;
+    }
+
+    FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
+
+    if (F_Logs == NULL)
+    {
+        fprintf(stderr, "Failed to open log file\n");
+        return;
+    }
+    time_t now = time(NULL);
+    fprintf(F_Logs, "Entrei em %s na data %s\n", __FUNCTION__, ctime(&now));
+    fclose(F_Logs);
+
+    FILE *file = fopen(filename, "r");
+    if (file == NULL)
+    {
+        printf("Could not open file %s\n", filename);
+        return;
+    }
+
+    char linha[256];
+    while (fgets(linha, sizeof(linha), file))
+    {
+        FREGUESIA *F = CriarFreguesiaDaLinha(linha);
+        if (F != NULL)
+        {
+            AdicionarFreguesiaLista(B->LFreguesias, F);
         }
     }
 
@@ -441,7 +565,6 @@ char *AreaMaisRequisitada(BIBLIOTECA *B)
     return mostRequestedArea;
 }
 
-
 int LoadFicheiroBiblioteca(BIBLIOTECA *B)
 {
     FILE *F_Logs = fopen(B->FICHEIRO_LOGS, "a");
@@ -451,6 +574,9 @@ int LoadFicheiroBiblioteca(BIBLIOTECA *B)
     LerLivros(B, "import/livros.txt");
     LerRequisitantes(B, "import/requisitantes.txt");
     LerRequisicoes(B, "import/requisicoes.txt");
+    LerFreguesias(B, "import/freguesias.txt");
+    LerDistritos(B, "import/distritos.txt");
+    //LerConcelhos(B, "import/concelhos.txt");
 
     fclose(F_Logs);
     return EXIT_SUCCESS;
@@ -702,7 +828,6 @@ char *AreaWithMostBooks(BIBLIOTECA *B)
     return maxArea;
 }
 
-
 void MostrarRequisicoesRequisitante(BIBLIOTECA *B, char *nome)
 {
     // Find the requester
@@ -740,9 +865,6 @@ void MostrarRequisicoesRequisitante(BIBLIOTECA *B, char *nome)
         printf("Requisitante nao tem requisicoes\n");
     }
 }
-
-
-
 
 void ShowBiblioteca(BIBLIOTECA *B)
 {

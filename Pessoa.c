@@ -53,7 +53,7 @@ PESSOA *CriarRequisitanteDaLinha(char *linha)
     if (!ValidarID(token))
     {
         fprintf(F_Logs, "Erro ao validar ID: %s\n", token);
-        printf("Erro ID: %s\n", token);
+        printf("Erro ID Requisitante: %s\n", token);
 
         free(R);
         return NULL;
@@ -65,7 +65,7 @@ PESSOA *CriarRequisitanteDaLinha(char *linha)
     if (!ValidarNome(token))
     {
         fprintf(F_Logs, "Erro ao validar Nome: %s\n", token);
-        printf("Erro nome: %s\n", token);
+        printf("Erro nome Requisitante: %s\n", token);
         free(R);
         return NULL;
     }
@@ -101,6 +101,7 @@ PESSOA *CriarRequisitanteDaLinha(char *linha)
         return NULL;
     }
 
+    fclose(F_Logs);
     R->IDFRAGUESIA = strdup(token);
 
     return R;

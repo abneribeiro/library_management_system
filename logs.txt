@@ -31,3 +31,5604 @@ Erro ao validar ID Freguesia: 0302FE
 Erro ao validar ID Freguesia: 0302FE
 Erro ao validar ID Freguesia: 0302FE
 Erro ao validar ID Freguesia: 0302FE
+Erro ao validar ID Freguesia: 0302FE
+Erro ao validar ID Freguesia: 0302FE
+Erro ao validar ID Freguesia: 0302FE
+Erro ao validar ID Freguesia: 0302FE
+Erro ao validar ID Freguesia: 0302FE
+Erro ao validar ID Freguesia: 0302FE
+Erro ao validar Data Nascimento: 1979-05-15
+Erro ao validar ID: 101356475
+Erro ao validar Data Nascimento: 29-02-1958
+Erro ao validar ID Freguesia: 13111
+Erro ao validar ID: 40362393
+Erro ao validar Data Nascimento: 23/11/2001
+Erro ao validar Data Nascimento: 04-set-1959
+Erro ao validar Data Nascimento: 31-04-2001
+Erro ao validar Nome: Aguada de Cima
+
+Erro ao validar Nome: Fermentelos
+
+Erro ao validar Nome: Macinhata do Vouga
+
+Erro ao validar Nome: Valongo do Vouga
+
+Erro ao validar Nome: Agueda e Borralha
+
+Erro ao validar Nome: Barro e Aguada de Baixo
+
+Erro ao validar Nome: Belazaima do Chao, Castanheira do Vouga e Agadao
+
+Erro ao validar Nome: Recardaes e Espinhel
+
+Erro ao validar Nome: Travasso e Ois da Ribeira
+
+Erro ao validar Nome: Trofa, Segadaes e Lamas do Vouga
+
+Erro ao validar Nome: Prestimo e Macieira de Alcoba
+
+Erro ao validar Nome: Alquerubim
+
+Erro ao validar Nome: Angeja
+
+Erro ao validar Nome: Branca
+
+Erro ao validar Nome: Ribeira de Fraguas
+
+Erro ao validar Nome: Albergaria-A-Velha e Valmaior
+
+Erro ao validar Nome: Sao Joao de Loure e Frossos
+
+Erro ao validar Nome: Avelas de Caminho
+
+Erro ao validar Nome: Avelas de Cima
+
+Erro ao validar Nome: Moita
+
+Erro ao validar Nome: Sangalhos
+
+Erro ao validar Nome: S. Lourenco do Bairro
+
+Erro ao validar Nome: Vila Nova de Monsarros
+
+Erro ao validar Nome: Vilarinho do Bairro
+
+Erro ao validar Nome: Amoreira da Gandara, Paredes do Bairro e Ancas
+
+Erro ao validar Nome: Arcos e Mogofores
+
+Erro ao validar Nome: Tamengos, Aguim e Ois do Bairro
+
+Erro ao validar Nome: Alvarenga
+
+Erro ao validar Nome: Chave
+
+Erro ao validar Nome: Escariz
+
+Erro ao validar Nome: Fermedo
+
+Erro ao validar Nome: Mansores
+
+Erro ao validar Nome: Moldes
+
+Erro ao validar Nome: Rossas
+
+Erro ao validar Nome: Santa Eulalia
+
+Erro ao validar Nome: S. Miguel do Mato
+
+Erro ao validar Nome: Tropeco
+
+Erro ao validar Nome: Urro
+
+Erro ao validar Nome: Varzea
+
+Erro ao validar Nome: Arouca e Burgo
+
+Erro ao validar Nome: Cabreiros e Albergaria da Serra
+
+Erro ao validar Nome: Canelas e Espiunca
+
+Erro ao validar Nome: Covelo de Paivo e Janarde
+
+Erro ao validar Nome: Aradas
+
+Erro ao validar Nome: Cacia
+
+Erro ao validar Nome: Esgueira
+
+Erro ao validar Nome: Oliveirinha
+
+Erro ao validar Nome: S. Bernardo
+
+Erro ao validar Nome: S. Jacinto
+
+Erro ao validar Nome: Santa Joana
+
+Erro ao validar Nome: Eixo e Eirol
+
+Erro ao validar Nome: Requeixo, Nossa Senhora de Fatima e Nariz
+
+Erro ao validar Nome: Gloria e Vera Cruz
+
+Erro ao validar Nome: Fornos
+
+Erro ao validar Nome: Real
+
+Erro ao validar Nome: Santa Maria de Sardoura
+
+Erro ao validar Nome: S. Martinho de Sardoura
+
+Erro ao validar Nome: Raiva, Pedorido e Paraiso
+
+Erro ao validar Nome: Sobrado e Bairros
+
+Erro ao validar Nome: Espinho
+
+Erro ao validar Nome: Paramos
+
+Erro ao validar Nome: Silvalde
+
+Erro ao validar Nome: Anta e Guetim
+
+Erro ao validar Nome: Avanca
+
+Erro ao validar Nome: Pardilho
+
+Erro ao validar Nome: Salreu
+
+Erro ao validar Nome: Beduido e Veiros
+
+Erro ao validar Nome: Canelas e Fermela
+
+Erro ao validar Nome: Argoncilhe
+
+Erro ao validar Nome: Arrifana
+
+Erro ao validar Nome: Escapaes
+
+Erro ao validar Nome: Fiaes
+
+Erro ao validar Nome: Fornos
+
+Erro ao validar Nome: Lourosa
+
+Erro ao validar Nome: Milheiros de Poiares
+
+Erro ao validar Nome: Mozelos
+
+Erro ao validar Nome: Nogueira da Regedoura
+
+Erro ao validar Nome: S. Paio de Oleiros
+
+Erro ao validar Nome: Pacos de Brandao
+
+Erro ao validar Nome: Rio Meao
+
+Erro ao validar Nome: Romariz
+
+Erro ao validar Nome: Sanguedo
+
+Erro ao validar Nome: Santa Maria de Lamas
+
+Erro ao validar Nome: S. Joao de Ver
+
+Erro ao validar Nome: Caldas de Sao Jorge e Pigeiros
+
+Erro ao validar Nome: Canedo, Vale e Vila Maior
+
+Erro ao validar Nome: Lobao, Giao, Louredo e Guisande
+
+Erro ao validar Nome: Santa Maria da Feira, Travanca, Sanfins e Espargo
+
+Erro ao validar Nome: Sao Miguel do Souto e Mosteiro
+
+Erro ao validar Nome: Gafanha da Encarnacao
+
+Erro ao validar Nome: Gafanha da Nazare
+
+Erro ao validar Nome: Gafanha do Carmo
+
+Erro ao validar Nome: Ilhavo (Sao Salvador)
+
+Erro ao validar Nome: Barcouco
+
+Erro ao validar Nome: Casal Comba
+
+Erro ao validar Nome: Luso
+
+Erro ao validar Nome: Pampilhosa
+
+Erro ao validar Nome: Vacarica
+
+Erro ao validar Nome: Mealhada, Ventosa do Bairro e Antes
+
+Erro ao validar Nome: Bunheiro
+
+Erro ao validar Nome: Monte
+
+Erro ao validar Nome: Murtosa
+
+Erro ao validar Nome: Torreira
+
+Erro ao validar Nome: Carregosa
+
+Erro ao validar Nome: Cesar
+
+Erro ao validar Nome: Fajoes
+
+Erro ao validar Nome: Loureiro
+
+Erro ao validar Nome: Macieira de Sarnes
+
+Erro ao validar Nome: Ossela
+
+Erro ao validar Nome: S. Martinho da Gandara
+
+Erro ao validar Nome: Sao Roque
+
+Erro ao validar Nome: Vila de Cucujaes
+
+Erro ao validar Nome: Nogueira do Cravo e Pindelo
+
+Erro ao validar Nome: O. Azemeis, Riba-Ul, Ul, Macinhata Seixa, Madail
+
+Erro ao validar Nome: Pinheiro da Bemposta, Travanca e Palmaz
+
+Erro ao validar Nome: Oia
+
+Erro ao validar Nome: Oliveira do Bairro
+
+Erro ao validar Nome: Palhaca
+
+Erro ao validar Nome: Bustos, Troviscal e Mamarrosa
+
+Erro ao validar Nome: Cortegaca
+
+Erro ao validar Nome: Esmoriz
+
+Erro ao validar Nome: Maceda
+
+Erro ao validar Nome: Valega
+
+Erro ao validar Nome: Ovar, S.Joao, Arada e S.Vicente de Pereira Jusa
+
+Erro ao validar Nome: S. Joao da Madeira
+
+Erro ao validar Nome: Couto de Esteves
+
+Erro ao validar Nome: Pessegueiro do Vouga
+
+Erro ao validar Nome: Rocas do Vouga
+
+Erro ao validar Nome: Sever do Vouga
+
+Erro ao validar Nome: Talhadas
+
+Erro ao validar Nome: Cedrim e Paradela
+
+Erro ao validar Nome: Silva Escura e Dornelas
+
+Erro ao validar Nome: Calvao
+
+Erro ao validar Nome: Gafanha da Boa Hora
+
+Erro ao validar Nome: Ouca
+
+Erro ao validar Nome: Soza
+
+Erro ao validar Nome: Santo Andre de Vagos
+
+Erro ao validar Nome: Fonte de Angeao e Covao do Lobo
+
+Erro ao validar Nome: Ponte de Vagos e Santa Catarina
+
+Erro ao validar Nome: Vagos e Santo Antonio
+
+Erro ao validar Nome: Aroes
+
+Erro ao validar Nome: Sao Pedro de Casteloes
+
+Erro ao validar Nome: Cepelos
+
+Erro ao validar Nome: Junqueira
+
+Erro ao validar Nome: Macieira de Cambra
+
+Erro ao validar Nome: Roge
+
+Erro ao validar Nome: Vila Cha, Codal e Vila Cova de Perrinho
+
+Erro ao validar Nome: Ervidel
+
+Erro ao validar Nome: Messejana
+
+Erro ao validar Nome: S. Joao de Negrilhos
+
+Erro ao validar Nome: Aljustrel e Rio de Moinhos
+
+Erro ao validar Nome: Rosario
+
+Erro ao validar Nome: Santa Cruz
+
+Erro ao validar Nome: S. Barnabe
+
+Erro ao validar Nome: Aldeia Dos Fernandes
+
+Erro ao validar Nome: Almodovar e Graca Dos Padroes
+
+Erro ao validar Nome: Santa Clara-A-Nova e Gomes Aires
+
+Erro ao validar Nome: Alvito
+
+Erro ao validar Nome: Vila Nova da Baronia
+
+Erro ao validar Nome: Barrancos
+
+Erro ao validar Nome: Baleizao
+
+Erro ao validar Nome: Beringel
+
+Erro ao validar Nome: Cabeca Gorda
+
+Erro ao validar Nome: Nossa Senhora Das Neves
+
+Erro ao validar Nome: Santa Clara de Louredo
+
+Erro ao validar Nome: S. Matias
+
+Erro ao validar Nome: Albernoa e Trindade
+
+Erro ao validar Nome: Beja (Salvador e Santa Maria da Feira)
+
+Erro ao validar Nome: Beja (Santiago Maior e Sao Joao Baptista)
+
+Erro ao validar Nome: Salvada e Quintos
+
+Erro ao validar Nome: Santa Vitoria e Mombeja
+
+Erro ao validar Nome: Trigaches e Sao Brissos
+
+Erro ao validar Nome: Entradas
+
+Erro ao validar Nome: Santa Barbara de Padroes
+
+Erro ao validar Nome: S. Marcos da Ataboeira
+
+Erro ao validar Nome: Castro Verde e Casevel
+
+Erro ao validar Nome: Cuba
+
+Erro ao validar Nome: Faro do Alentejo
+
+Erro ao validar Nome: Vila Alva
+
+Erro ao validar Nome: Vila Ruiva
+
+Erro ao validar Nome: Figueira Dos Cavaleiros
+
+Erro ao validar Nome: Odivelas
+
+Erro ao validar Nome: Alfundao e Peroguarda
+
+Erro ao validar Nome: Ferreira do Alentejo e Canhestros
+
+Erro ao validar Nome: Alcaria Ruiva
+
+Erro ao validar Nome: Corte do Pinto
+
+Erro ao validar Nome: Espirito Santo
+
+Erro ao validar Nome: Mertola
+
+Erro ao validar Nome: Santana de Cambas
+
+Erro ao validar Nome: S. Joao Dos Caldeireiros
+
+Erro ao validar Nome: S.Mig. Pinheiro, S.Pedro Solis, S.Sebastiao Carros
+
+Erro ao validar Nome: Amareleja
+
+Erro ao validar Nome: Povoa de Sao Miguel
+
+Erro ao validar Nome: Sobral da Adica
+
+Erro ao validar Nome: Santo Agostinho e Sao Joao Baptista e Santo Amador
+
+Erro ao validar Nome: Safara e Santo Aleixo da Restauracao
+
+Erro ao validar Nome: Reliquias
+
+Erro ao validar Nome: Saboia
+
+Erro ao validar Nome: S. Luis
+
+Erro ao validar Nome: S. Martinho Das Amoreiras
+
+Erro ao validar Nome: Vila Nova de Milfontes
+
+Erro ao validar Nome: Luzianes-Gare
+
+Erro ao validar Nome: Longueira/Almograve
+
+Erro ao validar Nome: Boavista Dos Pinheiros
+
+Erro ao validar Nome: Colos
+
+Erro ao validar Nome: Santa Clara-A-Velha
+
+Erro ao validar Nome: Sao Salvador e Santa Maria
+
+Erro ao validar Nome: Sao Teotonio
+
+Erro ao validar Nome: Vale de Santiago
+
+Erro ao validar Nome: Ourique
+
+Erro ao validar Nome: Santana da Serra
+
+Erro ao validar Nome: Garvao e Santa Luzia
+
+Erro ao validar Nome: Panoias e Conceicao
+
+Erro ao validar Nome: Brinches
+
+Erro ao validar Nome: Pias
+
+Erro ao validar Nome: Vila Verde de Ficalho
+
+Erro ao validar Nome: Serpa (Salvador e Santa Maria)
+
+Erro ao validar Nome: Vila Nova de Sao Bento e Vale de Vargo
+
+Erro ao validar Nome: Pedrogao
+
+Erro ao validar Nome: Selmes
+
+Erro ao validar Nome: Vidigueira
+
+Erro ao validar Nome: Vila de Frades
+
+Erro ao validar Nome: Barreiros
+
+Erro ao validar Nome: Bico
+
+Erro ao validar Nome: Caires
+
+Erro ao validar Nome: Carrazedo
+
+Erro ao validar Nome: Dornelas
+
+Erro ao validar Nome: Fiscal
+
+Erro ao validar Nome: Goaes
+
+Erro ao validar Nome: Lago
+
+Erro ao validar Nome: Rendufe
+
+Erro ao validar Nome: Bouro (Santa Maria)
+
+Erro ao validar Nome: Bouro (Santa Marta)
+
+Erro ao validar Nome: Amares e Figueiredo
+
+Erro ao validar Nome: Caldelas, Sequeiros e Paranhos
+
+Erro ao validar Nome: Ferreiros, Prozelo e Besteiros
+
+Erro ao validar Nome: Torre e Portela
+
+Erro ao validar Nome: Vilela, Seramil e Paredes Secas
+
+Erro ao validar Nome: Abade de Neiva
+
+Erro ao validar Nome: Aborim
+
+Erro ao validar Nome: Adaes
+
+Erro ao validar Nome: Airo
+
+Erro ao validar Nome: Aldreu
+
+Erro ao validar Nome: Alvelos
+
+Erro ao validar Nome: Arcozelo
+
+Erro ao validar Nome: Areias
+
+Erro ao validar Nome: Balugaes
+
+Erro ao validar Nome: Barcelinhos
+
+Erro ao validar Nome: Barqueiros
+
+Erro ao validar Nome: Cambeses
+
+Erro ao validar Nome: Carapecos
+
+Erro ao validar Nome: Carvalhal
+
+Erro ao validar Nome: Carvalhas
+
+Erro ao validar Nome: Cossourado
+
+Erro ao validar Nome: Cristelo
+
+Erro ao validar Nome: Fornelos
+
+Erro ao validar Nome: Fragoso
+
+Erro ao validar Nome: Gilmonde
+
+Erro ao validar Nome: Lama
+
+Erro ao validar Nome: Lijo
+
+Erro ao validar Nome: Macieira de Rates
+
+Erro ao validar Nome: Manhente
+
+Erro ao validar Nome: Martim
+
+Erro ao validar Nome: Moure
+
+Erro ao validar Nome: Oliveira
+
+Erro ao validar Nome: Palme
+
+Erro ao validar Nome: Panque
+
+Erro ao validar Nome: Paradela
+
+Erro ao validar Nome: Pereira
+
+Erro ao validar Nome: Perelhal
+
+Erro ao validar Nome: Pousa
+
+Erro ao validar Nome: Remelhe
+
+Erro ao validar Nome: Roriz
+
+Erro ao validar Nome: Rio Covo (Santa Eugenia)
+
+Erro ao validar Nome: Galegos (Santa Maria)
+
+Erro ao validar Nome: Galegos (S. Martinho)
+
+Erro ao validar Nome: Tamel (S. Verissimo)
+
+Erro ao validar Nome: Silva
+
+Erro ao validar Nome: Ucha
+
+Erro ao validar Nome: Varzea
+
+Erro ao validar Nome: Vila Seca
+
+Erro ao validar Nome: Alheira e Igreja Nova
+
+Erro ao validar Nome: Alvito (Sao Pedro e Sao Martinho) e Couto
+
+Erro ao validar Nome: Areias de Vilar e Encourados
+
+Erro ao validar Nome: Barcelos, V.Boa, V.Frescainha
+
+Erro ao validar Nome: Campo e Tamel (Sao Pedro Fins)
+
+Erro ao validar Nome: Carreira e Fonte Coberta
+
+Erro ao validar Nome: Chorente, Goios, Courel, Pedra Furada e Gueral
+
+Erro ao validar Nome: Creixomil e Mariz
+
+Erro ao validar Nome: Durraes e Tregosa
+
+Erro ao validar Nome: Gamil e Midoes
+
+Erro ao validar Nome: Milhazes, Vilar de Figos e Faria
+
+Erro ao validar Nome: Negreiros e Chavao
+
+Erro ao validar Nome: Quintiaes e Aguiar
+
+Erro ao validar Nome: Sequeade e Bastuco (Sao Joao e Santo Estevao)
+
+Erro ao validar Nome: Silveiros e Rio Covo (Santa Eulalia)
+
+Erro ao validar Nome: Tamel (Santa Leocadia) e Vilar do Monte
+
+Erro ao validar Nome: Viatodos, Grimancelos, Minhotaes, Monte Fralaes
+
+Erro ao validar Nome: Vila Cova e Feitos
+
+Erro ao validar Nome: Adaufe
+
+Erro ao validar Nome: Espinho
+
+Erro ao validar Nome: Esporoes
+
+Erro ao validar Nome: Figueiredo
+
+Erro ao validar Nome: Gualtar
+
+Erro ao validar Nome: Lamas
+
+Erro ao validar Nome: Mire de Tibaes
+
+Erro ao validar Nome: Padim da Graca
+
+Erro ao validar Nome: Palmeira
+
+Erro ao validar Nome: Pedralva
+
+Erro ao validar Nome: Priscos
+
+Erro ao validar Nome: Ruilhe
+
+Erro ao validar Nome: Braga (S. Vicente)
+
+Erro ao validar Nome: Braga (S. Vitor)
+
+Erro ao validar Nome: Sequeira
+
+Erro ao validar Nome: Sobreposta
+
+Erro ao validar Nome: Tadim
+
+Erro ao validar Nome: Tebosa
+
+Erro ao validar Nome: Arentim e Cunha
+
+Erro ao validar Nome: Braga (Maximinos, Se e Cividade)
+
+Erro ao validar Nome: Braga (Sao Jose de Sao Lazaro e Sao Joao do Souto)
+
+Erro ao validar Nome: Cabreiros e Passos (Sao Juliao)
+
+Erro ao validar Nome: Celeiros, Aveleda e Vimieiro
+
+Erro ao validar Nome: Crespos e Pousada
+
+Erro ao validar Nome: Escudeiros e Penso (Santo Estevao e Sao Vicente)
+
+Erro ao validar Nome: Este (Sao Pedro e Sao Mamede)
+
+Erro ao validar Nome: Ferreiros e Gondizalves
+
+Erro ao validar Nome: Guisande e Oliveira (Sao Pedro)
+
+Erro ao validar Nome: Lomar e Arcos
+
+Erro ao validar Nome: Merelim (Sao Paio), Panoias e Parada de Tibaes
+
+Erro ao validar Nome: Merelim (Sao Pedro) e Frossos
+
+Erro ao validar Nome: Morreira e Trandeiras
+
+Erro ao validar Nome: Nogueira, Fraiao e Lamacaes
+
+Erro ao validar Nome: Nogueiro e Tenoes
+
+Erro ao validar Nome: Real, Dume e Semelhe
+
+Erro ao validar Nome: Santa Lucrecia de Algeriz e Navarra
+
+Erro ao validar Nome: Vilaca e Fradelos
+
+Erro ao validar Nome: Abadim
+
+Erro ao validar Nome: Basto
+
+Erro ao validar Nome: Bucos
+
+Erro ao validar Nome: Cabeceiras de Basto
+
+Erro ao validar Nome: Cavez
+
+Erro ao validar Nome: Faia
+
+Erro ao validar Nome: Pedraca
+
+Erro ao validar Nome: Rio Douro
+
+Erro ao validar Nome: Alvite e Passos
+
+Erro ao validar Nome: Arco de Baulhe e Vila Nune
+
+Erro ao validar Nome: Gondiaes e Vilar de Cunhas
+
+Erro ao validar Nome: Refojos de Basto, Outeiro e Painzela
+
+Erro ao validar Nome: Agilde
+
+Erro ao validar Nome: Arnoia
+
+Erro ao validar Nome: Borba da Montanha
+
+Erro ao validar Nome: Codecoso
+
+Erro ao validar Nome: Fervenca
+
+Erro ao validar Nome: Moreira do Castelo
+
+Erro ao validar Nome: Rego
+
+Erro ao validar Nome: Ribas
+
+Erro ao validar Nome: Basto (S. Clemente)
+
+Erro ao validar Nome: Vale de Bouro
+
+Erro ao validar Nome: Britelo, Gemeos e Ourilhe
+
+Erro ao validar Nome: Cacarilhe e Infesta
+
+Erro ao validar Nome: Canedo de Basto e Corgo
+
+Erro ao validar Nome: Carvalho e Basto (Santa Tecla)
+
+Erro ao validar Nome: Veade, Gagos e Molares
+
+Erro ao validar Nome: Antas
+
+Erro ao validar Nome: Forjaes
+
+Erro ao validar Nome: Gemeses
+
+Erro ao validar Nome: Vila Cha
+
+Erro ao validar Nome: Apulia e Fao
+
+Erro ao validar Nome: Belinho e Mar
+
+Erro ao validar Nome: Esposende, Marinhas e Gandra
+
+Erro ao validar Nome: Fonte Boa e Rio Tinto
+
+Erro ao validar Nome: Palmeira de Faro e Curvos
+
+Erro ao validar Nome: Armil
+
+Erro ao validar Nome: Estoraos
+
+Erro ao validar Nome: Fafe
+
+Erro ao validar Nome: Fornelos
+
+Erro ao validar Nome: Golaes
+
+Erro ao validar Nome: Medelo
+
+Erro ao validar Nome: Passos
+
+Erro ao validar Nome: Quinchaes
+
+Erro ao validar Nome: Regadas
+
+Erro ao validar Nome: Revelhe
+
+Erro ao validar Nome: Ribeiros
+
+Erro ao validar Nome: Aroes (Santa Cristina)
+
+Erro ao validar Nome: S. Gens
+
+Erro ao validar Nome: Silvares (S. Martinho)
+
+Erro ao validar Nome: Aroes (S. Romao)
+
+Erro ao validar Nome: Travassos
+
+Erro ao validar Nome: Vinhos
+
+Erro ao validar Nome: Aboim, Felgueiras, Gontim e Pedraido
+
+Erro ao validar Nome: Agrela e Serafao
+
+Erro ao validar Nome: Antime e Silvares (Sao Clemente)
+
+Erro ao validar Nome: Ardegao, Arnozela e Seidoes
+
+Erro ao validar Nome: Cepaes e Fareja
+
+Erro ao validar Nome: Freitas e Vila Cova
+
+Erro ao validar Nome: Monte e Queimadela
+
+Erro ao validar Nome: Moreira do Rei e Varzea Cova
+
+Erro ao validar Nome: Aldao
+
+Erro ao validar Nome: Azurem
+
+Erro ao validar Nome: Barco
+
+Erro ao validar Nome: Brito
+
+Erro ao validar Nome: Caldelas
+
+Erro ao validar Nome: Costa
+
+Erro ao validar Nome: Creixomil
+
+Erro ao validar Nome: Fermentoes
+
+Erro ao validar Nome: Gonca
+
+Erro ao validar Nome: Gondar
+
+Erro ao validar Nome: Guardizela
+
+Erro ao validar Nome: Infantas
+
+Erro ao validar Nome: Longos
+
+Erro ao validar Nome: Lordelo
+
+Erro ao validar Nome: Mesao Frio
+
+Erro ao validar Nome: Moreira de Conegos
+
+Erro ao validar Nome: Nespereira
+
+Erro ao validar Nome: Pencelo
+
+Erro ao validar Nome: Pinheiro
+
+Erro ao validar Nome: Polvoreira
+
+Erro ao validar Nome: Ponte
+
+Erro ao validar Nome: Ronfe
+
+Erro ao validar Nome: Prazins (Santa Eufemia)
+
+Erro ao validar Nome: Selho (S. Cristovao)
+
+Erro ao validar Nome: Selho (S. Jorge)
+
+Erro ao validar Nome: Candoso (S. Martinho)
+
+Erro ao validar Nome: Sande (S. Martinho)
+
+Erro ao validar Nome: S. Torcato
+
+Erro ao validar Nome: Serzedelo
+
+Erro ao validar Nome: Silvares
+
+Erro ao validar Nome: Urgezes
+
+Erro ao validar Nome: Abacao e Gemeos
+
+Erro ao validar Nome: Airao Santa Maria, Airao Sao Joao e Vermil
+
+Erro ao validar Nome: Arosa e Casteloes
+
+Erro ao validar Nome: Ataes e Rendufe
+
+Erro ao validar Nome: Briteiros Santo Estevao e Donim
+
+Erro ao validar Nome: Briteiros Sao Salvador e Briteiros Santa Leocadia
+
+Erro ao validar Nome: Candoso Sao Tiago e Mascotelos
+
+Erro ao validar Nome: Conde e Gandarela
+
+Erro ao validar Nome: Leitoes, Oleiros e Figueiredo
+
+Erro ao validar Nome: Oliveira, Sao Paio e Sao Sebastiao
+
+Erro ao validar Nome: Prazins Santo Tirso e Corvite
+
+Erro ao validar Nome: Sande Sao Lourenco e Balazar
+
+Erro ao validar Nome: Sande Vila Nova e Sande Sao Clemente
+
+Erro ao validar Nome: Selho Sao Lourenco e Gominhaes
+
+Erro ao validar Nome: Serzedo e Calvos
+
+Erro ao validar Nome: Souto Santa Maria, Souto Sao Salvador e Gondomar
+
+Erro ao validar Nome: Tabuadelo e Sao Faustino
+
+Erro ao validar Nome: Covelas
+
+Erro ao validar Nome: Ferreiros
+
+Erro ao validar Nome: Galegos
+
+Erro ao validar Nome: Garfe
+
+Erro ao validar Nome: Geraz do Minho
+
+Erro ao validar Nome: Lanhoso
+
+Erro ao validar Nome: Monsul
+
+Erro ao validar Nome: Povoa de Lanhoso (N. Senhora do Amparo)
+
+Erro ao validar Nome: Rendufinho
+
+Erro ao validar Nome: Santo Emiliao
+
+Erro ao validar Nome: S. Joao de Rei
+
+Erro ao validar Nome: Serzedelo
+
+Erro ao validar Nome: Sobradelo da Goma
+
+Erro ao validar Nome: Taide
+
+Erro ao validar Nome: Travassos
+
+Erro ao validar Nome: Vilela
+
+Erro ao validar Nome: Aguas Santas e Moure
+
+Erro ao validar Nome: Calvos e Frades
+
+Erro ao validar Nome: Campos e Louredo
+
+Erro ao validar Nome: Esperanca e Brunhais
+
+Erro ao validar Nome: Fonte Arcada e Oliveira
+
+Erro ao validar Nome: Verim, Friande e Ajude
+
+Erro ao validar Nome: Balanca
+
+Erro ao validar Nome: Campo do Geres
+
+Erro ao validar Nome: Carvalheira
+
+Erro ao validar Nome: Covide
+
+Erro ao validar Nome: Gondoriz
+
+Erro ao validar Nome: Moimenta
+
+Erro ao validar Nome: Ribeira
+
+Erro ao validar Nome: Rio Caldo
+
+Erro ao validar Nome: Souto
+
+Erro ao validar Nome: Valdosende
+
+Erro ao validar Nome: Vilar da Veiga
+
+Erro ao validar Nome: Chamoim e Vilar
+
+Erro ao validar Nome: Chorense e Monte
+
+Erro ao validar Nome: Ciboes e Brufe
+
+Erro ao validar Nome: Cantelaes
+
+Erro ao validar Nome: Eira Vedra
+
+Erro ao validar Nome: Guilhofrei
+
+Erro ao validar Nome: Louredo
+
+Erro ao validar Nome: Mosteiro
+
+Erro ao validar Nome: Parada do Bouro
+
+Erro ao validar Nome: Pinheiro
+
+Erro ao validar Nome: Rossas
+
+Erro ao validar Nome: Salamonde
+
+Erro ao validar Nome: Tabuacas
+
+Erro ao validar Nome: Vieira do Minho
+
+Erro ao validar Nome: Anisso e Soutelo
+
+Erro ao validar Nome: Anjos e Vilar do Chao
+
+Erro ao validar Nome: Canicada e Soengas
+
+Erro ao validar Nome: Ruivaes e Campos
+
+Erro ao validar Nome: Ventosa e Cova
+
+Erro ao validar Nome: Bairro
+
+Erro ao validar Nome: Brufe
+
+Erro ao validar Data Nascimento: 1979-05-15
+Erro ao validar ID: 101356475
+Erro ao validar Data Nascimento: 29-02-1958
+Erro ao validar ID Freguesia: 13111
+Erro ao validar ID: 40362393
+Erro ao validar Data Nascimento: 23/11/2001
+Erro ao validar Data Nascimento: 04-set-1959
+Erro ao validar Data Nascimento: 31-04-2001
+Erro ao validar Data Nascimento: 1979-05-15
+Erro ao validar ID: 101356475
+Erro ao validar Data Nascimento: 29-02-1958
+Erro ao validar ID Freguesia: 13111
+Erro ao validar ID: 40362393
+Erro ao validar Data Nascimento: 23/11/2001
+Erro ao validar Data Nascimento: 04-set-1959
+Erro ao validar Data Nascimento: 31-04-2001
+Erro ao validar Nome Freguesia: Aguada de Cima
+
+Erro ao validar Nome Freguesia: Fermentelos
+
+Erro ao validar Nome Freguesia: Macinhata do Vouga
+
+Erro ao validar Nome Freguesia: Valongo do Vouga
+
+Erro ao validar Nome Freguesia: Agueda e Borralha
+
+Erro ao validar Nome Freguesia: Barro e Aguada de Baixo
+
+Erro ao validar Nome Freguesia: Belazaima do Chao, Castanheira do Vouga e Agadao
+
+Erro ao validar Nome Freguesia: Recardaes e Espinhel
+
+Erro ao validar Nome Freguesia: Travasso e Ois da Ribeira
+
+Erro ao validar Nome Freguesia: Trofa, Segadaes e Lamas do Vouga
+
+Erro ao validar Nome Freguesia: Prestimo e Macieira de Alcoba
+
+Erro ao validar Nome Freguesia: Alquerubim
+
+Erro ao validar Nome Freguesia: Angeja
+
+Erro ao validar Nome Freguesia: Branca
+
+Erro ao validar Nome Freguesia: Ribeira de Fraguas
+
+Erro ao validar Nome Freguesia: Albergaria-A-Velha e Valmaior
+
+Erro ao validar Nome Freguesia: Sao Joao de Loure e Frossos
+
+Erro ao validar Nome Freguesia: Avelas de Caminho
+
+Erro ao validar Nome Freguesia: Avelas de Cima
+
+Erro ao validar Nome Freguesia: Moita
+
+Erro ao validar Nome Freguesia: Sangalhos
+
+Erro ao validar Nome Freguesia: S. Lourenco do Bairro
+
+Erro ao validar Nome Freguesia: Vila Nova de Monsarros
+
+Erro ao validar Nome Freguesia: Vilarinho do Bairro
+
+Erro ao validar Nome Freguesia: Amoreira da Gandara, Paredes do Bairro e Ancas
+
+Erro ao validar Nome Freguesia: Arcos e Mogofores
+
+Erro ao validar Nome Freguesia: Tamengos, Aguim e Ois do Bairro
+
+Erro ao validar Nome Freguesia: Alvarenga
+
+Erro ao validar Nome Freguesia: Chave
+
+Erro ao validar Nome Freguesia: Escariz
+
+Erro ao validar Nome Freguesia: Fermedo
+
+Erro ao validar Nome Freguesia: Mansores
+
+Erro ao validar Nome Freguesia: Moldes
+
+Erro ao validar Nome Freguesia: Rossas
+
+Erro ao validar Nome Freguesia: Santa Eulalia
+
+Erro ao validar Nome Freguesia: S. Miguel do Mato
+
+Erro ao validar Nome Freguesia: Tropeco
+
+Erro ao validar Nome Freguesia: Urro
+
+Erro ao validar Nome Freguesia: Varzea
+
+Erro ao validar Nome Freguesia: Arouca e Burgo
+
+Erro ao validar Nome Freguesia: Cabreiros e Albergaria da Serra
+
+Erro ao validar Nome Freguesia: Canelas e Espiunca
+
+Erro ao validar Nome Freguesia: Covelo de Paivo e Janarde
+
+Erro ao validar Nome Freguesia: Aradas
+
+Erro ao validar Nome Freguesia: Cacia
+
+Erro ao validar Nome Freguesia: Esgueira
+
+Erro ao validar Nome Freguesia: Oliveirinha
+
+Erro ao validar Nome Freguesia: S. Bernardo
+
+Erro ao validar Nome Freguesia: S. Jacinto
+
+Erro ao validar Nome Freguesia: Santa Joana
+
+Erro ao validar Nome Freguesia: Eixo e Eirol
+
+Erro ao validar Nome Freguesia: Requeixo, Nossa Senhora de Fatima e Nariz
+
+Erro ao validar Nome Freguesia: Gloria e Vera Cruz
+
+Erro ao validar Nome Freguesia: Fornos
+
+Erro ao validar Nome Freguesia: Real
+
+Erro ao validar Nome Freguesia: Santa Maria de Sardoura
+
+Erro ao validar Nome Freguesia: S. Martinho de Sardoura
+
+Erro ao validar Nome Freguesia: Raiva, Pedorido e Paraiso
+
+Erro ao validar Nome Freguesia: Sobrado e Bairros
+
+Erro ao validar Nome Freguesia: Espinho
+
+Erro ao validar Nome Freguesia: Paramos
+
+Erro ao validar Nome Freguesia: Silvalde
+
+Erro ao validar Nome Freguesia: Anta e Guetim
+
+Erro ao validar Nome Freguesia: Avanca
+
+Erro ao validar Nome Freguesia: Pardilho
+
+Erro ao validar Nome Freguesia: Salreu
+
+Erro ao validar Nome Freguesia: Beduido e Veiros
+
+Erro ao validar Nome Freguesia: Canelas e Fermela
+
+Erro ao validar Nome Freguesia: Argoncilhe
+
+Erro ao validar Nome Freguesia: Arrifana
+
+Erro ao validar Nome Freguesia: Escapaes
+
+Erro ao validar Nome Freguesia: Fiaes
+
+Erro ao validar Nome Freguesia: Fornos
+
+Erro ao validar Nome Freguesia: Lourosa
+
+Erro ao validar Nome Freguesia: Milheiros de Poiares
+
+Erro ao validar Nome Freguesia: Mozelos
+
+Erro ao validar Nome Freguesia: Nogueira da Regedoura
+
+Erro ao validar Nome Freguesia: S. Paio de Oleiros
+
+Erro ao validar Nome Freguesia: Pacos de Brandao
+
+Erro ao validar Nome Freguesia: Rio Meao
+
+Erro ao validar Nome Freguesia: Romariz
+
+Erro ao validar Nome Freguesia: Sanguedo
+
+Erro ao validar Nome Freguesia: Santa Maria de Lamas
+
+Erro ao validar Nome Freguesia: S. Joao de Ver
+
+Erro ao validar Nome Freguesia: Caldas de Sao Jorge e Pigeiros
+
+Erro ao validar Nome Freguesia: Canedo, Vale e Vila Maior
+
+Erro ao validar Nome Freguesia: Lobao, Giao, Louredo e Guisande
+
+Erro ao validar Nome Freguesia: Santa Maria da Feira, Travanca, Sanfins e Espargo
+
+Erro ao validar Nome Freguesia: Sao Miguel do Souto e Mosteiro
+
+Erro ao validar Nome Freguesia: Gafanha da Encarnacao
+
+Erro ao validar Nome Freguesia: Gafanha da Nazare
+
+Erro ao validar Nome Freguesia: Gafanha do Carmo
+
+Erro ao validar Nome Freguesia: Ilhavo (Sao Salvador)
+
+Erro ao validar Nome Freguesia: Barcouco
+
+Erro ao validar Nome Freguesia: Casal Comba
+
+Erro ao validar Nome Freguesia: Luso
+
+Erro ao validar Nome Freguesia: Pampilhosa
+
+Erro ao validar Nome Freguesia: Vacarica
+
+Erro ao validar Nome Freguesia: Mealhada, Ventosa do Bairro e Antes
+
+Erro ao validar Nome Freguesia: Bunheiro
+
+Erro ao validar Nome Freguesia: Monte
+
+Erro ao validar Nome Freguesia: Murtosa
+
+Erro ao validar Nome Freguesia: Torreira
+
+Erro ao validar Nome Freguesia: Carregosa
+
+Erro ao validar Nome Freguesia: Cesar
+
+Erro ao validar Nome Freguesia: Fajoes
+
+Erro ao validar Nome Freguesia: Loureiro
+
+Erro ao validar Nome Freguesia: Macieira de Sarnes
+
+Erro ao validar Nome Freguesia: Ossela
+
+Erro ao validar Nome Freguesia: S. Martinho da Gandara
+
+Erro ao validar Nome Freguesia: Sao Roque
+
+Erro ao validar Nome Freguesia: Vila de Cucujaes
+
+Erro ao validar Nome Freguesia: Nogueira do Cravo e Pindelo
+
+Erro ao validar Nome Freguesia: O. Azemeis, Riba-Ul, Ul, Macinhata Seixa, Madail
+
+Erro ao validar Nome Freguesia: Pinheiro da Bemposta, Travanca e Palmaz
+
+Erro ao validar Nome Freguesia: Oia
+
+Erro ao validar Nome Freguesia: Oliveira do Bairro
+
+Erro ao validar Nome Freguesia: Palhaca
+
+Erro ao validar Nome Freguesia: Bustos, Troviscal e Mamarrosa
+
+Erro ao validar Nome Freguesia: Cortegaca
+
+Erro ao validar Nome Freguesia: Esmoriz
+
+Erro ao validar Nome Freguesia: Maceda
+
+Erro ao validar Nome Freguesia: Valega
+
+Erro ao validar Nome Freguesia: Ovar, S.Joao, Arada e S.Vicente de Pereira Jusa
+
+Erro ao validar Nome Freguesia: S. Joao da Madeira
+
+Erro ao validar Nome Freguesia: Couto de Esteves
+
+Erro ao validar Nome Freguesia: Pessegueiro do Vouga
+
+Erro ao validar Nome Freguesia: Rocas do Vouga
+
+Erro ao validar Nome Freguesia: Sever do Vouga
+
+Erro ao validar Nome Freguesia: Talhadas
+
+Erro ao validar Nome Freguesia: Cedrim e Paradela
+
+Erro ao validar Nome Freguesia: Silva Escura e Dornelas
+
+Erro ao validar Nome Freguesia: Calvao
+
+Erro ao validar Nome Freguesia: Gafanha da Boa Hora
+
+Erro ao validar Nome Freguesia: Ouca
+
+Erro ao validar Nome Freguesia: Soza
+
+Erro ao validar Nome Freguesia: Santo Andre de Vagos
+
+Erro ao validar Nome Freguesia: Fonte de Angeao e Covao do Lobo
+
+Erro ao validar Nome Freguesia: Ponte de Vagos e Santa Catarina
+
+Erro ao validar Nome Freguesia: Vagos e Santo Antonio
+
+Erro ao validar Nome Freguesia: Aroes
+
+Erro ao validar Nome Freguesia: Sao Pedro de Casteloes
+
+Erro ao validar Nome Freguesia: Cepelos
+
+Erro ao validar Nome Freguesia: Junqueira
+
+Erro ao validar Nome Freguesia: Macieira de Cambra
+
+Erro ao validar Nome Freguesia: Roge
+
+Erro ao validar Nome Freguesia: Vila Cha, Codal e Vila Cova de Perrinho
+
+Erro ao validar Nome Freguesia: Ervidel
+
+Erro ao validar Nome Freguesia: Messejana
+
+Erro ao validar Nome Freguesia: S. Joao de Negrilhos
+
+Erro ao validar Nome Freguesia: Aljustrel e Rio de Moinhos
+
+Erro ao validar Nome Freguesia: Rosario
+
+Erro ao validar Nome Freguesia: Santa Cruz
+
+Erro ao validar Nome Freguesia: S. Barnabe
+
+Erro ao validar Nome Freguesia: Aldeia Dos Fernandes
+
+Erro ao validar Nome Freguesia: Almodovar e Graca Dos Padroes
+
+Erro ao validar Nome Freguesia: Santa Clara-A-Nova e Gomes Aires
+
+Erro ao validar Nome Freguesia: Alvito
+
+Erro ao validar Nome Freguesia: Vila Nova da Baronia
+
+Erro ao validar Nome Freguesia: Barrancos
+
+Erro ao validar Nome Freguesia: Baleizao
+
+Erro ao validar Nome Freguesia: Beringel
+
+Erro ao validar Nome Freguesia: Cabeca Gorda
+
+Erro ao validar Nome Freguesia: Nossa Senhora Das Neves
+
+Erro ao validar Nome Freguesia: Santa Clara de Louredo
+
+Erro ao validar Nome Freguesia: S. Matias
+
+Erro ao validar Nome Freguesia: Albernoa e Trindade
+
+Erro ao validar Nome Freguesia: Beja (Salvador e Santa Maria da Feira)
+
+Erro ao validar Nome Freguesia: Beja (Santiago Maior e Sao Joao Baptista)
+
+Erro ao validar Nome Freguesia: Salvada e Quintos
+
+Erro ao validar Nome Freguesia: Santa Vitoria e Mombeja
+
+Erro ao validar Nome Freguesia: Trigaches e Sao Brissos
+
+Erro ao validar Nome Freguesia: Entradas
+
+Erro ao validar Nome Freguesia: Santa Barbara de Padroes
+
+Erro ao validar Nome Freguesia: S. Marcos da Ataboeira
+
+Erro ao validar Nome Freguesia: Castro Verde e Casevel
+
+Erro ao validar Nome Freguesia: Cuba
+
+Erro ao validar Nome Freguesia: Faro do Alentejo
+
+Erro ao validar Nome Freguesia: Vila Alva
+
+Erro ao validar Nome Freguesia: Vila Ruiva
+
+Erro ao validar Nome Freguesia: Figueira Dos Cavaleiros
+
+Erro ao validar Nome Freguesia: Odivelas
+
+Erro ao validar Nome Freguesia: Alfundao e Peroguarda
+
+Erro ao validar Nome Freguesia: Ferreira do Alentejo e Canhestros
+
+Erro ao validar Nome Freguesia: Alcaria Ruiva
+
+Erro ao validar Nome Freguesia: Corte do Pinto
+
+Erro ao validar Nome Freguesia: Espirito Santo
+
+Erro ao validar Nome Freguesia: Mertola
+
+Erro ao validar Nome Freguesia: Santana de Cambas
+
+Erro ao validar Nome Freguesia: S. Joao Dos Caldeireiros
+
+Erro ao validar Nome Freguesia: S.Mig. Pinheiro, S.Pedro Solis, S.Sebastiao Carros
+
+Erro ao validar Nome Freguesia: Amareleja
+
+Erro ao validar Nome Freguesia: Povoa de Sao Miguel
+
+Erro ao validar Nome Freguesia: Sobral da Adica
+
+Erro ao validar Nome Freguesia: Santo Agostinho e Sao Joao Baptista e Santo Amador
+
+Erro ao validar Nome Freguesia: Safara e Santo Aleixo da Restauracao
+
+Erro ao validar Nome Freguesia: Reliquias
+
+Erro ao validar Nome Freguesia: Saboia
+
+Erro ao validar Nome Freguesia: S. Luis
+
+Erro ao validar Nome Freguesia: S. Martinho Das Amoreiras
+
+Erro ao validar Nome Freguesia: Vila Nova de Milfontes
+
+Erro ao validar Nome Freguesia: Luzianes-Gare
+
+Erro ao validar Nome Freguesia: Longueira/Almograve
+
+Erro ao validar Nome Freguesia: Boavista Dos Pinheiros
+
+Erro ao validar Nome Freguesia: Colos
+
+Erro ao validar Nome Freguesia: Santa Clara-A-Velha
+
+Erro ao validar Nome Freguesia: Sao Salvador e Santa Maria
+
+Erro ao validar Nome Freguesia: Sao Teotonio
+
+Erro ao validar Nome Freguesia: Vale de Santiago
+
+Erro ao validar Nome Freguesia: Ourique
+
+Erro ao validar Nome Freguesia: Santana da Serra
+
+Erro ao validar Nome Freguesia: Garvao e Santa Luzia
+
+Erro ao validar Nome Freguesia: Panoias e Conceicao
+
+Erro ao validar Nome Freguesia: Brinches
+
+Erro ao validar Nome Freguesia: Pias
+
+Erro ao validar Nome Freguesia: Vila Verde de Ficalho
+
+Erro ao validar Nome Freguesia: Serpa (Salvador e Santa Maria)
+
+Erro ao validar Nome Freguesia: Vila Nova de Sao Bento e Vale de Vargo
+
+Erro ao validar Nome Freguesia: Pedrogao
+
+Erro ao validar Nome Freguesia: Selmes
+
+Erro ao validar Nome Freguesia: Vidigueira
+
+Erro ao validar Nome Freguesia: Vila de Frades
+
+Erro ao validar Nome Freguesia: Barreiros
+
+Erro ao validar Nome Freguesia: Bico
+
+Erro ao validar Nome Freguesia: Caires
+
+Erro ao validar Nome Freguesia: Carrazedo
+
+Erro ao validar Nome Freguesia: Dornelas
+
+Erro ao validar Nome Freguesia: Fiscal
+
+Erro ao validar Nome Freguesia: Goaes
+
+Erro ao validar Nome Freguesia: Lago
+
+Erro ao validar Nome Freguesia: Rendufe
+
+Erro ao validar Nome Freguesia: Bouro (Santa Maria)
+
+Erro ao validar Nome Freguesia: Bouro (Santa Marta)
+
+Erro ao validar Nome Freguesia: Amares e Figueiredo
+
+Erro ao validar Nome Freguesia: Caldelas, Sequeiros e Paranhos
+
+Erro ao validar Nome Freguesia: Ferreiros, Prozelo e Besteiros
+
+Erro ao validar Nome Freguesia: Torre e Portela
+
+Erro ao validar Nome Freguesia: Vilela, Seramil e Paredes Secas
+
+Erro ao validar Nome Freguesia: Abade de Neiva
+
+Erro ao validar Nome Freguesia: Aborim
+
+Erro ao validar Nome Freguesia: Adaes
+
+Erro ao validar Nome Freguesia: Airo
+
+Erro ao validar Nome Freguesia: Aldreu
+
+Erro ao validar Nome Freguesia: Alvelos
+
+Erro ao validar Nome Freguesia: Arcozelo
+
+Erro ao validar Nome Freguesia: Areias
+
+Erro ao validar Nome Freguesia: Balugaes
+
+Erro ao validar Nome Freguesia: Barcelinhos
+
+Erro ao validar Nome Freguesia: Barqueiros
+
+Erro ao validar Nome Freguesia: Cambeses
+
+Erro ao validar Nome Freguesia: Carapecos
+
+Erro ao validar Nome Freguesia: Carvalhal
+
+Erro ao validar Nome Freguesia: Carvalhas
+
+Erro ao validar Nome Freguesia: Cossourado
+
+Erro ao validar Nome Freguesia: Cristelo
+
+Erro ao validar Nome Freguesia: Fornelos
+
+Erro ao validar Nome Freguesia: Fragoso
+
+Erro ao validar Nome Freguesia: Gilmonde
+
+Erro ao validar Nome Freguesia: Lama
+
+Erro ao validar Nome Freguesia: Lijo
+
+Erro ao validar Nome Freguesia: Macieira de Rates
+
+Erro ao validar Nome Freguesia: Manhente
+
+Erro ao validar Nome Freguesia: Martim
+
+Erro ao validar Nome Freguesia: Moure
+
+Erro ao validar Nome Freguesia: Oliveira
+
+Erro ao validar Nome Freguesia: Palme
+
+Erro ao validar Nome Freguesia: Panque
+
+Erro ao validar Nome Freguesia: Paradela
+
+Erro ao validar Nome Freguesia: Pereira
+
+Erro ao validar Nome Freguesia: Perelhal
+
+Erro ao validar Nome Freguesia: Pousa
+
+Erro ao validar Nome Freguesia: Remelhe
+
+Erro ao validar Nome Freguesia: Roriz
+
+Erro ao validar Nome Freguesia: Rio Covo (Santa Eugenia)
+
+Erro ao validar Nome Freguesia: Galegos (Santa Maria)
+
+Erro ao validar Nome Freguesia: Galegos (S. Martinho)
+
+Erro ao validar Nome Freguesia: Tamel (S. Verissimo)
+
+Erro ao validar Nome Freguesia: Silva
+
+Erro ao validar Nome Freguesia: Ucha
+
+Erro ao validar Nome Freguesia: Varzea
+
+Erro ao validar Nome Freguesia: Vila Seca
+
+Erro ao validar Nome Freguesia: Alheira e Igreja Nova
+
+Erro ao validar Nome Freguesia: Alvito (Sao Pedro e Sao Martinho) e Couto
+
+Erro ao validar Nome Freguesia: Areias de Vilar e Encourados
+
+Erro ao validar Nome Freguesia: Barcelos, V.Boa, V.Frescainha
+
+Erro ao validar Nome Freguesia: Campo e Tamel (Sao Pedro Fins)
+
+Erro ao validar Nome Freguesia: Carreira e Fonte Coberta
+
+Erro ao validar Nome Freguesia: Chorente, Goios, Courel, Pedra Furada e Gueral
+
+Erro ao validar Nome Freguesia: Creixomil e Mariz
+
+Erro ao validar Nome Freguesia: Durraes e Tregosa
+
+Erro ao validar Nome Freguesia: Gamil e Midoes
+
+Erro ao validar Nome Freguesia: Milhazes, Vilar de Figos e Faria
+
+Erro ao validar Nome Freguesia: Negreiros e Chavao
+
+Erro ao validar Nome Freguesia: Quintiaes e Aguiar
+
+Erro ao validar Nome Freguesia: Sequeade e Bastuco (Sao Joao e Santo Estevao)
+
+Erro ao validar Nome Freguesia: Silveiros e Rio Covo (Santa Eulalia)
+
+Erro ao validar Nome Freguesia: Tamel (Santa Leocadia) e Vilar do Monte
+
+Erro ao validar Nome Freguesia: Viatodos, Grimancelos, Minhotaes, Monte Fralaes
+
+Erro ao validar Nome Freguesia: Vila Cova e Feitos
+
+Erro ao validar Nome Freguesia: Adaufe
+
+Erro ao validar Nome Freguesia: Espinho
+
+Erro ao validar Nome Freguesia: Esporoes
+
+Erro ao validar Nome Freguesia: Figueiredo
+
+Erro ao validar Nome Freguesia: Gualtar
+
+Erro ao validar Nome Freguesia: Lamas
+
+Erro ao validar Nome Freguesia: Mire de Tibaes
+
+Erro ao validar Nome Freguesia: Padim da Graca
+
+Erro ao validar Nome Freguesia: Palmeira
+
+Erro ao validar Nome Freguesia: Pedralva
+
+Erro ao validar Nome Freguesia: Priscos
+
+Erro ao validar Nome Freguesia: Ruilhe
+
+Erro ao validar Nome Freguesia: Braga (S. Vicente)
+
+Erro ao validar Nome Freguesia: Braga (S. Vitor)
+
+Erro ao validar Nome Freguesia: Sequeira
+
+Erro ao validar Nome Freguesia: Sobreposta
+
+Erro ao validar Nome Freguesia: Tadim
+
+Erro ao validar Nome Freguesia: Tebosa
+
+Erro ao validar Nome Freguesia: Arentim e Cunha
+
+Erro ao validar Nome Freguesia: Braga (Maximinos, Se e Cividade)
+
+Erro ao validar Nome Freguesia: Braga (Sao Jose de Sao Lazaro e Sao Joao do Souto)
+
+Erro ao validar Nome Freguesia: Cabreiros e Passos (Sao Juliao)
+
+Erro ao validar Nome Freguesia: Celeiros, Aveleda e Vimieiro
+
+Erro ao validar Nome Freguesia: Crespos e Pousada
+
+Erro ao validar Nome Freguesia: Escudeiros e Penso (Santo Estevao e Sao Vicente)
+
+Erro ao validar Nome Freguesia: Este (Sao Pedro e Sao Mamede)
+
+Erro ao validar Nome Freguesia: Ferreiros e Gondizalves
+
+Erro ao validar Nome Freguesia: Guisande e Oliveira (Sao Pedro)
+
+Erro ao validar Nome Freguesia: Lomar e Arcos
+
+Erro ao validar Nome Freguesia: Merelim (Sao Paio), Panoias e Parada de Tibaes
+
+Erro ao validar Nome Freguesia: Merelim (Sao Pedro) e Frossos
+
+Erro ao validar Nome Freguesia: Morreira e Trandeiras
+
+Erro ao validar Nome Freguesia: Nogueira, Fraiao e Lamacaes
+
+Erro ao validar Nome Freguesia: Nogueiro e Tenoes
+
+Erro ao validar Nome Freguesia: Real, Dume e Semelhe
+
+Erro ao validar Nome Freguesia: Santa Lucrecia de Algeriz e Navarra
+
+Erro ao validar Nome Freguesia: Vilaca e Fradelos
+
+Erro ao validar Nome Freguesia: Abadim
+
+Erro ao validar Nome Freguesia: Basto
+
+Erro ao validar Nome Freguesia: Bucos
+
+Erro ao validar Nome Freguesia: Cabeceiras de Basto
+
+Erro ao validar Nome Freguesia: Cavez
+
+Erro ao validar Nome Freguesia: Faia
+
+Erro ao validar Nome Freguesia: Pedraca
+
+Erro ao validar Nome Freguesia: Rio Douro
+
+Erro ao validar Nome Freguesia: Alvite e Passos
+
+Erro ao validar Nome Freguesia: Arco de Baulhe e Vila Nune
+
+Erro ao validar Nome Freguesia: Gondiaes e Vilar de Cunhas
+
+Erro ao validar Nome Freguesia: Refojos de Basto, Outeiro e Painzela
+
+Erro ao validar Nome Freguesia: Agilde
+
+Erro ao validar Nome Freguesia: Arnoia
+
+Erro ao validar Nome Freguesia: Borba da Montanha
+
+Erro ao validar Nome Freguesia: Codecoso
+
+Erro ao validar Nome Freguesia: Fervenca
+
+Erro ao validar Nome Freguesia: Moreira do Castelo
+
+Erro ao validar Nome Freguesia: Rego
+
+Erro ao validar Nome Freguesia: Ribas
+
+Erro ao validar Nome Freguesia: Basto (S. Clemente)
+
+Erro ao validar Nome Freguesia: Vale de Bouro
+
+Erro ao validar Nome Freguesia: Britelo, Gemeos e Ourilhe
+
+Erro ao validar Nome Freguesia: Cacarilhe e Infesta
+
+Erro ao validar Nome Freguesia: Canedo de Basto e Corgo
+
+Erro ao validar Nome Freguesia: Carvalho e Basto (Santa Tecla)
+
+Erro ao validar Nome Freguesia: Veade, Gagos e Molares
+
+Erro ao validar Nome Freguesia: Antas
+
+Erro ao validar Nome Freguesia: Forjaes
+
+Erro ao validar Nome Freguesia: Gemeses
+
+Erro ao validar Nome Freguesia: Vila Cha
+
+Erro ao validar Nome Freguesia: Apulia e Fao
+
+Erro ao validar Nome Freguesia: Belinho e Mar
+
+Erro ao validar Nome Freguesia: Esposende, Marinhas e Gandra
+
+Erro ao validar Nome Freguesia: Fonte Boa e Rio Tinto
+
+Erro ao validar Nome Freguesia: Palmeira de Faro e Curvos
+
+Erro ao validar Nome Freguesia: Armil
+
+Erro ao validar Nome Freguesia: Estoraos
+
+Erro ao validar Nome Freguesia: Fafe
+
+Erro ao validar Nome Freguesia: Fornelos
+
+Erro ao validar Nome Freguesia: Golaes
+
+Erro ao validar Nome Freguesia: Medelo
+
+Erro ao validar Nome Freguesia: Passos
+
+Erro ao validar Nome Freguesia: Quinchaes
+
+Erro ao validar Nome Freguesia: Regadas
+
+Erro ao validar Nome Freguesia: Revelhe
+
+Erro ao validar Nome Freguesia: Ribeiros
+
+Erro ao validar Nome Freguesia: Aroes (Santa Cristina)
+
+Erro ao validar Nome Freguesia: S. Gens
+
+Erro ao validar Nome Freguesia: Silvares (S. Martinho)
+
+Erro ao validar Nome Freguesia: Aroes (S. Romao)
+
+Erro ao validar Nome Freguesia: Travassos
+
+Erro ao validar Nome Freguesia: Vinhos
+
+Erro ao validar Nome Freguesia: Aboim, Felgueiras, Gontim e Pedraido
+
+Erro ao validar Nome Freguesia: Agrela e Serafao
+
+Erro ao validar Nome Freguesia: Antime e Silvares (Sao Clemente)
+
+Erro ao validar Nome Freguesia: Ardegao, Arnozela e Seidoes
+
+Erro ao validar Nome Freguesia: Cepaes e Fareja
+
+Erro ao validar Nome Freguesia: Freitas e Vila Cova
+
+Erro ao validar Nome Freguesia: Monte e Queimadela
+
+Erro ao validar Nome Freguesia: Moreira do Rei e Varzea Cova
+
+Erro ao validar Nome Freguesia: Aldao
+
+Erro ao validar Nome Freguesia: Azurem
+
+Erro ao validar Nome Freguesia: Barco
+
+Erro ao validar Nome Freguesia: Brito
+
+Erro ao validar Nome Freguesia: Caldelas
+
+Erro ao validar Nome Freguesia: Costa
+
+Erro ao validar Nome Freguesia: Creixomil
+
+Erro ao validar Nome Freguesia: Fermentoes
+
+Erro ao validar Nome Freguesia: Gonca
+
+Erro ao validar Nome Freguesia: Gondar
+
+Erro ao validar Nome Freguesia: Guardizela
+
+Erro ao validar Nome Freguesia: Infantas
+
+Erro ao validar Nome Freguesia: Longos
+
+Erro ao validar Nome Freguesia: Lordelo
+
+Erro ao validar Nome Freguesia: Mesao Frio
+
+Erro ao validar Nome Freguesia: Moreira de Conegos
+
+Erro ao validar Nome Freguesia: Nespereira
+
+Erro ao validar Nome Freguesia: Pencelo
+
+Erro ao validar Nome Freguesia: Pinheiro
+
+Erro ao validar Nome Freguesia: Polvoreira
+
+Erro ao validar Nome Freguesia: Ponte
+
+Erro ao validar Nome Freguesia: Ronfe
+
+Erro ao validar Nome Freguesia: Prazins (Santa Eufemia)
+
+Erro ao validar Nome Freguesia: Selho (S. Cristovao)
+
+Erro ao validar Nome Freguesia: Selho (S. Jorge)
+
+Erro ao validar Nome Freguesia: Candoso (S. Martinho)
+
+Erro ao validar Nome Freguesia: Sande (S. Martinho)
+
+Erro ao validar Nome Freguesia: S. Torcato
+
+Erro ao validar Nome Freguesia: Serzedelo
+
+Erro ao validar Nome Freguesia: Silvares
+
+Erro ao validar Nome Freguesia: Urgezes
+
+Erro ao validar Nome Freguesia: Abacao e Gemeos
+
+Erro ao validar Nome Freguesia: Airao Santa Maria, Airao Sao Joao e Vermil
+
+Erro ao validar Nome Freguesia: Arosa e Casteloes
+
+Erro ao validar Nome Freguesia: Ataes e Rendufe
+
+Erro ao validar Nome Freguesia: Briteiros Santo Estevao e Donim
+
+Erro ao validar Nome Freguesia: Briteiros Sao Salvador e Briteiros Santa Leocadia
+
+Erro ao validar Nome Freguesia: Candoso Sao Tiago e Mascotelos
+
+Erro ao validar Nome Freguesia: Conde e Gandarela
+
+Erro ao validar Nome Freguesia: Leitoes, Oleiros e Figueiredo
+
+Erro ao validar Nome Freguesia: Oliveira, Sao Paio e Sao Sebastiao
+
+Erro ao validar Nome Freguesia: Prazins Santo Tirso e Corvite
+
+Erro ao validar Nome Freguesia: Sande Sao Lourenco e Balazar
+
+Erro ao validar Nome Freguesia: Sande Vila Nova e Sande Sao Clemente
+
+Erro ao validar Nome Freguesia: Selho Sao Lourenco e Gominhaes
+
+Erro ao validar Nome Freguesia: Serzedo e Calvos
+
+Erro ao validar Nome Freguesia: Souto Santa Maria, Souto Sao Salvador e Gondomar
+
+Erro ao validar Nome Freguesia: Tabuadelo e Sao Faustino
+
+Erro ao validar Nome Freguesia: Covelas
+
+Erro ao validar Nome Freguesia: Ferreiros
+
+Erro ao validar Nome Freguesia: Galegos
+
+Erro ao validar Nome Freguesia: Garfe
+
+Erro ao validar Nome Freguesia: Geraz do Minho
+
+Erro ao validar Nome Freguesia: Lanhoso
+
+Erro ao validar Nome Freguesia: Monsul
+
+Erro ao validar Nome Freguesia: Povoa de Lanhoso (N. Senhora do Amparo)
+
+Erro ao validar Nome Freguesia: Rendufinho
+
+Erro ao validar Nome Freguesia: Santo Emiliao
+
+Erro ao validar Nome Freguesia: S. Joao de Rei
+
+Erro ao validar Nome Freguesia: Serzedelo
+
+Erro ao validar Nome Freguesia: Sobradelo da Goma
+
+Erro ao validar Nome Freguesia: Taide
+
+Erro ao validar Nome Freguesia: Travassos
+
+Erro ao validar Nome Freguesia: Vilela
+
+Erro ao validar Nome Freguesia: Aguas Santas e Moure
+
+Erro ao validar Nome Freguesia: Calvos e Frades
+
+Erro ao validar Nome Freguesia: Campos e Louredo
+
+Erro ao validar Nome Freguesia: Esperanca e Brunhais
+
+Erro ao validar Nome Freguesia: Fonte Arcada e Oliveira
+
+Erro ao validar Nome Freguesia: Verim, Friande e Ajude
+
+Erro ao validar Nome Freguesia: Balanca
+
+Erro ao validar Nome Freguesia: Campo do Geres
+
+Erro ao validar Nome Freguesia: Carvalheira
+
+Erro ao validar Nome Freguesia: Covide
+
+Erro ao validar Nome Freguesia: Gondoriz
+
+Erro ao validar Nome Freguesia: Moimenta
+
+Erro ao validar Nome Freguesia: Ribeira
+
+Erro ao validar Nome Freguesia: Rio Caldo
+
+Erro ao validar Nome Freguesia: Souto
+
+Erro ao validar Nome Freguesia: Valdosende
+
+Erro ao validar Nome Freguesia: Vilar da Veiga
+
+Erro ao validar Nome Freguesia: Chamoim e Vilar
+
+Erro ao validar Nome Freguesia: Chorense e Monte
+
+Erro ao validar Nome Freguesia: Ciboes e Brufe
+
+Erro ao validar Nome Freguesia: Cantelaes
+
+Erro ao validar Nome Freguesia: Eira Vedra
+
+Erro ao validar Nome Freguesia: Guilhofrei
+
+Erro ao validar Nome Freguesia: Louredo
+
+Erro ao validar Nome Freguesia: Mosteiro
+
+Erro ao validar Nome Freguesia: Parada do Bouro
+
+Erro ao validar Nome Freguesia: Pinheiro
+
+Erro ao validar Nome Freguesia: Rossas
+
+Erro ao validar Nome Freguesia: Salamonde
+
+Erro ao validar Nome Freguesia: Tabuacas
+
+Erro ao validar Nome Freguesia: Vieira do Minho
+
+Erro ao validar Nome Freguesia: Anisso e Soutelo
+
+Erro ao validar Nome Freguesia: Anjos e Vilar do Chao
+
+Erro ao validar Nome Freguesia: Canicada e Soengas
+
+Erro ao validar Nome Freguesia: Ruivaes e Campos
+
+Erro ao validar Nome Freguesia: Ventosa e Cova
+
+Erro ao validar Nome Freguesia: Bairro
+
+Erro ao validar Nome Freguesia: Brufe
+
+Erro ao validar Data Nascimento: 1979-05-15
+Erro ao validar ID: 101356475
+Erro ao validar Data Nascimento: 29-02-1958
+Erro ao validar ID Freguesia: 13111
+Erro ao validar ID: 40362393
+Erro ao validar Data Nascimento: 23/11/2001
+Erro ao validar Data Nascimento: 04-set-1959
+Erro ao validar Data Nascimento: 31-04-2001
+Erro ao validar Nome Freguesia: Aguada de Cima
+
+Erro ao validar Nome Freguesia: Fermentelos
+
+Erro ao validar Nome Freguesia: Macinhata do Vouga
+
+Erro ao validar Nome Freguesia: Valongo do Vouga
+
+Erro ao validar Nome Freguesia: Agueda e Borralha
+
+Erro ao validar Nome Freguesia: Barro e Aguada de Baixo
+
+Erro ao validar Nome Freguesia: Belazaima do Chao, Castanheira do Vouga e Agadao
+
+Erro ao validar Nome Freguesia: Recardaes e Espinhel
+
+Erro ao validar Nome Freguesia: Travasso e Ois da Ribeira
+
+Erro ao validar Nome Freguesia: Trofa, Segadaes e Lamas do Vouga
+
+Erro ao validar Nome Freguesia: Prestimo e Macieira de Alcoba
+
+Erro ao validar Nome Freguesia: Alquerubim
+
+Erro ao validar Nome Freguesia: Angeja
+
+Erro ao validar Nome Freguesia: Branca
+
+Erro ao validar Nome Freguesia: Ribeira de Fraguas
+
+Erro ao validar Nome Freguesia: Albergaria-A-Velha e Valmaior
+
+Erro ao validar Nome Freguesia: Sao Joao de Loure e Frossos
+
+Erro ao validar Nome Freguesia: Avelas de Caminho
+
+Erro ao validar Nome Freguesia: Avelas de Cima
+
+Erro ao validar Nome Freguesia: Moita
+
+Erro ao validar Nome Freguesia: Sangalhos
+
+Erro ao validar Nome Freguesia: S. Lourenco do Bairro
+
+Erro ao validar Nome Freguesia: Vila Nova de Monsarros
+
+Erro ao validar Nome Freguesia: Vilarinho do Bairro
+
+Erro ao validar Nome Freguesia: Amoreira da Gandara, Paredes do Bairro e Ancas
+
+Erro ao validar Nome Freguesia: Arcos e Mogofores
+
+Erro ao validar Nome Freguesia: Tamengos, Aguim e Ois do Bairro
+
+Erro ao validar Nome Freguesia: Alvarenga
+
+Erro ao validar Nome Freguesia: Chave
+
+Erro ao validar Nome Freguesia: Escariz
+
+Erro ao validar Nome Freguesia: Fermedo
+
+Erro ao validar Nome Freguesia: Mansores
+
+Erro ao validar Nome Freguesia: Moldes
+
+Erro ao validar Nome Freguesia: Rossas
+
+Erro ao validar Nome Freguesia: Santa Eulalia
+
+Erro ao validar Nome Freguesia: S. Miguel do Mato
+
+Erro ao validar Nome Freguesia: Tropeco
+
+Erro ao validar Nome Freguesia: Urro
+
+Erro ao validar Nome Freguesia: Varzea
+
+Erro ao validar Nome Freguesia: Arouca e Burgo
+
+Erro ao validar Nome Freguesia: Cabreiros e Albergaria da Serra
+
+Erro ao validar Nome Freguesia: Canelas e Espiunca
+
+Erro ao validar Nome Freguesia: Covelo de Paivo e Janarde
+
+Erro ao validar Nome Freguesia: Aradas
+
+Erro ao validar Nome Freguesia: Cacia
+
+Erro ao validar Nome Freguesia: Esgueira
+
+Erro ao validar Nome Freguesia: Oliveirinha
+
+Erro ao validar Nome Freguesia: S. Bernardo
+
+Erro ao validar Nome Freguesia: S. Jacinto
+
+Erro ao validar Nome Freguesia: Santa Joana
+
+Erro ao validar Nome Freguesia: Eixo e Eirol
+
+Erro ao validar Nome Freguesia: Requeixo, Nossa Senhora de Fatima e Nariz
+
+Erro ao validar Nome Freguesia: Gloria e Vera Cruz
+
+Erro ao validar Nome Freguesia: Fornos
+
+Erro ao validar Nome Freguesia: Real
+
+Erro ao validar Nome Freguesia: Santa Maria de Sardoura
+
+Erro ao validar Nome Freguesia: S. Martinho de Sardoura
+
+Erro ao validar Nome Freguesia: Raiva, Pedorido e Paraiso
+
+Erro ao validar Nome Freguesia: Sobrado e Bairros
+
+Erro ao validar Nome Freguesia: Espinho
+
+Erro ao validar Nome Freguesia: Paramos
+
+Erro ao validar Nome Freguesia: Silvalde
+
+Erro ao validar Nome Freguesia: Anta e Guetim
+
+Erro ao validar Nome Freguesia: Avanca
+
+Erro ao validar Nome Freguesia: Pardilho
+
+Erro ao validar Nome Freguesia: Salreu
+
+Erro ao validar Nome Freguesia: Beduido e Veiros
+
+Erro ao validar Nome Freguesia: Canelas e Fermela
+
+Erro ao validar Nome Freguesia: Argoncilhe
+
+Erro ao validar Nome Freguesia: Arrifana
+
+Erro ao validar Nome Freguesia: Escapaes
+
+Erro ao validar Nome Freguesia: Fiaes
+
+Erro ao validar Nome Freguesia: Fornos
+
+Erro ao validar Nome Freguesia: Lourosa
+
+Erro ao validar Nome Freguesia: Milheiros de Poiares
+
+Erro ao validar Nome Freguesia: Mozelos
+
+Erro ao validar Nome Freguesia: Nogueira da Regedoura
+
+Erro ao validar Nome Freguesia: S. Paio de Oleiros
+
+Erro ao validar Nome Freguesia: Pacos de Brandao
+
+Erro ao validar Nome Freguesia: Rio Meao
+
+Erro ao validar Nome Freguesia: Romariz
+
+Erro ao validar Nome Freguesia: Sanguedo
+
+Erro ao validar Nome Freguesia: Santa Maria de Lamas
+
+Erro ao validar Nome Freguesia: S. Joao de Ver
+
+Erro ao validar Nome Freguesia: Caldas de Sao Jorge e Pigeiros
+
+Erro ao validar Nome Freguesia: Canedo, Vale e Vila Maior
+
+Erro ao validar Nome Freguesia: Lobao, Giao, Louredo e Guisande
+
+Erro ao validar Nome Freguesia: Santa Maria da Feira, Travanca, Sanfins e Espargo
+
+Erro ao validar Nome Freguesia: Sao Miguel do Souto e Mosteiro
+
+Erro ao validar Nome Freguesia: Gafanha da Encarnacao
+
+Erro ao validar Nome Freguesia: Gafanha da Nazare
+
+Erro ao validar Nome Freguesia: Gafanha do Carmo
+
+Erro ao validar Nome Freguesia: Ilhavo (Sao Salvador)
+
+Erro ao validar Nome Freguesia: Barcouco
+
+Erro ao validar Nome Freguesia: Casal Comba
+
+Erro ao validar Nome Freguesia: Luso
+
+Erro ao validar Nome Freguesia: Pampilhosa
+
+Erro ao validar Nome Freguesia: Vacarica
+
+Erro ao validar Nome Freguesia: Mealhada, Ventosa do Bairro e Antes
+
+Erro ao validar Nome Freguesia: Bunheiro
+
+Erro ao validar Nome Freguesia: Monte
+
+Erro ao validar Nome Freguesia: Murtosa
+
+Erro ao validar Nome Freguesia: Torreira
+
+Erro ao validar Nome Freguesia: Carregosa
+
+Erro ao validar Nome Freguesia: Cesar
+
+Erro ao validar Nome Freguesia: Fajoes
+
+Erro ao validar Nome Freguesia: Loureiro
+
+Erro ao validar Nome Freguesia: Macieira de Sarnes
+
+Erro ao validar Nome Freguesia: Ossela
+
+Erro ao validar Nome Freguesia: S. Martinho da Gandara
+
+Erro ao validar Nome Freguesia: Sao Roque
+
+Erro ao validar Nome Freguesia: Vila de Cucujaes
+
+Erro ao validar Nome Freguesia: Nogueira do Cravo e Pindelo
+
+Erro ao validar Nome Freguesia: O. Azemeis, Riba-Ul, Ul, Macinhata Seixa, Madail
+
+Erro ao validar Nome Freguesia: Pinheiro da Bemposta, Travanca e Palmaz
+
+Erro ao validar Nome Freguesia: Oia
+
+Erro ao validar Nome Freguesia: Oliveira do Bairro
+
+Erro ao validar Nome Freguesia: Palhaca
+
+Erro ao validar Nome Freguesia: Bustos, Troviscal e Mamarrosa
+
+Erro ao validar Nome Freguesia: Cortegaca
+
+Erro ao validar Nome Freguesia: Esmoriz
+
+Erro ao validar Nome Freguesia: Maceda
+
+Erro ao validar Nome Freguesia: Valega
+
+Erro ao validar Nome Freguesia: Ovar, S.Joao, Arada e S.Vicente de Pereira Jusa
+
+Erro ao validar Nome Freguesia: S. Joao da Madeira
+
+Erro ao validar Nome Freguesia: Couto de Esteves
+
+Erro ao validar Nome Freguesia: Pessegueiro do Vouga
+
+Erro ao validar Nome Freguesia: Rocas do Vouga
+
+Erro ao validar Nome Freguesia: Sever do Vouga
+
+Erro ao validar Nome Freguesia: Talhadas
+
+Erro ao validar Nome Freguesia: Cedrim e Paradela
+
+Erro ao validar Nome Freguesia: Silva Escura e Dornelas
+
+Erro ao validar Nome Freguesia: Calvao
+
+Erro ao validar Nome Freguesia: Gafanha da Boa Hora
+
+Erro ao validar Nome Freguesia: Ouca
+
+Erro ao validar Nome Freguesia: Soza
+
+Erro ao validar Nome Freguesia: Santo Andre de Vagos
+
+Erro ao validar Nome Freguesia: Fonte de Angeao e Covao do Lobo
+
+Erro ao validar Nome Freguesia: Ponte de Vagos e Santa Catarina
+
+Erro ao validar Nome Freguesia: Vagos e Santo Antonio
+
+Erro ao validar Nome Freguesia: Aroes
+
+Erro ao validar Nome Freguesia: Sao Pedro de Casteloes
+
+Erro ao validar Nome Freguesia: Cepelos
+
+Erro ao validar Nome Freguesia: Junqueira
+
+Erro ao validar Nome Freguesia: Macieira de Cambra
+
+Erro ao validar Nome Freguesia: Roge
+
+Erro ao validar Nome Freguesia: Vila Cha, Codal e Vila Cova de Perrinho
+
+Erro ao validar Nome Freguesia: Ervidel
+
+Erro ao validar Nome Freguesia: Messejana
+
+Erro ao validar Nome Freguesia: S. Joao de Negrilhos
+
+Erro ao validar Nome Freguesia: Aljustrel e Rio de Moinhos
+
+Erro ao validar Nome Freguesia: Rosario
+
+Erro ao validar Nome Freguesia: Santa Cruz
+
+Erro ao validar Nome Freguesia: S. Barnabe
+
+Erro ao validar Nome Freguesia: Aldeia Dos Fernandes
+
+Erro ao validar Nome Freguesia: Almodovar e Graca Dos Padroes
+
+Erro ao validar Nome Freguesia: Santa Clara-A-Nova e Gomes Aires
+
+Erro ao validar Nome Freguesia: Alvito
+
+Erro ao validar Nome Freguesia: Vila Nova da Baronia
+
+Erro ao validar Nome Freguesia: Barrancos
+
+Erro ao validar Nome Freguesia: Baleizao
+
+Erro ao validar Nome Freguesia: Beringel
+
+Erro ao validar Nome Freguesia: Cabeca Gorda
+
+Erro ao validar Nome Freguesia: Nossa Senhora Das Neves
+
+Erro ao validar Nome Freguesia: Santa Clara de Louredo
+
+Erro ao validar Nome Freguesia: S. Matias
+
+Erro ao validar Nome Freguesia: Albernoa e Trindade
+
+Erro ao validar Nome Freguesia: Beja (Salvador e Santa Maria da Feira)
+
+Erro ao validar Nome Freguesia: Beja (Santiago Maior e Sao Joao Baptista)
+
+Erro ao validar Nome Freguesia: Salvada e Quintos
+
+Erro ao validar Nome Freguesia: Santa Vitoria e Mombeja
+
+Erro ao validar Nome Freguesia: Trigaches e Sao Brissos
+
+Erro ao validar Nome Freguesia: Entradas
+
+Erro ao validar Nome Freguesia: Santa Barbara de Padroes
+
+Erro ao validar Nome Freguesia: S. Marcos da Ataboeira
+
+Erro ao validar Nome Freguesia: Castro Verde e Casevel
+
+Erro ao validar Nome Freguesia: Cuba
+
+Erro ao validar Nome Freguesia: Faro do Alentejo
+
+Erro ao validar Nome Freguesia: Vila Alva
+
+Erro ao validar Nome Freguesia: Vila Ruiva
+
+Erro ao validar Nome Freguesia: Figueira Dos Cavaleiros
+
+Erro ao validar Nome Freguesia: Odivelas
+
+Erro ao validar Nome Freguesia: Alfundao e Peroguarda
+
+Erro ao validar Nome Freguesia: Ferreira do Alentejo e Canhestros
+
+Erro ao validar Nome Freguesia: Alcaria Ruiva
+
+Erro ao validar Nome Freguesia: Corte do Pinto
+
+Erro ao validar Nome Freguesia: Espirito Santo
+
+Erro ao validar Nome Freguesia: Mertola
+
+Erro ao validar Nome Freguesia: Santana de Cambas
+
+Erro ao validar Nome Freguesia: S. Joao Dos Caldeireiros
+
+Erro ao validar Nome Freguesia: S.Mig. Pinheiro, S.Pedro Solis, S.Sebastiao Carros
+
+Erro ao validar Nome Freguesia: Amareleja
+
+Erro ao validar Nome Freguesia: Povoa de Sao Miguel
+
+Erro ao validar Nome Freguesia: Sobral da Adica
+
+Erro ao validar Nome Freguesia: Santo Agostinho e Sao Joao Baptista e Santo Amador
+
+Erro ao validar Nome Freguesia: Safara e Santo Aleixo da Restauracao
+
+Erro ao validar Nome Freguesia: Reliquias
+
+Erro ao validar Nome Freguesia: Saboia
+
+Erro ao validar Nome Freguesia: S. Luis
+
+Erro ao validar Nome Freguesia: S. Martinho Das Amoreiras
+
+Erro ao validar Nome Freguesia: Vila Nova de Milfontes
+
+Erro ao validar Nome Freguesia: Luzianes-Gare
+
+Erro ao validar Nome Freguesia: Longueira/Almograve
+
+Erro ao validar Nome Freguesia: Boavista Dos Pinheiros
+
+Erro ao validar Nome Freguesia: Colos
+
+Erro ao validar Nome Freguesia: Santa Clara-A-Velha
+
+Erro ao validar Nome Freguesia: Sao Salvador e Santa Maria
+
+Erro ao validar Nome Freguesia: Sao Teotonio
+
+Erro ao validar Nome Freguesia: Vale de Santiago
+
+Erro ao validar Nome Freguesia: Ourique
+
+Erro ao validar Nome Freguesia: Santana da Serra
+
+Erro ao validar Nome Freguesia: Garvao e Santa Luzia
+
+Erro ao validar Nome Freguesia: Panoias e Conceicao
+
+Erro ao validar Nome Freguesia: Brinches
+
+Erro ao validar Nome Freguesia: Pias
+
+Erro ao validar Nome Freguesia: Vila Verde de Ficalho
+
+Erro ao validar Nome Freguesia: Serpa (Salvador e Santa Maria)
+
+Erro ao validar Nome Freguesia: Vila Nova de Sao Bento e Vale de Vargo
+
+Erro ao validar Nome Freguesia: Pedrogao
+
+Erro ao validar Nome Freguesia: Selmes
+
+Erro ao validar Nome Freguesia: Vidigueira
+
+Erro ao validar Nome Freguesia: Vila de Frades
+
+Erro ao validar Nome Freguesia: Barreiros
+
+Erro ao validar Nome Freguesia: Bico
+
+Erro ao validar Nome Freguesia: Caires
+
+Erro ao validar Nome Freguesia: Carrazedo
+
+Erro ao validar Nome Freguesia: Dornelas
+
+Erro ao validar Nome Freguesia: Fiscal
+
+Erro ao validar Nome Freguesia: Goaes
+
+Erro ao validar Nome Freguesia: Lago
+
+Erro ao validar Nome Freguesia: Rendufe
+
+Erro ao validar Nome Freguesia: Bouro (Santa Maria)
+
+Erro ao validar Nome Freguesia: Bouro (Santa Marta)
+
+Erro ao validar Nome Freguesia: Amares e Figueiredo
+
+Erro ao validar Nome Freguesia: Caldelas, Sequeiros e Paranhos
+
+Erro ao validar Nome Freguesia: Ferreiros, Prozelo e Besteiros
+
+Erro ao validar Nome Freguesia: Torre e Portela
+
+Erro ao validar Nome Freguesia: Vilela, Seramil e Paredes Secas
+
+Erro ao validar Nome Freguesia: Abade de Neiva
+
+Erro ao validar Nome Freguesia: Aborim
+
+Erro ao validar Nome Freguesia: Adaes
+
+Erro ao validar Nome Freguesia: Airo
+
+Erro ao validar Nome Freguesia: Aldreu
+
+Erro ao validar Nome Freguesia: Alvelos
+
+Erro ao validar Nome Freguesia: Arcozelo
+
+Erro ao validar Nome Freguesia: Areias
+
+Erro ao validar Nome Freguesia: Balugaes
+
+Erro ao validar Nome Freguesia: Barcelinhos
+
+Erro ao validar Nome Freguesia: Barqueiros
+
+Erro ao validar Nome Freguesia: Cambeses
+
+Erro ao validar Nome Freguesia: Carapecos
+
+Erro ao validar Nome Freguesia: Carvalhal
+
+Erro ao validar Nome Freguesia: Carvalhas
+
+Erro ao validar Nome Freguesia: Cossourado
+
+Erro ao validar Nome Freguesia: Cristelo
+
+Erro ao validar Nome Freguesia: Fornelos
+
+Erro ao validar Nome Freguesia: Fragoso
+
+Erro ao validar Nome Freguesia: Gilmonde
+
+Erro ao validar Nome Freguesia: Lama
+
+Erro ao validar Nome Freguesia: Lijo
+
+Erro ao validar Nome Freguesia: Macieira de Rates
+
+Erro ao validar Nome Freguesia: Manhente
+
+Erro ao validar Nome Freguesia: Martim
+
+Erro ao validar Nome Freguesia: Moure
+
+Erro ao validar Nome Freguesia: Oliveira
+
+Erro ao validar Nome Freguesia: Palme
+
+Erro ao validar Nome Freguesia: Panque
+
+Erro ao validar Nome Freguesia: Paradela
+
+Erro ao validar Nome Freguesia: Pereira
+
+Erro ao validar Nome Freguesia: Perelhal
+
+Erro ao validar Nome Freguesia: Pousa
+
+Erro ao validar Nome Freguesia: Remelhe
+
+Erro ao validar Nome Freguesia: Roriz
+
+Erro ao validar Nome Freguesia: Rio Covo (Santa Eugenia)
+
+Erro ao validar Nome Freguesia: Galegos (Santa Maria)
+
+Erro ao validar Nome Freguesia: Galegos (S. Martinho)
+
+Erro ao validar Nome Freguesia: Tamel (S. Verissimo)
+
+Erro ao validar Nome Freguesia: Silva
+
+Erro ao validar Nome Freguesia: Ucha
+
+Erro ao validar Nome Freguesia: Varzea
+
+Erro ao validar Nome Freguesia: Vila Seca
+
+Erro ao validar Nome Freguesia: Alheira e Igreja Nova
+
+Erro ao validar Nome Freguesia: Alvito (Sao Pedro e Sao Martinho) e Couto
+
+Erro ao validar Nome Freguesia: Areias de Vilar e Encourados
+
+Erro ao validar Nome Freguesia: Barcelos, V.Boa, V.Frescainha
+
+Erro ao validar Nome Freguesia: Campo e Tamel (Sao Pedro Fins)
+
+Erro ao validar Nome Freguesia: Carreira e Fonte Coberta
+
+Erro ao validar Nome Freguesia: Chorente, Goios, Courel, Pedra Furada e Gueral
+
+Erro ao validar Nome Freguesia: Creixomil e Mariz
+
+Erro ao validar Nome Freguesia: Durraes e Tregosa
+
+Erro ao validar Nome Freguesia: Gamil e Midoes
+
+Erro ao validar Nome Freguesia: Milhazes, Vilar de Figos e Faria
+
+Erro ao validar Nome Freguesia: Negreiros e Chavao
+
+Erro ao validar Nome Freguesia: Quintiaes e Aguiar
+
+Erro ao validar Nome Freguesia: Sequeade e Bastuco (Sao Joao e Santo Estevao)
+
+Erro ao validar Nome Freguesia: Silveiros e Rio Covo (Santa Eulalia)
+
+Erro ao validar Nome Freguesia: Tamel (Santa Leocadia) e Vilar do Monte
+
+Erro ao validar Nome Freguesia: Viatodos, Grimancelos, Minhotaes, Monte Fralaes
+
+Erro ao validar Nome Freguesia: Vila Cova e Feitos
+
+Erro ao validar Nome Freguesia: Adaufe
+
+Erro ao validar Nome Freguesia: Espinho
+
+Erro ao validar Nome Freguesia: Esporoes
+
+Erro ao validar Nome Freguesia: Figueiredo
+
+Erro ao validar Nome Freguesia: Gualtar
+
+Erro ao validar Nome Freguesia: Lamas
+
+Erro ao validar Nome Freguesia: Mire de Tibaes
+
+Erro ao validar Nome Freguesia: Padim da Graca
+
+Erro ao validar Nome Freguesia: Palmeira
+
+Erro ao validar Nome Freguesia: Pedralva
+
+Erro ao validar Nome Freguesia: Priscos
+
+Erro ao validar Nome Freguesia: Ruilhe
+
+Erro ao validar Nome Freguesia: Braga (S. Vicente)
+
+Erro ao validar Nome Freguesia: Braga (S. Vitor)
+
+Erro ao validar Nome Freguesia: Sequeira
+
+Erro ao validar Nome Freguesia: Sobreposta
+
+Erro ao validar Nome Freguesia: Tadim
+
+Erro ao validar Nome Freguesia: Tebosa
+
+Erro ao validar Nome Freguesia: Arentim e Cunha
+
+Erro ao validar Nome Freguesia: Braga (Maximinos, Se e Cividade)
+
+Erro ao validar Nome Freguesia: Braga (Sao Jose de Sao Lazaro e Sao Joao do Souto)
+
+Erro ao validar Nome Freguesia: Cabreiros e Passos (Sao Juliao)
+
+Erro ao validar Nome Freguesia: Celeiros, Aveleda e Vimieiro
+
+Erro ao validar Nome Freguesia: Crespos e Pousada
+
+Erro ao validar Nome Freguesia: Escudeiros e Penso (Santo Estevao e Sao Vicente)
+
+Erro ao validar Nome Freguesia: Este (Sao Pedro e Sao Mamede)
+
+Erro ao validar Nome Freguesia: Ferreiros e Gondizalves
+
+Erro ao validar Nome Freguesia: Guisande e Oliveira (Sao Pedro)
+
+Erro ao validar Nome Freguesia: Lomar e Arcos
+
+Erro ao validar Nome Freguesia: Merelim (Sao Paio), Panoias e Parada de Tibaes
+
+Erro ao validar Nome Freguesia: Merelim (Sao Pedro) e Frossos
+
+Erro ao validar Nome Freguesia: Morreira e Trandeiras
+
+Erro ao validar Nome Freguesia: Nogueira, Fraiao e Lamacaes
+
+Erro ao validar Nome Freguesia: Nogueiro e Tenoes
+
+Erro ao validar Nome Freguesia: Real, Dume e Semelhe
+
+Erro ao validar Nome Freguesia: Santa Lucrecia de Algeriz e Navarra
+
+Erro ao validar Nome Freguesia: Vilaca e Fradelos
+
+Erro ao validar Nome Freguesia: Abadim
+
+Erro ao validar Nome Freguesia: Basto
+
+Erro ao validar Nome Freguesia: Bucos
+
+Erro ao validar Nome Freguesia: Cabeceiras de Basto
+
+Erro ao validar Nome Freguesia: Cavez
+
+Erro ao validar Nome Freguesia: Faia
+
+Erro ao validar Nome Freguesia: Pedraca
+
+Erro ao validar Nome Freguesia: Rio Douro
+
+Erro ao validar Nome Freguesia: Alvite e Passos
+
+Erro ao validar Nome Freguesia: Arco de Baulhe e Vila Nune
+
+Erro ao validar Nome Freguesia: Gondiaes e Vilar de Cunhas
+
+Erro ao validar Nome Freguesia: Refojos de Basto, Outeiro e Painzela
+
+Erro ao validar Nome Freguesia: Agilde
+
+Erro ao validar Nome Freguesia: Arnoia
+
+Erro ao validar Nome Freguesia: Borba da Montanha
+
+Erro ao validar Nome Freguesia: Codecoso
+
+Erro ao validar Nome Freguesia: Fervenca
+
+Erro ao validar Nome Freguesia: Moreira do Castelo
+
+Erro ao validar Nome Freguesia: Rego
+
+Erro ao validar Nome Freguesia: Ribas
+
+Erro ao validar Nome Freguesia: Basto (S. Clemente)
+
+Erro ao validar Nome Freguesia: Vale de Bouro
+
+Erro ao validar Nome Freguesia: Britelo, Gemeos e Ourilhe
+
+Erro ao validar Nome Freguesia: Cacarilhe e Infesta
+
+Erro ao validar Nome Freguesia: Canedo de Basto e Corgo
+
+Erro ao validar Nome Freguesia: Carvalho e Basto (Santa Tecla)
+
+Erro ao validar Nome Freguesia: Veade, Gagos e Molares
+
+Erro ao validar Nome Freguesia: Antas
+
+Erro ao validar Nome Freguesia: Forjaes
+
+Erro ao validar Nome Freguesia: Gemeses
+
+Erro ao validar Nome Freguesia: Vila Cha
+
+Erro ao validar Nome Freguesia: Apulia e Fao
+
+Erro ao validar Nome Freguesia: Belinho e Mar
+
+Erro ao validar Nome Freguesia: Esposende, Marinhas e Gandra
+
+Erro ao validar Nome Freguesia: Fonte Boa e Rio Tinto
+
+Erro ao validar Nome Freguesia: Palmeira de Faro e Curvos
+
+Erro ao validar Nome Freguesia: Armil
+
+Erro ao validar Nome Freguesia: Estoraos
+
+Erro ao validar Nome Freguesia: Fafe
+
+Erro ao validar Nome Freguesia: Fornelos
+
+Erro ao validar Nome Freguesia: Golaes
+
+Erro ao validar Nome Freguesia: Medelo
+
+Erro ao validar Nome Freguesia: Passos
+
+Erro ao validar Nome Freguesia: Quinchaes
+
+Erro ao validar Nome Freguesia: Regadas
+
+Erro ao validar Nome Freguesia: Revelhe
+
+Erro ao validar Nome Freguesia: Ribeiros
+
+Erro ao validar Nome Freguesia: Aroes (Santa Cristina)
+
+Erro ao validar Nome Freguesia: S. Gens
+
+Erro ao validar Nome Freguesia: Silvares (S. Martinho)
+
+Erro ao validar Nome Freguesia: Aroes (S. Romao)
+
+Erro ao validar Nome Freguesia: Travassos
+
+Erro ao validar Nome Freguesia: Vinhos
+
+Erro ao validar Nome Freguesia: Aboim, Felgueiras, Gontim e Pedraido
+
+Erro ao validar Nome Freguesia: Agrela e Serafao
+
+Erro ao validar Nome Freguesia: Antime e Silvares (Sao Clemente)
+
+Erro ao validar Nome Freguesia: Ardegao, Arnozela e Seidoes
+
+Erro ao validar Nome Freguesia: Cepaes e Fareja
+
+Erro ao validar Nome Freguesia: Freitas e Vila Cova
+
+Erro ao validar Nome Freguesia: Monte e Queimadela
+
+Erro ao validar Nome Freguesia: Moreira do Rei e Varzea Cova
+
+Erro ao validar Nome Freguesia: Aldao
+
+Erro ao validar Nome Freguesia: Azurem
+
+Erro ao validar Nome Freguesia: Barco
+
+Erro ao validar Nome Freguesia: Brito
+
+Erro ao validar Nome Freguesia: Caldelas
+
+Erro ao validar Nome Freguesia: Costa
+
+Erro ao validar Nome Freguesia: Creixomil
+
+Erro ao validar Nome Freguesia: Fermentoes
+
+Erro ao validar Nome Freguesia: Gonca
+
+Erro ao validar Nome Freguesia: Gondar
+
+Erro ao validar Nome Freguesia: Guardizela
+
+Erro ao validar Nome Freguesia: Infantas
+
+Erro ao validar Nome Freguesia: Longos
+
+Erro ao validar Nome Freguesia: Lordelo
+
+Erro ao validar Nome Freguesia: Mesao Frio
+
+Erro ao validar Nome Freguesia: Moreira de Conegos
+
+Erro ao validar Nome Freguesia: Nespereira
+
+Erro ao validar Nome Freguesia: Pencelo
+
+Erro ao validar Nome Freguesia: Pinheiro
+
+Erro ao validar Nome Freguesia: Polvoreira
+
+Erro ao validar Nome Freguesia: Ponte
+
+Erro ao validar Nome Freguesia: Ronfe
+
+Erro ao validar Nome Freguesia: Prazins (Santa Eufemia)
+
+Erro ao validar Nome Freguesia: Selho (S. Cristovao)
+
+Erro ao validar Nome Freguesia: Selho (S. Jorge)
+
+Erro ao validar Nome Freguesia: Candoso (S. Martinho)
+
+Erro ao validar Nome Freguesia: Sande (S. Martinho)
+
+Erro ao validar Nome Freguesia: S. Torcato
+
+Erro ao validar Nome Freguesia: Serzedelo
+
+Erro ao validar Nome Freguesia: Silvares
+
+Erro ao validar Nome Freguesia: Urgezes
+
+Erro ao validar Nome Freguesia: Abacao e Gemeos
+
+Erro ao validar Nome Freguesia: Airao Santa Maria, Airao Sao Joao e Vermil
+
+Erro ao validar Nome Freguesia: Arosa e Casteloes
+
+Erro ao validar Nome Freguesia: Ataes e Rendufe
+
+Erro ao validar Nome Freguesia: Briteiros Santo Estevao e Donim
+
+Erro ao validar Nome Freguesia: Briteiros Sao Salvador e Briteiros Santa Leocadia
+
+Erro ao validar Nome Freguesia: Candoso Sao Tiago e Mascotelos
+
+Erro ao validar Nome Freguesia: Conde e Gandarela
+
+Erro ao validar Nome Freguesia: Leitoes, Oleiros e Figueiredo
+
+Erro ao validar Nome Freguesia: Oliveira, Sao Paio e Sao Sebastiao
+
+Erro ao validar Nome Freguesia: Prazins Santo Tirso e Corvite
+
+Erro ao validar Nome Freguesia: Sande Sao Lourenco e Balazar
+
+Erro ao validar Nome Freguesia: Sande Vila Nova e Sande Sao Clemente
+
+Erro ao validar Nome Freguesia: Selho Sao Lourenco e Gominhaes
+
+Erro ao validar Nome Freguesia: Serzedo e Calvos
+
+Erro ao validar Nome Freguesia: Souto Santa Maria, Souto Sao Salvador e Gondomar
+
+Erro ao validar Nome Freguesia: Tabuadelo e Sao Faustino
+
+Erro ao validar Nome Freguesia: Covelas
+
+Erro ao validar Nome Freguesia: Ferreiros
+
+Erro ao validar Nome Freguesia: Galegos
+
+Erro ao validar Nome Freguesia: Garfe
+
+Erro ao validar Nome Freguesia: Geraz do Minho
+
+Erro ao validar Nome Freguesia: Lanhoso
+
+Erro ao validar Nome Freguesia: Monsul
+
+Erro ao validar Nome Freguesia: Povoa de Lanhoso (N. Senhora do Amparo)
+
+Erro ao validar Nome Freguesia: Rendufinho
+
+Erro ao validar Nome Freguesia: Santo Emiliao
+
+Erro ao validar Nome Freguesia: S. Joao de Rei
+
+Erro ao validar Nome Freguesia: Serzedelo
+
+Erro ao validar Nome Freguesia: Sobradelo da Goma
+
+Erro ao validar Nome Freguesia: Taide
+
+Erro ao validar Nome Freguesia: Travassos
+
+Erro ao validar Nome Freguesia: Vilela
+
+Erro ao validar Nome Freguesia: Aguas Santas e Moure
+
+Erro ao validar Nome Freguesia: Calvos e Frades
+
+Erro ao validar Nome Freguesia: Campos e Louredo
+
+Erro ao validar Nome Freguesia: Esperanca e Brunhais
+
+Erro ao validar Nome Freguesia: Fonte Arcada e Oliveira
+
+Erro ao validar Nome Freguesia: Verim, Friande e Ajude
+
+Erro ao validar Nome Freguesia: Balanca
+
+Erro ao validar Nome Freguesia: Campo do Geres
+
+Erro ao validar Nome Freguesia: Carvalheira
+
+Erro ao validar Nome Freguesia: Covide
+
+Erro ao validar Nome Freguesia: Gondoriz
+
+Erro ao validar Nome Freguesia: Moimenta
+
+Erro ao validar Nome Freguesia: Ribeira
+
+Erro ao validar Nome Freguesia: Rio Caldo
+
+Erro ao validar Nome Freguesia: Souto
+
+Erro ao validar Nome Freguesia: Valdosende
+
+Erro ao validar Nome Freguesia: Vilar da Veiga
+
+Erro ao validar Nome Freguesia: Chamoim e Vilar
+
+Erro ao validar Nome Freguesia: Chorense e Monte
+
+Erro ao validar Nome Freguesia: Ciboes e Brufe
+
+Erro ao validar Nome Freguesia: Cantelaes
+
+Erro ao validar Nome Freguesia: Eira Vedra
+
+Erro ao validar Nome Freguesia: Guilhofrei
+
+Erro ao validar Nome Freguesia: Louredo
+
+Erro ao validar Nome Freguesia: Mosteiro
+
+Erro ao validar Nome Freguesia: Parada do Bouro
+
+Erro ao validar Nome Freguesia: Pinheiro
+
+Erro ao validar Nome Freguesia: Rossas
+
+Erro ao validar Nome Freguesia: Salamonde
+
+Erro ao validar Nome Freguesia: Tabuacas
+
+Erro ao validar Nome Freguesia: Vieira do Minho
+
+Erro ao validar Nome Freguesia: Anisso e Soutelo
+
+Erro ao validar Nome Freguesia: Anjos e Vilar do Chao
+
+Erro ao validar Nome Freguesia: Canicada e Soengas
+
+Erro ao validar Nome Freguesia: Ruivaes e Campos
+
+Erro ao validar Nome Freguesia: Ventosa e Cova
+
+Erro ao validar Nome Freguesia: Bairro
+
+Erro ao validar Nome Freguesia: Brufe
+
+Erro ao validar Data Nascimento: 1979-05-15
+Erro ao validar ID: 101356475
+Erro ao validar Data Nascimento: 29-02-1958
+Erro ao validar ID Freguesia: 13111
+Erro ao validar ID: 40362393
+Erro ao validar Data Nascimento: 23/11/2001
+Erro ao validar Data Nascimento: 04-set-1959
+Erro ao validar Data Nascimento: 31-04-2001
+Erro ao validar Nome Freguesia: Aguada de Cima
+
+Erro ao validar Nome Freguesia: Fermentelos
+
+Erro ao validar Nome Freguesia: Macinhata do Vouga
+
+Erro ao validar Nome Freguesia: Valongo do Vouga
+
+Erro ao validar Nome Freguesia: Agueda e Borralha
+
+Erro ao validar Nome Freguesia: Barro e Aguada de Baixo
+
+Erro ao validar Nome Freguesia: Belazaima do Chao, Castanheira do Vouga e Agadao
+
+Erro ao validar Nome Freguesia: Recardaes e Espinhel
+
+Erro ao validar Nome Freguesia: Travasso e Ois da Ribeira
+
+Erro ao validar Nome Freguesia: Trofa, Segadaes e Lamas do Vouga
+
+Erro ao validar Nome Freguesia: Prestimo e Macieira de Alcoba
+
+Erro ao validar Nome Freguesia: Alquerubim
+
+Erro ao validar Nome Freguesia: Angeja
+
+Erro ao validar Nome Freguesia: Branca
+
+Erro ao validar Nome Freguesia: Ribeira de Fraguas
+
+Erro ao validar Nome Freguesia: Albergaria-A-Velha e Valmaior
+
+Erro ao validar Nome Freguesia: Sao Joao de Loure e Frossos
+
+Erro ao validar Nome Freguesia: Avelas de Caminho
+
+Erro ao validar Nome Freguesia: Avelas de Cima
+
+Erro ao validar Nome Freguesia: Moita
+
+Erro ao validar Nome Freguesia: Sangalhos
+
+Erro ao validar Nome Freguesia: S. Lourenco do Bairro
+
+Erro ao validar Nome Freguesia: Vila Nova de Monsarros
+
+Erro ao validar Nome Freguesia: Vilarinho do Bairro
+
+Erro ao validar Nome Freguesia: Amoreira da Gandara, Paredes do Bairro e Ancas
+
+Erro ao validar Nome Freguesia: Arcos e Mogofores
+
+Erro ao validar Nome Freguesia: Tamengos, Aguim e Ois do Bairro
+
+Erro ao validar Nome Freguesia: Alvarenga
+
+Erro ao validar Nome Freguesia: Chave
+
+Erro ao validar Nome Freguesia: Escariz
+
+Erro ao validar Nome Freguesia: Fermedo
+
+Erro ao validar Nome Freguesia: Mansores
+
+Erro ao validar Nome Freguesia: Moldes
+
+Erro ao validar Nome Freguesia: Rossas
+
+Erro ao validar Nome Freguesia: Santa Eulalia
+
+Erro ao validar Nome Freguesia: S. Miguel do Mato
+
+Erro ao validar Nome Freguesia: Tropeco
+
+Erro ao validar Nome Freguesia: Urro
+
+Erro ao validar Nome Freguesia: Varzea
+
+Erro ao validar Nome Freguesia: Arouca e Burgo
+
+Erro ao validar Nome Freguesia: Cabreiros e Albergaria da Serra
+
+Erro ao validar Nome Freguesia: Canelas e Espiunca
+
+Erro ao validar Nome Freguesia: Covelo de Paivo e Janarde
+
+Erro ao validar Nome Freguesia: Aradas
+
+Erro ao validar Nome Freguesia: Cacia
+
+Erro ao validar Nome Freguesia: Esgueira
+
+Erro ao validar Nome Freguesia: Oliveirinha
+
+Erro ao validar Nome Freguesia: S. Bernardo
+
+Erro ao validar Nome Freguesia: S. Jacinto
+
+Erro ao validar Nome Freguesia: Santa Joana
+
+Erro ao validar Nome Freguesia: Eixo e Eirol
+
+Erro ao validar Nome Freguesia: Requeixo, Nossa Senhora de Fatima e Nariz
+
+Erro ao validar Nome Freguesia: Gloria e Vera Cruz
+
+Erro ao validar Nome Freguesia: Fornos
+
+Erro ao validar Nome Freguesia: Real
+
+Erro ao validar Nome Freguesia: Santa Maria de Sardoura
+
+Erro ao validar Nome Freguesia: S. Martinho de Sardoura
+
+Erro ao validar Nome Freguesia: Raiva, Pedorido e Paraiso
+
+Erro ao validar Nome Freguesia: Sobrado e Bairros
+
+Erro ao validar Nome Freguesia: Espinho
+
+Erro ao validar Nome Freguesia: Paramos
+
+Erro ao validar Nome Freguesia: Silvalde
+
+Erro ao validar Nome Freguesia: Anta e Guetim
+
+Erro ao validar Nome Freguesia: Avanca
+
+Erro ao validar Nome Freguesia: Pardilho
+
+Erro ao validar Nome Freguesia: Salreu
+
+Erro ao validar Nome Freguesia: Beduido e Veiros
+
+Erro ao validar Nome Freguesia: Canelas e Fermela
+
+Erro ao validar Nome Freguesia: Argoncilhe
+
+Erro ao validar Nome Freguesia: Arrifana
+
+Erro ao validar Nome Freguesia: Escapaes
+
+Erro ao validar Nome Freguesia: Fiaes
+
+Erro ao validar Nome Freguesia: Fornos
+
+Erro ao validar Nome Freguesia: Lourosa
+
+Erro ao validar Nome Freguesia: Milheiros de Poiares
+
+Erro ao validar Nome Freguesia: Mozelos
+
+Erro ao validar Nome Freguesia: Nogueira da Regedoura
+
+Erro ao validar Nome Freguesia: S. Paio de Oleiros
+
+Erro ao validar Nome Freguesia: Pacos de Brandao
+
+Erro ao validar Nome Freguesia: Rio Meao
+
+Erro ao validar Nome Freguesia: Romariz
+
+Erro ao validar Nome Freguesia: Sanguedo
+
+Erro ao validar Nome Freguesia: Santa Maria de Lamas
+
+Erro ao validar Nome Freguesia: S. Joao de Ver
+
+Erro ao validar Nome Freguesia: Caldas de Sao Jorge e Pigeiros
+
+Erro ao validar Nome Freguesia: Canedo, Vale e Vila Maior
+
+Erro ao validar Nome Freguesia: Lobao, Giao, Louredo e Guisande
+
+Erro ao validar Nome Freguesia: Santa Maria da Feira, Travanca, Sanfins e Espargo
+
+Erro ao validar Nome Freguesia: Sao Miguel do Souto e Mosteiro
+
+Erro ao validar Nome Freguesia: Gafanha da Encarnacao
+
+Erro ao validar Nome Freguesia: Gafanha da Nazare
+
+Erro ao validar Nome Freguesia: Gafanha do Carmo
+
+Erro ao validar Nome Freguesia: Ilhavo (Sao Salvador)
+
+Erro ao validar Nome Freguesia: Barcouco
+
+Erro ao validar Nome Freguesia: Casal Comba
+
+Erro ao validar Nome Freguesia: Luso
+
+Erro ao validar Nome Freguesia: Pampilhosa
+
+Erro ao validar Nome Freguesia: Vacarica
+
+Erro ao validar Nome Freguesia: Mealhada, Ventosa do Bairro e Antes
+
+Erro ao validar Nome Freguesia: Bunheiro
+
+Erro ao validar Nome Freguesia: Monte
+
+Erro ao validar Nome Freguesia: Murtosa
+
+Erro ao validar Nome Freguesia: Torreira
+
+Erro ao validar Nome Freguesia: Carregosa
+
+Erro ao validar Nome Freguesia: Cesar
+
+Erro ao validar Nome Freguesia: Fajoes
+
+Erro ao validar Nome Freguesia: Loureiro
+
+Erro ao validar Nome Freguesia: Macieira de Sarnes
+
+Erro ao validar Nome Freguesia: Ossela
+
+Erro ao validar Nome Freguesia: S. Martinho da Gandara
+
+Erro ao validar Nome Freguesia: Sao Roque
+
+Erro ao validar Nome Freguesia: Vila de Cucujaes
+
+Erro ao validar Nome Freguesia: Nogueira do Cravo e Pindelo
+
+Erro ao validar Nome Freguesia: O. Azemeis, Riba-Ul, Ul, Macinhata Seixa, Madail
+
+Erro ao validar Nome Freguesia: Pinheiro da Bemposta, Travanca e Palmaz
+
+Erro ao validar Nome Freguesia: Oia
+
+Erro ao validar Nome Freguesia: Oliveira do Bairro
+
+Erro ao validar Nome Freguesia: Palhaca
+
+Erro ao validar Nome Freguesia: Bustos, Troviscal e Mamarrosa
+
+Erro ao validar Nome Freguesia: Cortegaca
+
+Erro ao validar Nome Freguesia: Esmoriz
+
+Erro ao validar Nome Freguesia: Maceda
+
+Erro ao validar Nome Freguesia: Valega
+
+Erro ao validar Nome Freguesia: Ovar, S.Joao, Arada e S.Vicente de Pereira Jusa
+
+Erro ao validar Nome Freguesia: S. Joao da Madeira
+
+Erro ao validar Nome Freguesia: Couto de Esteves
+
+Erro ao validar Nome Freguesia: Pessegueiro do Vouga
+
+Erro ao validar Nome Freguesia: Rocas do Vouga
+
+Erro ao validar Nome Freguesia: Sever do Vouga
+
+Erro ao validar Nome Freguesia: Talhadas
+
+Erro ao validar Nome Freguesia: Cedrim e Paradela
+
+Erro ao validar Nome Freguesia: Silva Escura e Dornelas
+
+Erro ao validar Nome Freguesia: Calvao
+
+Erro ao validar Nome Freguesia: Gafanha da Boa Hora
+
+Erro ao validar Nome Freguesia: Ouca
+
+Erro ao validar Nome Freguesia: Soza
+
+Erro ao validar Nome Freguesia: Santo Andre de Vagos
+
+Erro ao validar Nome Freguesia: Fonte de Angeao e Covao do Lobo
+
+Erro ao validar Nome Freguesia: Ponte de Vagos e Santa Catarina
+
+Erro ao validar Nome Freguesia: Vagos e Santo Antonio
+
+Erro ao validar Nome Freguesia: Aroes
+
+Erro ao validar Nome Freguesia: Sao Pedro de Casteloes
+
+Erro ao validar Nome Freguesia: Cepelos
+
+Erro ao validar Nome Freguesia: Junqueira
+
+Erro ao validar Nome Freguesia: Macieira de Cambra
+
+Erro ao validar Nome Freguesia: Roge
+
+Erro ao validar Nome Freguesia: Vila Cha, Codal e Vila Cova de Perrinho
+
+Erro ao validar Nome Freguesia: Ervidel
+
+Erro ao validar Nome Freguesia: Messejana
+
+Erro ao validar Nome Freguesia: S. Joao de Negrilhos
+
+Erro ao validar Nome Freguesia: Aljustrel e Rio de Moinhos
+
+Erro ao validar Nome Freguesia: Rosario
+
+Erro ao validar Nome Freguesia: Santa Cruz
+
+Erro ao validar Nome Freguesia: S. Barnabe
+
+Erro ao validar Nome Freguesia: Aldeia Dos Fernandes
+
+Erro ao validar Nome Freguesia: Almodovar e Graca Dos Padroes
+
+Erro ao validar Nome Freguesia: Santa Clara-A-Nova e Gomes Aires
+
+Erro ao validar Nome Freguesia: Alvito
+
+Erro ao validar Nome Freguesia: Vila Nova da Baronia
+
+Erro ao validar Nome Freguesia: Barrancos
+
+Erro ao validar Nome Freguesia: Baleizao
+
+Erro ao validar Nome Freguesia: Beringel
+
+Erro ao validar Nome Freguesia: Cabeca Gorda
+
+Erro ao validar Nome Freguesia: Nossa Senhora Das Neves
+
+Erro ao validar Nome Freguesia: Santa Clara de Louredo
+
+Erro ao validar Nome Freguesia: S. Matias
+
+Erro ao validar Nome Freguesia: Albernoa e Trindade
+
+Erro ao validar Nome Freguesia: Beja (Salvador e Santa Maria da Feira)
+
+Erro ao validar Nome Freguesia: Beja (Santiago Maior e Sao Joao Baptista)
+
+Erro ao validar Nome Freguesia: Salvada e Quintos
+
+Erro ao validar Nome Freguesia: Santa Vitoria e Mombeja
+
+Erro ao validar Nome Freguesia: Trigaches e Sao Brissos
+
+Erro ao validar Nome Freguesia: Entradas
+
+Erro ao validar Nome Freguesia: Santa Barbara de Padroes
+
+Erro ao validar Nome Freguesia: S. Marcos da Ataboeira
+
+Erro ao validar Nome Freguesia: Castro Verde e Casevel
+
+Erro ao validar Nome Freguesia: Cuba
+
+Erro ao validar Nome Freguesia: Faro do Alentejo
+
+Erro ao validar Nome Freguesia: Vila Alva
+
+Erro ao validar Nome Freguesia: Vila Ruiva
+
+Erro ao validar Nome Freguesia: Figueira Dos Cavaleiros
+
+Erro ao validar Nome Freguesia: Odivelas
+
+Erro ao validar Nome Freguesia: Alfundao e Peroguarda
+
+Erro ao validar Nome Freguesia: Ferreira do Alentejo e Canhestros
+
+Erro ao validar Nome Freguesia: Alcaria Ruiva
+
+Erro ao validar Nome Freguesia: Corte do Pinto
+
+Erro ao validar Nome Freguesia: Espirito Santo
+
+Erro ao validar Nome Freguesia: Mertola
+
+Erro ao validar Nome Freguesia: Santana de Cambas
+
+Erro ao validar Nome Freguesia: S. Joao Dos Caldeireiros
+
+Erro ao validar Nome Freguesia: S.Mig. Pinheiro, S.Pedro Solis, S.Sebastiao Carros
+
+Erro ao validar Nome Freguesia: Amareleja
+
+Erro ao validar Nome Freguesia: Povoa de Sao Miguel
+
+Erro ao validar Nome Freguesia: Sobral da Adica
+
+Erro ao validar Nome Freguesia: Santo Agostinho e Sao Joao Baptista e Santo Amador
+
+Erro ao validar Nome Freguesia: Safara e Santo Aleixo da Restauracao
+
+Erro ao validar Nome Freguesia: Reliquias
+
+Erro ao validar Nome Freguesia: Saboia
+
+Erro ao validar Nome Freguesia: S. Luis
+
+Erro ao validar Nome Freguesia: S. Martinho Das Amoreiras
+
+Erro ao validar Nome Freguesia: Vila Nova de Milfontes
+
+Erro ao validar Nome Freguesia: Luzianes-Gare
+
+Erro ao validar Nome Freguesia: Longueira/Almograve
+
+Erro ao validar Nome Freguesia: Boavista Dos Pinheiros
+
+Erro ao validar Nome Freguesia: Colos
+
+Erro ao validar Nome Freguesia: Santa Clara-A-Velha
+
+Erro ao validar Nome Freguesia: Sao Salvador e Santa Maria
+
+Erro ao validar Nome Freguesia: Sao Teotonio
+
+Erro ao validar Nome Freguesia: Vale de Santiago
+
+Erro ao validar Nome Freguesia: Ourique
+
+Erro ao validar Nome Freguesia: Santana da Serra
+
+Erro ao validar Nome Freguesia: Garvao e Santa Luzia
+
+Erro ao validar Nome Freguesia: Panoias e Conceicao
+
+Erro ao validar Nome Freguesia: Brinches
+
+Erro ao validar Nome Freguesia: Pias
+
+Erro ao validar Nome Freguesia: Vila Verde de Ficalho
+
+Erro ao validar Nome Freguesia: Serpa (Salvador e Santa Maria)
+
+Erro ao validar Nome Freguesia: Vila Nova de Sao Bento e Vale de Vargo
+
+Erro ao validar Nome Freguesia: Pedrogao
+
+Erro ao validar Nome Freguesia: Selmes
+
+Erro ao validar Nome Freguesia: Vidigueira
+
+Erro ao validar Nome Freguesia: Vila de Frades
+
+Erro ao validar Nome Freguesia: Barreiros
+
+Erro ao validar Nome Freguesia: Bico
+
+Erro ao validar Nome Freguesia: Caires
+
+Erro ao validar Nome Freguesia: Carrazedo
+
+Erro ao validar Nome Freguesia: Dornelas
+
+Erro ao validar Nome Freguesia: Fiscal
+
+Erro ao validar Nome Freguesia: Goaes
+
+Erro ao validar Nome Freguesia: Lago
+
+Erro ao validar Nome Freguesia: Rendufe
+
+Erro ao validar Nome Freguesia: Bouro (Santa Maria)
+
+Erro ao validar Nome Freguesia: Bouro (Santa Marta)
+
+Erro ao validar Nome Freguesia: Amares e Figueiredo
+
+Erro ao validar Nome Freguesia: Caldelas, Sequeiros e Paranhos
+
+Erro ao validar Nome Freguesia: Ferreiros, Prozelo e Besteiros
+
+Erro ao validar Nome Freguesia: Torre e Portela
+
+Erro ao validar Nome Freguesia: Vilela, Seramil e Paredes Secas
+
+Erro ao validar Nome Freguesia: Abade de Neiva
+
+Erro ao validar Nome Freguesia: Aborim
+
+Erro ao validar Nome Freguesia: Adaes
+
+Erro ao validar Nome Freguesia: Airo
+
+Erro ao validar Nome Freguesia: Aldreu
+
+Erro ao validar Nome Freguesia: Alvelos
+
+Erro ao validar Nome Freguesia: Arcozelo
+
+Erro ao validar Nome Freguesia: Areias
+
+Erro ao validar Nome Freguesia: Balugaes
+
+Erro ao validar Nome Freguesia: Barcelinhos
+
+Erro ao validar Nome Freguesia: Barqueiros
+
+Erro ao validar Nome Freguesia: Cambeses
+
+Erro ao validar Nome Freguesia: Carapecos
+
+Erro ao validar Nome Freguesia: Carvalhal
+
+Erro ao validar Nome Freguesia: Carvalhas
+
+Erro ao validar Nome Freguesia: Cossourado
+
+Erro ao validar Nome Freguesia: Cristelo
+
+Erro ao validar Nome Freguesia: Fornelos
+
+Erro ao validar Nome Freguesia: Fragoso
+
+Erro ao validar Nome Freguesia: Gilmonde
+
+Erro ao validar Nome Freguesia: Lama
+
+Erro ao validar Nome Freguesia: Lijo
+
+Erro ao validar Nome Freguesia: Macieira de Rates
+
+Erro ao validar Nome Freguesia: Manhente
+
+Erro ao validar Nome Freguesia: Martim
+
+Erro ao validar Nome Freguesia: Moure
+
+Erro ao validar Nome Freguesia: Oliveira
+
+Erro ao validar Nome Freguesia: Palme
+
+Erro ao validar Nome Freguesia: Panque
+
+Erro ao validar Nome Freguesia: Paradela
+
+Erro ao validar Nome Freguesia: Pereira
+
+Erro ao validar Nome Freguesia: Perelhal
+
+Erro ao validar Nome Freguesia: Pousa
+
+Erro ao validar Nome Freguesia: Remelhe
+
+Erro ao validar Nome Freguesia: Roriz
+
+Erro ao validar Nome Freguesia: Rio Covo (Santa Eugenia)
+
+Erro ao validar Nome Freguesia: Galegos (Santa Maria)
+
+Erro ao validar Nome Freguesia: Galegos (S. Martinho)
+
+Erro ao validar Nome Freguesia: Tamel (S. Verissimo)
+
+Erro ao validar Nome Freguesia: Silva
+
+Erro ao validar Nome Freguesia: Ucha
+
+Erro ao validar Nome Freguesia: Varzea
+
+Erro ao validar Nome Freguesia: Vila Seca
+
+Erro ao validar Nome Freguesia: Alheira e Igreja Nova
+
+Erro ao validar Nome Freguesia: Alvito (Sao Pedro e Sao Martinho) e Couto
+
+Erro ao validar Nome Freguesia: Areias de Vilar e Encourados
+
+Erro ao validar Nome Freguesia: Barcelos, V.Boa, V.Frescainha
+
+Erro ao validar Nome Freguesia: Campo e Tamel (Sao Pedro Fins)
+
+Erro ao validar Nome Freguesia: Carreira e Fonte Coberta
+
+Erro ao validar Nome Freguesia: Chorente, Goios, Courel, Pedra Furada e Gueral
+
+Erro ao validar Nome Freguesia: Creixomil e Mariz
+
+Erro ao validar Nome Freguesia: Durraes e Tregosa
+
+Erro ao validar Nome Freguesia: Gamil e Midoes
+
+Erro ao validar Nome Freguesia: Milhazes, Vilar de Figos e Faria
+
+Erro ao validar Nome Freguesia: Negreiros e Chavao
+
+Erro ao validar Nome Freguesia: Quintiaes e Aguiar
+
+Erro ao validar Nome Freguesia: Sequeade e Bastuco (Sao Joao e Santo Estevao)
+
+Erro ao validar Nome Freguesia: Silveiros e Rio Covo (Santa Eulalia)
+
+Erro ao validar Nome Freguesia: Tamel (Santa Leocadia) e Vilar do Monte
+
+Erro ao validar Nome Freguesia: Viatodos, Grimancelos, Minhotaes, Monte Fralaes
+
+Erro ao validar Nome Freguesia: Vila Cova e Feitos
+
+Erro ao validar Nome Freguesia: Adaufe
+
+Erro ao validar Nome Freguesia: Espinho
+
+Erro ao validar Nome Freguesia: Esporoes
+
+Erro ao validar Nome Freguesia: Figueiredo
+
+Erro ao validar Nome Freguesia: Gualtar
+
+Erro ao validar Nome Freguesia: Lamas
+
+Erro ao validar Nome Freguesia: Mire de Tibaes
+
+Erro ao validar Nome Freguesia: Padim da Graca
+
+Erro ao validar Nome Freguesia: Palmeira
+
+Erro ao validar Nome Freguesia: Pedralva
+
+Erro ao validar Nome Freguesia: Priscos
+
+Erro ao validar Nome Freguesia: Ruilhe
+
+Erro ao validar Nome Freguesia: Braga (S. Vicente)
+
+Erro ao validar Nome Freguesia: Braga (S. Vitor)
+
+Erro ao validar Nome Freguesia: Sequeira
+
+Erro ao validar Nome Freguesia: Sobreposta
+
+Erro ao validar Nome Freguesia: Tadim
+
+Erro ao validar Nome Freguesia: Tebosa
+
+Erro ao validar Nome Freguesia: Arentim e Cunha
+
+Erro ao validar Nome Freguesia: Braga (Maximinos, Se e Cividade)
+
+Erro ao validar Nome Freguesia: Braga (Sao Jose de Sao Lazaro e Sao Joao do Souto)
+
+Erro ao validar Nome Freguesia: Cabreiros e Passos (Sao Juliao)
+
+Erro ao validar Nome Freguesia: Celeiros, Aveleda e Vimieiro
+
+Erro ao validar Nome Freguesia: Crespos e Pousada
+
+Erro ao validar Nome Freguesia: Escudeiros e Penso (Santo Estevao e Sao Vicente)
+
+Erro ao validar Nome Freguesia: Este (Sao Pedro e Sao Mamede)
+
+Erro ao validar Nome Freguesia: Ferreiros e Gondizalves
+
+Erro ao validar Nome Freguesia: Guisande e Oliveira (Sao Pedro)
+
+Erro ao validar Nome Freguesia: Lomar e Arcos
+
+Erro ao validar Nome Freguesia: Merelim (Sao Paio), Panoias e Parada de Tibaes
+
+Erro ao validar Nome Freguesia: Merelim (Sao Pedro) e Frossos
+
+Erro ao validar Nome Freguesia: Morreira e Trandeiras
+
+Erro ao validar Nome Freguesia: Nogueira, Fraiao e Lamacaes
+
+Erro ao validar Nome Freguesia: Nogueiro e Tenoes
+
+Erro ao validar Nome Freguesia: Real, Dume e Semelhe
+
+Erro ao validar Nome Freguesia: Santa Lucrecia de Algeriz e Navarra
+
+Erro ao validar Nome Freguesia: Vilaca e Fradelos
+
+Erro ao validar Nome Freguesia: Abadim
+
+Erro ao validar Nome Freguesia: Basto
+
+Erro ao validar Nome Freguesia: Bucos
+
+Erro ao validar Nome Freguesia: Cabeceiras de Basto
+
+Erro ao validar Nome Freguesia: Cavez
+
+Erro ao validar Nome Freguesia: Faia
+
+Erro ao validar Nome Freguesia: Pedraca
+
+Erro ao validar Nome Freguesia: Rio Douro
+
+Erro ao validar Nome Freguesia: Alvite e Passos
+
+Erro ao validar Nome Freguesia: Arco de Baulhe e Vila Nune
+
+Erro ao validar Nome Freguesia: Gondiaes e Vilar de Cunhas
+
+Erro ao validar Nome Freguesia: Refojos de Basto, Outeiro e Painzela
+
+Erro ao validar Nome Freguesia: Agilde
+
+Erro ao validar Nome Freguesia: Arnoia
+
+Erro ao validar Nome Freguesia: Borba da Montanha
+
+Erro ao validar Nome Freguesia: Codecoso
+
+Erro ao validar Nome Freguesia: Fervenca
+
+Erro ao validar Nome Freguesia: Moreira do Castelo
+
+Erro ao validar Nome Freguesia: Rego
+
+Erro ao validar Nome Freguesia: Ribas
+
+Erro ao validar Nome Freguesia: Basto (S. Clemente)
+
+Erro ao validar Nome Freguesia: Vale de Bouro
+
+Erro ao validar Nome Freguesia: Britelo, Gemeos e Ourilhe
+
+Erro ao validar Nome Freguesia: Cacarilhe e Infesta
+
+Erro ao validar Nome Freguesia: Canedo de Basto e Corgo
+
+Erro ao validar Nome Freguesia: Carvalho e Basto (Santa Tecla)
+
+Erro ao validar Nome Freguesia: Veade, Gagos e Molares
+
+Erro ao validar Nome Freguesia: Antas
+
+Erro ao validar Nome Freguesia: Forjaes
+
+Erro ao validar Nome Freguesia: Gemeses
+
+Erro ao validar Nome Freguesia: Vila Cha
+
+Erro ao validar Nome Freguesia: Apulia e Fao
+
+Erro ao validar Nome Freguesia: Belinho e Mar
+
+Erro ao validar Nome Freguesia: Esposende, Marinhas e Gandra
+
+Erro ao validar Nome Freguesia: Fonte Boa e Rio Tinto
+
+Erro ao validar Nome Freguesia: Palmeira de Faro e Curvos
+
+Erro ao validar Nome Freguesia: Armil
+
+Erro ao validar Nome Freguesia: Estoraos
+
+Erro ao validar Nome Freguesia: Fafe
+
+Erro ao validar Nome Freguesia: Fornelos
+
+Erro ao validar Nome Freguesia: Golaes
+
+Erro ao validar Nome Freguesia: Medelo
+
+Erro ao validar Nome Freguesia: Passos
+
+Erro ao validar Nome Freguesia: Quinchaes
+
+Erro ao validar Nome Freguesia: Regadas
+
+Erro ao validar Nome Freguesia: Revelhe
+
+Erro ao validar Nome Freguesia: Ribeiros
+
+Erro ao validar Nome Freguesia: Aroes (Santa Cristina)
+
+Erro ao validar Nome Freguesia: S. Gens
+
+Erro ao validar Nome Freguesia: Silvares (S. Martinho)
+
+Erro ao validar Nome Freguesia: Aroes (S. Romao)
+
+Erro ao validar Nome Freguesia: Travassos
+
+Erro ao validar Nome Freguesia: Vinhos
+
+Erro ao validar Nome Freguesia: Aboim, Felgueiras, Gontim e Pedraido
+
+Erro ao validar Nome Freguesia: Agrela e Serafao
+
+Erro ao validar Nome Freguesia: Antime e Silvares (Sao Clemente)
+
+Erro ao validar Nome Freguesia: Ardegao, Arnozela e Seidoes
+
+Erro ao validar Nome Freguesia: Cepaes e Fareja
+
+Erro ao validar Nome Freguesia: Freitas e Vila Cova
+
+Erro ao validar Nome Freguesia: Monte e Queimadela
+
+Erro ao validar Nome Freguesia: Moreira do Rei e Varzea Cova
+
+Erro ao validar Nome Freguesia: Aldao
+
+Erro ao validar Nome Freguesia: Azurem
+
+Erro ao validar Nome Freguesia: Barco
+
+Erro ao validar Nome Freguesia: Brito
+
+Erro ao validar Nome Freguesia: Caldelas
+
+Erro ao validar Nome Freguesia: Costa
+
+Erro ao validar Nome Freguesia: Creixomil
+
+Erro ao validar Nome Freguesia: Fermentoes
+
+Erro ao validar Nome Freguesia: Gonca
+
+Erro ao validar Nome Freguesia: Gondar
+
+Erro ao validar Nome Freguesia: Guardizela
+
+Erro ao validar Nome Freguesia: Infantas
+
+Erro ao validar Nome Freguesia: Longos
+
+Erro ao validar Nome Freguesia: Lordelo
+
+Erro ao validar Nome Freguesia: Mesao Frio
+
+Erro ao validar Nome Freguesia: Moreira de Conegos
+
+Erro ao validar Nome Freguesia: Nespereira
+
+Erro ao validar Nome Freguesia: Pencelo
+
+Erro ao validar Nome Freguesia: Pinheiro
+
+Erro ao validar Nome Freguesia: Polvoreira
+
+Erro ao validar Nome Freguesia: Ponte
+
+Erro ao validar Nome Freguesia: Ronfe
+
+Erro ao validar Nome Freguesia: Prazins (Santa Eufemia)
+
+Erro ao validar Nome Freguesia: Selho (S. Cristovao)
+
+Erro ao validar Nome Freguesia: Selho (S. Jorge)
+
+Erro ao validar Nome Freguesia: Candoso (S. Martinho)
+
+Erro ao validar Nome Freguesia: Sande (S. Martinho)
+
+Erro ao validar Nome Freguesia: S. Torcato
+
+Erro ao validar Nome Freguesia: Serzedelo
+
+Erro ao validar Nome Freguesia: Silvares
+
+Erro ao validar Nome Freguesia: Urgezes
+
+Erro ao validar Nome Freguesia: Abacao e Gemeos
+
+Erro ao validar Nome Freguesia: Airao Santa Maria, Airao Sao Joao e Vermil
+
+Erro ao validar Nome Freguesia: Arosa e Casteloes
+
+Erro ao validar Nome Freguesia: Ataes e Rendufe
+
+Erro ao validar Nome Freguesia: Briteiros Santo Estevao e Donim
+
+Erro ao validar Nome Freguesia: Briteiros Sao Salvador e Briteiros Santa Leocadia
+
+Erro ao validar Nome Freguesia: Candoso Sao Tiago e Mascotelos
+
+Erro ao validar Nome Freguesia: Conde e Gandarela
+
+Erro ao validar Nome Freguesia: Leitoes, Oleiros e Figueiredo
+
+Erro ao validar Nome Freguesia: Oliveira, Sao Paio e Sao Sebastiao
+
+Erro ao validar Nome Freguesia: Prazins Santo Tirso e Corvite
+
+Erro ao validar Nome Freguesia: Sande Sao Lourenco e Balazar
+
+Erro ao validar Nome Freguesia: Sande Vila Nova e Sande Sao Clemente
+
+Erro ao validar Nome Freguesia: Selho Sao Lourenco e Gominhaes
+
+Erro ao validar Nome Freguesia: Serzedo e Calvos
+
+Erro ao validar Nome Freguesia: Souto Santa Maria, Souto Sao Salvador e Gondomar
+
+Erro ao validar Nome Freguesia: Tabuadelo e Sao Faustino
+
+Erro ao validar Nome Freguesia: Covelas
+
+Erro ao validar Nome Freguesia: Ferreiros
+
+Erro ao validar Nome Freguesia: Galegos
+
+Erro ao validar Nome Freguesia: Garfe
+
+Erro ao validar Nome Freguesia: Geraz do Minho
+
+Erro ao validar Nome Freguesia: Lanhoso
+
+Erro ao validar Nome Freguesia: Monsul
+
+Erro ao validar Nome Freguesia: Povoa de Lanhoso (N. Senhora do Amparo)
+
+Erro ao validar Nome Freguesia: Rendufinho
+
+Erro ao validar Nome Freguesia: Santo Emiliao
+
+Erro ao validar Nome Freguesia: S. Joao de Rei
+
+Erro ao validar Nome Freguesia: Serzedelo
+
+Erro ao validar Nome Freguesia: Sobradelo da Goma
+
+Erro ao validar Nome Freguesia: Taide
+
+Erro ao validar Nome Freguesia: Travassos
+
+Erro ao validar Nome Freguesia: Vilela
+
+Erro ao validar Nome Freguesia: Aguas Santas e Moure
+
+Erro ao validar Nome Freguesia: Calvos e Frades
+
+Erro ao validar Nome Freguesia: Campos e Louredo
+
+Erro ao validar Nome Freguesia: Esperanca e Brunhais
+
+Erro ao validar Nome Freguesia: Fonte Arcada e Oliveira
+
+Erro ao validar Nome Freguesia: Verim, Friande e Ajude
+
+Erro ao validar Nome Freguesia: Balanca
+
+Erro ao validar Nome Freguesia: Campo do Geres
+
+Erro ao validar Nome Freguesia: Carvalheira
+
+Erro ao validar Nome Freguesia: Covide
+
+Erro ao validar Nome Freguesia: Gondoriz
+
+Erro ao validar Nome Freguesia: Moimenta
+
+Erro ao validar Nome Freguesia: Ribeira
+
+Erro ao validar Nome Freguesia: Rio Caldo
+
+Erro ao validar Nome Freguesia: Souto
+
+Erro ao validar Nome Freguesia: Valdosende
+
+Erro ao validar Nome Freguesia: Vilar da Veiga
+
+Erro ao validar Nome Freguesia: Chamoim e Vilar
+
+Erro ao validar Nome Freguesia: Chorense e Monte
+
+Erro ao validar Nome Freguesia: Ciboes e Brufe
+
+Erro ao validar Nome Freguesia: Cantelaes
+
+Erro ao validar Nome Freguesia: Eira Vedra
+
+Erro ao validar Nome Freguesia: Guilhofrei
+
+Erro ao validar Nome Freguesia: Louredo
+
+Erro ao validar Nome Freguesia: Mosteiro
+
+Erro ao validar Nome Freguesia: Parada do Bouro
+
+Erro ao validar Nome Freguesia: Pinheiro
+
+Erro ao validar Nome Freguesia: Rossas
+
+Erro ao validar Nome Freguesia: Salamonde
+
+Erro ao validar Nome Freguesia: Tabuacas
+
+Erro ao validar Nome Freguesia: Vieira do Minho
+
+Erro ao validar Nome Freguesia: Anisso e Soutelo
+
+Erro ao validar Nome Freguesia: Anjos e Vilar do Chao
+
+Erro ao validar Nome Freguesia: Canicada e Soengas
+
+Erro ao validar Nome Freguesia: Ruivaes e Campos
+
+Erro ao validar Nome Freguesia: Ventosa e Cova
+
+Erro ao validar Nome Freguesia: Bairro
+
+Erro ao validar Nome Freguesia: Brufe
+
+Erro ao validar Data Nascimento: 1979-05-15
+Erro ao validar ID: 101356475
+Erro ao validar Data Nascimento: 29-02-1958
+Erro ao validar ID Freguesia: 13111
+Erro ao validar ID: 40362393
+Erro ao validar Data Nascimento: 23/11/2001
+Erro ao validar Data Nascimento: 04-set-1959
+Erro ao validar Data Nascimento: 31-04-2001
+Erro ao validar ID Freguesia: 010103
+Erro ao validar ID Freguesia: 010109
+Erro ao validar ID Freguesia: 010112
+Erro ao validar ID Freguesia: 010119
+Erro ao validar ID Freguesia: 010121
+Erro ao validar ID Freguesia: 010122
+Erro ao validar ID Freguesia: 010123
+Erro ao validar ID Freguesia: 010124
+Erro ao validar ID Freguesia: 010125
+Erro ao validar ID Freguesia: 010126
+Erro ao validar ID Freguesia: 010127
+Erro ao validar ID Freguesia: 010202
+Erro ao validar ID Freguesia: 010203
+Erro ao validar ID Freguesia: 010204
+Erro ao validar ID Freguesia: 010206
+Erro ao validar ID Freguesia: 010209
+Erro ao validar ID Freguesia: 010210
+Erro ao validar ID Freguesia: 010304
+Erro ao validar ID Freguesia: 010305
+Erro ao validar ID Freguesia: 010307
+Erro ao validar ID Freguesia: 010309
+Erro ao validar ID Freguesia: 010310
+Erro ao validar ID Freguesia: 010312
+Erro ao validar ID Freguesia: 010313
+Erro ao validar ID Freguesia: 010316
+Erro ao validar ID Freguesia: 010317
+Erro ao validar ID Freguesia: 010318
+Erro ao validar ID Freguesia: 010402
+Erro ao validar ID Freguesia: 010407
+Erro ao validar ID Freguesia: 010409
+Erro ao validar ID Freguesia: 010411
+Erro ao validar ID Freguesia: 010413
+Erro ao validar ID Freguesia: 010414
+Erro ao validar ID Freguesia: 010415
+Erro ao validar ID Freguesia: 010416
+Erro ao validar ID Freguesia: 010417
+Erro ao validar ID Freguesia: 010418
+Erro ao validar ID Freguesia: 010419
+Erro ao validar ID Freguesia: 010420
+Erro ao validar ID Freguesia: 010421
+Erro ao validar ID Freguesia: 010422
+Erro ao validar ID Freguesia: 010423
+Erro ao validar ID Freguesia: 010424
+Erro ao validar ID Freguesia: 010501
+Erro ao validar ID Freguesia: 010502
+Erro ao validar ID Freguesia: 010505
+Erro ao validar ID Freguesia: 010508
+Erro ao validar ID Freguesia: 010510
+Erro ao validar ID Freguesia: 010511
+Erro ao validar ID Freguesia: 010513
+Erro ao validar ID Freguesia: 010515
+Erro ao validar ID Freguesia: 010516
+Erro ao validar ID Freguesia: 010517
+Erro ao validar ID Freguesia: 010602
+Erro ao validar ID Freguesia: 010606
+Erro ao validar ID Freguesia: 010607
+Erro ao validar ID Freguesia: 010608
+Erro ao validar ID Freguesia: 010610
+Erro ao validar ID Freguesia: 010611
+Erro ao validar ID Freguesia: 010702
+Erro ao validar ID Freguesia: 010704
+Erro ao validar ID Freguesia: 010705
+Erro ao validar ID Freguesia: 010706
+Erro ao validar ID Freguesia: 010801
+Erro ao validar ID Freguesia: 010805
+Erro ao validar ID Freguesia: 010806
+Erro ao validar ID Freguesia: 010808
+Erro ao validar ID Freguesia: 010809
+Erro ao validar ID Freguesia: 010901
+Erro ao validar ID Freguesia: 010902
+Erro ao validar ID Freguesia: 010904
+Erro ao validar ID Freguesia: 010907
+Erro ao validar ID Freguesia: 010908
+Erro ao validar ID Freguesia: 010913
+Erro ao validar ID Freguesia: 010914
+Erro ao validar ID Freguesia: 010916
+Erro ao validar ID Freguesia: 010917
+Erro ao validar ID Freguesia: 010918
+Erro ao validar ID Freguesia: 010919
+Erro ao validar ID Freguesia: 010921
+Erro ao validar ID Freguesia: 010922
+Erro ao validar ID Freguesia: 010924
+Erro ao validar ID Freguesia: 010925
+Erro ao validar ID Freguesia: 010926
+Erro ao validar ID Freguesia: 010932
+Erro ao validar ID Freguesia: 010933
+Erro ao validar ID Freguesia: 010934
+Erro ao validar ID Freguesia: 010935
+Erro ao validar ID Freguesia: 010936
+Erro ao validar ID Freguesia: 011005
+Erro ao validar ID Freguesia: 011006
+Erro ao validar ID Freguesia: 011007
+Erro ao validar ID Freguesia: 011008
+Erro ao validar ID Freguesia: 011102
+Erro ao validar ID Freguesia: 011103
+Erro ao validar ID Freguesia: 011104
+Erro ao validar ID Freguesia: 011106
+Erro ao validar ID Freguesia: 011107
+Erro ao validar ID Freguesia: 011109
+Erro ao validar ID Freguesia: 011201
+Erro ao validar ID Freguesia: 011202
+Erro ao validar ID Freguesia: 011203
+Erro ao validar ID Freguesia: 011204
+Erro ao validar ID Freguesia: 011301
+Erro ao validar ID Freguesia: 011302
+Erro ao validar ID Freguesia: 011303
+Erro ao validar ID Freguesia: 011304
+Erro ao validar ID Freguesia: 011305
+Erro ao validar ID Freguesia: 011310
+Erro ao validar ID Freguesia: 011315
+Erro ao validar ID Freguesia: 011318
+Erro ao validar ID Freguesia: 011319
+Erro ao validar ID Freguesia: 011320
+Erro ao validar ID Freguesia: 011321
+Erro ao validar ID Freguesia: 011322
+Erro ao validar ID Freguesia: 011403
+Erro ao validar ID Freguesia: 011404
+Erro ao validar ID Freguesia: 011405
+Erro ao validar ID Freguesia: 011407
+Erro ao validar ID Freguesia: 011502
+Erro ao validar ID Freguesia: 011503
+Erro ao validar ID Freguesia: 011504
+Erro ao validar ID Freguesia: 011507
+Erro ao validar ID Freguesia: 011509
+Erro ao validar ID Freguesia: 011601
+Erro ao validar ID Freguesia: 011702
+Erro ao validar ID Freguesia: 011704
+Erro ao validar ID Freguesia: 011705
+Erro ao validar ID Freguesia: 011706
+Erro ao validar ID Freguesia: 011708
+Erro ao validar ID Freguesia: 011710
+Erro ao validar ID Freguesia: 011711
+Erro ao validar ID Freguesia: 011801
+Erro ao validar ID Freguesia: 011804
+Erro ao validar ID Freguesia: 011805
+Erro ao validar ID Freguesia: 011807
+Erro ao validar ID Freguesia: 011810
+Erro ao validar ID Freguesia: 011812
+Erro ao validar ID Freguesia: 011813
+Erro ao validar ID Freguesia: 011814
+Erro ao validar ID Freguesia: 011901
+Erro ao validar ID Freguesia: 011902
+Erro ao validar ID Freguesia: 011903
+Erro ao validar ID Freguesia: 011905
+Erro ao validar ID Freguesia: 011906
+Erro ao validar ID Freguesia: 011907
+Erro ao validar ID Freguesia: 011910
+Erro ao validar ID Freguesia: 020102
+Erro ao validar ID Freguesia: 020103
+Erro ao validar ID Freguesia: 020104
+Erro ao validar ID Freguesia: 020106
+Erro ao validar ID Freguesia: 020203
+Erro ao validar ID Freguesia: 020205
+Erro ao validar ID Freguesia: 020206
+Erro ao validar ID Freguesia: 020208
+Erro ao validar ID Freguesia: 020209
+Erro ao validar ID Freguesia: 020210
+Erro ao validar ID Freguesia: 020301
+Erro ao validar ID Freguesia: 020302
+Erro ao validar ID Freguesia: 020401
+Erro ao validar ID Freguesia: 020502
+Erro ao validar ID Freguesia: 020503
+Erro ao validar ID Freguesia: 020504
+Erro ao validar ID Freguesia: 020506
+Erro ao validar ID Freguesia: 020510
+Erro ao validar ID Freguesia: 020516
+Erro ao validar ID Freguesia: 020519
+Erro ao validar ID Freguesia: 020520
+Erro ao validar ID Freguesia: 020521
+Erro ao validar ID Freguesia: 020522
+Erro ao validar ID Freguesia: 020523
+Erro ao validar ID Freguesia: 020524
+Erro ao validar ID Freguesia: 020603
+Erro ao validar ID Freguesia: 020604
+Erro ao validar ID Freguesia: 020605
+Erro ao validar ID Freguesia: 020606
+Erro ao validar ID Freguesia: 020701
+Erro ao validar ID Freguesia: 020702
+Erro ao validar ID Freguesia: 020703
+Erro ao validar ID Freguesia: 020704
+Erro ao validar ID Freguesia: 020803
+Erro ao validar ID Freguesia: 020804
+Erro ao validar ID Freguesia: 020807
+Erro ao validar ID Freguesia: 020808
+Erro ao validar ID Freguesia: 020901
+Erro ao validar ID Freguesia: 020902
+Erro ao validar ID Freguesia: 020903
+Erro ao validar ID Freguesia: 020904
+Erro ao validar ID Freguesia: 020905
+Erro ao validar ID Freguesia: 020906
+Erro ao validar ID Freguesia: 020910
+Erro ao validar ID Freguesia: 021001
+Erro ao validar ID Freguesia: 021002
+Erro ao validar ID Freguesia: 021008
+Erro ao validar ID Freguesia: 021009
+Erro ao validar ID Freguesia: 021010
+Erro ao validar ID Freguesia: 021102
+Erro ao validar ID Freguesia: 021103
+Erro ao validar ID Freguesia: 021106
+Erro ao validar ID Freguesia: 021107
+Erro ao validar ID Freguesia: 021111
+Erro ao validar ID Freguesia: 021115
+Erro ao validar ID Freguesia: 021116
+Erro ao validar ID Freguesia: 021117
+Erro ao validar ID Freguesia: 021118
+Erro ao validar ID Freguesia: 021119
+Erro ao validar ID Freguesia: 021120
+Erro ao validar ID Freguesia: 021121
+Erro ao validar ID Freguesia: 021122
+Erro ao validar ID Freguesia: 021203
+Erro ao validar ID Freguesia: 021206
+Erro ao validar ID Freguesia: 021207
+Erro ao validar ID Freguesia: 021208
+Erro ao validar ID Freguesia: 021302
+Erro ao validar ID Freguesia: 021303
+Erro ao validar ID Freguesia: 021307
+Erro ao validar ID Freguesia: 021308
+Erro ao validar ID Freguesia: 021309
+Erro ao validar ID Freguesia: 021401
+Erro ao validar ID Freguesia: 021402
+Erro ao validar ID Freguesia: 021403
+Erro ao validar ID Freguesia: 021404
+Erro ao validar ID Freguesia: 030102
+Erro ao validar ID Freguesia: 030104
+Erro ao validar ID Freguesia: 030105
+Erro ao validar ID Freguesia: 030107
+Erro ao validar ID Freguesia: 030108
+Erro ao validar ID Freguesia: 030111
+Erro ao validar ID Freguesia: 030112
+Erro ao validar ID Freguesia: 030113
+Erro ao validar ID Freguesia: 030118
+Erro ao validar ID Freguesia: 030119
+Erro ao validar ID Freguesia: 030120
+Erro ao validar ID Freguesia: 030125
+Erro ao validar ID Freguesia: 030126
+Erro ao validar ID Freguesia: 030127
+Erro ao validar ID Freguesia: 030128
+Erro ao validar ID Freguesia: 030129
+Erro ao validar ID Freguesia: 030201
+Erro ao validar ID Freguesia: 030202
+Erro ao validar ID Freguesia: 030203
+Erro ao validar ID Freguesia: 030205
+Erro ao validar ID Freguesia: 030206
+Erro ao validar ID Freguesia: 030208
+Erro ao validar ID Freguesia: 030209
+Erro ao validar ID Freguesia: 030210
+Erro ao validar ID Freguesia: 030212
+Erro ao validar ID Freguesia: 030213
+Erro ao validar ID Freguesia: 030215
+Erro ao validar ID Freguesia: 030216
+Erro ao validar ID Freguesia: 030218
+Erro ao validar ID Freguesia: 030220
+Erro ao validar ID Freguesia: 030221
+Erro ao validar ID Freguesia: 030224
+Erro ao validar ID Freguesia: 030228
+Erro ao validar ID Freguesia: 030234
+Erro ao validar ID Freguesia: 030235
+Erro ao validar ID Freguesia: 030237
+Erro ao validar ID Freguesia: 030242
+Erro ao validar ID Freguesia: 030243
+Erro ao validar ID Freguesia: 030244
+Erro ao validar ID Freguesia: 030245
+Erro ao validar ID Freguesia: 030247
+Erro ao validar ID Freguesia: 030252
+Erro ao validar ID Freguesia: 030254
+Erro ao validar ID Freguesia: 030255
+Erro ao validar ID Freguesia: 030256
+Erro ao validar ID Freguesia: 030257
+Erro ao validar ID Freguesia: 030259
+Erro ao validar ID Freguesia: 030260
+Erro ao validar ID Freguesia: 030261
+Erro ao validar ID Freguesia: 030263
+Erro ao validar ID Freguesia: 030264
+Erro ao validar ID Freguesia: 030265
+Erro ao validar ID Freguesia: 030268
+Erro ao validar ID Freguesia: 030272
+Erro ao validar ID Freguesia: 030277
+Erro ao validar ID Freguesia: 030279
+Erro ao validar ID Freguesia: 030282
+Erro ao validar ID Freguesia: 030283
+Erro ao validar ID Freguesia: 030287
+Erro ao validar ID Freguesia: 030290
+Erro ao validar ID Freguesia: 030291
+Erro ao validar ID Freguesia: 030292
+Erro ao validar ID Freguesia: 030293
+Erro ao validar ID Freguesia: 030294
+Erro ao validar ID Freguesia: 030295
+Erro ao validar ID Freguesia: 030296
+Erro ao validar ID Freguesia: 030297
+Erro ao validar ID Freguesia: 030298
+Erro ao validar ID Freguesia: 030299
+Erro ao validar ID Freguesia: 0302FA
+Erro ao validar ID Freguesia: 0302FB
+Erro ao validar ID Freguesia: 0302FC
+Erro ao validar ID Freguesia: 0302FD
+Erro ao validar ID Freguesia: 0302FE
+Erro ao validar ID Freguesia: 0302FF
+Erro ao validar ID Freguesia: 0302FG
+Erro ao validar ID Freguesia: 0302FH
+Erro ao validar ID Freguesia: 030301
+Erro ao validar ID Freguesia: 030312
+Erro ao validar ID Freguesia: 030313
+Erro ao validar ID Freguesia: 030315
+Erro ao validar ID Freguesia: 030319
+Erro ao validar ID Freguesia: 030322
+Erro ao validar ID Freguesia: 030325
+Erro ao validar ID Freguesia: 030330
+Erro ao validar ID Freguesia: 030331
+Erro ao validar ID Freguesia: 030334
+Erro ao validar ID Freguesia: 030336
+Erro ao validar ID Freguesia: 030338
+Erro ao validar ID Freguesia: 030349
+Erro ao validar ID Freguesia: 030351
+Erro ao validar ID Freguesia: 030354
+Erro ao validar ID Freguesia: 030355
+Erro ao validar ID Freguesia: 030356
+Erro ao validar ID Freguesia: 030357
+Erro ao validar ID Freguesia: 030363
+Erro ao validar ID Freguesia: 030364
+Erro ao validar ID Freguesia: 030365
+Erro ao validar ID Freguesia: 030366
+Erro ao validar ID Freguesia: 030367
+Erro ao validar ID Freguesia: 030368
+Erro ao validar ID Freguesia: 030369
+Erro ao validar ID Freguesia: 030370
+Erro ao validar ID Freguesia: 030371
+Erro ao validar ID Freguesia: 030372
+Erro ao validar ID Freguesia: 030373
+Erro ao validar ID Freguesia: 030374
+Erro ao validar ID Freguesia: 030375
+Erro ao validar ID Freguesia: 030376
+Erro ao validar ID Freguesia: 030377
+Erro ao validar ID Freguesia: 030378
+Erro ao validar ID Freguesia: 030379
+Erro ao validar ID Freguesia: 030380
+Erro ao validar ID Freguesia: 030381
+Erro ao validar ID Freguesia: 030401
+Erro ao validar ID Freguesia: 030404
+Erro ao validar ID Freguesia: 030405
+Erro ao validar ID Freguesia: 030406
+Erro ao validar ID Freguesia: 030407
+Erro ao validar ID Freguesia: 030408
+Erro ao validar ID Freguesia: 030413
+Erro ao validar ID Freguesia: 030415
+Erro ao validar ID Freguesia: 030418
+Erro ao validar ID Freguesia: 030419
+Erro ao validar ID Freguesia: 030420
+Erro ao validar ID Freguesia: 030421
+Erro ao validar ID Freguesia: 030501
+Erro ao validar ID Freguesia: 030502
+Erro ao validar ID Freguesia: 030503
+Erro ao validar ID Freguesia: 030508
+Erro ao validar ID Freguesia: 030510
+Erro ao validar ID Freguesia: 030515
+Erro ao validar ID Freguesia: 030517
+Erro ao validar ID Freguesia: 030518
+Erro ao validar ID Freguesia: 030520
+Erro ao validar ID Freguesia: 030521
+Erro ao validar ID Freguesia: 030523
+Erro ao validar ID Freguesia: 030524
+Erro ao validar ID Freguesia: 030525
+Erro ao validar ID Freguesia: 030526
+Erro ao validar ID Freguesia: 030527
+Erro ao validar ID Freguesia: 030601
+Erro ao validar ID Freguesia: 030608
+Erro ao validar ID Freguesia: 030610
+Erro ao validar ID Freguesia: 030615
+Erro ao validar ID Freguesia: 030616
+Erro ao validar ID Freguesia: 030617
+Erro ao validar ID Freguesia: 030618
+Erro ao validar ID Freguesia: 030619
+Erro ao validar ID Freguesia: 030620
+Erro ao validar ID Freguesia: 030705
+Erro ao validar ID Freguesia: 030708
+Erro ao validar ID Freguesia: 030709
+Erro ao validar ID Freguesia: 030712
+Erro ao validar ID Freguesia: 030714
+Erro ao validar ID Freguesia: 030716
+Erro ao validar ID Freguesia: 030719
+Erro ao validar ID Freguesia: 030722
+Erro ao validar ID Freguesia: 030723
+Erro ao validar ID Freguesia: 030724
+Erro ao validar ID Freguesia: 030725
+Erro ao validar ID Freguesia: 030726
+Erro ao validar ID Freguesia: 030728
+Erro ao validar ID Freguesia: 030729
+Erro ao validar ID Freguesia: 030730
+Erro ao validar ID Freguesia: 030733
+Erro ao validar ID Freguesia: 030736
+Erro ao validar ID Freguesia: 030737
+Erro ao validar ID Freguesia: 030738
+Erro ao validar ID Freguesia: 030739
+Erro ao validar ID Freguesia: 030740
+Erro ao validar ID Freguesia: 030741
+Erro ao validar ID Freguesia: 030742
+Erro ao validar ID Freguesia: 030743
+Erro ao validar ID Freguesia: 030744
+Erro ao validar ID Freguesia: 030801
+Erro ao validar ID Freguesia: 030804
+Erro ao validar ID Freguesia: 030806
+Erro ao validar ID Freguesia: 030807
+Erro ao validar ID Freguesia: 030808
+Erro ao validar ID Freguesia: 030812
+Erro ao validar ID Freguesia: 030813
+Erro ao validar ID Freguesia: 030815
+Erro ao validar ID Freguesia: 030820
+Erro ao validar ID Freguesia: 030821
+Erro ao validar ID Freguesia: 030823
+Erro ao validar ID Freguesia: 030824
+Erro ao validar ID Freguesia: 030827
+Erro ao validar ID Freguesia: 030828
+Erro ao validar ID Freguesia: 030830
+Erro ao validar ID Freguesia: 030831
+Erro ao validar ID Freguesia: 030832
+Erro ao validar ID Freguesia: 030835
+Erro ao validar ID Freguesia: 030836
+Erro ao validar ID Freguesia: 030837
+Erro ao validar ID Freguesia: 030838
+Erro ao validar ID Freguesia: 030840
+Erro ao validar ID Freguesia: 030842
+Erro ao validar ID Freguesia: 030850
+Erro ao validar ID Freguesia: 030854
+Erro ao validar ID Freguesia: 030857
+Erro ao validar ID Freguesia: 030858
+Erro ao validar ID Freguesia: 030865
+Erro ao validar ID Freguesia: 030866
+Erro ao validar ID Freguesia: 030868
+Erro ao validar ID Freguesia: 030871
+Erro ao validar ID Freguesia: 030875
+Erro ao validar ID Freguesia: 030876
+Erro ao validar ID Freguesia: 030877
+Erro ao validar ID Freguesia: 030878
+Erro ao validar ID Freguesia: 030879
+Erro ao validar ID Freguesia: 030880
+Erro ao validar ID Freguesia: 030881
+Erro ao validar ID Freguesia: 030882
+Erro ao validar ID Freguesia: 030883
+Erro ao validar ID Freguesia: 030884
+Erro ao validar ID Freguesia: 030885
+Erro ao validar ID Freguesia: 030886
+Erro ao validar ID Freguesia: 030887
+Erro ao validar ID Freguesia: 030888
+Erro ao validar ID Freguesia: 030889
+Erro ao validar ID Freguesia: 030890
+Erro ao validar ID Freguesia: 030891
+Erro ao validar ID Freguesia: 030906
+Erro ao validar ID Freguesia: 030908
+Erro ao validar ID Freguesia: 030912
+Erro ao validar ID Freguesia: 030913
+Erro ao validar ID Freguesia: 030914
+Erro ao validar ID Freguesia: 030915
+Erro ao validar ID Freguesia: 030917
+Erro ao validar ID Freguesia: 030919
+Erro ao validar ID Freguesia: 030921
+Erro ao validar ID Freguesia: 030922
+Erro ao validar ID Freguesia: 030923
+Erro ao validar ID Freguesia: 030924
+Erro ao validar ID Freguesia: 030925
+Erro ao validar ID Freguesia: 030926
+Erro ao validar ID Freguesia: 030927
+Erro ao validar ID Freguesia: 030929
+Erro ao validar ID Freguesia: 030930
+Erro ao validar ID Freguesia: 030931
+Erro ao validar ID Freguesia: 030932
+Erro ao validar ID Freguesia: 030933
+Erro ao validar ID Freguesia: 030934
+Erro ao validar ID Freguesia: 030935
+Erro ao validar ID Freguesia: 031001
+Erro ao validar ID Freguesia: 031003
+Erro ao validar ID Freguesia: 031004
+Erro ao validar ID Freguesia: 031008
+Erro ao validar ID Freguesia: 031009
+Erro ao validar ID Freguesia: 031010
+Erro ao validar ID Freguesia: 031012
+Erro ao validar ID Freguesia: 031013
+Erro ao validar ID Freguesia: 031014
+Erro ao validar ID Freguesia: 031015
+Erro ao validar ID Freguesia: 031017
+Erro ao validar ID Freguesia: 031018
+Erro ao validar ID Freguesia: 031019
+Erro ao validar ID Freguesia: 031020
+Erro ao validar ID Freguesia: 031105
+Erro ao validar ID Freguesia: 031107
+Erro ao validar ID Freguesia: 031108
+Erro ao validar ID Freguesia: 031109
+Erro ao validar ID Freguesia: 031110
+Erro ao validar ID Freguesia: 031111
+Erro ao validar ID Freguesia: 031112
+Erro ao validar ID Freguesia: 031113
+Erro ao validar ID Freguesia: 031115
+Erro ao validar ID Freguesia: 031118
+Erro ao validar ID Freguesia: 031120
+Erro ao validar ID Freguesia: 031122
+Erro ao validar ID Freguesia: 031123
+Erro ao validar ID Freguesia: 031124
+Erro ao validar ID Freguesia: 031125
+Erro ao validar ID Freguesia: 031126
+Erro ao validar ID Freguesia: 031204
+Erro ao validar ID Freguesia: 031206
+Erro ao validar Data Nascimento: 1979-05-15
+Erro ao validar ID: 101356475
+Erro ao validar Data Nascimento: 29-02-1958
+Erro ao validar ID Freguesia: 13111
+Erro ao validar ID: 40362393
+Erro ao validar Data Nascimento: 23/11/2001
+Erro ao validar Data Nascimento: 04-set-1959
+Erro ao validar Data Nascimento: 31-04-2001
+Erro ao validar Nome Freguesia: Aguada de Cima
+
+Erro ao validar Nome Freguesia: Fermentelos
+
+Erro ao validar Nome Freguesia: Macinhata do Vouga
+
+Erro ao validar Nome Freguesia: Valongo do Vouga
+
+Erro ao validar Nome Freguesia: Agueda e Borralha
+
+Erro ao validar Nome Freguesia: Barro e Aguada de Baixo
+
+Erro ao validar Nome Freguesia: Belazaima do Chao, Castanheira do Vouga e Agadao
+
+Erro ao validar Nome Freguesia: Recardaes e Espinhel
+
+Erro ao validar Nome Freguesia: Travasso e Ois da Ribeira
+
+Erro ao validar Nome Freguesia: Trofa, Segadaes e Lamas do Vouga
+
+Erro ao validar Nome Freguesia: Prestimo e Macieira de Alcoba
+
+Erro ao validar Nome Freguesia: Alquerubim
+
+Erro ao validar Nome Freguesia: Angeja
+
+Erro ao validar Nome Freguesia: Branca
+
+Erro ao validar Nome Freguesia: Ribeira de Fraguas
+
+Erro ao validar Nome Freguesia: Albergaria-A-Velha e Valmaior
+
+Erro ao validar Nome Freguesia: Sao Joao de Loure e Frossos
+
+Erro ao validar Nome Freguesia: Avelas de Caminho
+
+Erro ao validar Nome Freguesia: Avelas de Cima
+
+Erro ao validar Nome Freguesia: Moita
+
+Erro ao validar Nome Freguesia: Sangalhos
+
+Erro ao validar Nome Freguesia: S. Lourenco do Bairro
+
+Erro ao validar Nome Freguesia: Vila Nova de Monsarros
+
+Erro ao validar Nome Freguesia: Vilarinho do Bairro
+
+Erro ao validar Nome Freguesia: Amoreira da Gandara, Paredes do Bairro e Ancas
+
+Erro ao validar Nome Freguesia: Arcos e Mogofores
+
+Erro ao validar Nome Freguesia: Tamengos, Aguim e Ois do Bairro
+
+Erro ao validar Nome Freguesia: Alvarenga
+
+Erro ao validar Nome Freguesia: Chave
+
+Erro ao validar Nome Freguesia: Escariz
+
+Erro ao validar Nome Freguesia: Fermedo
+
+Erro ao validar Nome Freguesia: Mansores
+
+Erro ao validar Nome Freguesia: Moldes
+
+Erro ao validar Nome Freguesia: Rossas
+
+Erro ao validar Nome Freguesia: Santa Eulalia
+
+Erro ao validar Nome Freguesia: S. Miguel do Mato
+
+Erro ao validar Nome Freguesia: Tropeco
+
+Erro ao validar Nome Freguesia: Urro
+
+Erro ao validar Nome Freguesia: Varzea
+
+Erro ao validar Nome Freguesia: Arouca e Burgo
+
+Erro ao validar Nome Freguesia: Cabreiros e Albergaria da Serra
+
+Erro ao validar Nome Freguesia: Canelas e Espiunca
+
+Erro ao validar Nome Freguesia: Covelo de Paivo e Janarde
+
+Erro ao validar Nome Freguesia: Aradas
+
+Erro ao validar Nome Freguesia: Cacia
+
+Erro ao validar Nome Freguesia: Esgueira
+
+Erro ao validar Nome Freguesia: Oliveirinha
+
+Erro ao validar Nome Freguesia: S. Bernardo
+
+Erro ao validar Nome Freguesia: S. Jacinto
+
+Erro ao validar Nome Freguesia: Santa Joana
+
+Erro ao validar Nome Freguesia: Eixo e Eirol
+
+Erro ao validar Nome Freguesia: Requeixo, Nossa Senhora de Fatima e Nariz
+
+Erro ao validar Nome Freguesia: Gloria e Vera Cruz
+
+Erro ao validar Nome Freguesia: Fornos
+
+Erro ao validar Nome Freguesia: Real
+
+Erro ao validar Nome Freguesia: Santa Maria de Sardoura
+
+Erro ao validar Nome Freguesia: S. Martinho de Sardoura
+
+Erro ao validar Nome Freguesia: Raiva, Pedorido e Paraiso
+
+Erro ao validar Nome Freguesia: Sobrado e Bairros
+
+Erro ao validar Nome Freguesia: Espinho
+
+Erro ao validar Nome Freguesia: Paramos
+
+Erro ao validar Nome Freguesia: Silvalde
+
+Erro ao validar Nome Freguesia: Anta e Guetim
+
+Erro ao validar Nome Freguesia: Avanca
+
+Erro ao validar Nome Freguesia: Pardilho
+
+Erro ao validar Nome Freguesia: Salreu
+
+Erro ao validar Nome Freguesia: Beduido e Veiros
+
+Erro ao validar Nome Freguesia: Canelas e Fermela
+
+Erro ao validar Nome Freguesia: Argoncilhe
+
+Erro ao validar Nome Freguesia: Arrifana
+
+Erro ao validar Nome Freguesia: Escapaes
+
+Erro ao validar Nome Freguesia: Fiaes
+
+Erro ao validar Nome Freguesia: Fornos
+
+Erro ao validar Nome Freguesia: Lourosa
+
+Erro ao validar Nome Freguesia: Milheiros de Poiares
+
+Erro ao validar Nome Freguesia: Mozelos
+
+Erro ao validar Nome Freguesia: Nogueira da Regedoura
+
+Erro ao validar Nome Freguesia: S. Paio de Oleiros
+
+Erro ao validar Nome Freguesia: Pacos de Brandao
+
+Erro ao validar Nome Freguesia: Rio Meao
+
+Erro ao validar Nome Freguesia: Romariz
+
+Erro ao validar Nome Freguesia: Sanguedo
+
+Erro ao validar Nome Freguesia: Santa Maria de Lamas
+
+Erro ao validar Nome Freguesia: S. Joao de Ver
+
+Erro ao validar Nome Freguesia: Caldas de Sao Jorge e Pigeiros
+
+Erro ao validar Nome Freguesia: Canedo, Vale e Vila Maior
+
+Erro ao validar Nome Freguesia: Lobao, Giao, Louredo e Guisande
+
+Erro ao validar Nome Freguesia: Santa Maria da Feira, Travanca, Sanfins e Espargo
+
+Erro ao validar Nome Freguesia: Sao Miguel do Souto e Mosteiro
+
+Erro ao validar Nome Freguesia: Gafanha da Encarnacao
+
+Erro ao validar Nome Freguesia: Gafanha da Nazare
+
+Erro ao validar Nome Freguesia: Gafanha do Carmo
+
+Erro ao validar Nome Freguesia: Ilhavo (Sao Salvador)
+
+Erro ao validar Nome Freguesia: Barcouco
+
+Erro ao validar Nome Freguesia: Casal Comba
+
+Erro ao validar Nome Freguesia: Luso
+
+Erro ao validar Nome Freguesia: Pampilhosa
+
+Erro ao validar Nome Freguesia: Vacarica
+
+Erro ao validar Nome Freguesia: Mealhada, Ventosa do Bairro e Antes
+
+Erro ao validar Nome Freguesia: Bunheiro
+
+Erro ao validar Nome Freguesia: Monte
+
+Erro ao validar Nome Freguesia: Murtosa
+
+Erro ao validar Nome Freguesia: Torreira
+
+Erro ao validar Nome Freguesia: Carregosa
+
+Erro ao validar Nome Freguesia: Cesar
+
+Erro ao validar Nome Freguesia: Fajoes
+
+Erro ao validar Nome Freguesia: Loureiro
+
+Erro ao validar Nome Freguesia: Macieira de Sarnes
+
+Erro ao validar Nome Freguesia: Ossela
+
+Erro ao validar Nome Freguesia: S. Martinho da Gandara
+
+Erro ao validar Nome Freguesia: Sao Roque
+
+Erro ao validar Nome Freguesia: Vila de Cucujaes
+
+Erro ao validar Nome Freguesia: Nogueira do Cravo e Pindelo
+
+Erro ao validar Nome Freguesia: O. Azemeis, Riba-Ul, Ul, Macinhata Seixa, Madail
+
+Erro ao validar Nome Freguesia: Pinheiro da Bemposta, Travanca e Palmaz
+
+Erro ao validar Nome Freguesia: Oia
+
+Erro ao validar Nome Freguesia: Oliveira do Bairro
+
+Erro ao validar Nome Freguesia: Palhaca
+
+Erro ao validar Nome Freguesia: Bustos, Troviscal e Mamarrosa
+
+Erro ao validar Nome Freguesia: Cortegaca
+
+Erro ao validar Nome Freguesia: Esmoriz
+
+Erro ao validar Nome Freguesia: Maceda
+
+Erro ao validar Nome Freguesia: Valega
+
+Erro ao validar Nome Freguesia: Ovar, S.Joao, Arada e S.Vicente de Pereira Jusa
+
+Erro ao validar Nome Freguesia: S. Joao da Madeira
+
+Erro ao validar Nome Freguesia: Couto de Esteves
+
+Erro ao validar Nome Freguesia: Pessegueiro do Vouga
+
+Erro ao validar Nome Freguesia: Rocas do Vouga
+
+Erro ao validar Nome Freguesia: Sever do Vouga
+
+Erro ao validar Nome Freguesia: Talhadas
+
+Erro ao validar Nome Freguesia: Cedrim e Paradela
+
+Erro ao validar Nome Freguesia: Silva Escura e Dornelas
+
+Erro ao validar Nome Freguesia: Calvao
+
+Erro ao validar Nome Freguesia: Gafanha da Boa Hora
+
+Erro ao validar Nome Freguesia: Ouca
+
+Erro ao validar Nome Freguesia: Soza
+
+Erro ao validar Nome Freguesia: Santo Andre de Vagos
+
+Erro ao validar Nome Freguesia: Fonte de Angeao e Covao do Lobo
+
+Erro ao validar Nome Freguesia: Ponte de Vagos e Santa Catarina
+
+Erro ao validar Nome Freguesia: Vagos e Santo Antonio
+
+Erro ao validar Nome Freguesia: Aroes
+
+Erro ao validar Nome Freguesia: Sao Pedro de Casteloes
+
+Erro ao validar Nome Freguesia: Cepelos
+
+Erro ao validar Nome Freguesia: Junqueira
+
+Erro ao validar Nome Freguesia: Macieira de Cambra
+
+Erro ao validar Nome Freguesia: Roge
+
+Erro ao validar Nome Freguesia: Vila Cha, Codal e Vila Cova de Perrinho
+
+Erro ao validar Nome Freguesia: Ervidel
+
+Erro ao validar Nome Freguesia: Messejana
+
+Erro ao validar Nome Freguesia: S. Joao de Negrilhos
+
+Erro ao validar Nome Freguesia: Aljustrel e Rio de Moinhos
+
+Erro ao validar Nome Freguesia: Rosario
+
+Erro ao validar Nome Freguesia: Santa Cruz
+
+Erro ao validar Nome Freguesia: S. Barnabe
+
+Erro ao validar Nome Freguesia: Aldeia Dos Fernandes
+
+Erro ao validar Nome Freguesia: Almodovar e Graca Dos Padroes
+
+Erro ao validar Nome Freguesia: Santa Clara-A-Nova e Gomes Aires
+
+Erro ao validar Nome Freguesia: Alvito
+
+Erro ao validar Nome Freguesia: Vila Nova da Baronia
+
+Erro ao validar Nome Freguesia: Barrancos
+
+Erro ao validar Nome Freguesia: Baleizao
+
+Erro ao validar Nome Freguesia: Beringel
+
+Erro ao validar Nome Freguesia: Cabeca Gorda
+
+Erro ao validar Nome Freguesia: Nossa Senhora Das Neves
+
+Erro ao validar Nome Freguesia: Santa Clara de Louredo
+
+Erro ao validar Nome Freguesia: S. Matias
+
+Erro ao validar Nome Freguesia: Albernoa e Trindade
+
+Erro ao validar Nome Freguesia: Beja (Salvador e Santa Maria da Feira)
+
+Erro ao validar Nome Freguesia: Beja (Santiago Maior e Sao Joao Baptista)
+
+Erro ao validar Nome Freguesia: Salvada e Quintos
+
+Erro ao validar Nome Freguesia: Santa Vitoria e Mombeja
+
+Erro ao validar Nome Freguesia: Trigaches e Sao Brissos
+
+Erro ao validar Nome Freguesia: Entradas
+
+Erro ao validar Nome Freguesia: Santa Barbara de Padroes
+
+Erro ao validar Nome Freguesia: S. Marcos da Ataboeira
+
+Erro ao validar Nome Freguesia: Castro Verde e Casevel
+
+Erro ao validar Nome Freguesia: Cuba
+
+Erro ao validar Nome Freguesia: Faro do Alentejo
+
+Erro ao validar Nome Freguesia: Vila Alva
+
+Erro ao validar Nome Freguesia: Vila Ruiva
+
+Erro ao validar Nome Freguesia: Figueira Dos Cavaleiros
+
+Erro ao validar Nome Freguesia: Odivelas
+
+Erro ao validar Nome Freguesia: Alfundao e Peroguarda
+
+Erro ao validar Nome Freguesia: Ferreira do Alentejo e Canhestros
+
+Erro ao validar Nome Freguesia: Alcaria Ruiva
+
+Erro ao validar Nome Freguesia: Corte do Pinto
+
+Erro ao validar Nome Freguesia: Espirito Santo
+
+Erro ao validar Nome Freguesia: Mertola
+
+Erro ao validar Nome Freguesia: Santana de Cambas
+
+Erro ao validar Nome Freguesia: S. Joao Dos Caldeireiros
+
+Erro ao validar Nome Freguesia: S.Mig. Pinheiro, S.Pedro Solis, S.Sebastiao Carros
+
+Erro ao validar Nome Freguesia: Amareleja
+
+Erro ao validar Nome Freguesia: Povoa de Sao Miguel
+
+Erro ao validar Nome Freguesia: Sobral da Adica
+
+Erro ao validar Nome Freguesia: Santo Agostinho e Sao Joao Baptista e Santo Amador
+
+Erro ao validar Nome Freguesia: Safara e Santo Aleixo da Restauracao
+
+Erro ao validar Nome Freguesia: Reliquias
+
+Erro ao validar Nome Freguesia: Saboia
+
+Erro ao validar Nome Freguesia: S. Luis
+
+Erro ao validar Nome Freguesia: S. Martinho Das Amoreiras
+
+Erro ao validar Nome Freguesia: Vila Nova de Milfontes
+
+Erro ao validar Nome Freguesia: Luzianes-Gare
+
+Erro ao validar Nome Freguesia: Longueira/Almograve
+
+Erro ao validar Nome Freguesia: Boavista Dos Pinheiros
+
+Erro ao validar Nome Freguesia: Colos
+
+Erro ao validar Nome Freguesia: Santa Clara-A-Velha
+
+Erro ao validar Nome Freguesia: Sao Salvador e Santa Maria
+
+Erro ao validar Nome Freguesia: Sao Teotonio
+
+Erro ao validar Nome Freguesia: Vale de Santiago
+
+Erro ao validar Nome Freguesia: Ourique
+
+Erro ao validar Nome Freguesia: Santana da Serra
+
+Erro ao validar Nome Freguesia: Garvao e Santa Luzia
+
+Erro ao validar Nome Freguesia: Panoias e Conceicao
+
+Erro ao validar Nome Freguesia: Brinches
+
+Erro ao validar Nome Freguesia: Pias
+
+Erro ao validar Nome Freguesia: Vila Verde de Ficalho
+
+Erro ao validar Nome Freguesia: Serpa (Salvador e Santa Maria)
+
+Erro ao validar Nome Freguesia: Vila Nova de Sao Bento e Vale de Vargo
+
+Erro ao validar Nome Freguesia: Pedrogao
+
+Erro ao validar Nome Freguesia: Selmes
+
+Erro ao validar Nome Freguesia: Vidigueira
+
+Erro ao validar Nome Freguesia: Vila de Frades
+
+Erro ao validar Nome Freguesia: Barreiros
+
+Erro ao validar Nome Freguesia: Bico
+
+Erro ao validar Nome Freguesia: Caires
+
+Erro ao validar Nome Freguesia: Carrazedo
+
+Erro ao validar Nome Freguesia: Dornelas
+
+Erro ao validar Nome Freguesia: Fiscal
+
+Erro ao validar Nome Freguesia: Goaes
+
+Erro ao validar Nome Freguesia: Lago
+
+Erro ao validar Nome Freguesia: Rendufe
+
+Erro ao validar Nome Freguesia: Bouro (Santa Maria)
+
+Erro ao validar Nome Freguesia: Bouro (Santa Marta)
+
+Erro ao validar Nome Freguesia: Amares e Figueiredo
+
+Erro ao validar Nome Freguesia: Caldelas, Sequeiros e Paranhos
+
+Erro ao validar Nome Freguesia: Ferreiros, Prozelo e Besteiros
+
+Erro ao validar Nome Freguesia: Torre e Portela
+
+Erro ao validar Nome Freguesia: Vilela, Seramil e Paredes Secas
+
+Erro ao validar Nome Freguesia: Abade de Neiva
+
+Erro ao validar Nome Freguesia: Aborim
+
+Erro ao validar Nome Freguesia: Adaes
+
+Erro ao validar Nome Freguesia: Airo
+
+Erro ao validar Nome Freguesia: Aldreu
+
+Erro ao validar Nome Freguesia: Alvelos
+
+Erro ao validar Nome Freguesia: Arcozelo
+
+Erro ao validar Nome Freguesia: Areias
+
+Erro ao validar Nome Freguesia: Balugaes
+
+Erro ao validar Nome Freguesia: Barcelinhos
+
+Erro ao validar Nome Freguesia: Barqueiros
+
+Erro ao validar Nome Freguesia: Cambeses
+
+Erro ao validar Nome Freguesia: Carapecos
+
+Erro ao validar Nome Freguesia: Carvalhal
+
+Erro ao validar Nome Freguesia: Carvalhas
+
+Erro ao validar Nome Freguesia: Cossourado
+
+Erro ao validar Nome Freguesia: Cristelo
+
+Erro ao validar Nome Freguesia: Fornelos
+
+Erro ao validar Nome Freguesia: Fragoso
+
+Erro ao validar Nome Freguesia: Gilmonde
+
+Erro ao validar Nome Freguesia: Lama
+
+Erro ao validar Nome Freguesia: Lijo
+
+Erro ao validar Nome Freguesia: Macieira de Rates
+
+Erro ao validar Nome Freguesia: Manhente
+
+Erro ao validar Nome Freguesia: Martim
+
+Erro ao validar Nome Freguesia: Moure
+
+Erro ao validar Nome Freguesia: Oliveira
+
+Erro ao validar Nome Freguesia: Palme
+
+Erro ao validar Nome Freguesia: Panque
+
+Erro ao validar Nome Freguesia: Paradela
+
+Erro ao validar Nome Freguesia: Pereira
+
+Erro ao validar Nome Freguesia: Perelhal
+
+Erro ao validar Nome Freguesia: Pousa
+
+Erro ao validar Nome Freguesia: Remelhe
+
+Erro ao validar Nome Freguesia: Roriz
+
+Erro ao validar Nome Freguesia: Rio Covo (Santa Eugenia)
+
+Erro ao validar Nome Freguesia: Galegos (Santa Maria)
+
+Erro ao validar Nome Freguesia: Galegos (S. Martinho)
+
+Erro ao validar Nome Freguesia: Tamel (S. Verissimo)
+
+Erro ao validar Nome Freguesia: Silva
+
+Erro ao validar Nome Freguesia: Ucha
+
+Erro ao validar Nome Freguesia: Varzea
+
+Erro ao validar Nome Freguesia: Vila Seca
+
+Erro ao validar Nome Freguesia: Alheira e Igreja Nova
+
+Erro ao validar Nome Freguesia: Alvito (Sao Pedro e Sao Martinho) e Couto
+
+Erro ao validar Nome Freguesia: Areias de Vilar e Encourados
+
+Erro ao validar Nome Freguesia: Barcelos, V.Boa, V.Frescainha
+
+Erro ao validar Nome Freguesia: Campo e Tamel (Sao Pedro Fins)
+
+Erro ao validar Nome Freguesia: Carreira e Fonte Coberta
+
+Erro ao validar Nome Freguesia: Chorente, Goios, Courel, Pedra Furada e Gueral
+
+Erro ao validar Nome Freguesia: Creixomil e Mariz
+
+Erro ao validar Nome Freguesia: Durraes e Tregosa
+
+Erro ao validar Nome Freguesia: Gamil e Midoes
+
+Erro ao validar Nome Freguesia: Milhazes, Vilar de Figos e Faria
+
+Erro ao validar Nome Freguesia: Negreiros e Chavao
+
+Erro ao validar Nome Freguesia: Quintiaes e Aguiar
+
+Erro ao validar Nome Freguesia: Sequeade e Bastuco (Sao Joao e Santo Estevao)
+
+Erro ao validar Nome Freguesia: Silveiros e Rio Covo (Santa Eulalia)
+
+Erro ao validar Nome Freguesia: Tamel (Santa Leocadia) e Vilar do Monte
+
+Erro ao validar Nome Freguesia: Viatodos, Grimancelos, Minhotaes, Monte Fralaes
+
+Erro ao validar Nome Freguesia: Vila Cova e Feitos
+
+Erro ao validar Nome Freguesia: Adaufe
+
+Erro ao validar Nome Freguesia: Espinho
+
+Erro ao validar Nome Freguesia: Esporoes
+
+Erro ao validar Nome Freguesia: Figueiredo
+
+Erro ao validar Nome Freguesia: Gualtar
+
+Erro ao validar Nome Freguesia: Lamas
+
+Erro ao validar Nome Freguesia: Mire de Tibaes
+
+Erro ao validar Nome Freguesia: Padim da Graca
+
+Erro ao validar Nome Freguesia: Palmeira
+
+Erro ao validar Nome Freguesia: Pedralva
+
+Erro ao validar Nome Freguesia: Priscos
+
+Erro ao validar Nome Freguesia: Ruilhe
+
+Erro ao validar Nome Freguesia: Braga (S. Vicente)
+
+Erro ao validar Nome Freguesia: Braga (S. Vitor)
+
+Erro ao validar Nome Freguesia: Sequeira
+
+Erro ao validar Nome Freguesia: Sobreposta
+
+Erro ao validar Nome Freguesia: Tadim
+
+Erro ao validar Nome Freguesia: Tebosa
+
+Erro ao validar Nome Freguesia: Arentim e Cunha
+
+Erro ao validar Nome Freguesia: Braga (Maximinos, Se e Cividade)
+
+Erro ao validar Nome Freguesia: Braga (Sao Jose de Sao Lazaro e Sao Joao do Souto)
+
+Erro ao validar Nome Freguesia: Cabreiros e Passos (Sao Juliao)
+
+Erro ao validar Nome Freguesia: Celeiros, Aveleda e Vimieiro
+
+Erro ao validar Nome Freguesia: Crespos e Pousada
+
+Erro ao validar Nome Freguesia: Escudeiros e Penso (Santo Estevao e Sao Vicente)
+
+Erro ao validar Nome Freguesia: Este (Sao Pedro e Sao Mamede)
+
+Erro ao validar Nome Freguesia: Ferreiros e Gondizalves
+
+Erro ao validar Nome Freguesia: Guisande e Oliveira (Sao Pedro)
+
+Erro ao validar Nome Freguesia: Lomar e Arcos
+
+Erro ao validar Nome Freguesia: Merelim (Sao Paio), Panoias e Parada de Tibaes
+
+Erro ao validar Nome Freguesia: Merelim (Sao Pedro) e Frossos
+
+Erro ao validar Nome Freguesia: Morreira e Trandeiras
+
+Erro ao validar Nome Freguesia: Nogueira, Fraiao e Lamacaes
+
+Erro ao validar Nome Freguesia: Nogueiro e Tenoes
+
+Erro ao validar Nome Freguesia: Real, Dume e Semelhe
+
+Erro ao validar Nome Freguesia: Santa Lucrecia de Algeriz e Navarra
+
+Erro ao validar Nome Freguesia: Vilaca e Fradelos
+
+Erro ao validar Nome Freguesia: Abadim
+
+Erro ao validar Nome Freguesia: Basto
+
+Erro ao validar Nome Freguesia: Bucos
+
+Erro ao validar Nome Freguesia: Cabeceiras de Basto
+
+Erro ao validar Nome Freguesia: Cavez
+
+Erro ao validar Nome Freguesia: Faia
+
+Erro ao validar Nome Freguesia: Pedraca
+
+Erro ao validar Nome Freguesia: Rio Douro
+
+Erro ao validar Nome Freguesia: Alvite e Passos
+
+Erro ao validar Nome Freguesia: Arco de Baulhe e Vila Nune
+
+Erro ao validar Nome Freguesia: Gondiaes e Vilar de Cunhas
+
+Erro ao validar Nome Freguesia: Refojos de Basto, Outeiro e Painzela
+
+Erro ao validar Nome Freguesia: Agilde
+
+Erro ao validar Nome Freguesia: Arnoia
+
+Erro ao validar Nome Freguesia: Borba da Montanha
+
+Erro ao validar Nome Freguesia: Codecoso
+
+Erro ao validar Nome Freguesia: Fervenca
+
+Erro ao validar Nome Freguesia: Moreira do Castelo
+
+Erro ao validar Nome Freguesia: Rego
+
+Erro ao validar Nome Freguesia: Ribas
+
+Erro ao validar Nome Freguesia: Basto (S. Clemente)
+
+Erro ao validar Nome Freguesia: Vale de Bouro
+
+Erro ao validar Nome Freguesia: Britelo, Gemeos e Ourilhe
+
+Erro ao validar Nome Freguesia: Cacarilhe e Infesta
+
+Erro ao validar Nome Freguesia: Canedo de Basto e Corgo
+
+Erro ao validar Nome Freguesia: Carvalho e Basto (Santa Tecla)
+
+Erro ao validar Nome Freguesia: Veade, Gagos e Molares
+
+Erro ao validar Nome Freguesia: Antas
+
+Erro ao validar Nome Freguesia: Forjaes
+
+Erro ao validar Nome Freguesia: Gemeses
+
+Erro ao validar Nome Freguesia: Vila Cha
+
+Erro ao validar Nome Freguesia: Apulia e Fao
+
+Erro ao validar Nome Freguesia: Belinho e Mar
+
+Erro ao validar Nome Freguesia: Esposende, Marinhas e Gandra
+
+Erro ao validar Nome Freguesia: Fonte Boa e Rio Tinto
+
+Erro ao validar Nome Freguesia: Palmeira de Faro e Curvos
+
+Erro ao validar Nome Freguesia: Armil
+
+Erro ao validar Nome Freguesia: Estoraos
+
+Erro ao validar Nome Freguesia: Fafe
+
+Erro ao validar Nome Freguesia: Fornelos
+
+Erro ao validar Nome Freguesia: Golaes
+
+Erro ao validar Nome Freguesia: Medelo
+
+Erro ao validar Nome Freguesia: Passos
+
+Erro ao validar Nome Freguesia: Quinchaes
+
+Erro ao validar Nome Freguesia: Regadas
+
+Erro ao validar Nome Freguesia: Revelhe
+
+Erro ao validar Nome Freguesia: Ribeiros
+
+Erro ao validar Nome Freguesia: Aroes (Santa Cristina)
+
+Erro ao validar Nome Freguesia: S. Gens
+
+Erro ao validar Nome Freguesia: Silvares (S. Martinho)
+
+Erro ao validar Nome Freguesia: Aroes (S. Romao)
+
+Erro ao validar Nome Freguesia: Travassos
+
+Erro ao validar Nome Freguesia: Vinhos
+
+Erro ao validar Nome Freguesia: Aboim, Felgueiras, Gontim e Pedraido
+
+Erro ao validar Nome Freguesia: Agrela e Serafao
+
+Erro ao validar Nome Freguesia: Antime e Silvares (Sao Clemente)
+
+Erro ao validar Nome Freguesia: Ardegao, Arnozela e Seidoes
+
+Erro ao validar Nome Freguesia: Cepaes e Fareja
+
+Erro ao validar Nome Freguesia: Freitas e Vila Cova
+
+Erro ao validar Nome Freguesia: Monte e Queimadela
+
+Erro ao validar Nome Freguesia: Moreira do Rei e Varzea Cova
+
+Erro ao validar Nome Freguesia: Aldao
+
+Erro ao validar Nome Freguesia: Azurem
+
+Erro ao validar Nome Freguesia: Barco
+
+Erro ao validar Nome Freguesia: Brito
+
+Erro ao validar Nome Freguesia: Caldelas
+
+Erro ao validar Nome Freguesia: Costa
+
+Erro ao validar Nome Freguesia: Creixomil
+
+Erro ao validar Nome Freguesia: Fermentoes
+
+Erro ao validar Nome Freguesia: Gonca
+
+Erro ao validar Nome Freguesia: Gondar
+
+Erro ao validar Nome Freguesia: Guardizela
+
+Erro ao validar Nome Freguesia: Infantas
+
+Erro ao validar Nome Freguesia: Longos
+
+Erro ao validar Nome Freguesia: Lordelo
+
+Erro ao validar Nome Freguesia: Mesao Frio
+
+Erro ao validar Nome Freguesia: Moreira de Conegos
+
+Erro ao validar Nome Freguesia: Nespereira
+
+Erro ao validar Nome Freguesia: Pencelo
+
+Erro ao validar Nome Freguesia: Pinheiro
+
+Erro ao validar Nome Freguesia: Polvoreira
+
+Erro ao validar Nome Freguesia: Ponte
+
+Erro ao validar Nome Freguesia: Ronfe
+
+Erro ao validar Nome Freguesia: Prazins (Santa Eufemia)
+
+Erro ao validar Nome Freguesia: Selho (S. Cristovao)
+
+Erro ao validar Nome Freguesia: Selho (S. Jorge)
+
+Erro ao validar Nome Freguesia: Candoso (S. Martinho)
+
+Erro ao validar Nome Freguesia: Sande (S. Martinho)
+
+Erro ao validar Nome Freguesia: S. Torcato
+
+Erro ao validar Nome Freguesia: Serzedelo
+
+Erro ao validar Nome Freguesia: Silvares
+
+Erro ao validar Nome Freguesia: Urgezes
+
+Erro ao validar Nome Freguesia: Abacao e Gemeos
+
+Erro ao validar Nome Freguesia: Airao Santa Maria, Airao Sao Joao e Vermil
+
+Erro ao validar Nome Freguesia: Arosa e Casteloes
+
+Erro ao validar Nome Freguesia: Ataes e Rendufe
+
+Erro ao validar Nome Freguesia: Briteiros Santo Estevao e Donim
+
+Erro ao validar Nome Freguesia: Briteiros Sao Salvador e Briteiros Santa Leocadia
+
+Erro ao validar Nome Freguesia: Candoso Sao Tiago e Mascotelos
+
+Erro ao validar Nome Freguesia: Conde e Gandarela
+
+Erro ao validar Nome Freguesia: Leitoes, Oleiros e Figueiredo
+
+Erro ao validar Nome Freguesia: Oliveira, Sao Paio e Sao Sebastiao
+
+Erro ao validar Nome Freguesia: Prazins Santo Tirso e Corvite
+
+Erro ao validar Nome Freguesia: Sande Sao Lourenco e Balazar
+
+Erro ao validar Nome Freguesia: Sande Vila Nova e Sande Sao Clemente
+
+Erro ao validar Nome Freguesia: Selho Sao Lourenco e Gominhaes
+
+Erro ao validar Nome Freguesia: Serzedo e Calvos
+
+Erro ao validar Nome Freguesia: Souto Santa Maria, Souto Sao Salvador e Gondomar
+
+Erro ao validar Nome Freguesia: Tabuadelo e Sao Faustino
+
+Erro ao validar Nome Freguesia: Covelas
+
+Erro ao validar Nome Freguesia: Ferreiros
+
+Erro ao validar Nome Freguesia: Galegos
+
+Erro ao validar Nome Freguesia: Garfe
+
+Erro ao validar Nome Freguesia: Geraz do Minho
+
+Erro ao validar Nome Freguesia: Lanhoso
+
+Erro ao validar Nome Freguesia: Monsul
+
+Erro ao validar Nome Freguesia: Povoa de Lanhoso (N. Senhora do Amparo)
+
+Erro ao validar Nome Freguesia: Rendufinho
+
+Erro ao validar Nome Freguesia: Santo Emiliao
+
+Erro ao validar Nome Freguesia: S. Joao de Rei
+
+Erro ao validar Nome Freguesia: Serzedelo
+
+Erro ao validar Nome Freguesia: Sobradelo da Goma
+
+Erro ao validar Nome Freguesia: Taide
+
+Erro ao validar Nome Freguesia: Travassos
+
+Erro ao validar Nome Freguesia: Vilela
+
+Erro ao validar Nome Freguesia: Aguas Santas e Moure
+
+Erro ao validar Nome Freguesia: Calvos e Frades
+
+Erro ao validar Nome Freguesia: Campos e Louredo
+
+Erro ao validar Nome Freguesia: Esperanca e Brunhais
+
+Erro ao validar Nome Freguesia: Fonte Arcada e Oliveira
+
+Erro ao validar Nome Freguesia: Verim, Friande e Ajude
+
+Erro ao validar Nome Freguesia: Balanca
+
+Erro ao validar Nome Freguesia: Campo do Geres
+
+Erro ao validar Nome Freguesia: Carvalheira
+
+Erro ao validar Nome Freguesia: Covide
+
+Erro ao validar Nome Freguesia: Gondoriz
+
+Erro ao validar Nome Freguesia: Moimenta
+
+Erro ao validar Nome Freguesia: Ribeira
+
+Erro ao validar Nome Freguesia: Rio Caldo
+
+Erro ao validar Nome Freguesia: Souto
+
+Erro ao validar Nome Freguesia: Valdosende
+
+Erro ao validar Nome Freguesia: Vilar da Veiga
+
+Erro ao validar Nome Freguesia: Chamoim e Vilar
+
+Erro ao validar Nome Freguesia: Chorense e Monte
+
+Erro ao validar Nome Freguesia: Ciboes e Brufe
+
+Erro ao validar Nome Freguesia: Cantelaes
+
+Erro ao validar Nome Freguesia: Eira Vedra
+
+Erro ao validar Nome Freguesia: Guilhofrei
+
+Erro ao validar Nome Freguesia: Louredo
+
+Erro ao validar Nome Freguesia: Mosteiro
+
+Erro ao validar Nome Freguesia: Parada do Bouro
+
+Erro ao validar Nome Freguesia: Pinheiro
+
+Erro ao validar Nome Freguesia: Rossas
+
+Erro ao validar Nome Freguesia: Salamonde
+
+Erro ao validar Nome Freguesia: Tabuacas
+
+Erro ao validar Nome Freguesia: Vieira do Minho
+
+Erro ao validar Nome Freguesia: Anisso e Soutelo
+
+Erro ao validar Nome Freguesia: Anjos e Vilar do Chao
+
+Erro ao validar Nome Freguesia: Canicada e Soengas
+
+Erro ao validar Nome Freguesia: Ruivaes e Campos
+
+Erro ao validar Nome Freguesia: Ventosa e Cova
+
+Erro ao validar Nome Freguesia: Bairro
+
+Erro ao validar Nome Freguesia: Brufe
+
+Erro ao validar Data Nascimento: 1979-05-15
+Erro ao validar ID: 101356475
+Erro ao validar Data Nascimento: 29-02-1958
+Erro ao validar ID Freguesia: 13111
+Erro ao validar ID: 40362393
+Erro ao validar Data Nascimento: 23/11/2001
+Erro ao validar Data Nascimento: 04-set-1959
+Erro ao validar Data Nascimento: 31-04-2001
+Erro ao validar Nome: AVEIRO
+
+Erro ao validar Nome: BEJA
+
+Erro ao validar Nome: BRAGA
+
+Erro ao validar Nome: BRAGANCA
+
+Erro ao validar Nome: C BRANCO
+
+Erro ao validar Nome: COIMBRA
+
+Erro ao validar Nome: EVORA
+
+Erro ao validar Nome: FARO
+
+Erro ao validar Nome: GUARDA
+
+Erro ao validar Nome: LEIRIA
+
+Erro ao validar Nome: LISBOA
+
+Erro ao validar Nome: PORTALEGRE
+
+Erro ao validar Nome: PORTO
+
+Erro ao validar Nome: SANTAREM
+
+Erro ao validar Nome: SETUBAL
+
+Erro ao validar Nome: VIANA DO CASTELO
+
+Erro ao validar Nome: VILA REAL
+
+Erro ao validar Data Nascimento: 1979-05-15
+Erro ao validar ID: 101356475
+Erro ao validar Data Nascimento: 29-02-1958
+Erro ao validar ID Freguesia: 13111
+Erro ao validar ID: 40362393
+Erro ao validar Data Nascimento: 23/11/2001
+Erro ao validar Data Nascimento: 04-set-1959
+Erro ao validar Data Nascimento: 31-04-2001

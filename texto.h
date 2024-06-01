@@ -13,6 +13,8 @@ bool ValidarID(char *id);
 bool ValidarNome(char *nome);
 bool ValidarDataNascimento(char *data);
 bool ValidarIDFreguesia(char *idFreguesia);
+bool ValidarNomeFreguesia(char *nomeFreguesia);
+bool ValidarIDConcelho(char *idConcelho);
 
 
 

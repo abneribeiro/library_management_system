@@ -289,7 +289,6 @@ int mostCommonAge(RHASHING *H)
             }
 
             int age = calculateAge(person_node->Info->DATA_NASCIMENTO);
-            printf("Age: %d\n", age);
             if (age >= 0 && age < 170)
             {
                 age_counts[age]++;
