@@ -36,7 +36,7 @@ void manageBooksMenu(BIBLIOTECA *Bib)
         fgets(input, 10, stdin);
         option = atoi(input);
 
-    } while ((option < 0 || option > 7) || (option == 0 && input[0] != '0'));
+    } while ((option < 0 || option > 8) || (option == 0 && input[0] != '0'));
 
     switch (option)
     {
@@ -229,7 +229,7 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
         fgets(input, 10, stdin);
         option = atoi(input);
 
-    } while ((option < 0 || option > 5) || (option == 0 && input[0] != '0'));
+    } while ((option < 0 || option > 7) || (option == 0 && input[0] != '0'));
 
     switch (option)
     {
