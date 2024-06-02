@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 #include "Biblioteca.h"
 #include "Lista.h"
 #include "Livro.h"
@@ -371,6 +372,9 @@ void LerRequisicoes(BIBLIOTECA *B, char *filename)
 
 void MostrarPessoasSemRequisicoes(BIBLIOTECA *B)
 {
+
+    int count = 0;
+    int numToShow = 10; // Define quantas pessoas mostrar antes de pausar
     // Iterate over all keys in the person hash table
     RNO_CHAVE *atual = B->HRequisitantes->RLChaves->Inicio;
     while (atual != NULL)
@@ -411,6 +415,25 @@ void MostrarPessoasSemRequisicoes(BIBLIOTECA *B)
             if (!found)
             {
                 printf("Pessoa %s nunca fez uma requisicao\n", pessoa->NOME);
+                count++;
+                if (count >= numToShow)
+                {
+                    printf(".Pressione qualquer tecla para continuar ou 'q' para voltar...\n");
+                    char ch;
+                    while (1)
+                    {
+                        if (_kbhit())
+                        {
+                            ch = _getch();              // Captura a tecla pressionada
+                            if (ch == 'q' || ch == 'Q') // Se a tecla pressionada for 'q' ou 'Q'
+                            {
+                                return; // Retorna para a página inicial
+                            }
+                            break; // Quebra o loop de espera por uma tecla
+                        }
+                    }
+                    count = 0;
+                }
             }
 
             currentPerson = currentPerson->Prox;
@@ -960,7 +983,6 @@ void DestruirBiblioteca(BIBLIOTECA *B)
     free(B);
 }
 
-
 void SaveAllToCSV(BIBLIOTECA *B, char *filename)
 {
     char fullfilename[128];
@@ -1128,8 +1150,6 @@ void SaveAllToXML(BIBLIOTECA *B, char *filename)
 
     fclose(file);
 }
-
-
 
 //--------------------------------------------------------
 
