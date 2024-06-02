@@ -239,7 +239,7 @@ void RequestBook(BIBLIOTECA *B, char *isbn, int requestId)
     PESSOA *requester = FindRequesterByID(B, requestId);
     if (requester == NULL)
     {
-        printf("Requisitante com o ID %d não foi encontrado.\n", requestId);
+        printf("Requisitante com o ID %d nao foi encontrado.\n", requestId);
         return;
     }
 

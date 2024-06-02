@@ -177,7 +177,7 @@ void ReturnBook(PHASHING *H, int requesterId, char *isbn)
         P = P->Prox;
     }
 
-    printf("Requisição com ID %d e ISBN %s não encontrada.\n", requesterId, isbn);
+    printf("Requisicao com ID %d e ISBN %s nao encontrada.\n", requesterId, isbn);
 }
 
 void DestruirPHashing(PHASHING *H)
