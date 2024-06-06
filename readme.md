@@ -41,5 +41,5 @@
 
 Run the project
 ```bash
-    gcc main.c Lista.c RLista.c Pessoa.c Hashing.c RHashing.c Biblioteca.c texto.c Uteis.c Requisicao.c Livro.c Plista.c hashrequisicoes.c LFreguesia.c LConcelho.c LDistrito.c Freguesia.c Concelho.c Distrito.c -o main
+gcc main.c Lista.c RLista.c Pessoa.c Hashing.c RHashing.c Biblioteca.c texto.c Uteis.c Requisicao.c Livro.c Plista.c hashrequisicoes.c LFreguesia.c LConcelho.c LDistrito.c Freguesia.c Concelho.c Distrito.c -o main
 ```
