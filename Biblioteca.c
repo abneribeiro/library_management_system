@@ -224,7 +224,6 @@ void LerFreguesias(BIBLIOTECA *B, char *filename)
     fclose(file);
 }
 
-// DESElVOLVER AS FUNCOES ABAIXO
 void RequestBook(BIBLIOTECA *B, char *isbn, int requestId)
 {
     // Check if the book exists
@@ -979,7 +978,6 @@ void DestruirBiblioteca(BIBLIOTECA *B)
     {
         DestruirListaDistritos(B->LDistritos);
     }
-
     free(B);
 }
 
