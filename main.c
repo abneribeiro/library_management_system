@@ -332,6 +332,7 @@ int main()
         case 4:
             char filename[100];
 
+
             printf("Digite o nome do arquivo: ");
             fscanf(stdin, "%99[^\n]", filename);
             CLEAR_BUFFER;

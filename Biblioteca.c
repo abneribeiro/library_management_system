@@ -617,7 +617,6 @@ void AddLivroBiblioteca(BIBLIOTECA *B, LIVRO *L)
     aux->Info = L;
     aux->Prox = NULL;
 
-    // cria um novo no chave se nao existir
     NO_CHAVE *atual = FuncaoHashing(B->HLivros, L);
 
     if (atual == NULL)
