@@ -32,7 +32,7 @@ void manageBooksMenu(BIBLIOTECA *Bib)
 
     do
     {
-        printf("\nQual a sua opcao: ");
+        printf("\nEnter your choice: ");
         fgets(input, 10, stdin);
         option = atoi(input);
 
@@ -93,7 +93,7 @@ void ListClients(BIBLIOTECA *Bib)
 
     do
     {
-        printf("\nQual a sua opcao: ");
+        printf("\nEnter your choice: ");
         fgets(input, 10, stdin);
         option = atoi(input);
 
@@ -139,7 +139,7 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
 
     do
     {
-        printf("\nQual a sua opcao: ");
+        printf("\nEnter your choice: ");
         fgets(input, 10, stdin);
         option = atoi(input);
 
@@ -224,7 +224,7 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
 
     do
     {
-        printf("\nQual a sua opcao: ");
+        printf("\nEnter your choice: ");
         fgets(input, 10, stdin);
         option = atoi(input);
 
@@ -297,7 +297,7 @@ int menu()
 
     do
     {
-        printf("\nQual a sua opcao: ");
+        printf("\nEnter your choice: ");
         fgets(input, 10, stdin);
         option = atoi(input);
 
@@ -308,9 +308,9 @@ int menu()
 int main()
 {
     int option, sub_option;
-    printf("\t\tBiblioteca-ESTGV!\n");
+    printf("\t\tLibrary-PTOL!\n");
     BIBLIOTECA *Bib;
-    Bib = CriarBiblioteca("Biblioteca-ESTGV", "log.txt");
+    Bib = CriarBiblioteca("Library-PTOL", "log.txt");
     LoadFicheiroBiblioteca(Bib);
 
     do
