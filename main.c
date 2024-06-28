@@ -17,15 +17,15 @@ void manageBooksMenu(BIBLIOTECA *Bib)
     int option;
 
     printf("\n #-------------------------------------------------------------#");
-    printf("\n | (1) Adicionar livros a biblioteca                           |");
-    printf("\n | (2) Listar todos os livros por area                         |");
-    printf("\n | (3) Verificar a area com mais livros                        |");
-    printf("\n | (4) Verificar se um livro existe pelo ISBN                  |");
-    printf("\n | (5) Encontrar o livro mais recente                          |");
-    printf("\n | (6) Encontrar o livro mais requisitado                      |");
-    printf("\n | (7) Determinar a area mais requisitada                      |");
-    printf("\n | (8) Salvar informacoes dos livros                           |");
-    printf("\n | (0) SAIR                                                    |");
+    printf("\n | (1) Add books to the library                                 |");
+    printf("\n | (2) List all books by area                                   |");
+    printf("\n | (3) Check the area with the most books                       |");
+    printf("\n | (4) Check if a book exists by ISBN                           |");
+    printf("\n | (5) Find the most recent book                                |");
+    printf("\n | (6) Find the most requested book                             |");
+    printf("\n | (7) Determine the most requested area                        |");
+    printf("\n | (8) Save book information                                    |");
+    printf("\n | (0) EXIT                                                     |");
     printf("\n #-------------------------------------------------------------#");
 
     printf("\n ");
@@ -80,12 +80,13 @@ void ListClients(BIBLIOTECA *Bib)
 {
     int option;
     char input[10];
+
     printf("\n #----------------------------------------------------------------#");
-    printf("\n |Listar todos os clientes (ordenados a escolha do utilizdor)-----|\n");
-    printf("\n | (1) Por ordem alfabetica do nome                               |\n");
-    printf("\n | (2) Por ordem do campo ID Freguesia                            |\n");
-    printf("\n | (3) Por ordem alfabetica do apelido                            |\n");
-    printf("\n | (0) SAIR                                                       |\n");
+    printf("\n | List all clients (sorted as chosen by the user)                |");
+    printf("\n | (1) Alphabetical order by name                                 |");
+    printf("\n | (2) Order by District ID                                       |");
+    printf("\n | (3) Alphabetical order by last name                            |");
+    printf("\n | (0) EXIT                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
     printf("\n ");
@@ -119,21 +120,21 @@ void manageRequisitantsMenu(BIBLIOTECA *Bib)
     int option;
     char input[10], reqName[100], name[100];
 
-    printf("\n | ---------------------REQUISITANTES-----------------------------|");
-    printf("\n | (1) Incluir novos requisitantes                                |");
-    printf("\n | (2) Verificar se um requisitante existe (dando o seu nome)     |");
-    printf("\n | (3) Listar todos os clientes (ordenados a escolha do utilizdor)|");
-    printf("\n | (4) Determinar a idade maxima dos requisitantes                |");
-    printf("\n | (5) Determinar a media das idades dos requisitantes            |");
-    printf("\n | (6) Contar o numero de pessoas com idade superior a um valor   |");
-    printf("\n | (7) Determinar a idade com mais requisitantes                  |");
-    printf("\n | (8) Mostrar as requisicoes de um dado requisitante             |");
-    printf("\n | (9) Mostrar pessoas que nunca requisitaram nada                |");
-    printf("\n | (10) Listar requisitantes com livros requisitados              |");
-    printf("\n | (11) Determinar o sobrenome mais comum dos requisitantes       |");
-    printf("\n | (12) Determinar o numero de pessoas de um dado distrito        |");
-    printf("\n | (13) Salvar informacoes dos requisitantes                      |");
-    printf("\n | (0) SAIR                                                       |");
+    printf("\n | ---------------------REQUESTERS--------------------------------|");
+    printf("\n | (1) Add new requesters                                         |");
+    printf("\n | (2) Check if a requester exists (by giving their name)         |");
+    printf("\n | (3) List all clients (sorted as chosen by the user)            |");
+    printf("\n | (4) Determine the maximum age of requesters                    |");
+    printf("\n | (5) Calculate the average age of requesters                    |");
+    printf("\n | (6) Count the number of people older than a certain age        |");
+    printf("\n | (7) Determine the age with the most requesters                 |");
+    printf("\n | (8) Show requests of a given requester                         |");
+    printf("\n | (9) Show people who have never requested anything              |");
+    printf("\n | (10) List requesters with requested books                      |");
+    printf("\n | (11) Determine the most common last name among requesters      |");
+    printf("\n | (12) Determine the number of people from a given district      |");
+    printf("\n | (13) Save requester information                                |");
+    printf("\n | (0) EXIT                                                        |");
     printf("\n #----------------------------------------------------------------#");
 
     do
@@ -210,17 +211,15 @@ void manageRequisitionsMenu(BIBLIOTECA *Bib)
     char input[10];
 
     printf("\n #----------------------------------------------------------------#");
-    printf("\n | (1) Requisicao de um livro por parte de um requisitante        |");
-    printf("\n | (2) Listar livros atualmente requisitados                      |");
-    printf("\n |     (organizados por area)                                     |");
-    printf("\n | (3) Devolver um livro requisitado anteriormente                |");
-    printf("\n | (4) Listar Livros requisitados e atrasados na entrega          |");
-    printf("\n | (5) Listar requisitantes nascidos em Domingo                   |");
-    printf("\n |     (ou cujo aniversario em um ano especifico eh um Domingo)   |");
-    printf("\n | (6) Listar requisitantes com aniversario na quaresma           |");
-    printf("\n |     (ou que nasceram na quaresma)                              |");
-    printf("\n | (7) Salvar informacoes das requisicoes                         |");
-    printf("\n | (0) SAIR                                                       |");
+    printf("\n | (1) Request a book by a requester                              |");
+    printf("\n | (2) List currently requested books (sorted by area)            |");
+    printf("\n | (3) Return a previously requested book                         |");
+    printf("\n | (4) List overdue requested books                               |");
+    printf("\n | (5) List requesters born on a Sunday                           |");
+    printf("\n |     (or whose birthday in a specific year is on a Sunday)      |");
+    printf("\n | (6) List requesters born in Lent (or who were born in Lent)    |");
+    printf("\n | (7) Save request information                                   |");
+    printf("\n | (0) EXIT                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
     do
@@ -285,14 +284,15 @@ int menu()
 {
     char input[10];
     int option;
+
     printf("\n #----------------------------------------------------------------#");
-    printf("\n | (1) Gerir os livros                                            |");
-    printf("\n | (2) Gerir a lista de requisitantes                             |");
-    printf("\n | (3) Gerir as requisicoes de livros                             |");
-    printf("\n | (4) Salvar dados em XML (nome fornecido pelo usuario)          |");
-    printf("\n | (5) Salvar dados em CSV (nome fornecido pelo usuario)          |");
-    printf("\n | (6) Memoria das Estruturas de Dados                            |");
-    printf("\n | (0) SAIR                                                       |");
+    printf("\n | (1) Manage books                                               |");
+    printf("\n | (2) Manage the list of requesters                              |");
+    printf("\n | (3) Manage book requests                                       |");
+    printf("\n | (4) Save data to XML (name provided by user)                   |");
+    printf("\n | (5) Save data to CSV (name provided by user)                   |");
+    printf("\n | (6) Data Structures Memory                                     |");
+    printf("\n | (0) EXIT                                                       |");
     printf("\n #----------------------------------------------------------------#");
 
     do
@@ -339,7 +339,7 @@ int main()
 
             break;
         case 5:
-            
+
             printf("Digite o nome do arquivo: ");
             fscanf(stdin, "%99[^\n]", filename);
             CLEAR_BUFFER;

@@ -410,3 +410,331 @@ Entrei em LerDistritos na data Sun Jun  2 11:04:18 2024
 
 Entrei em LoadFicheiroBiblioteca na data Sun Jun  2 11:04:15 2024
 
+Entrei em LerLivros na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em AddLivroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em AddRequisicacoBiblioteca na data Sat Jun 15 14:32:52 2024
+
+Entrei em LerFreguesias na data Sat Jun 15 14:32:52 2024
+
+Entrei em LerDistritos na data Sat Jun 15 14:32:53 2024
+
+Entrei em LoadFicheiroBiblioteca na data Sat Jun 15 14:32:50 2024
+
+Entrei em LerRequisitantes na data Sat Jun 15 14:32:50 2024
+
+101356475
+ Erro ao validar ID Do Requisitante: 101356475
+40362393
+ Erro ao validar ID Do Requisitante: 40362393
+Entrei em LerLivros na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+424105059
+Erro ao validar Data Nascimento: 1979-05-15
+386529746
+Erro ao validar Data Nascimento: 29-02-1958
+571480898
+Erro ao validar ID Freguesia: 13111
+167138248
+Erro ao validar Data Nascimento: 23/11/2001
+462278579
+Erro ao validar Data Nascimento: 04-set-1959
+309341442
+Erro ao validar Data Nascimento: 31-04-2001
+Entrei em LerRequisicoes na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 21 17:22:05 2024
+
+Entrei em LerFreguesias na data Fri Jun 21 17:22:05 2024
+
+Entrei em LerDistritos na data Fri Jun 21 17:22:06 2024
+
+Entrei em LoadFicheiroBiblioteca na data Fri Jun 21 17:22:03 2024
+
+Entrei em SaveFicheiroBiblioteca na data Fri Jun 21 17:23:28 2024
+
+Entrei em DestruirBiblioteca na data Fri Jun 21 17:23:28 2024
+
+Entrei em LerLivros na data Fri Jun 28 14:43:08 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:09 2024
+
+Entrei em LerRequisicoes na data Fri Jun 28 14:43:11 2024
+
+Entrei em LerFreguesias na data Fri Jun 28 14:43:11 2024
+
+Entrei em LerDistritos na data Fri Jun 28 14:43:11 2024
+
+Entrei em LoadFicheiroBiblioteca na data Fri Jun 28 14:43:08 2024
+
+Entrei em SaveFicheiroBiblioteca na data Fri Jun 28 14:43:31 2024
+
+Entrei em DestruirBiblioteca na data Fri Jun 28 14:43:31 2024
+
+Entrei em LerLivros na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em AddLivroBiblioteca na data Fri Jun 28 14:43:35 2024
+
+Entrei em LerRequisicoes na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em AddRequisicacoBiblioteca na data Fri Jun 28 14:43:38 2024
+
+Entrei em LerFreguesias na data Fri Jun 28 14:43:38 2024
+
+Entrei em LerDistritos na data Fri Jun 28 14:43:39 2024
+
+Entrei em LoadFicheiroBiblioteca na data Fri Jun 28 14:43:35 2024
+
